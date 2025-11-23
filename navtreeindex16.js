@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"classRainbowRoad.html#ae2a6678b6140c08676b7986131230a74":[16,0,379,14],
+"classRainbowRoad.html#aed9fd20581b2194727b8147d13b7ab98":[16,0,379,10],
+"classRainbowRoad.html#af83c2c751a88907d8f2870fb407cb044":[16,0,379,8],
+"classRainbowRoad.html#afa8f809007098dc80babc4dde191a98d":[16,0,379,4],
 "classRoyalRaceway.html":[16,0,392],
 "classRoyalRaceway.html#a158bab2e59f53c0d96bd947a23510154":[16,0,392,8],
 "classRoyalRaceway.html#a21b93e68019cd8dbad9c3f05ffffd5c7":[16,0,392,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "classShip_1_1Menu.html#a3befcf014040225856aeea162c61d6fb":[15,0,9,0,18],
 "classShip_1_1Menu.html#a3befcf014040225856aeea162c61d6fb":[16,0,5,0,18],
 "classShip_1_1Menu.html#a428a53abcb78b4c35162dd22a05c6cae":[15,0,9,0,31],
-"classShip_1_1Menu.html#a428a53abcb78b4c35162dd22a05c6cae":[16,0,5,0,31],
-"classShip_1_1Menu.html#a5b7426eeaa62381f46f9e13890a81c79":[15,0,9,0,14],
-"classShip_1_1Menu.html#a5b7426eeaa62381f46f9e13890a81c79":[16,0,5,0,14],
-"classShip_1_1Menu.html#a5c9049d39655da5c027cf0cabf77adda":[15,0,9,0,8],
-"classShip_1_1Menu.html#a5c9049d39655da5c027cf0cabf77adda":[16,0,5,0,8]
+"classShip_1_1Menu.html#a428a53abcb78b4c35162dd22a05c6cae":[16,0,5,0,31]
 };

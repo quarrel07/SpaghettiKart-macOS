@@ -291,6 +291,7 @@ var render__objects_8c =
     [ "func_800507D8", "render__objects_8c.html#ad843eda1ada08663956d8e9a18efab3c", null ],
     [ "func_800508C0", "render__objects_8c.html#a669063fc0fc2bc5dadc704906a9cf880", null ],
     [ "func_80050C68", "render__objects_8c.html#a742c49e38b1be564b29023711aef1eea", null ],
+    [ "func_80050E34", "render__objects_8c.html#ab9fe9a32836a4aef5c64c9f66ced4a19", null ],
     [ "func_800514BC", "render__objects_8c.html#ae272e3c0a8cc70d11040911588de9656", null ],
     [ "func_800519D4", "render__objects_8c.html#ac62f4d79ca049faf6db97f0daa8541bc", null ],
     [ "func_80051ABC", "render__objects_8c.html#a6603f469da43f588fae1d63555b5250c", null ],

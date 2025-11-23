@@ -1,5 +1,10 @@
 var NAVTREEINDEX85 =
 {
+"structma__context__command____wasapi.html#a3742e39acc60540f625bc98ea8e92959":[16,0,179,10],
+"structma__context__command____wasapi.html#a5ca5d5a07e003025096c3e7c22687316":[16,0,179,5],
+"structma__context__command____wasapi.html#a69a1b91274505ef8511fdaeee5c39219":[16,0,179,0],
+"structma__context__command____wasapi.html#a6fa7b8ad17f221507dd1e7adfd63c57a":[16,0,179,11],
+"structma__context__command____wasapi.html#a73ed2568dad3951c3e6b22df93c6492a":[16,0,179,7],
 "structma__context__command____wasapi.html#a88a8b4fb29c3d5443db1b977b74221ff":[16,0,179,8],
 "structma__context__command____wasapi.html#a8e864174a26f54218cf2aed2ea6d0d7a":[16,0,179,2],
 "structma__context__command____wasapi.html#a945557c7be6b0cb8cb10e61f30dfe328":[16,0,179,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX85 =
 "structma__device__config.html#a6835975059885af53f778d03b6a41428":[16,0,198,16],
 "structma__device__config.html#a69a53a3a8975b81cede4ad0d53d8f99a":[16,0,198,41],
 "structma__device__config.html#a6aa474f1db915567f81c0151acdc3c6c":[16,0,198,47],
-"structma__device__config.html#a6b443281f00b6a4a21e663ce7dc37d99":[16,0,198,35],
-"structma__device__config.html#a6b5021d3fc1eafe2bba95ecf5e71f023":[16,0,198,19],
-"structma__device__config.html#a6f63fa32995bbf2329b934b1e9fe1ba0":[16,0,198,43],
-"structma__device__config.html#a708d8edb668591e5561b092249611b99":[16,0,198,2],
-"structma__device__config.html#a7493e3ab499f4960538e3facf982c558":[16,0,198,3],
-"structma__device__config.html#a766ee01b8ce89ce2877eedfb5da35957":[16,0,198,14]
+"structma__device__config.html#a6b443281f00b6a4a21e663ce7dc37d99":[16,0,198,35]
 };

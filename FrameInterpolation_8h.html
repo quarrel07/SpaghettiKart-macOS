@@ -142,6 +142,10 @@ Macros</h2></td></tr>
 <tr class="separator:ae99f17a9b514b8d8c6fbef52f9e29a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49020a15d2dc66098e8ac3900157c377" id="r_a49020a15d2dc66098e8ac3900157c377"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49020a15d2dc66098e8ac3900157c377">TAG_TRACK</a>(x)</td></tr>
 <tr class="separator:a49020a15d2dc66098e8ac3900157c377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e469128dee717b34d61c5851412d5b4" id="r_a9e469128dee717b34d61c5851412d5b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e469128dee717b34d61c5851412d5b4">TAG_MINIMAP_DOTS</a>(x)</td></tr>
+<tr class="separator:a9e469128dee717b34d61c5851412d5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4793f2323b6faaf7a9b3a05179b4bada" id="r_a4793f2323b6faaf7a9b3a05179b4bada"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4793f2323b6faaf7a9b3a05179b4bada">TAG_PORTRAITS</a>(x)</td></tr>
+<tr class="separator:a4793f2323b6faaf7a9b3a05179b4bada"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -211,7 +215,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((u32)0x50000000 | (u32) (uintptr_t) (x))</div>
+<b>Value:</b><div class="fragment"><div class="line">((u32)0x50000000 | (u32)  (uintptr_t) (x))</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -247,7 +251,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((u32)0x30000000 | ((u32)(x) &amp; 0x0FFFFFFF))</div>
+<b>Value:</b><div class="fragment"><div class="line">((u32)0x30000000 | ((u32) (uintptr_t) (x) &amp; 0x0FFFFFFF))</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9e469128dee717b34d61c5851412d5b4" name="a9e469128dee717b34d61c5851412d5b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e469128dee717b34d61c5851412d5b4">&#9670;&#160;</a></span>TAG_MINIMAP_DOTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAG_MINIMAP_DOTS</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">((u32)0x80000000 | ((u32)(x) &amp; 0x0FFFFFFF))</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -265,7 +287,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((u32)0x40000000 | (u32) (uintptr_t) (x))</div>
+<b>Value:</b><div class="fragment"><div class="line">((u32)0x40000000 | (u32)  (uintptr_t) (x))</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4793f2323b6faaf7a9b3a05179b4bada" name="a4793f2323b6faaf7a9b3a05179b4bada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4793f2323b6faaf7a9b3a05179b4bada">&#9670;&#160;</a></span>TAG_PORTRAITS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAG_PORTRAITS</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">((u32)0x90000000 | ((u32)(x) &amp; 0x0FFFFFFF))</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -301,7 +341,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((u32)0x60000000 | ((u32)(x) &amp; 0x0FFFFFFF))</div>
+<b>Value:</b><div class="fragment"><div class="line">((u32)0x60000000 | ((u32) (uintptr_t) (x) &amp; 0x0FFFFFFF))</div>
 </div><!-- fragment -->
 </div>
 </div>

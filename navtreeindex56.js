@@ -1,5 +1,9 @@
 var NAVTREEINDEX56 =
 {
+"miniaudio_8h.html#aff3a43c45bb5bc07be08980f3b45a59d":[17,0,2,1,0,1180],
+"miniaudio_8h.html#aff452525f931432d9492b71050322ee0":[17,0,2,1,0,341],
+"miniaudio_8h.html#aff46897b9ab02de460ca57a0c60d66c7":[17,0,2,1,0,242],
+"miniaudio_8h.html#affa9a1e169a9952a6d649df64e96e8e6":[17,0,2,1,0,779],
 "miniaudio_8h.html#affce927390c9f35e222dd3f0976e71f1":[17,0,2,1,0,507],
 "miniaudio_8h_source.html":[17,0,2,1,0],
 "mixer_8c.html":[17,0,3,1,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceEditor.html#ac95c825fc97e637d93f36fe4e9121515":[15,0,1,13],
 "namespaceEditor.html#ad0af837ae4f447f9aade5d6b00c9a05b":[15,0,1,23],
 "namespaceEditor.html#adda6d16f5f6a6377080ac71f87e9a683":[15,0,1,21],
-"namespaceEditor.html#afbe4273a6d0045bd9079baaaa8b04196":[15,0,1,18],
-"namespaceEditor.html#afd3bba0627b3706407b893e59a6a2755":[15,0,1,20],
-"namespaceFast.html":[15,0,2],
-"namespaceFreecam.html":[15,0,3],
-"namespaceGameUI.html":[15,0,4]
+"namespaceEditor.html#afbe4273a6d0045bd9079baaaa8b04196":[15,0,1,18]
 };

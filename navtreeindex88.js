@@ -1,5 +1,10 @@
 var NAVTREEINDEX88 =
 {
+"structma__paged__audio__buffer__config.html":[16,0,263],
+"structma__paged__audio__buffer__config.html#a56262e95947fe127c703f6d50244ed2c":[16,0,263,0],
+"structma__paged__audio__buffer__data.html":[16,0,264],
+"structma__paged__audio__buffer__data.html#a4ae05745469c5664cc0c987bce444b6c":[16,0,264,0],
+"structma__paged__audio__buffer__data.html#a77793ba04d76084a157eba97b9b91e32":[16,0,264,2],
 "structma__paged__audio__buffer__data.html#aacfbee5696ac2bec6ef0a655c421b042":[16,0,264,3],
 "structma__paged__audio__buffer__data.html#adcd2d19569e611a3e624bba0884746eb":[16,0,264,1],
 "structma__paged__audio__buffer__page.html":[16,0,265],
@@ -244,10 +249,5 @@ var NAVTREEINDEX88 =
 "structma__sound__inlined.html":[16,0,295],
 "structma__sound__inlined.html#a170327381894b0762a8dc3818e212acf":[16,0,295,2],
 "structma__sound__inlined.html#aa1f50820eb1628f179455f2f8beecc3a":[16,0,295,1],
-"structma__sound__inlined.html#af8946fb1e866041c21bf4261a1b83269":[16,0,295,0],
-"structma__spatializer.html":[16,0,296],
-"structma__spatializer.html#a0a32bf1426e17ff59265ca673271b453":[16,0,296,14],
-"structma__spatializer.html#a0be15c65941d4c9027da42d258149bdc":[16,0,296,20],
-"structma__spatializer.html#a116d615fa1b0fc32d2266b2162dd2f86":[16,0,296,3],
-"structma__spatializer.html#a13d69ba1e03d002daef34ce75349b083":[16,0,296,17]
+"structma__sound__inlined.html#af8946fb1e866041c21bf4261a1b83269":[16,0,295,0]
 };

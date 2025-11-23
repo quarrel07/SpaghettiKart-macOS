@@ -108,7 +108,9 @@ $(function(){initNavTree('classOMoleGroup.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Data Fields</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">OMoleGroup Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -132,8 +134,8 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8c46b34e14f5cd1a3df578c219c7d241" id="r_a8c46b34e14f5cd1a3df578c219c7d241"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c46b34e14f5cd1a3df578c219c7d241">OMoleGroup</a> (std::vector&lt; <a class="el" href="structFVector.html">FVector</a> &gt; moles)</td></tr>
-<tr class="separator:a8c46b34e14f5cd1a3df578c219c7d241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5da525fd841d7137beae47dab1c6cf" id="r_a8b5da525fd841d7137beae47dab1c6cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b5da525fd841d7137beae47dab1c6cf">OMoleGroup</a> (std::vector&lt; <a class="el" href="structFVector.html">FVector</a> &gt; &amp;moles)</td></tr>
+<tr class="separator:a8b5da525fd841d7137beae47dab1c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade55663536360e0ca5b3ef54a4ba7e10" id="r_ade55663536360e0ca5b3ef54a4ba7e10"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade55663536360e0ca5b3ef54a4ba7e10">Tick</a> () override</td></tr>
 <tr class="separator:ade55663536360e0ca5b3ef54a4ba7e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dc3ce99d89652add1cc50f355be0191" id="r_a3dc3ce99d89652add1cc50f355be0191"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc3ce99d89652add1cc50f355be0191">func_80081FF4</a> (s32 objectIndex)</td></tr>
@@ -201,10 +203,20 @@ Data Fields</h2></td></tr>
 <tr class="separator:afc51984dcbd7606c153e2a91a2f98ec8 inherit pub_attribs_classOObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa337ef2d48b0389f526070dc8ca0fa3d inherit pub_attribs_classOObject" id="r_aa337ef2d48b0389f526070dc8ca0fa3d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structTriangle.html">Triangle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOObject.html#aa337ef2d48b0389f526070dc8ca0fa3d">Triangles</a></td></tr>
 <tr class="separator:aa337ef2d48b0389f526070dc8ca0fa3d inherit pub_attribs_classOObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a948e7f0ff17aab6675869fae40e0a33a" id="r_a948e7f0ff17aab6675869fae40e0a33a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948e7f0ff17aab6675869fae40e0a33a">_idx</a></td></tr>
+<tr class="separator:a948e7f0ff17aab6675869fae40e0a33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a31f4ca3fed0f37ded6fec328c634d455" id="r_a31f4ca3fed0f37ded6fec328c634d455"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31f4ca3fed0f37ded6fec328c634d455">_count</a> = 0</td></tr>
+<tr class="separator:a31f4ca3fed0f37ded6fec328c634d455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8c46b34e14f5cd1a3df578c219c7d241" name="a8c46b34e14f5cd1a3df578c219c7d241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c46b34e14f5cd1a3df578c219c7d241">&#9670;&#160;</a></span>OMoleGroup()</h2>
+<a id="a8b5da525fd841d7137beae47dab1c6cf" name="a8b5da525fd841d7137beae47dab1c6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5da525fd841d7137beae47dab1c6cf">&#9670;&#160;</a></span>OMoleGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +227,7 @@ Data Fields</h2></td></tr>
         <tr>
           <td class="memname">OMoleGroup::OMoleGroup </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structFVector.html">FVector</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>moles</em></span></td><td>)</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structFVector.html">FVector</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>moles</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -278,6 +290,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>This ticks the mole dirt particles. It must be ran <em>after</em> MoleGroup is done ticking. Otherwise, the dirt particle directions will not randomize The best solution would be for particles to be its own class. But that takes effort Instead, we wait until the last MoleGroup has ticked, then we tick the particles one time.</p>
+<p>Warning: Calling this more than one time per frame, will result in doubling the speed</p>
 
 <p>Reimplemented from <a class="el" href="classOObject.html#a3a207a0d2b4292e683e70f57e854fc22">OObject</a>.</p>
 <div class="dynheader">
@@ -289,6 +303,50 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="a31f4ca3fed0f37ded6fec328c634d455" name="a31f4ca3fed0f37ded6fec328c634d455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f4ca3fed0f37ded6fec328c634d455">&#9670;&#160;</a></span>_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t OMoleGroup::_count = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a948e7f0ff17aab6675869fae40e0a33a" name="a948e7f0ff17aab6675869fae40e0a33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948e7f0ff17aab6675869fae40e0a33a">&#9670;&#160;</a></span>_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t OMoleGroup::_idx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9b5b2c52b0f245c41de928277640250d" name="a9b5b2c52b0f245c41de928277640250d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b5b2c52b0f245c41de928277640250d">&#9670;&#160;</a></span>_moles</h2>
 

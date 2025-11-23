@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"concepts.html#code":[1,1,2],
+"concepts.html#how-errors-happen":[1,1,1],
+"contpfs_8c.html":[17,0,3,9,32],
+"contpfs_8c.html#a0f7db56e72f44b8a2e596b0e8a702866":[17,0,3,9,32,3],
 "contpfs_8c.html#a48ae814c96ad6ad40ffceb2ee8cac6b4":[17,0,3,9,32,5],
 "contpfs_8c.html#a76143c1f81ddeb59c526d145fb024528":[17,0,3,9,32,7],
 "contpfs_8c.html#a8907f8efb366e080f79a7c02dd71b2d8":[17,0,3,9,32,0],
@@ -16,7 +20,7 @@ var NAVTREEINDEX28 =
 "contramwrite_8c.html#a5a8e6638b28caf3b5faba67df76d099c":[17,0,3,9,34,1],
 "contramwrite_8c.html#ac0f1bb81601cedc5fc5868fc7e500b88":[17,0,3,9,34,0],
 "controlflow.html":[1,2],
-"controlflow.html#actors":[1,2,4,2],
+"controlflow.html#actors-1":[1,2,4,2],
 "controlflow.html#code-breakdown":[1,2,4],
 "controlflow.html#course-folder":[1,2,4,4,0],
 "controlflow.html#courses":[1,2,4,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "courseTable_8h.html#af3814b126276e588d7be75234c46ebe5":[17,0,0,26,57],
 "courseTable_8h.html#af3f4f18f34f9d902bdcc567b7796d4ef":[17,0,0,26,88],
 "courseTable_8h.html#afaecbc5d4b3068cb569db304e0192112":[17,0,0,26,6],
-"courseTable_8h.html#afc0a5a8e48824f1262bfcd25c7b32b3c":[17,0,0,26,73],
-"courseTable_8h.html#afe7c11beea0d50115effecb02ad0c79d":[17,0,0,26,67],
-"courseTable_8h_source.html":[17,0,0,26],
-"course_8h.html":[17,0,2,8],
-"course_8h_source.html":[17,0,2,8]
+"courseTable_8h.html#afc0a5a8e48824f1262bfcd25c7b32b3c":[17,0,0,26,73]
 };
