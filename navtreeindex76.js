@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"structFakeItemBox.html#a06e10891852bdc853b439ca471992687":[16,0,121,5],
+"structFakeItemBox.html#a24d5f66ab329d7f302742e0dbc81ac87":[16,0,121,2],
+"structFakeItemBox.html#a29e91595b541928305d78842ada268da":[16,0,121,7],
 "structFakeItemBox.html#a340c35ebd10c6000661e1edcf8a91e42":[16,0,121,9],
 "structFakeItemBox.html#a401fed8ebe4c593806a38769f84029f6":[16,0,121,1],
 "structFakeItemBox.html#a616ed6fc7508f5dd63992646880f1fd1":[16,0,121,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "structMainPoolBlock.html":[16,0,309],
 "structMainPoolBlock.html#a6d34d9c80764fecea7107447a8ed002d":[16,0,309,1],
 "structMainPoolBlock.html#add933ca250a6894176941bd47459f955":[16,0,309,0],
-"structMainPoolState.html":[16,0,310],
-"structMainPoolState.html#a09066d5dbc3b75de2bb9dbdbe3eed6e2":[16,0,310,3],
-"structMainPoolState.html#a2050c7f7548d60b0f8eed2bf366771d1":[16,0,310,0],
-"structMainPoolState.html#a2132c0f9da6456775ed7b06459901dfb":[16,0,310,1]
+"structMainPoolState.html":[16,0,310]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a53f8ac366897849ea731c8780865c6ff":[15,0,11,9,12],
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a5dfbfc9efeddf706c5e281752db7c573":[15,0,11,9,7],
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a5fcd4b9a5ef547f9210e74bc98283a44":[15,0,11,9,19],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a760324a705378e3de4e3639161131885":[15,0,11,9,8],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a770f5a54c74f7a1a7fd9f2f53279d51f":[15,0,11,9,20],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a7c71c5773058fe7d911dfd965be21055":[15,0,11,9,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "osAiSetNextBuffer_8c.html":[17,0,3,9,59],
 "osAiSetNextBuffer_8c.html#a4376859bf8f61dc96cfd831aa5bdaf54":[17,0,3,9,59,1],
 "osAiSetNextBuffer_8c.html#a6681a9f4e2c91e1754c5443234263629":[17,0,3,9,59,0],
-"osAi_8h.html":[17,0,3,9,56],
-"osAi_8h.html#a3bdad53145ff25bc14435607f5a71dfc":[17,0,3,9,56,2],
-"osAi_8h.html#aa9012de336974806efa5784bee7a0e9e":[17,0,3,9,56,1],
-"osAi_8h.html#adf5900ea304971b4e894d796758232b6":[17,0,3,9,56,0]
+"osAi_8h.html":[17,0,3,9,56]
 };

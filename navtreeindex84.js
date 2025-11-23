@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"structcredits__data__1FA0.html#a22db4d79a849d4523fb89e72e3b3fffe":[16,0,106,6],
+"structcredits__data__1FA0.html#a3d6e7aa450da9c9cb312e200a3231a7b":[16,0,106,12],
+"structcredits__data__1FA0.html#a45eb06bb75ecffa25fc5aa11e892894a":[16,0,106,9],
 "structcredits__data__1FA0.html#a54f01e22474563537ec9d8adb6841837":[16,0,106,16],
 "structcredits__data__1FA0.html#a5acab6a9564538a29f27adfc20675000":[16,0,106,3],
 "structcredits__data__1FA0.html#a7ce81c22cc4b44fee6fb66c64f7f0785":[16,0,106,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "structma__context.html#ae9bae94748afbb8d5ba99fbd2a3f1d0f":[16,0,178,14],
 "structma__context__command____wasapi.html":[16,0,179],
 "structma__context__command____wasapi.html#a03cddc250a4c34bfdda0ec3adf1458f1":[16,0,179,9],
-"structma__context__command____wasapi.html#a0ca13ac3457ce1a2641953fb0cbeaa5d":[16,0,179,3],
-"structma__context__command____wasapi.html#a10dba33e2e0ed0d74fa6240887fed251":[16,0,179,6],
-"structma__context__command____wasapi.html#a3742e39acc60540f625bc98ea8e92959":[16,0,179,10],
-"structma__context__command____wasapi.html#a5ca5d5a07e003025096c3e7c22687316":[16,0,179,5]
+"structma__context__command____wasapi.html#a0ca13ac3457ce1a2641953fb0cbeaa5d":[16,0,179,3]
 };

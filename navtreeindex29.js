@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"courseTable_8h.html#afc0a5a8e48824f1262bfcd25c7b32b3c":[17,0,0,26,73],
+"courseTable_8h.html#afe7c11beea0d50115effecb02ad0c79d":[17,0,0,26,67],
+"courseTable_8h_source.html":[17,0,0,26],
 "course_8h.html":[17,0,2,8],
 "course_8h_source.html":[17,0,2,8],
 "course__metadata_8c.html":[17,0,3,34],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "defines_8h.html#a56ad193d773d42d6a20d03e2f13aea32":[17,0,2,12,147],
 "defines_8h.html#a57d2983415fa3cf8ab2a9bee6f087c7a":[17,0,2,12,76],
 "defines_8h.html#a5a6718f73ba2ea4becbb7263614dfb37":[17,0,2,12,163],
-"defines_8h.html#a5af9b5343563ff68ae7d252d560ebb0d":[17,0,2,12,50],
-"defines_8h.html#a62645260c4c31608ddd6702527a0b9e8":[17,0,2,12,100],
-"defines_8h.html#a681d23053fc323ed91ba4620c6d81ab9":[17,0,2,12,124],
-"defines_8h.html#a6831682cd4a2784c3b1c6e7ac5a31a8e":[17,0,2,12,55]
+"defines_8h.html#a5af9b5343563ff68ae7d252d560ebb0d":[17,0,2,12,50]
 };

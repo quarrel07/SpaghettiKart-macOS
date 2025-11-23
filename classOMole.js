@@ -1,6 +1,7 @@
 var classOMole =
 [
     [ "OMole", "classOMole.html#ac634aa46930f54a1dfedc316034b4b95", null ],
+    [ "~OMole", "classOMole.html#a721f12a3d1edef8d8c8f5d8b51e4c318", null ],
     [ "Draw", "classOMole.html#abe4c454a9553584219f4505b2e338f27", null ],
     [ "func_80054D00", "classOMole.html#abde7681bfbee83db4e8105925052979f", null ],
     [ "func_80054E10", "classOMole.html#af6bea76b861bc3ec723e7b62f44a59f7", null ],

@@ -1,6 +1,7 @@
 var classOCrab =
 [
     [ "OCrab", "classOCrab.html#a90f306e93984090bead14740aad50830", null ],
+    [ "~OCrab", "classOCrab.html#a24304a6f964aa284a428a1f4c15f6480", null ],
     [ "Draw", "classOCrab.html#a71a7d61fe580c22650d08446177f0d69", null ],
     [ "DrawEditorProperties", "classOCrab.html#af5ec11cb214c994e5e5c46714c6b1a58", null ],
     [ "DrawModel", "classOCrab.html#a1342716f34378e4700baae3df702d294", null ],
