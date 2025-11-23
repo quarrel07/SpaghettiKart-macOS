@@ -80,7 +80,7 @@ var searchData=
   ['oldpitch_77',['oldPitch',['../structma__engine__node.html#a466a876c027b0a87f3f4dbfa9d9f06bf',1,'ma_engine_node']]],
   ['oldpos_78',['oldPos',['../structPlayer.html#a2810886a55a7b5545851693406f327f4',1,'Player']]],
   ['omole_79',['OMole',['../classOMole.html',1,'OMole'],['../classOMole.html#ac634aa46930f54a1dfedc316034b4b95',1,'OMole::OMole()']]],
-  ['omolegroup_80',['OMoleGroup',['../classOMoleGroup.html',1,'OMoleGroup'],['../classOMoleGroup.html#a8b5da525fd841d7137beae47dab1c6cf',1,'OMoleGroup::OMoleGroup()']]],
+  ['omolegroup_80',['OMoleGroup',['../classOMoleGroup.html',1,'OMoleGroup'],['../classOMoleGroup.html#a5a303afacf1d661204e2e43a33baf287',1,'OMoleGroup::OMoleGroup()']]],
   ['on_20unix_20systems_81',['Runner on UNIX systems',['../md_docs_2BUILDING.html#runner-on-unix-systems',1,'']]],
   ['on_20windows_82',['Runner on Windows',['../md_docs_2BUILDING.html#runner-on-windows',1,'']]],
   ['on_20your_20fork_83',['Getting CI to work on your fork',['../md_docs_2BUILDING.html#getting-ci-to-work-on-your-fork',1,'']]],

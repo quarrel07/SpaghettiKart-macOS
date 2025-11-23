@@ -1,8 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"choco__mountain__data_8h_source.html":[17,0,2,0,16],
-"choco__mountain__displaylists_8h.html":[17,0,2,0,17],
-"choco__mountain__displaylists_8h.html#a5ba00ee25cab964bd9bbd3f587856abd":[17,0,2,0,17,0],
 "choco__mountain__displaylists_8h_source.html":[17,0,2,0,17],
 "choco__mountain__vertices_8h.html":[17,0,2,0,18],
 "choco__mountain__vertices_8h.html#ae636ec922e7753f1cac169c3fb4325ab":[17,0,2,0,18,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX9 =
 "classASpaghettiShip.html":[16,0,62],
 "classASpaghettiShip.html#a5c3f797a35270f2c359f4961136d173c":[16,0,62,4],
 "classASpaghettiShip.html#a6e18988fe2b57a8b4b7828b846cb5c33":[16,0,62,6],
-"classASpaghettiShip.html#a858f477eef6a77fed29a3816132f6c8e":[16,0,62,2]
+"classASpaghettiShip.html#a858f477eef6a77fed29a3816132f6c8e":[16,0,62,2],
+"classASpaghettiShip.html#a9703a45b24d276dac60056d11a1be96d":[16,0,62,0],
+"classASpaghettiShip.html#aabfb3bdc331da98c0e6caacf02797c31":[16,0,62,5],
+"classASpaghettiShip.html#add9f1d22edf9d14a6f6216c8f29b8162":[16,0,62,3]
 };

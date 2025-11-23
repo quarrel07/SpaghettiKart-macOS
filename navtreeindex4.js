@@ -1,8 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"ObjectInit_8cpp.html":[17,0,3,10,2,1,28],
-"ObjectInit_8h.html":[17,0,3,10,2,1,29],
-"ObjectInit_8h_source.html":[17,0,3,10,2,1,29],
 "ObjectPicker_8cpp.html":[17,0,3,6,2,14],
 "ObjectPicker_8h.html":[17,0,3,6,2,15],
 "ObjectPicker_8h_source.html":[17,0,3,6,2,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX4 =
 "UnkSpawnData_8h_source.html":[17,0,3,10,2,1,42],
 "Utils_8cpp.html":[17,0,3,6,6,12],
 "Utils_8cpp.html#a56ad34b9182b49d3c7038d1f57899dec":[17,0,3,6,6,12,0],
-"Utils_8cpp.html#aeaf9fffe1458c3ce2a95a80906db76c3":[17,0,3,6,6,12,1]
+"Utils_8cpp.html#aeaf9fffe1458c3ce2a95a80906db76c3":[17,0,3,6,6,12,1],
+"Utils_8h.html":[17,0,3,6,6,13],
+"Utils_8h.html#a56ad34b9182b49d3c7038d1f57899dec":[17,0,3,6,6,13,0],
+"Utils_8h.html#aeaf9fffe1458c3ce2a95a80906db76c3":[17,0,3,6,6,13,1]
 };

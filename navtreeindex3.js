@@ -232,10 +232,7 @@ var NAVTREEINDEX3 =
 "MooMooFarm_8cpp.html#a1ecd299d09faca95e0415207acde8c87":[17,0,3,6,1,28,2],
 "MooMooFarm_8cpp.html#a60c6a69449720d514d1f6569c45f626e":[17,0,3,6,1,28,1],
 "MooMooFarm_8cpp.html#a61fe4f4d37b4807419e22bba036e8497":[17,0,3,6,1,28,3],
-"MooMooFarm_8cpp.html#aa92b51b3fc8234fa04392135ef9fbbd9":[17,0,3,6,1,28,6],
 "MooMooFarm_8cpp.html#ad7284ffc2e41a12ca87537ef21156453":[17,0,3,6,1,28,0],
-"MooMooFarm_8cpp.html#ae0661b1927c332f9d6e1ff2de85faf2d":[17,0,3,6,1,28,5],
-"MooMooFarm_8cpp.html#ae1624d759052d1ec18af9fdf189ab199":[17,0,3,6,1,28,4],
 "MooMooFarm_8h.html":[17,0,3,6,1,29],
 "MooMooFarm_8h.html#a61fe4f4d37b4807419e22bba036e8497":[17,0,3,6,1,29,1],
 "MooMooFarm_8h_source.html":[17,0,3,6,1,29],
@@ -249,5 +246,8 @@ var NAVTREEINDEX3 =
 "MultiplayerWindow_8h.html":[17,0,3,10,3,12],
 "MultiplayerWindow_8h_source.html":[17,0,3,10,3,12],
 "NaN_8c.html":[17,0,3,9,54],
-"NaN_8c.html#a11049f633144c41cb34967ee986bc68e":[17,0,3,9,54,1]
+"NaN_8c.html#a11049f633144c41cb34967ee986bc68e":[17,0,3,9,54,1],
+"ObjectInit_8cpp.html":[17,0,3,10,2,1,28],
+"ObjectInit_8h.html":[17,0,3,10,2,1,29],
+"ObjectInit_8h_source.html":[17,0,3,10,2,1,29]
 };

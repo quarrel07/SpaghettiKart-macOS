@@ -1,7 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"ldiv_8c.html":[17,0,3,9,51],
-"ldiv_8c.html#a0302920caf64a5fbe1ce0862799d7784":[17,0,3,9,51,0],
 "ldiv_8c.html#a5b23c3639f11980dca762c5f1d74f339":[17,0,3,9,51,1],
 "libaudio_8h.html":[17,0,2,3,0],
 "libaudio_8h.html#ab275be6c7d58d2836dbd28d7c119e1d6":[17,0,2,3,0,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX39 =
 "luigi__kart_8h_source.html":[17,0,2,0,38],
 "luigi__raceway_2course__displaylists_8h.html":[17,0,0,11,0],
 "luigi__raceway_2course__displaylists_8h.html#a701e742e54545ab52bb5f8dc23d97209":[17,0,0,11,0,0],
-"luigi__raceway_2course__displaylists_8h_source.html":[17,0,0,11,0]
+"luigi__raceway_2course__displaylists_8h_source.html":[17,0,0,11,0],
+"luigi__raceway_2course__offsets_8c.html":[17,0,0,11,1],
+"luigi__raceway_2course__offsets_8c.html#a1aac074ec14b48bc8a5e600341d06092":[17,0,0,11,1,0]
 };

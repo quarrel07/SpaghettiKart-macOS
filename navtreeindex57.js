@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"namespaceEditor.html#afd3bba0627b3706407b893e59a6a2755":[15,0,1,20],
-"namespaceFast.html":[15,0,2],
 "namespaceFreecam.html":[15,0,3],
 "namespaceGameUI.html":[15,0,4],
 "namespaceGameUI.html#a0061808a152dc0fbf49a3bff5407d24a":[15,0,4,53],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a4271bd8520b13309c8b78e0c44bfe6f0":[15,0,11,9,18],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a498232d0967df69172d6ef5e21c6e100":[15,0,11,9,11],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a4aa97605ed54be5bf4f734aeb8c1a0c3":[15,0,11,9,3],
-"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a53f8ac366897849ea731c8780865c6ff":[15,0,11,9,12]
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a53f8ac366897849ea731c8780865c6ff":[15,0,11,9,12],
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a5dfbfc9efeddf706c5e281752db7c573":[15,0,11,9,7],
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a5fcd4b9a5ef547f9210e74bc98283a44":[15,0,11,9,19]
 };

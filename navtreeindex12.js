@@ -1,8 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classEditor_1_1Gizmo.html#ae9133216073166cb1b7039a653eb74fd":[16,0,0,2,28],
-"classEditor_1_1Gizmo.html#aea3edbcd02ee6216b2852f8e1ac3655a":[15,0,1,2,38],
-"classEditor_1_1Gizmo.html#aea3edbcd02ee6216b2852f8e1ac3655a":[16,0,0,2,38],
 "classEditor_1_1Gizmo.html#aebdd8a00d531ddfec7c0a899e6a161e0":[15,0,1,2,39],
 "classEditor_1_1Gizmo.html#aebdd8a00d531ddfec7c0a899e6a161e0":[16,0,0,2,39],
 "classEditor_1_1Gizmo.html#aee45129c91be430053a292b819d720b6":[15,0,1,2,33],
@@ -249,5 +246,8 @@ var NAVTREEINDEX12 =
 "classLuigiRaceway.html#aa0e243d1b9ec05b6ea97e973aece3ba4":[16,0,154,8],
 "classLuigiRaceway.html#abb3079f978b1fa36c85b006a29f06e3a":[16,0,154,1],
 "classLuigiRaceway.html#ad65a591e3b480e1042ed02d522fe51f5":[16,0,154,6],
-"classLuigiRaceway.html#ae26d30076bbf601c8c7b79631043645e":[16,0,154,9]
+"classLuigiRaceway.html#ae26d30076bbf601c8c7b79631043645e":[16,0,154,9],
+"classLuigiRaceway.html#ae29495179adea84e63f4f91d7057cf3c":[16,0,154,3],
+"classMK64_1_1ActorSpawn.html":[15,0,5,0],
+"classMK64_1_1ActorSpawn.html":[16,0,2,0]
 };
