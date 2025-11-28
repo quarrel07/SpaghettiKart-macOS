@@ -28,7 +28,7 @@ var NAVTREE =
     [ "Actors", "actorsmenu.html", "actorsmenu" ],
     [ "Understanding the Basics", "basics.html", "basics" ],
     [ "Building SpagettiKart", "md_docs_2BUILDING.html", [
-      [ "Windows", "md_docs_2BUILDING.html#windows", [
+      [ "Windows", "md_docs_2BUILDING.html#windows-1", [
         [ "Developing SpaghettiKart", "md_docs_2BUILDING.html#developing-spaghettikart", [
           [ "Visual Studio", "md_docs_2BUILDING.html#visual-studio", null ],
           [ "Visual Studio Code or another editor", "md_docs_2BUILDING.html#visual-studio-code-or-another-editor", null ]
@@ -49,7 +49,7 @@ var NAVTREE =
           ] ],
           [ "Build", "md_docs_2BUILDING.html#build", null ]
         ] ],
-        [ "Docker", "md_docs_2BUILDING.html#docker", [
+        [ "Docker", "md_docs_2BUILDING.html#docker-1", [
           [ "Create the docker container", "md_docs_2BUILDING.html#create-the-docker-container", null ],
           [ "Configure the project", "md_docs_2BUILDING.html#configure-the-project", null ],
           [ "Compile the project", "md_docs_2BUILDING.html#compile-the-project", null ]
@@ -73,7 +73,7 @@ var NAVTREE =
     [ "Courses", "coursesmenu.html", "coursesmenu" ],
     [ "Custom Audio", "md_docs_2custom-audio.html", [
       [ "Example:", "md_docs_2custom-audio.html#example", null ],
-      [ "Future plans", "md_docs_2custom-audio.html#future-plans", null ]
+      [ "Future plans", "md_docs_2custom-audio.html#future-plans-1", null ]
     ] ],
     [ "Custom characters", "md_docs_2custom-characters.html", [
       [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters", null ],
@@ -82,7 +82,7 @@ var NAVTREE =
           [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings", null ]
         ] ],
         [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help", null ],
-        [ "Future plans", "md_docs_2custom-characters.html#future-plans-1", null ]
+        [ "Future plans", "md_docs_2custom-characters.html#future-plans", null ]
       ] ]
     ] ],
     [ "Custom Tracks", "md_docs_2custom-track.html", [
