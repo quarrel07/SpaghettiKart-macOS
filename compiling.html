@@ -132,7 +132,7 @@ $(function(){initNavTree('compiling.html',''); initResizable(true); });
     </ul>
   </li>
   <li class="level1">
-    <a href="#windows">Windows</a>
+    <a href="#windows-1">Windows</a>
     <ul>
       <li class="level2 empty">
         <ul>
@@ -147,7 +147,7 @@ $(function(){initNavTree('compiling.html',''); initResizable(true); });
     <a href="#macos">macOS</a>
   </li>
   <li class="level1">
-    <a href="#docker">Docker</a>
+    <a href="#docker-1">Docker</a>
   </li>
   <li class="level1">
     <a href="#building-us">Building US</a>
@@ -180,7 +180,7 @@ Arch</h3>
 <li><a href="https://aur.archlinux.org/packages/mips64-elf-binutils">mips64-elf-binutils</a> (AUR)</li>
 </ul>
 <p>Review the <a href="https://github.com/n64decomp/sm64">n64decomp/sm64</a> readme for instructions to compile in other distributions.</p>
-<h1><a class="anchor" id="windows"></a>
+<h1><a class="anchor" id="windows-1"></a>
 Windows</h1>
 <ul>
 <li>Clone the repo or download the zip.</li>
@@ -198,7 +198,7 @@ macOS</h1>
 <p>Install <a href="https://brew.sh">Homebrew</a>, then install the following dependencies: </p><div class="fragment"><div class="line">brew update</div>
 <div class="line">brew install python3 capstone coreutils make pkg-config tehzz/n64-dev/mips64-elf-binutils</div>
 </div><!-- fragment --><p>Build using <code>gmake</code> ensuring homebrew <code>make</code> is used instead of the old macOS system <code>make</code>.</p>
-<h1><a class="anchor" id="docker"></a>
+<h1><a class="anchor" id="docker-1"></a>
 Docker</h1>
 <p>Build the Docker image: </p><div class="fragment"><div class="line">docker build -t mk64 .</div>
 </div><!-- fragment --><p>When building and using other tools, append the following in front of every command you run: </p><div class="fragment"><div class="line">docker run --rm -v .:/mk64 mk64</div>

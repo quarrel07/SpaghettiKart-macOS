@@ -3,9 +3,9 @@ var basics =
     [ "Installing mk64 Decomp", "compiling.html", [
       [ "Build Instructions", "compiling.html#build-instructions", null ],
       [ "Linux", "compiling.html#linux", null ],
-      [ "Windows", "compiling.html#windows", null ],
+      [ "Windows", "compiling.html#windows-1", null ],
       [ "macOS", "compiling.html#macos", null ],
-      [ "Docker", "compiling.html#docker", null ],
+      [ "Docker", "compiling.html#docker-1", null ],
       [ "Building US", "compiling.html#building-us", null ],
       [ "Building EU", "compiling.html#building-eu", null ]
     ] ],
