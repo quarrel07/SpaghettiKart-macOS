@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classRainbowRoad.html#adb5b86038828c00d454f9794ddc009cf":[16,0,379,3],
 "classRainbowRoad.html#adbdfd88223a14b4db65eda47b316b15b":[16,0,379,2],
 "classRainbowRoad.html#ae2a6678b6140c08676b7986131230a74":[16,0,379,14],
 "classRainbowRoad.html#aed9fd20581b2194727b8147d13b7ab98":[16,0,379,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classShip_1_1Menu.html#a3885eae3c8e20b8cc1f364a44800a045":[15,0,9,0,17],
 "classShip_1_1Menu.html#a3885eae3c8e20b8cc1f364a44800a045":[16,0,5,0,17],
 "classShip_1_1Menu.html#a3befcf014040225856aeea162c61d6fb":[15,0,9,0,18],
-"classShip_1_1Menu.html#a3befcf014040225856aeea162c61d6fb":[16,0,5,0,18],
-"classShip_1_1Menu.html#a428a53abcb78b4c35162dd22a05c6cae":[15,0,9,0,31]
+"classShip_1_1Menu.html#a3befcf014040225856aeea162c61d6fb":[16,0,5,0,18]
 };

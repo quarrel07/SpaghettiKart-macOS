@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"update__objects_8c.html#a75b557e879b556e596088376a24763f7":[17,0,3,69,55],
 "update__objects_8c.html#a77160ca84eead36749ab8b1ac1ef987b":[17,0,3,69,65],
 "update__objects_8c.html#a7798b724f1595162e8f73d28dfeaf978":[17,0,3,69,70],
 "update__objects_8c.html#a7ae045370ff625cdd99a034e8940ec55":[17,0,3,69,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "yoshi__valley__displaylists_8h.html#ae99718e4c54714908687bc875677fbf7":[17,0,2,0,79,0],
 "yoshi__valley__displaylists_8h_source.html":[17,0,2,0,79],
 "yoshi__valley__vertices_8h.html":[17,0,2,0,80],
-"yoshi__valley__vertices_8h.html#ad27b63f4487198e1902b64319926d0c3":[17,0,2,0,80,0],
-"yoshi__valley__vertices_8h_source.html":[17,0,2,0,80]
+"yoshi__valley__vertices_8h.html#ad27b63f4487198e1902b64319926d0c3":[17,0,2,0,80,0]
 };

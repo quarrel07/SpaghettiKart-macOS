@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"concepts.html#addresses":[1,1,0],
 "concepts.html#array-overflows":[1,1,1,0],
 "concepts.html#code":[1,1,2],
 "concepts.html#how-errors-happen":[1,1,1],
@@ -24,7 +25,7 @@ var NAVTREEINDEX28 =
 "controlflow.html#actors-1":[1,2,4,2],
 "controlflow.html#code-breakdown":[1,2,4],
 "controlflow.html#course-folder":[1,2,4,4,0],
-"controlflow.html#courses":[1,2,4,4],
+"controlflow.html#courses-1":[1,2,4,4],
 "controlflow.html#ending":[1,2,4,8],
 "controlflow.html#engine":[1,2,4,6],
 "controlflow.html#math":[1,2,4,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "courseTable_8h.html#af0e87d8eae21a48ba2e6a03ec73a8e76":[17,0,0,26,91],
 "courseTable_8h.html#af2db83a7645ac9b490db73463b502922":[17,0,0,26,129],
 "courseTable_8h.html#af3814b126276e588d7be75234c46ebe5":[17,0,0,26,57],
-"courseTable_8h.html#af3f4f18f34f9d902bdcc567b7796d4ef":[17,0,0,26,88],
-"courseTable_8h.html#afaecbc5d4b3068cb569db304e0192112":[17,0,0,26,6]
+"courseTable_8h.html#af3f4f18f34f9d902bdcc567b7796d4ef":[17,0,0,26,88]
 };

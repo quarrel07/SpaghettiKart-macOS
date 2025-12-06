@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceEditor.html#adda6d16f5f6a6377080ac71f87e9a683":[15,0,1,21],
 "namespaceEditor.html#afbe4273a6d0045bd9079baaaa8b04196":[15,0,1,18],
 "namespaceEditor.html#afd3bba0627b3706407b893e59a6a2755":[15,0,1,20],
 "namespaceFast.html":[15,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2ea00829ca38c543e737550157502b2b":[15,0,11,9,13],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2fa2a6ba71f7e292c424321a64637405":[15,0,11,9,9],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a4271bd8520b13309c8b78e0c44bfe6f0":[15,0,11,9,18],
-"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a498232d0967df69172d6ef5e21c6e100":[15,0,11,9,11],
-"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a4aa97605ed54be5bf4f734aeb8c1a0c3":[15,0,11,9,3]
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a498232d0967df69172d6ef5e21c6e100":[15,0,11,9,11]
 };

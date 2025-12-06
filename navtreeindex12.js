@@ -153,11 +153,12 @@ var NAVTREEINDEX12 =
 "classFrappeSnowland.html#ae22725da914e172f2917b576831315aa":[16,0,124,10],
 "classGameExtractor.html":[16,0,132],
 "classGameExtractor.html#a068ee2ee209e80be83ce70c134eec895":[16,0,132,0],
-"classGameExtractor.html#a10cbcd1aac0aa869fdde0d3f1d502b45":[16,0,132,2],
+"classGameExtractor.html#a10cbcd1aac0aa869fdde0d3f1d502b45":[16,0,132,3],
 "classGameExtractor.html#a3eee313b86c230c3fee5f7a5ce120df3":[16,0,132,1],
-"classGameExtractor.html#a62a6158e90fd2366e4780164d3571f8c":[16,0,132,3],
-"classGameExtractor.html#a7e90279a7db81dee58a4dfd4a0cb2745":[16,0,132,5],
-"classGameExtractor.html#ada063d80b026e2d48266dddb3aaaf027":[16,0,132,4],
+"classGameExtractor.html#a62a6158e90fd2366e4780164d3571f8c":[16,0,132,4],
+"classGameExtractor.html#a787a62ed41a6f9e69d355810b3c8fe78":[16,0,132,2],
+"classGameExtractor.html#a7e90279a7db81dee58a4dfd4a0cb2745":[16,0,132,6],
+"classGameExtractor.html#ada063d80b026e2d48266dddb3aaaf027":[16,0,132,5],
 "classGameMenuBar.html":[16,0,133],
 "classGameMenuBar.html#a1734e6a1baba27de14ad374485028874":[16,0,133,2],
 "classGameMenuBar.html#a842f97e07c3f4f8d38495f6e8728af79":[16,0,133,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classLuigiRaceway.html#ad65a591e3b480e1042ed02d522fe51f5":[16,0,154,6],
 "classLuigiRaceway.html#ae26d30076bbf601c8c7b79631043645e":[16,0,154,9],
 "classLuigiRaceway.html#ae29495179adea84e63f4f91d7057cf3c":[16,0,154,3],
-"classMK64_1_1ActorSpawn.html":[15,0,5,0],
-"classMK64_1_1ActorSpawn.html":[16,0,2,0]
+"classMK64_1_1ActorSpawn.html":[15,0,5,0]
 };

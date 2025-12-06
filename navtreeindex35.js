@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"guRotateF_8c.html#a98ec2e0b2831b168feffd49493a08134":[17,0,3,9,46,0],
 "guScaleF_8c.html":[17,0,3,9,47],
 "guScaleF_8c.html#a19b9397a765b8eb04c94f9cdd554cdba":[17,0,3,9,47,1],
 "guScaleF_8c.html#a42e27e884f27d0dd332f140ef599b723":[17,0,3,9,47,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "heap_8h.html#a098712bd1e3c628dde541a544b6b209c":[17,0,3,1,9,43],
 "heap_8h.html#a09bd3997d3f65730cc5906c6f53da174":[17,0,3,1,9,61],
 "heap_8h.html#a0a838f00c12383a6e9646c0072ecd434":[17,0,3,1,9,28],
-"heap_8h.html#a0be60ed9e854024b51084c71d24d5f6e":[17,0,3,1,9,70],
-"heap_8h.html#a18ae0c9f2f35d50f907f1e9999891185":[17,0,3,1,9,50]
+"heap_8h.html#a0be60ed9e854024b51084c71d24d5f6e":[17,0,3,1,9,70]
 };

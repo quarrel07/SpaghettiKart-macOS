@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structFakeItemBox.html":[16,0,121],
 "structFakeItemBox.html#a06e10891852bdc853b439ca471992687":[16,0,121,5],
 "structFakeItemBox.html#a24d5f66ab329d7f302742e0dbc81ac87":[16,0,121,2],
 "structFakeItemBox.html#a29e91595b541928305d78842ada268da":[16,0,121,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structMainMenuEntry.html#ac0b3a0dbf5d3fe777df560938fb36ebc":[16,0,308,1],
 "structMainPoolBlock.html":[16,0,309],
 "structMainPoolBlock.html#a6d34d9c80764fecea7107447a8ed002d":[16,0,309,1],
-"structMainPoolBlock.html#add933ca250a6894176941bd47459f955":[16,0,309,0],
-"structMainPoolState.html":[16,0,310]
+"structMainPoolBlock.html#add933ca250a6894176941bd47459f955":[16,0,309,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structma__hpf__node.html":[16,0,228],
 "structma__hpf__node.html#a1371ea9afa65fc0201d9eeb138d68ec3":[16,0,228,1],
 "structma__hpf__node.html#a488ad0d1de3dbbc068ec730fe6d430f4":[16,0,228,0],
 "structma__hpf__node__config.html":[16,0,229],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structma__paged__audio__buffer.html":[16,0,262],
 "structma__paged__audio__buffer.html#a12ee468d112caffc9e136c2e19ce735d":[16,0,262,4],
 "structma__paged__audio__buffer.html#a1abfa22627eda83315948dd5583fa793":[16,0,262,1],
-"structma__paged__audio__buffer.html#a4ef887fe6df9bc4ad41d526403a974de":[16,0,262,3],
-"structma__paged__audio__buffer.html#a8126b047554857480962ab9b3bb2e1a8":[16,0,262,2]
+"structma__paged__audio__buffer.html#a4ef887fe6df9bc4ad41d526403a974de":[16,0,262,3]
 };

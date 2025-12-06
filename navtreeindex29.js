@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"courseTable_8h.html#afaecbc5d4b3068cb569db304e0192112":[17,0,0,26,6],
 "courseTable_8h.html#afc0a5a8e48824f1262bfcd25c7b32b3c":[17,0,0,26,73],
 "courseTable_8h.html#afe7c11beea0d50115effecb02ad0c79d":[17,0,0,26,67],
 "courseTable_8h_source.html":[17,0,0,26],
@@ -52,7 +53,7 @@ var NAVTREEINDEX29 =
 "course__offsets_8h.html#af7c3d5a48e591b30ff6c2b2f23e8d2cc":[17,0,2,9,7],
 "course__offsets_8h_source.html":[17,0,2,9],
 "courses.html":[3,0],
-"courses.html#courses-1":[3,0,0],
+"courses.html#courses":[3,0,0],
 "courses_2test__course_2data_8c.html":[17,0,0,17,0],
 "courses_2test__course_2data_8c.html#a5776e9da61369423652d9d1c875f2abd":[17,0,0,17,0,0],
 "courses_2test__course_2data_8c.html#a5b6179834eac70a4585df8f3519be920":[17,0,0,17,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "defines_8h.html#a553ccae20425334722a8255176db6b58ad3b05d34d648dee30f926b24734ce384":[17,0,2,12,185,2],
 "defines_8h.html#a56ad193d773d42d6a20d03e2f13aea32":[17,0,2,12,147],
 "defines_8h.html#a57d2983415fa3cf8ab2a9bee6f087c7a":[17,0,2,12,76],
-"defines_8h.html#a5a6718f73ba2ea4becbb7263614dfb37":[17,0,2,12,163],
-"defines_8h.html#a5af9b5343563ff68ae7d252d560ebb0d":[17,0,2,12,50]
+"defines_8h.html#a5a6718f73ba2ea4becbb7263614dfb37":[17,0,2,12,163]
 };

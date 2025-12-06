@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"koopa__troopa__beach__vertices_8h.html#ad33567e4cb8c9570dd070ca449284cde":[17,0,2,0,37,0],
 "koopa__troopa__beach__vertices_8h_source.html":[17,0,2,0,37],
 "ldiv_8c.html":[17,0,3,9,51],
 "ldiv_8c.html#a0302920caf64a5fbe1ce0862799d7784":[17,0,3,9,51,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "luigi__kart_8h.html#a0e16ca5cc7e6e03a3d7d86eca7f3dbb7":[17,0,2,0,38,1],
 "luigi__kart_8h.html#a9323ebfd2826c9ab0f8e7151aa4fa560":[17,0,2,0,38,0],
 "luigi__kart_8h_source.html":[17,0,2,0,38],
-"luigi__raceway_2course__displaylists_8h.html":[17,0,0,11,0],
-"luigi__raceway_2course__displaylists_8h.html#a701e742e54545ab52bb5f8dc23d97209":[17,0,0,11,0,0]
+"luigi__raceway_2course__displaylists_8h.html":[17,0,0,11,0]
 };

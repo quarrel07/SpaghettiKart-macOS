@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"dks__jungle__parkway__displaylists_8h.html#ae41fc0cae961009fe3182dac893bf939":[17,0,2,0,23,0],
 "dks__jungle__parkway__displaylists_8h_source.html":[17,0,2,0,23],
 "dks__jungle__parkway__vertices_8h.html":[17,0,2,0,24],
 "dks__jungle__parkway__vertices_8h.html#ab9d4baaa0ee8cef66a61b47ce4766784":[17,0,2,0,24,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "effects_8h.html#ac112f858ba2b7db68e1dc3d8bc5879e3":[17,0,3,39,99],
 "effects_8h.html#ac66e448391a8eb13cb478b24a8760925":[17,0,3,39,4],
 "effects_8h.html#ac7ac49580b051d05ba80cc09c114104f":[17,0,3,39,39],
-"effects_8h.html#ac880b67ca1ecb87a7ba7bf2a6971c9f6":[17,0,3,39,7],
-"effects_8h.html#ac91a9917cb73008a22a340a54a74dd36":[17,0,3,39,2]
+"effects_8h.html#ac880b67ca1ecb87a7ba7bf2a6971c9f6":[17,0,3,39,7]
 };

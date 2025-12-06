@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a4aa97605ed54be5bf4f734aeb8c1a0c3":[15,0,11,9,3],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a53f8ac366897849ea731c8780865c6ff":[15,0,11,9,12],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a5dfbfc9efeddf706c5e281752db7c573":[15,0,11,9,7],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a5fcd4b9a5ef547f9210e74bc98283a44":[15,0,11,9,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "osAiSetFrequency_8c.html#a9e52bbdd047be9c1af82a9b1aeff305c":[17,0,3,9,58,0],
 "osAiSetNextBuffer_8c.html":[17,0,3,9,59],
 "osAiSetNextBuffer_8c.html#a4376859bf8f61dc96cfd831aa5bdaf54":[17,0,3,9,59,1],
-"osAiSetNextBuffer_8c.html#a6681a9f4e2c91e1754c5443234263629":[17,0,3,9,59,0],
-"osAi_8h.html":[17,0,3,9,56]
+"osAiSetNextBuffer_8c.html#a6681a9f4e2c91e1754c5443234263629":[17,0,3,9,59,0]
 };

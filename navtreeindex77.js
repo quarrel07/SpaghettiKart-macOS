@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMainPoolState.html":[16,0,310],
 "structMainPoolState.html#a09066d5dbc3b75de2bb9dbdbe3eed6e2":[16,0,310,3],
 "structMainPoolState.html#a2050c7f7548d60b0f8eed2bf366771d1":[16,0,310,0],
 "structMainPoolState.html#a2132c0f9da6456775ed7b06459901dfb":[16,0,310,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structObject.html#ab70c3da83d65403964e4622fe0534c2a":[16,0,333,46],
 "structObject.html#aba46e66f4189e43720f11f0beff29c1c":[16,0,333,57],
 "structObject.html#ac119943023c98ad6d4a7e7e080678178":[16,0,333,27],
-"structObject.html#acbe7d3f5a48477064198769bfdde3074":[16,0,333,19],
-"structObject.html#acd56662e2cd8ae1de22450f59ba5cc81":[16,0,333,16]
+"structObject.html#acbe7d3f5a48477064198769bfdde3074":[16,0,333,19]
 };

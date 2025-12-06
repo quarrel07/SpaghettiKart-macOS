@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"matrix_8h.html#a4fafa88c505aee9f2c70579c30b313ad":[17,0,3,10,1,3,17],
 "matrix_8h.html#a6217a47cf9226d431b7a5e9eef7f8a12":[17,0,3,10,1,3,6],
 "matrix_8h.html#a73bee04950f29c9d15d38a6c821c9b01":[17,0,3,10,1,3,18],
 "matrix_8h.html#a7a4ac97345d4849a382e38678ac9f272":[17,0,3,10,1,3,36],
@@ -57,12 +58,12 @@ var NAVTREEINDEX43 =
 "md_docs_2BUILDING.html#windows-1":[2,0],
 "md_docs_2custom-audio.html":[4],
 "md_docs_2custom-audio.html#example":[4,0],
-"md_docs_2custom-audio.html#future-plans-1":[4,1],
+"md_docs_2custom-audio.html#future-plans":[4,1],
 "md_docs_2custom-characters.html":[5],
 "md_docs_2custom-characters.html#additional-files":[5,1],
 "md_docs_2custom-characters.html#change-viewport-render-settings":[5,1,0,0],
 "md_docs_2custom-characters.html#examples-for-all-characters":[5,0],
-"md_docs_2custom-characters.html#future-plans":[5,1,2],
+"md_docs_2custom-characters.html#future-plans-1":[5,1,2],
 "md_docs_2custom-characters.html#tips":[5,1,0],
 "md_docs_2custom-characters.html#tools-to-help":[5,1,1],
 "md_docs_2custom-track.html":[6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "menu__items_8c.html":[17,0,3,49],
 "menu__items_8c.html#a00c2408ac6e619d56cd16d2797adf066":[17,0,3,49,354],
 "menu__items_8c.html#a01003958fcc81831bd82f619ae874ac1":[17,0,3,49,71],
-"menu__items_8c.html#a01b11df9ace8117de81f74fe87b271f8":[17,0,3,49,335],
-"menu__items_8c.html#a0251328e47f8e91a57248d686a24aca6":[17,0,3,49,6]
+"menu__items_8c.html#a01b11df9ace8117de81f74fe87b271f8":[17,0,3,49,335]
 };
