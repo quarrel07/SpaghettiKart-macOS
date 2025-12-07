@@ -3,8 +3,14 @@ var camera_8h =
     [ "UnkCameraInner", "structUnkCameraInner.html", "structUnkCameraInner" ],
     [ "Camera", "structCamera.html", "structCamera" ],
     [ "BAD_RETURN", "camera_8h.html#a5d473430986a7e9d5ceca3b538321cc8", null ],
-    [ "camera_init", "camera_8h.html#afff3d5f1241a08287d814fd95e3d16e9", null ],
-    [ "freecam_init", "camera_8h.html#a6851df86636cecf7832ecb1e649c9a5a", null ],
+    [ "NUM_CAMERAS", "camera_8h.html#a676fd455b512d2b69f626ea4bd738bce", null ],
+    [ "RenderMode", "camera_8h.html#ac9e546db27bb4f76f47d7e25f24abb88", [
+      [ "RENDER_TRACK_SECTIONS", "camera_8h.html#ac9e546db27bb4f76f47d7e25f24abb88a8b3974ce281d2b6c98d3a7989387eddd", null ],
+      [ "RENDER_FULL_SCENE", "camera_8h.html#ac9e546db27bb4f76f47d7e25f24abb88af02c1454ac695a5ad0ac268a7557515f", null ],
+      [ "RENDER_COLLISION_MESH", "camera_8h.html#ac9e546db27bb4f76f47d7e25f24abb88a0ed325076d77c5b7064e66a2b2f021f4", null ]
+    ] ],
+    [ "camera_init", "camera_8h.html#aa4fc308e07ea8875169fab72c37bf417", null ],
+    [ "freecam_init", "camera_8h.html#a1cdadb7f2a933305b209a30cdbe8c361", null ],
     [ "func_8001CA10", "camera_8h.html#ac5c90fc9c417ded1c7e1ecb3352ecffe", null ],
     [ "func_8001CA24", "camera_8h.html#a73ae3e5df022c3a49a734a6c1031e63d", null ],
     [ "func_8001CA78", "camera_8h.html#a1357495d27ece172e40972af3a5f40f3", null ],

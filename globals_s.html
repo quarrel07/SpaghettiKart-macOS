@@ -378,7 +378,6 @@ $(function(){initNavTree('globals_s.html',''); initResizable(true); });
 <li>SetMarioRaceway()&#160;:&#160;<a class="el" href="Game_8cpp.html#aeea6e29785f2f2cdd48874c08e5c02a1">Game.cpp</a>, <a class="el" href="Game_8h.html#aeea6e29785f2f2cdd48874c08e5c02a1">Game.h</a></li>
 <li>SetRotatorFromDirection()&#160;:&#160;<a class="el" href="EditorMath_8cpp.html#aac7aa1dff387eaece311af48b90df417">EditorMath.cpp</a>, <a class="el" href="EditorMath_8h.html#aac7aa1dff387eaece311af48b90df417">EditorMath.h</a></li>
 <li>SetTextMatrix()&#160;:&#160;<a class="el" href="Matrix_8cpp.html#a9818099a1ee20606a7d622e744846366">Matrix.cpp</a>, <a class="el" href="Matrix_8h.html#ac228d3c5bc5c4fed9df85ba99cd24304">Matrix.h</a></li>
-<li>setup_camera()&#160;:&#160;<a class="el" href="skybox__and__splitscreen_8c.html#ad07d7b5039fe42b3bafe466419708243">skybox_and_splitscreen.c</a></li>
 <li>setup_editor()&#160;:&#160;<a class="el" href="code__800029B0_8c.html#abb524837daa3cac25aa3bca580d4db94">code_800029B0.c</a>, <a class="el" href="code__800029B0_8h.html#abb524837daa3cac25aa3bca580d4db94">code_800029B0.h</a></li>
 <li>setup_game_memory()&#160;:&#160;<a class="el" href="main_8c.html#a8cd2befe9b7f9490d32bf787a7e8d44f">main.c</a>, <a class="el" href="main_8h.html#a8cd2befe9b7f9490d32bf787a7e8d44f">main.h</a></li>
 <li>setup_game_mode_selected()&#160;:&#160;<a class="el" href="menus_8c.html#ac6e39e50381ae8908aa5e7053c3d35a0">menus.c</a>, <a class="el" href="menus_8h.html#ac6e39e50381ae8908aa5e7053c3d35a0">menus.h</a></li>
@@ -682,6 +681,7 @@ $(function(){initNavTree('globals_s.html',''); initResizable(true); });
 <li>spawn_actor_at_pos()&#160;:&#160;<a class="el" href="actors_8c.html#a89e1bc069861528b3d9bac9571a83cd5">actors.c</a></li>
 <li>spawn_actor_on_surface()&#160;:&#160;<a class="el" href="collision_8c.html#ad95e9ed2051529d5edee26109fa07427">collision.c</a>, <a class="el" href="collision_8h.html#abea1129e3bf97441713011770b3fb20b">collision.h</a></li>
 <li>spawn_all_item_boxes()&#160;:&#160;<a class="el" href="actors_8c.html#ac586c2534258d0f108e15fd88751b760">actors.c</a></li>
+<li>spawn_and_set_player_spawns()&#160;:&#160;<a class="el" href="spawn__players_8c.html#ad000bb04e2068b4167b6b350a42a8242">spawn_players.c</a></li>
 <li>spawn_balloons()&#160;:&#160;<a class="el" href="podium__ceremony__actors_8c.html#a0eba64d54e879f56a0e8d00fab2cb246">podium_ceremony_actors.c</a></li>
 <li>spawn_course_actors()&#160;:&#160;<a class="el" href="actors_8c.html#a047d32425b6ea73e667cb31548bdc8dd">actors.c</a></li>
 <li>spawn_fake_item_box()&#160;:&#160;<a class="el" href="actors_8c.html#a4ea5c435e8d75c52a2551d3ff64fb212">actors.c</a></li>
@@ -692,6 +692,7 @@ $(function(){initNavTree('globals_s.html',''); initResizable(true); });
 <li>spawn_foliage()&#160;:&#160;<a class="el" href="actors_8c.html#aa6c218ad25d2200bdbf85cbbd197d1cd">actors.c</a></li>
 <li>spawn_item_box()&#160;:&#160;<a class="el" href="actors_8c.html#ab94b87f4f45d885770add5f4013a753a">actors.c</a></li>
 <li>spawn_leaf()&#160;:&#160;<a class="el" href="update__objects_8c.html#a5f919af8fe62091da3c2beb957939727">update_objects.c</a></li>
+<li>spawn_multiplayer_cameras()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a5848165a158a960455081c33be0ccc0e">spawn_players.c</a></li>
 <li>spawn_network_players()&#160;:&#160;<a class="el" href="networking_8h.html#a181b63ace27e36416b4b0bdc40fc5efc">networking.h</a>, <a class="el" href="start__game_8c.html#a588211157508d34f5093285a13f7d59b">start_game.c</a></li>
 <li>spawn_palm_trees()&#160;:&#160;<a class="el" href="actors_8c.html#a64785058c93cd477d4f1f3fd1eee38fe">actors.c</a></li>
 <li>spawn_piranha_plants()&#160;:&#160;<a class="el" href="actors_8c.html#af6d278bc785acfd772b70dd01b2a2dc0">actors.c</a></li>
@@ -699,11 +700,13 @@ $(function(){initNavTree('globals_s.html',''); initResizable(true); });
 <li>spawn_players_2p_battle()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a82ae339563b96176bf4effcf6773decc">spawn_players.c</a></li>
 <li>spawn_players_3p_battle()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a4ff7e74c8b78fbfb85016c017a54b9e2">spawn_players.c</a></li>
 <li>spawn_players_4p_battle()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a2ed99af251cbc3e3e98e81d23b7cbcea">spawn_players.c</a></li>
+<li>spawn_players_and_cameras()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a4fa09e56e3c1d3a56b49a9fe1b628f34">spawn_players.c</a></li>
 <li>spawn_players_gp_one_player()&#160;:&#160;<a class="el" href="spawn__players_8c.html#ad0d37d84b238902e497e9cf466c0530e">spawn_players.c</a></li>
 <li>spawn_players_gp_two_player()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a7898749fef0f0990a0380e0ee86c7990">spawn_players.c</a></li>
 <li>spawn_players_versus_one_player()&#160;:&#160;<a class="el" href="spawn__players_8c.html#ad1ed89d461ff185013222be6db0b7fee">spawn_players.c</a></li>
 <li>spawn_players_versus_two_player()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a7936732ad039ea27759ba4b9784460f6">spawn_players.c</a></li>
 <li>SPAWN_SECOND_SHELL&#160;:&#160;<a class="el" href="defines_8h.html#ab629e9e6fb6ab443caf4f9a723e8f367">defines.h</a></li>
+<li>spawn_single_player_camera()&#160;:&#160;<a class="el" href="spawn__players_8c.html#a5c59d656684a16a0b09b2b9b5a3b7b1b">spawn_players.c</a></li>
 <li>SPAWN_THIRD_SHELL&#160;:&#160;<a class="el" href="defines_8h.html#a385595a2d1be736f2e8212c4d76e27fe">defines.h</a></li>
 <li>spawn_timer()&#160;:&#160;<a class="el" href="podium__ceremony__actors_8c.html#a5e713904a3cb8975528052e4b25f04b1">podium_ceremony_actors.c</a></li>
 <li>spawn_train_smoke()&#160;:&#160;<a class="el" href="update__objects_8c.html#a70c9121ccaf0916741d06ba150911781">update_objects.c</a></li>
@@ -781,6 +784,7 @@ $(function(){initNavTree('globals_s.html',''); initResizable(true); });
 <li>sSoundRequests&#160;:&#160;<a class="el" href="external_8c.html#abd5d42641dc90909e0a8c3a04b252f16">external.c</a></li>
 <li>sSoundVblankHandler&#160;:&#160;<a class="el" href="main_8c.html#a6ec571b2432d648b9c5cf5372b69babe">main.c</a>, <a class="el" href="main_8h.html#a6ec571b2432d648b9c5cf5372b69babe">main.h</a></li>
 <li>sSquareWaves&#160;:&#160;<a class="el" href="src_2audio_2data_8c.html#a7d0170c0030ea6a069a2ac06d9571062">data.c</a>, <a class="el" href="data_8h.html#a7d0170c0030ea6a069a2ac06d9571062">data.h</a></li>
+<li>sStagingTimer&#160;:&#160;<a class="el" href="camera_8c.html#a8fb0e30c168662c4e3c28c0220bcbae3">camera.c</a></li>
 <li>STACKSIZE&#160;:&#160;<a class="el" href="mk64_8h.html#a21d9543c516fffee84a7963224271f95">mk64.h</a></li>
 <li>staff_ghost_track_ptr&#160;:&#160;<a class="el" href="replays_8c.html#ab4cf716561e9fb3c6e76256a1bc99f14">replays.c</a></li>
 <li>STAR_CUP&#160;:&#160;<a class="el" href="defines_8h.html#ae701751e4c86a447b2b7d96715151241a2b273443feed8d212377eafc452015b8">defines.h</a></li>

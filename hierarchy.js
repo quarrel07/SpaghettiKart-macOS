@@ -77,6 +77,7 @@ var hierarchy =
     [ "BombKart", "structBombKart.html", null ],
     [ "BombKartSpawn", "structBombKartSpawn.html", null ],
     [ "Camera", "structCamera.html", null ],
+    [ "TourCamera::CameraShot", "structTourCamera_1_1CameraShot.html", null ],
     [ "CeremonyActor", "structCeremonyActor.html", null ],
     [ "ChannelVolumeScaleFade", "structChannelVolumeScaleFade.html", null ],
     [ "AText::CharacterList", "structAText_1_1CharacterList.html", null ],
@@ -146,6 +147,11 @@ var hierarchy =
     [ "FVector", "structFVector.html", null ],
     [ "FVector2D", "structFVector2D.html", null ],
     [ "FVector4", "structFVector4.html", null ],
+    [ "GameCamera", "classGameCamera.html", [
+      [ "FreeCamera", "classFreeCamera.html", null ],
+      [ "LookBehindCamera", "classLookBehindCamera.html", null ],
+      [ "TourCamera", "classTourCamera.html", null ]
+    ] ],
     [ "GameExtractor", "classGameExtractor.html", null ],
     [ "GameModePack", "unionGameModePack.html", null ],
     [ "Editor::GameObject", "classEditor_1_1GameObject.html", [
@@ -182,6 +188,7 @@ var hierarchy =
     [ "IVector2D", "structIVector2D.html", null ],
     [ "SF64::JointKey", "structSF64_1_1JointKey.html", null ],
     [ "KartTyre", "structKartTyre.html", null ],
+    [ "TourCamera::KeyFrame", "structTourCamera_1_1KeyFrame.html", null ],
     [ "KiwanoFruit", "structKiwanoFruit.html", null ],
     [ "ldiv_t", "structldiv__t.html", null ],
     [ "SF64::LimbData", "structSF64_1_1LimbData.html", null ],

@@ -13,7 +13,6 @@ var render__courses_8h =
     [ "parse_course_displaylists", "render__courses_8h.html#a206a552c1a565c9737d6749aeee3e07b", null ],
     [ "render_course", "render__courses_8h.html#ad0dc01bf1b6cb1baadd3b2addd316a0e", null ],
     [ "render_course_segments", "render__courses_8h.html#a8ed34fb024a9836752efdd3c8379d013", null ],
-    [ "render_credits", "render__courses_8h.html#a3df49a74f80b5b9804f6ae282efb7b7d", null ],
     [ "D_800DC610", "render__courses_8h.html#a8005297cf5ecea6c6824222b894c8e8f", null ],
     [ "D_8015F59C", "render__courses_8h.html#a5dc8568a195491aeddd6112247e000b2", null ],
     [ "D_802B87B0", "render__courses_8h.html#aafc54e5deb71bbd709098623507f93a7", null ],

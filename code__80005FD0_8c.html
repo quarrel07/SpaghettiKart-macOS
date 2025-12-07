@@ -472,6 +472,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab87e9390ad2244500d6a53bc8e2a691d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac306b17b11732c3c7c9af2345a8ae11" id="r_aac306b17b11732c3c7c9af2345a8ae11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac306b17b11732c3c7c9af2345a8ae11">func_80019C50</a> (s32 arg0)</td></tr>
 <tr class="separator:aac306b17b11732c3c7c9af2345a8ae11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00cbdda8363b5f196d731fb39704e892" id="r_a00cbdda8363b5f196d731fb39704e892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00cbdda8363b5f196d731fb39704e892">look_behind_toggle</a> (s32 cameraIdx)</td></tr>
+<tr class="separator:a00cbdda8363b5f196d731fb39704e892"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4572ec39727066197b32405580133928" id="r_a4572ec39727066197b32405580133928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4572ec39727066197b32405580133928">func_80019D2C</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="structPlayer.html">Player</a> *player, s32 arg2)</td></tr>
 <tr class="separator:a4572ec39727066197b32405580133928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98681749e0e5afdeefcf4d2f57cc0a78" id="r_a98681749e0e5afdeefcf4d2f57cc0a78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98681749e0e5afdeefcf4d2f57cc0a78">func_80019DE4</a> (void)</td></tr>
@@ -801,36 +803,36 @@ Variables</h2></td></tr>
 <tr class="separator:a0b26bdf729078d93a000712adc0d1b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3021ab0fec30518c1a9bb511e9f91567" id="r_a3021ab0fec30518c1a9bb511e9f91567"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3021ab0fec30518c1a9bb511e9f91567">gPathCountByPathIndex</a> [4]</td></tr>
 <tr class="separator:a3021ab0fec30518c1a9bb511e9f91567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d104d12525edb42dbf7b8e0b85e2756" id="r_a6d104d12525edb42dbf7b8e0b85e2756"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d104d12525edb42dbf7b8e0b85e2756">D_801645D0</a> [4]</td></tr>
-<tr class="separator:a6d104d12525edb42dbf7b8e0b85e2756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e6c3b3440bb28a6299dce6b382e206d" id="r_a2e6c3b3440bb28a6299dce6b382e206d"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e6c3b3440bb28a6299dce6b382e206d">D_801645D0</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a2e6c3b3440bb28a6299dce6b382e206d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd58a8d541eeae499e71f2cdb0acc3f" id="r_a7bd58a8d541eeae499e71f2cdb0acc3f"><td class="memItemLeft" align="right" valign="top">s16 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd58a8d541eeae499e71f2cdb0acc3f">gCurrentTrackConsecutiveCurveCountsPath</a></td></tr>
 <tr class="separator:a7bd58a8d541eeae499e71f2cdb0acc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d637e70193a3f436cf9807bfd616d47" id="r_a3d637e70193a3f436cf9807bfd616d47"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d637e70193a3f436cf9807bfd616d47">D_801645E8</a> [4]</td></tr>
-<tr class="separator:a3d637e70193a3f436cf9807bfd616d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aed09502c4ebe7d1233701a651945c2" id="r_a2aed09502c4ebe7d1233701a651945c2"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aed09502c4ebe7d1233701a651945c2">D_801645F8</a> [4]</td></tr>
-<tr class="separator:a2aed09502c4ebe7d1233701a651945c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dc98fb7ac6f1395ff2e423987976509" id="r_a2dc98fb7ac6f1395ff2e423987976509"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dc98fb7ac6f1395ff2e423987976509">D_80164608</a> [4]</td></tr>
-<tr class="separator:a2dc98fb7ac6f1395ff2e423987976509"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc8666c16b29aeb966cf8f6c93107f03" id="r_abc8666c16b29aeb966cf8f6c93107f03"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc8666c16b29aeb966cf8f6c93107f03">D_80164618</a> [4]</td></tr>
-<tr class="separator:abc8666c16b29aeb966cf8f6c93107f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f4bc93f3beed19a3a2b9d373a515510" id="r_a6f4bc93f3beed19a3a2b9d373a515510"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f4bc93f3beed19a3a2b9d373a515510">D_80164628</a> [4]</td></tr>
-<tr class="separator:a6f4bc93f3beed19a3a2b9d373a515510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82212a425d4de8928ec98f57b86a439e" id="r_a82212a425d4de8928ec98f57b86a439e"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82212a425d4de8928ec98f57b86a439e">D_80164638</a> [4]</td></tr>
-<tr class="separator:a82212a425d4de8928ec98f57b86a439e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec97482a550ff29e5b1dbd6122ab1944" id="r_aec97482a550ff29e5b1dbd6122ab1944"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec97482a550ff29e5b1dbd6122ab1944">D_80164648</a> [4]</td></tr>
-<tr class="separator:aec97482a550ff29e5b1dbd6122ab1944"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21fd577212d6f36c8d5b43ecef9dc982" id="r_a21fd577212d6f36c8d5b43ecef9dc982"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21fd577212d6f36c8d5b43ecef9dc982">D_80164658</a> [4]</td></tr>
-<tr class="separator:a21fd577212d6f36c8d5b43ecef9dc982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec570a1c48ecc572b4b8a101c80a637" id="r_a6ec570a1c48ecc572b4b8a101c80a637"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ec570a1c48ecc572b4b8a101c80a637">gNearestPathPointByCameraId</a> [4]</td></tr>
-<tr class="separator:a6ec570a1c48ecc572b4b8a101c80a637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a851ea2a3276d4cf3d4d6e6b8e29853cd" id="r_a851ea2a3276d4cf3d4d6e6b8e29853cd"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851ea2a3276d4cf3d4d6e6b8e29853cd">D_80164670</a> [4]</td></tr>
-<tr class="separator:a851ea2a3276d4cf3d4d6e6b8e29853cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c18cfb88c289ebb22084832eb559b39" id="r_a1c18cfb88c289ebb22084832eb559b39"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c18cfb88c289ebb22084832eb559b39">D_80164678</a> [4]</td></tr>
-<tr class="separator:a1c18cfb88c289ebb22084832eb559b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a477d28be00e27098a43143e12f6fab43" id="r_a477d28be00e27098a43143e12f6fab43"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477d28be00e27098a43143e12f6fab43">D_80164680</a> [4]</td></tr>
-<tr class="separator:a477d28be00e27098a43143e12f6fab43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb4dc799a4a23e76858f38d02f8018b" id="r_a6cb4dc799a4a23e76858f38d02f8018b"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cb4dc799a4a23e76858f38d02f8018b">D_80164688</a> [4]</td></tr>
-<tr class="separator:a6cb4dc799a4a23e76858f38d02f8018b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772d3ac29d37e2485838741f13648fda" id="r_a772d3ac29d37e2485838741f13648fda"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772d3ac29d37e2485838741f13648fda">D_801645E8</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a772d3ac29d37e2485838741f13648fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aac48c70ad5cb9d0e49245f6b3cc02f" id="r_a7aac48c70ad5cb9d0e49245f6b3cc02f"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aac48c70ad5cb9d0e49245f6b3cc02f">D_801645F8</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a7aac48c70ad5cb9d0e49245f6b3cc02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ef5084628b984d3cfbc15d328d03128" id="r_a0ef5084628b984d3cfbc15d328d03128"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ef5084628b984d3cfbc15d328d03128">D_80164608</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a0ef5084628b984d3cfbc15d328d03128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce96924c15298219bdf3867f004e2da" id="r_abce96924c15298219bdf3867f004e2da"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce96924c15298219bdf3867f004e2da">D_80164618</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:abce96924c15298219bdf3867f004e2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea8bb64f63b1fedf7db4ac6fe66a6aec" id="r_aea8bb64f63b1fedf7db4ac6fe66a6aec"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea8bb64f63b1fedf7db4ac6fe66a6aec">D_80164628</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:aea8bb64f63b1fedf7db4ac6fe66a6aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab551de77bf0b3dc4530d816f450f4c" id="r_a3ab551de77bf0b3dc4530d816f450f4c"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab551de77bf0b3dc4530d816f450f4c">D_80164638</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a3ab551de77bf0b3dc4530d816f450f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57eac1f9ee5e5dbb1c3ca156fd188d2" id="r_ac57eac1f9ee5e5dbb1c3ca156fd188d2"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57eac1f9ee5e5dbb1c3ca156fd188d2">D_80164648</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:ac57eac1f9ee5e5dbb1c3ca156fd188d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94075eb00953c02525ef93690486714" id="r_ad94075eb00953c02525ef93690486714"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad94075eb00953c02525ef93690486714">D_80164658</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:ad94075eb00953c02525ef93690486714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebafb5cf2bb815f2de8aa6762f756e3" id="r_aaebafb5cf2bb815f2de8aa6762f756e3"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaebafb5cf2bb815f2de8aa6762f756e3">gNearestPathPointByCameraId</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:aaebafb5cf2bb815f2de8aa6762f756e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e2360cb1aeb6df5fe526b0257ac601" id="r_a80e2360cb1aeb6df5fe526b0257ac601"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80e2360cb1aeb6df5fe526b0257ac601">D_80164670</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a80e2360cb1aeb6df5fe526b0257ac601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56885f6b287e6e2cf37e8eb73afb8d57" id="r_a56885f6b287e6e2cf37e8eb73afb8d57"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56885f6b287e6e2cf37e8eb73afb8d57">D_80164678</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a56885f6b287e6e2cf37e8eb73afb8d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acade2eb67a168981e2bef176888998c4" id="r_acade2eb67a168981e2bef176888998c4"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acade2eb67a168981e2bef176888998c4">D_80164680</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:acade2eb67a168981e2bef176888998c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8bd224ce44066621dd2736e2ea7977b" id="r_ab8bd224ce44066621dd2736e2ea7977b"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8bd224ce44066621dd2736e2ea7977b">D_80164688</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:ab8bd224ce44066621dd2736e2ea7977b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8be12cbe716980866d25c9d3be24150" id="r_ad8be12cbe716980866d25c9d3be24150"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8be12cbe716980866d25c9d3be24150">D_80164698</a></td></tr>
 <tr class="separator:ad8be12cbe716980866d25c9d3be24150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89a1e90f80b7ab69748eefcc5d69eb18" id="r_a89a1e90f80b7ab69748eefcc5d69eb18"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a1e90f80b7ab69748eefcc5d69eb18">D_8016469C</a></td></tr>
@@ -851,14 +853,14 @@ Variables</h2></td></tr>
 <tr class="separator:a92ee643495a2726536722478f2de0e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96949a87720cefc60250aaf2c276b051" id="r_a96949a87720cefc60250aaf2c276b051"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96949a87720cefc60250aaf2c276b051">D_801646BC</a></td></tr>
 <tr class="separator:a96949a87720cefc60250aaf2c276b051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdf849098b47f0475dec97fc73dbb06c" id="r_acdf849098b47f0475dec97fc73dbb06c"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdf849098b47f0475dec97fc73dbb06c">D_801646C0</a> [4]</td></tr>
-<tr class="separator:acdf849098b47f0475dec97fc73dbb06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524d7af345673975c109e3e56a406857" id="r_a524d7af345673975c109e3e56a406857"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a524d7af345673975c109e3e56a406857">D_801646C0</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a524d7af345673975c109e3e56a406857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6ba4dc87cb97bd603016c4a11610133" id="r_ac6ba4dc87cb97bd603016c4a11610133"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6ba4dc87cb97bd603016c4a11610133">D_801646C8</a></td></tr>
 <tr class="separator:ac6ba4dc87cb97bd603016c4a11610133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5d1884761a525dc79fcdf9c204819b3" id="r_ae5d1884761a525dc79fcdf9c204819b3"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5d1884761a525dc79fcdf9c204819b3">D_801646CC</a></td></tr>
 <tr class="separator:ae5d1884761a525dc79fcdf9c204819b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae313553cfd7e4e52560aab2ae585bcd0" id="r_ae313553cfd7e4e52560aab2ae585bcd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUnkStruct__46D0.html">UnkStruct_46D0</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae313553cfd7e4e52560aab2ae585bcd0">D_801646D0</a> [4]</td></tr>
-<tr class="separator:ae313553cfd7e4e52560aab2ae585bcd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719c0fc82f219deaf8515ba4abda9751" id="r_a719c0fc82f219deaf8515ba4abda9751"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUnkStruct__46D0.html">UnkStruct_46D0</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a719c0fc82f219deaf8515ba4abda9751">D_801646D0</a> [<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td></tr>
+<tr class="separator:a719c0fc82f219deaf8515ba4abda9751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4dbdf8d32ac8e5e59228c010046fd3" id="r_a6a4dbdf8d32ac8e5e59228c010046fd3"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a4dbdf8d32ac8e5e59228c010046fd3">D_800EB710</a> = &quot;ゴール直後の強制ソート\n&quot;</td></tr>
 <tr class="separator:a6a4dbdf8d32ac8e5e59228c010046fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49c96c1d0e67cdd49129fb24f7f2bca2" id="r_a49c96c1d0e67cdd49129fb24f7f2bca2"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49c96c1d0e67cdd49129fb24f7f2bca2">D_800EB728</a> = &quot;2PGPで片方がゴール直後の強制ソート\n&quot;</td></tr>
@@ -4286,7 +4288,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="code__80005FD0_8c_a8c82c41e97c070bce2807758473cc361_cgraph.svg" width="619" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="code__80005FD0_8c_a8c82c41e97c070bce2807758473cc361_cgraph.svg" width="646" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -4332,7 +4334,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="code__80005FD0_8c_ae3a97717dacd39073f64d574a709501d_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="code__80005FD0_8c_ae3a97717dacd39073f64d574a709501d_cgraph.svg" width="100%" height="555"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -5569,6 +5571,28 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="code__80005FD0_8c_ae18f6f7140f2ee549963a3bc404b159e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a00cbdda8363b5f196d731fb39704e892" name="a00cbdda8363b5f196d731fb39704e892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00cbdda8363b5f196d731fb39704e892">&#9670;&#160;</a></span>look_behind_toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void look_behind_toggle </td>
+          <td>(</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>cameraIdx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="code__80005FD0_8c_a00cbdda8363b5f196d731fb39704e892_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -10424,182 +10448,182 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6d104d12525edb42dbf7b8e0b85e2756" name="a6d104d12525edb42dbf7b8e0b85e2756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d104d12525edb42dbf7b8e0b85e2756">&#9670;&#160;</a></span>D_801645D0</h2>
+<a id="a2e6c3b3440bb28a6299dce6b382e206d" name="a2e6c3b3440bb28a6299dce6b382e206d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e6c3b3440bb28a6299dce6b382e206d">&#9670;&#160;</a></span>D_801645D0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 D_801645D0[4]</td>
+          <td class="memname">s32 D_801645D0[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3d637e70193a3f436cf9807bfd616d47" name="a3d637e70193a3f436cf9807bfd616d47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d637e70193a3f436cf9807bfd616d47">&#9670;&#160;</a></span>D_801645E8</h2>
+<a id="a772d3ac29d37e2485838741f13648fda" name="a772d3ac29d37e2485838741f13648fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772d3ac29d37e2485838741f13648fda">&#9670;&#160;</a></span>D_801645E8</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 D_801645E8[4]</td>
+          <td class="memname">s32 D_801645E8[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2aed09502c4ebe7d1233701a651945c2" name="a2aed09502c4ebe7d1233701a651945c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aed09502c4ebe7d1233701a651945c2">&#9670;&#160;</a></span>D_801645F8</h2>
+<a id="a7aac48c70ad5cb9d0e49245f6b3cc02f" name="a7aac48c70ad5cb9d0e49245f6b3cc02f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aac48c70ad5cb9d0e49245f6b3cc02f">&#9670;&#160;</a></span>D_801645F8</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_801645F8[4]</td>
+          <td class="memname">f32 D_801645F8[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2dc98fb7ac6f1395ff2e423987976509" name="a2dc98fb7ac6f1395ff2e423987976509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dc98fb7ac6f1395ff2e423987976509">&#9670;&#160;</a></span>D_80164608</h2>
+<a id="a0ef5084628b984d3cfbc15d328d03128" name="a0ef5084628b984d3cfbc15d328d03128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef5084628b984d3cfbc15d328d03128">&#9670;&#160;</a></span>D_80164608</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 D_80164608[4]</td>
+          <td class="memname">s32 D_80164608[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abc8666c16b29aeb966cf8f6c93107f03" name="abc8666c16b29aeb966cf8f6c93107f03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc8666c16b29aeb966cf8f6c93107f03">&#9670;&#160;</a></span>D_80164618</h2>
+<a id="abce96924c15298219bdf3867f004e2da" name="abce96924c15298219bdf3867f004e2da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce96924c15298219bdf3867f004e2da">&#9670;&#160;</a></span>D_80164618</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_80164618[4]</td>
+          <td class="memname">f32 D_80164618[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6f4bc93f3beed19a3a2b9d373a515510" name="a6f4bc93f3beed19a3a2b9d373a515510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f4bc93f3beed19a3a2b9d373a515510">&#9670;&#160;</a></span>D_80164628</h2>
+<a id="aea8bb64f63b1fedf7db4ac6fe66a6aec" name="aea8bb64f63b1fedf7db4ac6fe66a6aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea8bb64f63b1fedf7db4ac6fe66a6aec">&#9670;&#160;</a></span>D_80164628</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 D_80164628[4]</td>
+          <td class="memname">s32 D_80164628[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a82212a425d4de8928ec98f57b86a439e" name="a82212a425d4de8928ec98f57b86a439e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82212a425d4de8928ec98f57b86a439e">&#9670;&#160;</a></span>D_80164638</h2>
+<a id="a3ab551de77bf0b3dc4530d816f450f4c" name="a3ab551de77bf0b3dc4530d816f450f4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab551de77bf0b3dc4530d816f450f4c">&#9670;&#160;</a></span>D_80164638</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_80164638[4]</td>
+          <td class="memname">f32 D_80164638[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aec97482a550ff29e5b1dbd6122ab1944" name="aec97482a550ff29e5b1dbd6122ab1944"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec97482a550ff29e5b1dbd6122ab1944">&#9670;&#160;</a></span>D_80164648</h2>
+<a id="ac57eac1f9ee5e5dbb1c3ca156fd188d2" name="ac57eac1f9ee5e5dbb1c3ca156fd188d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57eac1f9ee5e5dbb1c3ca156fd188d2">&#9670;&#160;</a></span>D_80164648</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_80164648[4]</td>
+          <td class="memname">f32 D_80164648[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a21fd577212d6f36c8d5b43ecef9dc982" name="a21fd577212d6f36c8d5b43ecef9dc982"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21fd577212d6f36c8d5b43ecef9dc982">&#9670;&#160;</a></span>D_80164658</h2>
+<a id="ad94075eb00953c02525ef93690486714" name="ad94075eb00953c02525ef93690486714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94075eb00953c02525ef93690486714">&#9670;&#160;</a></span>D_80164658</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_80164658[4]</td>
+          <td class="memname">f32 D_80164658[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a851ea2a3276d4cf3d4d6e6b8e29853cd" name="a851ea2a3276d4cf3d4d6e6b8e29853cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a851ea2a3276d4cf3d4d6e6b8e29853cd">&#9670;&#160;</a></span>D_80164670</h2>
+<a id="a80e2360cb1aeb6df5fe526b0257ac601" name="a80e2360cb1aeb6df5fe526b0257ac601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e2360cb1aeb6df5fe526b0257ac601">&#9670;&#160;</a></span>D_80164670</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80164670[4]</td>
+          <td class="memname">s16 D_80164670[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1c18cfb88c289ebb22084832eb559b39" name="a1c18cfb88c289ebb22084832eb559b39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c18cfb88c289ebb22084832eb559b39">&#9670;&#160;</a></span>D_80164678</h2>
+<a id="a56885f6b287e6e2cf37e8eb73afb8d57" name="a56885f6b287e6e2cf37e8eb73afb8d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56885f6b287e6e2cf37e8eb73afb8d57">&#9670;&#160;</a></span>D_80164678</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80164678[4]</td>
+          <td class="memname">s16 D_80164678[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a477d28be00e27098a43143e12f6fab43" name="a477d28be00e27098a43143e12f6fab43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a477d28be00e27098a43143e12f6fab43">&#9670;&#160;</a></span>D_80164680</h2>
+<a id="acade2eb67a168981e2bef176888998c4" name="acade2eb67a168981e2bef176888998c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acade2eb67a168981e2bef176888998c4">&#9670;&#160;</a></span>D_80164680</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80164680[4]</td>
+          <td class="memname">s16 D_80164680[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6cb4dc799a4a23e76858f38d02f8018b" name="a6cb4dc799a4a23e76858f38d02f8018b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cb4dc799a4a23e76858f38d02f8018b">&#9670;&#160;</a></span>D_80164688</h2>
+<a id="ab8bd224ce44066621dd2736e2ea7977b" name="ab8bd224ce44066621dd2736e2ea7977b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8bd224ce44066621dd2736e2ea7977b">&#9670;&#160;</a></span>D_80164688</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_80164688[4]</td>
+          <td class="memname">f32 D_80164688[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -10746,14 +10770,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="acdf849098b47f0475dec97fc73dbb06c" name="acdf849098b47f0475dec97fc73dbb06c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdf849098b47f0475dec97fc73dbb06c">&#9670;&#160;</a></span>D_801646C0</h2>
+<a id="a524d7af345673975c109e3e56a406857" name="a524d7af345673975c109e3e56a406857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a524d7af345673975c109e3e56a406857">&#9670;&#160;</a></span>D_801646C0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_801646C0[4]</td>
+          <td class="memname">s16 D_801646C0[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -10788,14 +10812,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae313553cfd7e4e52560aab2ae585bcd0" name="ae313553cfd7e4e52560aab2ae585bcd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae313553cfd7e4e52560aab2ae585bcd0">&#9670;&#160;</a></span>D_801646D0</h2>
+<a id="a719c0fc82f219deaf8515ba4abda9751" name="a719c0fc82f219deaf8515ba4abda9751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719c0fc82f219deaf8515ba4abda9751">&#9670;&#160;</a></span>D_801646D0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structUnkStruct__46D0.html">UnkStruct_46D0</a> D_801646D0[4]</td>
+          <td class="memname"><a class="el" href="structUnkStruct__46D0.html">UnkStruct_46D0</a> D_801646D0[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -11222,14 +11246,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6ec570a1c48ecc572b4b8a101c80a637" name="a6ec570a1c48ecc572b4b8a101c80a637"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ec570a1c48ecc572b4b8a101c80a637">&#9670;&#160;</a></span>gNearestPathPointByCameraId</h2>
+<a id="aaebafb5cf2bb815f2de8aa6762f756e3" name="aaebafb5cf2bb815f2de8aa6762f756e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaebafb5cf2bb815f2de8aa6762f756e3">&#9670;&#160;</a></span>gNearestPathPointByCameraId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 gNearestPathPointByCameraId[4]</td>
+          <td class="memname">s16 gNearestPathPointByCameraId[<a class="el" href="camera_8h.html#a676fd455b512d2b69f626ea4bd738bce">NUM_CAMERAS</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -6,7 +6,7 @@ var classStaticMeshActor =
     [ "from_json", "classStaticMeshActor.html#afa7e3fe74d7df27302dc1f448ebfdb65", null ],
     [ "to_json", "classStaticMeshActor.html#a953bfda47730472b37648d0ede221ad3", null ],
     [ "bPendingDestroy", "classStaticMeshActor.html#a2a360299d1e2518432f3ccce9ec0f043", null ],
-    [ "Collision", "classStaticMeshActor.html#a00dd51a575da106bc7a5dc2a5cd05a7d", null ],
+    [ "CollisionMesh", "classStaticMeshActor.html#a8bf87a9f47a3b0b7abb6b1cddb136463", null ],
     [ "Model", "classStaticMeshActor.html#a87071cd190c13973d4fcfb40462f5f74", null ],
     [ "Name", "classStaticMeshActor.html#adcb4c01704ca7bc006f3b1618bd6ac2d", null ],
     [ "Pos", "classStaticMeshActor.html#a10ca4ba669f6638e811a87b44996a27c", null ],

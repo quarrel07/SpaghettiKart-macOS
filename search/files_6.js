@@ -20,6 +20,8 @@ var searchData=
   ['freecam_2eh_17',['freecam.h',['../freecam_8h.html',1,'']]],
   ['freecam_5fengine_2ec_18',['freecam_engine.c',['../freecam__engine_8c.html',1,'']]],
   ['freecam_5fengine_2eh_19',['freecam_engine.h',['../freecam__engine_8h.html',1,'']]],
-  ['freecamwindow_2ecpp_20',['FreecamWindow.cpp',['../FreecamWindow_8cpp.html',1,'']]],
-  ['freecamwindow_2eh_21',['FreecamWindow.h',['../FreecamWindow_8h.html',1,'']]]
+  ['freecamera_2ecpp_20',['FreeCamera.cpp',['../FreeCamera_8cpp.html',1,'']]],
+  ['freecamera_2eh_21',['FreeCamera.h',['../FreeCamera_8h.html',1,'']]],
+  ['freecamwindow_2ecpp_22',['FreecamWindow.cpp',['../FreecamWindow_8cpp.html',1,'']]],
+  ['freecamwindow_2eh_23',['FreecamWindow.h',['../FreecamWindow_8h.html',1,'']]]
 ];

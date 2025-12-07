@@ -1,6 +1,7 @@
 var dir_2052808828190f934b76e979ee65af8a =
 [
     [ "actors", "dir_1ee540f77cb35e295a0ce7e67d25f9b4.html", "dir_1ee540f77cb35e295a0ce7e67d25f9b4" ],
+    [ "cameras", "dir_dcb1c6efe783e065ed54963fd19735bb.html", "dir_dcb1c6efe783e065ed54963fd19735bb" ],
     [ "courses", "dir_361caa2d8f272974fdb8d014c7b22bcf.html", "dir_361caa2d8f272974fdb8d014c7b22bcf" ],
     [ "editor", "dir_f4f7efabaac21873a58d10d576a92da6.html", "dir_f4f7efabaac21873a58d10d576a92da6" ],
     [ "items", "dir_4716416bf40eb61b8c5d94822e695e00.html", "dir_4716416bf40eb61b8c5d94822e695e00" ],
