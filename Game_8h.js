@@ -35,7 +35,6 @@ var Game_8h =
     [ "CM_GetWaterLevel", "Game_8h.html#a7ff5610a2d67bb8a510d93cf238e6ffb", null ],
     [ "CM_InitClouds", "Game_8h.html#a011d7e2f1ff6949f70023c2f53091010", null ],
     [ "CM_InitCourseObjects", "Game_8h.html#a7a934ac28ad6603a5e86c21fea7854be", null ],
-    [ "CM_LoadTextures", "Game_8h.html#aed1eabdc18e483fc04bd8f3c1b02968d", null ],
     [ "CM_RenderCourse", "Game_8h.html#a5561bece09efdb0ae9cf947b27a8ef47", null ],
     [ "CM_RenderCourseObjects", "Game_8h.html#a9c298b74644bca038fc690c69c171811", null ],
     [ "CM_RenderCredits", "Game_8h.html#a57969eb4e43103db9218562c02a5c9a1", null ],
@@ -127,6 +126,7 @@ var Game_8h =
     [ "SetCourseFromCup", "Game_8h.html#a3bd5b6d5945f1342484ffda8e361d0d1", null ],
     [ "SetCupCursorPosition", "Game_8h.html#ae22f9eac795eb716b246a295a38e5343", null ],
     [ "SetMarioRaceway", "Game_8h.html#aeea6e29785f2f2cdd48874c08e5c02a1", null ],
+    [ "UnLoadCourse", "Game_8h.html#a70dfa94e07750a1aa0749a37ecd916fd", null ],
     [ "WorldNextCup", "Game_8h.html#abdb3ad7cafa1977c6b7da7dbed8a7df6", null ],
     [ "WorldPreviousCup", "Game_8h.html#aa8c27c9a84fd3362f3cdce18720d5a4e", null ],
     [ "gTrophyIndex", "Game_8h.html#a64d8699124ee0fb6d04c76e786ef28ef", null ]

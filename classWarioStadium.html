@@ -132,8 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad6234cf0916746358edc95f515aebb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5da559e4bfb670bc4e68b49fca0f3507" id="r_a5da559e4bfb670bc4e68b49fca0f3507"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da559e4bfb670bc4e68b49fca0f3507">Load</a> () override</td></tr>
 <tr class="separator:a5da559e4bfb670bc4e68b49fca0f3507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adebca5edf851355f63e052cdf0d8829b" id="r_adebca5edf851355f63e052cdf0d8829b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adebca5edf851355f63e052cdf0d8829b">LoadTextures</a> () override</td></tr>
-<tr class="separator:adebca5edf851355f63e052cdf0d8829b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc105c019a0c2ddedef45a039123e36" id="r_aefc105c019a0c2ddedef45a039123e36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc105c019a0c2ddedef45a039123e36">UnLoad</a> () override</td></tr>
+<tr class="separator:aefc105c019a0c2ddedef45a039123e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4378b74fb0c8f22034f5235ff051e53d" id="r_a4378b74fb0c8f22034f5235ff051e53d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4378b74fb0c8f22034f5235ff051e53d">BeginPlay</a> () override</td></tr>
 <tr class="separator:a4378b74fb0c8f22034f5235ff051e53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af002126ac7006c5469ab04c0793627f4" id="r_af002126ac7006c5469ab04c0793627f4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af002126ac7006c5469ab04c0793627f4">InitClouds</a> () override</td></tr>
@@ -163,8 +163,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a4c902ae599ce52586e9484b0c7d02bf9" id="r_a4c902ae599ce52586e9484b0c7d02bf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c902ae599ce52586e9484b0c7d02bf9">Jumbotron</a> ()</td></tr>
-<tr class="separator:a4c902ae599ce52586e9484b0c7d02bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5985791e8b3a144c1ac0dce8494ca16d" id="r_a5985791e8b3a144c1ac0dce8494ca16d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5985791e8b3a144c1ac0dce8494ca16d">CopyJumbotron</a> (s32 ulx, s32 uly, s16 portionToDraw, u16 *source)</td></tr>
+<tr class="separator:a5985791e8b3a144c1ac0dce8494ca16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8308ab45118e2b3c0fc56046b2b097f3" name="a8308ab45118e2b3c0fc56046b2b097f3"></a>
@@ -217,7 +217,7 @@ Private Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_ad6234cf0916746358edc95f515aebb71_cgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWarioStadium_ad6234cf0916746358edc95f515aebb71_cgraph.svg" width="394" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -249,6 +249,55 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a4378b74fb0c8f22034f5235ff051e53d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5985791e8b3a144c1ac0dce8494ca16d" name="a5985791e8b3a144c1ac0dce8494ca16d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5985791e8b3a144c1ac0dce8494ca16d">&#9670;&#160;</a></span>CopyJumbotron()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WarioStadium::CopyJumbotron </td>
+          <td>(</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>ulx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>uly</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>portionToDraw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u16 *</td>          <td class="paramname"><span class="paramname"><em>source</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a5985791e8b3a144c1ac0dce8494ca16d_cgraph.svg" width="418" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a5985791e8b3a144c1ac0dce8494ca16d_icgraph.svg" width="447" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -347,7 +396,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a29933178319892da3bce8cd1b193f826_cgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a29933178319892da3bce8cd1b193f826_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -407,41 +456,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a4c902ae599ce52586e9484b0c7d02bf9" name="a4c902ae599ce52586e9484b0c7d02bf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c902ae599ce52586e9484b0c7d02bf9">&#9670;&#160;</a></span>Jumbotron()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void WarioStadium::Jumbotron </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a4c902ae599ce52586e9484b0c7d02bf9_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a4c902ae599ce52586e9484b0c7d02bf9_icgraph.svg" width="414" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="a5da559e4bfb670bc4e68b49fca0f3507" name="a5da559e4bfb670bc4e68b49fca0f3507"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5da559e4bfb670bc4e68b49fca0f3507">&#9670;&#160;</a></span>Load()</h2>
 
@@ -467,33 +481,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a5da559e4bfb670bc4e68b49fca0f3507_cgraph.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a5da559e4bfb670bc4e68b49fca0f3507_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-
-</div>
-</div>
-<a id="adebca5edf851355f63e052cdf0d8829b" name="adebca5edf851355f63e052cdf0d8829b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adebca5edf851355f63e052cdf0d8829b">&#9670;&#160;</a></span>LoadTextures()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void WarioStadium::LoadTextures </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -523,7 +512,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a7b544197ce58d2c2ddca33649b687457_cgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a7b544197ce58d2c2ddca33649b687457_cgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -648,6 +637,36 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classWarioStadium_a9e5056d92880b45ecdc154da2efe2364_cgraph.svg" width="559" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aefc105c019a0c2ddedef45a039123e36" name="aefc105c019a0c2ddedef45a039123e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc105c019a0c2ddedef45a039123e36">&#9670;&#160;</a></span>UnLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WarioStadium::UnLoad </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWarioStadium_aefc105c019a0c2ddedef45a039123e36_cgraph.svg" width="614" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -5,6 +5,7 @@ var code__800029B0_8h =
     [ "credits_spawn_actors", "code__800029B0_8h.html#ac1299bd5ed61e2135db0c04683089c63", null ],
     [ "func_800029B0", "code__800029B0_8h.html#a7f2e9212dffa5894377677511e9aea7a", null ],
     [ "func_80002DAC", "code__800029B0_8h.html#aa64b1458166c92a3575d8edd5948a628", null ],
+    [ "set_mirror_mode", "code__800029B0_8h.html#a400480f631a30b3b2e03db7e291f73d1", null ],
     [ "setup_editor", "code__800029B0_8h.html#abb524837daa3cac25aa3bca580d4db94", null ],
     [ "setup_race", "code__800029B0_8h.html#aca6165112fc92e65ad6477e785a7098c", null ],
     [ "D_800DC5A8", "code__800029B0_8h.html#a9e4e9cb5139089fd7b12f4e6210e986d", null ],

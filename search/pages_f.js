@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['terminology_0',['Terminology',['../terminology.html',1,'basics']]],
-  ['texture_20pack_1',['Texture Pack',['../md_docs_2textures-pack.html',1,'']]],
-  ['the_20basics_2',['Understanding the Basics',['../basics.html',1,'']]],
-  ['todo_20list_3',['Todo List',['../todo.html',1,'']]],
-  ['tracks_4',['Tracks',['../md_docs_2custom-track.html',1,'Custom Tracks'],['../md_docs_2track__returns.html',1,'Returning Tracks']]],
-  ['tutorials_5',['Tutorials',['../tutorials.html',1,'']]],
-  ['types_6',['Surface Types',['../surfacetypes.html',1,'coursesmenu']]]
+  ['sequence_20information_20music_0',['Sequence Information (Music)',['../md_docs_2sequences-information.html',1,'']]],
+  ['spagettikart_1',['Building SpagettiKart',['../md_docs_2BUILDING.html',1,'']]],
+  ['structure_2',['mods.toml File Structure',['../md_docs_2mods-toml.html',1,'']]],
+  ['surface_20types_3',['Surface Types',['../surfacetypes.html',1,'coursesmenu']]]
 ];

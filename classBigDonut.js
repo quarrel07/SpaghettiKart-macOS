@@ -7,5 +7,6 @@ var classBigDonut =
     [ "Load", "classBigDonut.html#a5ba5b86385942cb20261fdfa000742bd", null ],
     [ "Render", "classBigDonut.html#a7896213233573878a6f13f072cf8109a", null ],
     [ "RenderCredits", "classBigDonut.html#a9043a829c55fc91a9ce897571796387c", null ],
+    [ "UnLoad", "classBigDonut.html#a27399345f5d20c3f84089dd55f83afb2", null ],
     [ "Waypoints", "classBigDonut.html#a13feb05a7656981a30ffa8e7453b282f", null ]
 ];

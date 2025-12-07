@@ -10,5 +10,6 @@ var classSherbetLand =
     [ "Render", "classSherbetLand.html#a4f766f0dc275fccf76cdbb0f71493c36", null ],
     [ "RenderCourseObjects", "classSherbetLand.html#a95365903cd01e14e556d17ea58e69a38", null ],
     [ "RenderCredits", "classSherbetLand.html#af2c7cef4d28e490bbb97b44b4d4b2f29", null ],
+    [ "UnLoad", "classSherbetLand.html#ae7b9de2521f859e9e9a9467597eff5fe", null ],
     [ "UpdateCourseObjects", "classSherbetLand.html#a5b67b9d50639c7a603aff4075d244829", null ]
 ];

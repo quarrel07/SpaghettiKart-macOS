@@ -15,7 +15,7 @@ var searchData=
   ['thwomp_2ecpp_12',['Thwomp.cpp',['../Thwomp_8cpp.html',1,'']]],
   ['thwomp_2eh_13',['Thwomp.h',['../Thwomp_8h.html',1,'']]],
   ['toad_5fkart_2eh_14',['toad_kart.h',['../toad__kart_8h.html',1,'']]],
-  ['toads_5fturnpike_5fdata_2eh_15',['toads_turnpike_data.h',['../toads__turnpike__data_8h.html',1,'']]],
+  ['toads_5fturnpike_5fdata_2eh_15',['toads_turnpike_data.h',['../models_2tracks_2toads__turnpike_2toads__turnpike__data_8h.html',1,'(Global Namespace)'],['../other_2tracks_2toads__turnpike_2toads__turnpike__data_8h.html',1,'(Global Namespace)'],['../textures_2tracks_2toads__turnpike_2toads__turnpike__data_8h.html',1,'(Global Namespace)']]],
   ['toads_5fturnpike_5fdisplaylists_2eh_16',['toads_turnpike_displaylists.h',['../toads__turnpike__displaylists_8h.html',1,'']]],
   ['toads_5fturnpike_5foffsets_2eh_17',['toads_turnpike_offsets.h',['../toads__turnpike__offsets_8h.html',1,'']]],
   ['toads_5fturnpike_5fvertices_2eh_18',['toads_turnpike_vertices.h',['../toads__turnpike__vertices_8h.html',1,'']]],

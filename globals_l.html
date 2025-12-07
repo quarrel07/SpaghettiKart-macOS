@@ -200,6 +200,7 @@ $(function(){initNavTree('globals_l.html',''); initResizable(true); });
 <li>LEVEL_SCRIPT_EXECUTE&#160;:&#160;<a class="el" href="profiler_8h.html#a464075ec8b898dea3a20b3166dd123bfad62e996da0bc1a6da626a04881c9cb3f">profiler.h</a></li>
 <li>LIGHTNING_EFFECT&#160;:&#160;<a class="el" href="defines_8h.html#a8dbdabe3aa4cd649ab8c2c052ff0846d">defines.h</a></li>
 <li>Lights_SetOneLight()&#160;:&#160;<a class="el" href="matrix_8h.html#a062b6d2f125f146afe2e348c106bb542">matrix.h</a></li>
+<li>ListMods()&#160;:&#160;<a class="el" href="ModManager_8cpp.html#a6f93a6f0bccfd80da046f0bd9d0f61b2">ModManager.cpp</a></li>
 <li>lldiv()&#160;:&#160;<a class="el" href="ldiv_8c.html#a5b23c3639f11980dca762c5f1d74f339">ldiv.c</a>, <a class="el" href="stdlib_8h.html#a5b23c3639f11980dca762c5f1d74f339">stdlib.h</a></li>
 <li>lldiv_t&#160;:&#160;<a class="el" href="stdlib_8h.html#a51d8facb71b482170b8bf45b9961df48">stdlib.h</a></li>
 <li>LOAD_ASSET&#160;:&#160;<a class="el" href="Engine_8h.html#a79a4b47022d9d400a75e30aecb495845">Engine.h</a>, <a class="el" href="align__asset__macro_8h.html#a79a4b47022d9d400a75e30aecb495845">align_asset_macro.h</a></li>
@@ -233,7 +234,6 @@ $(function(){initNavTree('globals_l.html',''); initResizable(true); });
 <li>load_player_ghost()&#160;:&#160;<a class="el" href="replays_8c.html#a83973fcda05d24a97b11dc1eca20aea5">replays.c</a>, <a class="el" href="replays_8h.html#a83973fcda05d24a97b11dc1eca20aea5">replays.h</a></li>
 <li>load_post_time_trial_replay()&#160;:&#160;<a class="el" href="replays_8c.html#ae7d61f2c74810b3ee3efdf03b4dcc3d2">replays.c</a>, <a class="el" href="replays_8h.html#ae7d61f2c74810b3ee3efdf03b4dcc3d2">replays.h</a></li>
 <li>load_save_data()&#160;:&#160;<a class="el" href="save_8c.html#a7363b8763617751dc18ca9d522b206e8">save.c</a>, <a class="el" href="save_8h.html#a7363b8763617751dc18ca9d522b206e8">save.h</a></li>
-<li>load_segment()&#160;:&#160;<a class="el" href="memory_8c.html#aeba4b47d5d65cd325e7c234326119b27">memory.c</a></li>
 <li>load_sequence()&#160;:&#160;<a class="el" href="load_8c.html#a6002fcbd2dd5d0a3b0b378c3dc6ee731">load.c</a>, <a class="el" href="load_8h.html#a636ae6ff6664cbd72e6ab4a2bb29b122">load.h</a></li>
 <li>load_sequence_immediate()&#160;:&#160;<a class="el" href="load_8c.html#a625f57016821b66871d4065bed58cece">load.c</a></li>
 <li>load_sequence_internal()&#160;:&#160;<a class="el" href="load_8c.html#a6c3a18a0dda97c61c1b24745f64ca2a9">load.c</a>, <a class="el" href="load_8h.html#a2481529a2e9892b5e55865a80299c48b">load.h</a></li>
@@ -301,8 +301,8 @@ $(function(){initNavTree('globals_l.html',''); initResizable(true); });
 <li>logo_intro_menu_act()&#160;:&#160;<a class="el" href="menus_8c.html#a3d16275034df7858d890273a95a5a4af">menus.c</a>, <a class="el" href="menus_8h.html#a097beed7872ad2f5d34b5b2f4b5e9024">menus.h</a></li>
 <li>LUIGI&#160;:&#160;<a class="el" href="defines_8h.html#a1ba3226d974a364d7682f44614e311d9">defines.h</a></li>
 <li>luigi_kart_wheels&#160;:&#160;<a class="el" href="luigi__kart_8h.html#a0e16ca5cc7e6e03a3d7d86eca7f3dbb7">luigi_kart.h</a></li>
-<li>luigi_raceway_dls&#160;:&#160;<a class="el" href="LuigiRaceway_8cpp.html#a7dbc61bb5cf6c8e3a6854bf274209f5b">LuigiRaceway.cpp</a>, <a class="el" href="all__course__offsets_8h.html#a7dbc61bb5cf6c8e3a6854bf274209f5b">all_course_offsets.h</a>, <a class="el" href="luigi__raceway_2course__offsets_8c.html#a1aac074ec14b48bc8a5e600341d06092">course_offsets.c</a></li>
-<li>luigi_raceway_textures&#160;:&#160;<a class="el" href="LuigiRaceway_8cpp.html#a68bdefbd63217953a5f543aeda2fbfcc">LuigiRaceway.cpp</a>, <a class="el" href="LuigiRaceway_8h.html#a68bdefbd63217953a5f543aeda2fbfcc">LuigiRaceway.h</a></li>
+<li>luigi_raceway_dls&#160;:&#160;<a class="el" href="LuigiRaceway_8cpp.html#a154d130d2e70d493c6d029815303dd2a">LuigiRaceway.cpp</a>, <a class="el" href="all__course__offsets_8h.html#a7dbc61bb5cf6c8e3a6854bf274209f5b">all_course_offsets.h</a>, <a class="el" href="luigi__raceway_2course__offsets_8c.html#a1aac074ec14b48bc8a5e600341d06092">course_offsets.c</a></li>
+<li>luigi_raceway_textures&#160;:&#160;<a class="el" href="LuigiRaceway_8h.html#a68bdefbd63217953a5f543aeda2fbfcc">LuigiRaceway.h</a></li>
 <li>LUIGI_SIZE&#160;:&#160;<a class="el" href="defines_8h.html#a57d2983415fa3cf8ab2a9bee6f087c7a">defines.h</a></li>
 </ul>
 </div><!-- contents -->

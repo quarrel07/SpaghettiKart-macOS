@@ -2,7 +2,6 @@ var skybox__and__splitscreen_8h =
 [
     [ "G_CLEAR_ALL_MODES", "skybox__and__splitscreen_8h.html#a3b52a415dad457e45730015e6dfd3614", null ],
     [ "copy_framebuffer", "skybox__and__splitscreen_8h.html#a305f9888c702557c18a9dfdd9c7225f3", null ],
-    [ "copy_jumbotron_fb_port", "skybox__and__splitscreen_8h.html#ac66ac27ecf98a32d0bcacbf7458963d8", null ],
     [ "func_802A3730", "skybox__and__splitscreen_8h.html#a8c8ae70998ecd6b5b4773008bc82efeb", null ],
     [ "func_802A38AC", "skybox__and__splitscreen_8h.html#ab8435f5b83d0fc118a6bbad43a0a806d", null ],
     [ "func_802A38B4", "skybox__and__splitscreen_8h.html#a3e841fd472316b42bf7b4d8f077b2d1c", null ],

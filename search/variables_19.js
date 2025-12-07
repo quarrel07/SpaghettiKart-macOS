@@ -5,7 +5,7 @@ var searchData=
   ['yaw_2',['yaw',['../structIRotator.html#a99a06321d1d52392a90c2c37439ae13d',1,'IRotator::yaw'],['../structFRotator.html#aa3b328ad3556ee0b496f2877351985e4',1,'FRotator::yaw']]],
   ['ylen_3',['yLen',['../structSF64_1_1JointKey.html#a52e1feb17f8590d8e65de3f3fc5a244e',1,'SF64::JointKey']]],
   ['yoshi_5fkart_5fwheels_4',['yoshi_kart_wheels',['../yoshi__kart_8h.html#a2fa260b0b9d7d1938c3ddbffd472d17a',1,'yoshi_kart.h']]],
-  ['yoshi_5fvalley_5ftextures_5',['yoshi_valley_textures',['../YoshiValley_8cpp.html#a8bcea3fe61869cecd63b75355cd5d949',1,'yoshi_valley_textures:&#160;YoshiValley.cpp'],['../YoshiValley_8h.html#a8bcea3fe61869cecd63b75355cd5d949',1,'yoshi_valley_textures:&#160;YoshiValley.cpp']]],
+  ['yoshi_5fvalley_5ftextures_5',['yoshi_valley_textures',['../YoshiValley_8h.html#a8bcea3fe61869cecd63b75355cd5d949',1,'YoshiValley.h']]],
   ['youngerindex_6',['youngerIndex',['../structBananaActor.html#ad686614e95607653ffbf00b39cd10397',1,'BananaActor']]],
   ['ypos_7',['yPos',['../structSF64_1_1ObjectInitData.html#a7c876a75d27346f2f24568cbd5710220',1,'SF64::ObjectInitData::yPos'],['../structBombKart.html#a8cc2966d931e376e71aa0942dfb85af3',1,'BombKart::yPos']]]
 ];

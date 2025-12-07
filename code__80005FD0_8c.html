@@ -136,7 +136,7 @@ $(function(){initNavTree('code__80005FD0_8c.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="code__80057C60_8h_source.html">code_80057C60.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bomb__kart_8h_source.html">bomb_kart.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="all__course__data_8h_source.html">courses/all_course_data.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="common__data_8h_source.html">assets/common_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="models_2common__data_8h_source.html">assets/models/common_data.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common__structs_8h_source.html">common_structs.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="menus_8h_source.html">menus.h</a>&quot;</code><br />
@@ -146,9 +146,11 @@ $(function(){initNavTree('code__80005FD0_8c.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="spawn__players_8h_source.html">spawn_players.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sounds_8h_source.html">sounds.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="path__spawn__metadata_8h_source.html">data/path_spawn_metadata.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="kalimari__desert__data_8h_source.html">assets/kalimari_desert_data.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="frappe__snowland__data_8h_source.html">assets/frappe_snowland_data.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="dks__jungle__parkway__data_8h_source.html">assets/dks_jungle_parkway_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="models_2tracks_2kalimari__desert_2kalimari__desert__data_8h_source.html">assets/models/tracks/kalimari_desert/kalimari_desert_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="other_2tracks_2kalimari__desert_2kalimari__desert__data_8h_source.html">assets/other/tracks/kalimari_desert/kalimari_desert_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="models_2tracks_2frappe__snowland_2frappe__snowland__data_8h_source.html">assets/models/tracks/frappe_snowland/frappe_snowland_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="models_2tracks_2dks__jungle__parkway_2dks__jungle__parkway__data_8h_source.html">assets/models/tracks/dks_jungle_parkway/dks_jungle_parkway_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="other_2tracks_2dks__jungle__parkway_2dks__jungle__parkway__data_8h_source.html">assets/other/tracks/dks_jungle_parkway/dks_jungle_parkway_data.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="stdio_8h_source.html">stdio.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="Game_8h_source.html">port/Game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Course_8h_source.html">engine/courses/Course.h</a>&quot;</code><br />
@@ -1297,7 +1299,7 @@ Variables</h2></td></tr>
 <div class="line">    b = <a class="code hl_define" href="#afca0f7e6a7fc5d3e6f51a6426cfb755a">calc_b</a>(50, table[<a class="code hl_define" href="defines_8h.html#a3aa8951f5d490e4f7c381143fd66e8ee">CC_50</a>], a);                  \</div>
 <div class="line">    <a class="code hl_variable" href="#a5d79d803e6d03e10108fbd6ff715ca4c">cpu_TargetSpeed</a>[playerId] = a * CVarGetFloat(<span class="stringliteral">&quot;gCustomCC&quot;</span>, 150.0f) + b;</div>
 <div class="ttc" id="acode__80005FD0_8c_html_a2570dc81a51135eddff01c799994f684"><div class="ttname"><a href="#a2570dc81a51135eddff01c799994f684">calc_a</a></div><div class="ttdeci">#define calc_a(x, y, x2, y2)</div></div>
-<div class="ttc" id="acode__80005FD0_8c_html_a5d79d803e6d03e10108fbd6ff715ca4c"><div class="ttname"><a href="#a5d79d803e6d03e10108fbd6ff715ca4c">cpu_TargetSpeed</a></div><div class="ttdeci">f32 cpu_TargetSpeed[10]</div><div class="ttdef"><b>Definition</b> code_80005FD0.c:75</div></div>
+<div class="ttc" id="acode__80005FD0_8c_html_a5d79d803e6d03e10108fbd6ff715ca4c"><div class="ttname"><a href="#a5d79d803e6d03e10108fbd6ff715ca4c">cpu_TargetSpeed</a></div><div class="ttdeci">f32 cpu_TargetSpeed[10]</div><div class="ttdef"><b>Definition</b> code_80005FD0.c:77</div></div>
 <div class="ttc" id="acode__80005FD0_8c_html_afca0f7e6a7fc5d3e6f51a6426cfb755a"><div class="ttname"><a href="#afca0f7e6a7fc5d3e6f51a6426cfb755a">calc_b</a></div><div class="ttdeci">#define calc_b(x, y, b)</div></div>
 <div class="ttc" id="adefines_8h_html_a3aa8951f5d490e4f7c381143fd66e8ee"><div class="ttname"><a href="defines_8h.html#a3aa8951f5d490e4f7c381143fd66e8ee">CC_50</a></div><div class="ttdeci">#define CC_50</div><div class="ttdoc">Options for gCCSelection CC stands for cubic-centimetres. It measures engine displacement composed fr...</div><div class="ttdef"><b>Definition</b> defines.h:166</div></div>
 <div class="ttc" id="adefines_8h_html_a7f414af5293a3216eae978df3b0594db"><div class="ttname"><a href="defines_8h.html#a7f414af5293a3216eae978df3b0594db">CC_150</a></div><div class="ttdeci">#define CC_150</div><div class="ttdef"><b>Definition</b> defines.h:168</div></div>

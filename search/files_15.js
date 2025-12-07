@@ -1,7 +1,7 @@
 var searchData=
 [
   ['wario_5fkart_2eh_0',['wario_kart.h',['../wario__kart_8h.html',1,'']]],
-  ['wario_5fstadium_5fdata_2eh_1',['wario_stadium_data.h',['../wario__stadium__data_8h.html',1,'']]],
+  ['wario_5fstadium_5fdata_2eh_1',['wario_stadium_data.h',['../models_2tracks_2wario__stadium_2wario__stadium__data_8h.html',1,'(Global Namespace)'],['../other_2tracks_2wario__stadium_2wario__stadium__data_8h.html',1,'(Global Namespace)'],['../textures_2tracks_2wario__stadium_2wario__stadium__data_8h.html',1,'(Global Namespace)']]],
   ['wario_5fstadium_5fdisplaylists_2eh_2',['wario_stadium_displaylists.h',['../wario__stadium__displaylists_8h.html',1,'']]],
   ['wario_5fstadium_5fvertices_2eh_3',['wario_stadium_vertices.h',['../wario__stadium__vertices_8h.html',1,'']]],
   ['wariosign_2ecpp_4',['WarioSign.cpp',['../WarioSign_8cpp.html',1,'']]],

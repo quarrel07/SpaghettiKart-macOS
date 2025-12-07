@@ -132,8 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abb3079f978b1fa36c85b006a29f06e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c0478a127cfe08cb0227b0e2f94889b" id="r_a0c0478a127cfe08cb0227b0e2f94889b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c0478a127cfe08cb0227b0e2f94889b">Load</a> () override</td></tr>
 <tr class="separator:a0c0478a127cfe08cb0227b0e2f94889b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad65a591e3b480e1042ed02d522fe51f5" id="r_ad65a591e3b480e1042ed02d522fe51f5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad65a591e3b480e1042ed02d522fe51f5">LoadTextures</a> () override</td></tr>
-<tr class="separator:ad65a591e3b480e1042ed02d522fe51f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e9ca988e736e22d516d16f8c76e577" id="r_ab9e9ca988e736e22d516d16f8c76e577"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e9ca988e736e22d516d16f8c76e577">UnLoad</a> () override</td></tr>
+<tr class="separator:ab9e9ca988e736e22d516d16f8c76e577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00b59b5b947f751c540ecfe6483b7703" id="r_a00b59b5b947f751c540ecfe6483b7703"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00b59b5b947f751c540ecfe6483b7703">BeginPlay</a> () override</td></tr>
 <tr class="separator:a00b59b5b947f751c540ecfe6483b7703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae29495179adea84e63f4f91d7057cf3c" id="r_ae29495179adea84e63f4f91d7057cf3c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae29495179adea84e63f4f91d7057cf3c">InitCourseObjects</a> () override</td></tr>
@@ -155,8 +155,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a3e29937ac7538e1ce2bc48e6e5cfe193" id="r_a3e29937ac7538e1ce2bc48e6e5cfe193"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e29937ac7538e1ce2bc48e6e5cfe193">Jumbotron</a> ()</td></tr>
-<tr class="separator:a3e29937ac7538e1ce2bc48e6e5cfe193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099d1be5e54f51a388a02bd3ce7060ee" id="r_a099d1be5e54f51a388a02bd3ce7060ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099d1be5e54f51a388a02bd3ce7060ee">CopyJumbotron</a> (s32 ulx, s32 uly, s16 portionToDraw, u16 *source)</td></tr>
+<tr class="separator:a099d1be5e54f51a388a02bd3ce7060ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1debb17303ae5e81554808a6797df902" name="a1debb17303ae5e81554808a6797df902"></a>
@@ -209,7 +209,7 @@ Private Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_abb3079f978b1fa36c85b006a29f06e3a_cgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_abb3079f978b1fa36c85b006a29f06e3a_cgraph.svg" width="391" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -245,6 +245,55 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a099d1be5e54f51a388a02bd3ce7060ee" name="a099d1be5e54f51a388a02bd3ce7060ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099d1be5e54f51a388a02bd3ce7060ee">&#9670;&#160;</a></span>CopyJumbotron()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LuigiRaceway::CopyJumbotron </td>
+          <td>(</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>ulx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>uly</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>portionToDraw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">u16 *</td>          <td class="paramname"><span class="paramname"><em>source</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a099d1be5e54f51a388a02bd3ce7060ee_cgraph.svg" width="415" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a099d1be5e54f51a388a02bd3ce7060ee_icgraph.svg" width="443" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ae29495179adea84e63f4f91d7057cf3c" name="ae29495179adea84e63f4f91d7057cf3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae29495179adea84e63f4f91d7057cf3c">&#9670;&#160;</a></span>InitCourseObjects()</h2>
 
@@ -275,41 +324,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3e29937ac7538e1ce2bc48e6e5cfe193" name="a3e29937ac7538e1ce2bc48e6e5cfe193"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e29937ac7538e1ce2bc48e6e5cfe193">&#9670;&#160;</a></span>Jumbotron()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LuigiRaceway::Jumbotron </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a3e29937ac7538e1ce2bc48e6e5cfe193_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a3e29937ac7538e1ce2bc48e6e5cfe193_icgraph.svg" width="411" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="a0c0478a127cfe08cb0227b0e2f94889b" name="a0c0478a127cfe08cb0227b0e2f94889b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c0478a127cfe08cb0227b0e2f94889b">&#9670;&#160;</a></span>Load()</h2>
 
@@ -335,37 +349,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a0c0478a127cfe08cb0227b0e2f94889b_cgraph.svg" width="100%" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ad65a591e3b480e1042ed02d522fe51f5" name="ad65a591e3b480e1042ed02d522fe51f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad65a591e3b480e1042ed02d522fe51f5">&#9670;&#160;</a></span>LoadTextures()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LuigiRaceway::LoadTextures </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_ad65a591e3b480e1042ed02d522fe51f5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a0c0478a127cfe08cb0227b0e2f94889b_cgraph.svg" width="100%" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -396,7 +380,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a50da353726332129520768fb119ceb3e_cgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a50da353726332129520768fb119ceb3e_cgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -551,6 +535,36 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_a07d9c89d5b7d1ababaa5746bed6ccd65_cgraph.svg" width="556" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab9e9ca988e736e22d516d16f8c76e577" name="ab9e9ca988e736e22d516d16f8c76e577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e9ca988e736e22d516d16f8c76e577">&#9670;&#160;</a></span>UnLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LuigiRaceway::UnLoad </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLuigiRaceway_ab9e9ca988e736e22d516d16f8c76e577_cgraph.svg" width="611" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

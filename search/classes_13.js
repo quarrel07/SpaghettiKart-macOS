@@ -17,13 +17,11 @@ var searchData=
   ['tracks_14',['Tracks',['../structEditor_1_1ContentBrowserWindow_1_1Tracks.html',1,'Editor::ContentBrowserWindow']]],
   ['tracksections_15',['TrackSections',['../structTrackSections.html',1,'']]],
   ['tracksectionsclass_16',['TrackSectionsClass',['../classMK64_1_1TrackSectionsClass.html',1,'MK64']]],
-  ['tracksectionsi_17',['TrackSectionsI',['../structTrackSectionsI.html',1,'']]],
-  ['tracksectionso2r_18',['TrackSectionsO2R',['../structTrackSectionsO2R.html',1,'']]],
-  ['tracksectionso2rclass_19',['TrackSectionsO2RClass',['../classMK64_1_1TrackSectionsO2RClass.html',1,'MK64']]],
-  ['traincar_20',['TrainCar',['../structTrainCar.html',1,'']]],
-  ['traincarstuff_21',['TrainCarStuff',['../structTrainCarStuff.html',1,'']]],
-  ['traincrossing_22',['TrainCrossing',['../classTrainCrossing.html',1,'']]],
-  ['trainstuff_23',['TrainStuff',['../structTrainStuff.html',1,'']]],
-  ['triangle_24',['Triangle',['../structTriangle.html',1,'']]],
-  ['tripleshellparent_25',['TripleShellParent',['../structTripleShellParent.html',1,'']]]
+  ['tracksectionso2rclass_17',['TrackSectionsO2RClass',['../classMK64_1_1TrackSectionsO2RClass.html',1,'MK64']]],
+  ['traincar_18',['TrainCar',['../structTrainCar.html',1,'']]],
+  ['traincarstuff_19',['TrainCarStuff',['../structTrainCarStuff.html',1,'']]],
+  ['traincrossing_20',['TrainCrossing',['../classTrainCrossing.html',1,'']]],
+  ['trainstuff_21',['TrainStuff',['../structTrainStuff.html',1,'']]],
+  ['triangle_22',['Triangle',['../structTriangle.html',1,'']]],
+  ['tripleshellparent_23',['TripleShellParent',['../structTripleShellParent.html',1,'']]]
 ];

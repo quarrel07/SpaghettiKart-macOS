@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['faq_0',['faq',['../md_docs_2faq.html',1,'']]]
+  ['decomp_0',['Installing mk64 Decomp',['../compiling.html',1,'basics']]]
 ];

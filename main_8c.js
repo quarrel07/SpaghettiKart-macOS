@@ -158,7 +158,6 @@ var main_8c =
     [ "gRaceState", "main_8c.html#a4bd0a5471e4135159d04309d3e2cf8d1", null ],
     [ "gScreenAspect", "main_8c.html#a5ba352e44958486fef83d7a2ae5da53d", null ],
     [ "gScreenModeSelection", "main_8c.html#a7f3d645aaf496e2e632e1caadffd3810", null ],
-    [ "gSegmentTable", "main_8c.html#af260f7f79b8f94f285772d0f5a7daecd", null ],
     [ "gSIEventMesgBuf", "main_8c.html#ad0cdec54b37db35ba930bbe2144f3401", null ],
     [ "gSIEventMesgQueue", "main_8c.html#aeddf12822189d471d55eb15756589a12", null ],
     [ "gSPTaskMesgBuf", "main_8c.html#aeabe6f1db6a11fc38c5581395baca767", null ],

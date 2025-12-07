@@ -63,8 +63,6 @@ var searchData=
   ['vtx1_60',['vtx1',['../structCollisionTriangle.html#a672e8e008d9a0b6a55cc40c1b7d34f90',1,'CollisionTriangle']]],
   ['vtx2_61',['vtx2',['../structCollisionTriangle.html#aa1aa152e5e08c932bee19cd15147d3d9',1,'CollisionTriangle']]],
   ['vtx3_62',['vtx3',['../structCollisionTriangle.html#a2256eec7a4eb182b1f9548e6e19e13a4',1,'CollisionTriangle']]],
-  ['vtxbuffer_63',['vtxBuffer',['../structModelLoader_1_1LoadModelList.html#a8c009b61ba0915b31eb864b4860bc5e9',1,'ModelLoader::LoadModelList::vtxBuffer'],['../code__800029B0_8c.html#aa0ad826ca04f449e196c0f7c0825c7d2',1,'vtxBuffer:&#160;code_800029B0.c'],['../code__800029B0_8h.html#a3a6a06fba59b75eba6032889f42330a2',1,'vtxBuffer:&#160;code_800029B0.c']]],
-  ['vtxbuffersize_64',['vtxBufferSize',['../structModelLoader_1_1LoadModelList.html#a536a46e1097d1549dd987abad84ccacf',1,'ModelLoader::LoadModelList']]],
-  ['vtxsegend_65',['vtxSegEnd',['../memory_8c.html#a9ffd2fdc9057d78341e50960dbaac6c3',1,'memory.c']]],
-  ['vtxstart_66',['vtxStart',['../structModelLoader_1_1LoadModelList.html#af28ef61fe614a34610733dd584d79165',1,'ModelLoader::LoadModelList']]]
+  ['vtxbuffer_63',['vtxBuffer',['../code__800029B0_8c.html#aa0ad826ca04f449e196c0f7c0825c7d2',1,'vtxBuffer:&#160;code_800029B0.c'],['../code__800029B0_8h.html#a3a6a06fba59b75eba6032889f42330a2',1,'vtxBuffer:&#160;code_800029B0.c']]],
+  ['vtxsegend_64',['vtxSegEnd',['../memory_8c.html#a9ffd2fdc9057d78341e50960dbaac6c3',1,'memory.c']]]
 ];

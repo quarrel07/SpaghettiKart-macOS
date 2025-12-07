@@ -116,8 +116,10 @@ $(function(){initNavTree('DoubleDeck_8cpp.html',''); initResizable(true); });
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &quot;<a class="el" href="DoubleDeck_8h_source.html">DoubleDeck.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="World_8h_source.html">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="align__asset__macro_8h_source.html">align_asset_macro.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="BombKart_8h_source.html">engine/objects/BombKart.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="double__deck__data_8h_source.html">assets/double_deck_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="models_2tracks_2double__deck_2double__deck__data_8h_source.html">assets/models/tracks/double_deck/double_deck_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="other_2tracks_2double__deck_2double__deck__data_8h_source.html">assets/other/tracks/double_deck/double_deck_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="camera_8h_source.html">camera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="course__offsets_8h_source.html">course_offsets.h</a>&quot;</code><br />
@@ -131,7 +133,7 @@ $(function(){initNavTree('DoubleDeck_8cpp.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="code__80005FD0_8h_source.html">code_80005FD0.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="spawn__players_8h_source.html">spawn_players.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="render__objects_8h_source.html">render_objects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="common__data_8h_source.html">assets/common_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="models_2common__data_8h_source.html">assets/models/common_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="save_8h_source.html">save.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="replays_8h_source.html">replays.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="actors_8h_source.html">actors.h</a>&quot;</code><br />
@@ -145,12 +147,8 @@ Include dependency graph for DoubleDeck.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a44b36183f7eb50d29ae5ecf3e46faf0a" id="r_a44b36183f7eb50d29ae5ecf3e46faf0a"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b36183f7eb50d29ae5ecf3e46faf0a">double_deck_dls</a> []</td></tr>
-<tr class="separator:a44b36183f7eb50d29ae5ecf3e46faf0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7284ffc2e41a12ca87537ef21156453" id="r_ad7284ffc2e41a12ca87537ef21156453"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7284ffc2e41a12ca87537ef21156453">currentScreenSection</a></td></tr>
 <tr class="separator:ad7284ffc2e41a12ca87537ef21156453"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacf3d2be5a15318600bc428a3c10cdf2" id="r_aacf3d2be5a15318600bc428a3c10cdf2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structcourse__texture.html">course_texture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf3d2be5a15318600bc428a3c10cdf2">double_deck_textures</a> []</td></tr>
-<tr class="separator:aacf3d2be5a15318600bc428a3c10cdf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="ad7284ffc2e41a12ca87537ef21156453" name="ad7284ffc2e41a12ca87537ef21156453"></a>
@@ -173,47 +171,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a44b36183f7eb50d29ae5ecf3e46faf0a" name="a44b36183f7eb50d29ae5ecf3e46faf0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44b36183f7eb50d29ae5ecf3e46faf0a">&#9670;&#160;</a></span>double_deck_dls</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* double_deck_dls[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aacf3d2be5a15318600bc428a3c10cdf2" name="aacf3d2be5a15318600bc428a3c10cdf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacf3d2be5a15318600bc428a3c10cdf2">&#9670;&#160;</a></span>double_deck_textures</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structcourse__texture.html">course_texture</a> double_deck_textures[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    { gTextureGrayCobblestone, 0x010C, 0x0800, 0x0 },</div>
-<div class="line">    { gTexture642978, 0x010D, 0x0800, 0x0 },</div>
-<div class="line">    { 0x00000000, 0x0000, 0x0000, 0x0 },</div>
-<div class="line">}</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

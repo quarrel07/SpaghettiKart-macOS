@@ -5,5 +5,6 @@ var classBlockFort =
     [ "BeginPlay", "classBlockFort.html#aa950159c68ce91b2543b203cb117e894", null ],
     [ "Load", "classBlockFort.html#af1bd37988e064423d9489422dddbe00b", null ],
     [ "Render", "classBlockFort.html#a0cd811e0f51e4659b783a827fd55c8b2", null ],
+    [ "UnLoad", "classBlockFort.html#ad44effb2ab37485a0f4c4e4673c61ea8", null ],
     [ "Waypoints", "classBlockFort.html#a1436fa31e354aca5bd6229771f4fd438", null ]
 ];

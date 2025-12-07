@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vehicles_0',['Vehicles',['../vehicles.html',1,'actorsmenu']]]
+  ['understanding_20the_20basics_0',['Understanding the Basics',['../basics.html',1,'']]]
 ];

@@ -1,6 +1,7 @@
 var render__player_8c =
 [
-    [ "D_802F1F80_WHEEL", "render__player_8c.html#a36cba1855f4b8e02b46c3aa707568b4f", null ],
+    [ "PLAYER_WHEEL_MACRO", "render__player_8c.html#a19564c696cca8bff6451f90c98844c30", null ],
+    [ "kart_texture_t", "render__player_8c.html#a14b98eb273b9fa59279f5c2dd34d528e", null ],
     [ "adjust_angle", "render__player_8c.html#af630bf89117f79abdb4e5edc8c67d00f", null ],
     [ "change_player_color_effect_cmy", "render__player_8c.html#a009cdad636fecfb5282fedd1bd0e309a", null ],
     [ "change_player_color_effect_rgb", "render__player_8c.html#a07dbadab7ba48d1fcb9ec5987f329ad0", null ],
@@ -55,8 +56,6 @@ var render__player_8c =
     [ "try_rendering_player", "render__player_8c.html#a229ab780a8a5b76c08608148c5542534", null ],
     [ "update_wheel_palette", "render__player_8c.html#a53a1f659eaad8e23847f927e359c3551", null ],
     [ "D_800DDB5C", "render__player_8c.html#a133c4d88d3b4c75572b417a0f01956f4", null ],
-    [ "D_800DDE34", "render__player_8c.html#ad8ead8d5dd1a49e59c1a7ef99703b49d", null ],
-    [ "D_800DDE54", "render__player_8c.html#a6495f28ce408cde39955cf5ec4ade09b", null ],
     [ "D_800DDE74", "render__player_8c.html#a834cfef30aaa302a0078fd9187993cfa", null ],
     [ "D_80164AF4", "render__player_8c.html#a47bd67f7d8e427957eb1b999cff4750f", null ],
     [ "D_80164B80", "render__player_8c.html#a1cfc917f2d97de8a1e438fd141f18096", null ],
@@ -76,6 +75,9 @@ var render__player_8c =
     [ "gKartPeachWheels0", "render__player_8c.html#a1b4c1f505293981dcb7285bac305c8f4", null ],
     [ "gKartPeachWheels1", "render__player_8c.html#a2aa89d4fc7070bdd407ce7e9e2b8671e", null ],
     [ "gKartShadowVertices", "render__player_8c.html#a26f92e74c10bdc3d173678bcf8f49fc6", null ],
+    [ "gKartTextureTable0", "render__player_8c.html#a1a3ae58b761b7b0d14a08ecfaf1c10ad", null ],
+    [ "gKartTextureTable1", "render__player_8c.html#a620d7dc39bad1dcdb8905575a9fe1323", null ],
+    [ "gKartTextureTumbles", "render__player_8c.html#a0e5e56075cf8fdc81ea9d38260bdd63c", null ],
     [ "gKartToadWheels0", "render__player_8c.html#a2b2f28a894b719b9f7ea6d864f657dfc", null ],
     [ "gKartToadWheels1", "render__player_8c.html#a158b48200549d664c74835f33b442f12", null ],
     [ "gKartWarioWheels0", "render__player_8c.html#ae07fe46a2e8582ff0d84c356e9aa868e", null ],
@@ -85,6 +87,8 @@ var render__player_8c =
     [ "gLastAnimFrameSelector", "render__player_8c.html#a10924e4fcf199d2308c9d12a5853d742", null ],
     [ "gLastAnimGroupSelector", "render__player_8c.html#a9cae291a52866c8bd0790403ba4bf323", null ],
     [ "gMatrixEffectCount", "render__player_8c.html#abeefcb4eb9df7b90bbf608d19a9294dc", null ],
+    [ "gPaletteWheel0Offset", "render__player_8c.html#a021c7976de2283e000a1ff399b9175ec", null ],
+    [ "gPaletteWheel1Offset", "render__player_8c.html#ac7027df78a5e1091dff23d279f9003b8", null ],
     [ "gPlayerBlueEffect", "render__player_8c.html#a3a73c87d50cf07d03658a5fdc57d61f0", null ],
     [ "gPlayerCyanEffect", "render__player_8c.html#a696ffdcdaf0604ea89f630793d3d8301", null ],
     [ "gPlayerGreenEffect", "render__player_8c.html#aff7c358ff971dff72065d20ed7b6d8e1", null ],
@@ -102,5 +106,6 @@ var render__player_8c =
     [ "gRenderingFramebufferByPlayer", "render__player_8c.html#ac4877e90f3de98564acbe6737dd6b253", null ],
     [ "junk", "render__player_8c.html#a44f82379da23af7f0aeeb7ae27131a1a", null ],
     [ "sKartTexture", "render__player_8c.html#aa9ea7fa250075b269a1b7608f8a65cc0", null ],
+    [ "wheel_offset", "render__player_8c.html#a67d73976cef8cc120c86760976819536", null ],
     [ "wheelPtr", "render__player_8c.html#a86683a745fd28e9b7283a6ed3fb0b2e3", null ]
 ];

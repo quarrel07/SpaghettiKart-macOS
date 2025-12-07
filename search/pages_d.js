@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ramps_0',['Boost Ramps',['../boostramps.html',1,'tutorials']]],
-  ['returning_20tracks_1',['Returning Tracks',['../md_docs_2track__returns.html',1,'']]]
+  ['pack_0',['Texture Pack',['../md_docs_2textures-pack.html',1,'']]],
+  ['paths_1',['Paths',['../paths.html',1,'tutorials']]]
 ];

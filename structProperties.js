@@ -24,6 +24,5 @@ var structProperties =
     [ "PathTable2", "structProperties.html#a2a82bd54b19123b9c4a4477c029baf80", null ],
     [ "Sequence", "structProperties.html#acd753e07362c52af62ea8b632c50570e", null ],
     [ "Skybox", "structProperties.html#ac3c175569725579891325503e37e0bce", null ],
-    [ "textures", "structProperties.html#a065b83567002440e6f6a7dd133e9939c", null ],
     [ "WaterLevel", "structProperties.html#a5a569b3eb054872e27543cf171a609c3", null ]
 ];

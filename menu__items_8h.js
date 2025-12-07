@@ -558,8 +558,6 @@ var menu__items_8h =
     [ "render_pause_menu_time_trials", "menu__items_8h.html#a9e374f3e49df656359798a151c50e984", null ],
     [ "render_pause_menu_versus", "menu__items_8h.html#a49d432c57c767710189d764f979e3c8d", null ],
     [ "rmonPrintf", "menu__items_8h.html#a19085a3486cdb488add643cb0e34d20a", null ],
-    [ "segmented_to_virtual_dupe", "menu__items_8h.html#ac7250c1b6b8627c150fb2ec8f31c6235", null ],
-    [ "segmented_to_virtual_dupe_2", "menu__items_8h.html#a78aa4e4364bf58cacde30c01188d44db", null ],
     [ "set_text_color", "menu__items_8h.html#a73f3db169f50e66ea196709884fb2d4e", null ],
     [ "set_text_color_rainbow_if_selected", "menu__items_8h.html#a3ca4227c273f148dceb195ddad51af69", null ],
     [ "setup_menus", "menu__items_8h.html#af5c5dbc8b13a37e983a1a137457e0f06", null ],
