@@ -569,7 +569,6 @@ var menu__items_8h =
     [ "update_cursor", "menu__items_8h.html#a833037460abec97abc1ebe2dac62c131", null ],
     [ "update_ok_menu_item", "menu__items_8h.html#abcce72493bd93752892e15eac600630a", null ],
     [ "write_dashes", "menu__items_8h.html#af1655d98268206eb3b2490eb837deba5", null ],
-    [ "_course_mario_raceway_dl_mio0SegmentRomStart", "menu__items_8h.html#a08f699625e9956f54140ca4788b9dc53", null ],
     [ "D_800DDB24", "menu__items_8h.html#aa1225cbe034f8220381bf006bcb48ba1", null ],
     [ "D_800E70A0", "menu__items_8h.html#a23c443145e1ff12d71d7998c6fec8625", null ],
     [ "D_800E70E8", "menu__items_8h.html#aa7df10ba8ef3f35523f9983bf20679ec", null ],

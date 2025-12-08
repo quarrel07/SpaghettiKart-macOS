@@ -83,5 +83,5 @@ var searchData=
   ['mat3_80',['Mat3',['../common__structs_8h.html#af30b552f88edd02ed3a72b3dd2467544',1,'common_structs.h']]],
   ['mat4_81',['Mat4',['../common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005',1,'common_structs.h']]],
   ['matrix_82',['Matrix',['../matrix_8h.html#aeb723a6b88d7706d8fdb4ca15da2237f',1,'matrix.h']]],
-  ['minimapprops_83',['MinimapProps',['../Course_8h.html#a89db40153c22dd024742de86f0677170',1,'Course.h']]]
+  ['minimapprops_83',['MinimapProps',['../Track_8h.html#a89db40153c22dd024742de86f0677170',1,'Track.h']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parse_5fcourse_5fdisplaylists_0',['parse_course_displaylists',['../render__courses_8c.html#a206a552c1a565c9737d6749aeee3e07b',1,'parse_course_displaylists(TrackSections *asset):&#160;render_courses.c'],['../render__courses_8h.html#a206a552c1a565c9737d6749aeee3e07b',1,'parse_course_displaylists(TrackSections *asset):&#160;render_courses.c']]],
+  ['parse_5ftrack_5fdisplaylists_0',['parse_track_displaylists',['../render__courses_8c.html#ac97a07076b3e301db5da93c0fe8f0500',1,'parse_track_displaylists(TrackSections *asset):&#160;render_courses.c'],['../render__courses_8h.html#ac97a07076b3e301db5da93c0fe8f0500',1,'parse_track_displaylists(TrackSections *asset):&#160;render_courses.c']]],
   ['particleemitter_1',['ParticleEmitter',['../classParticleEmitter.html#a31313702250800a4e074286b8e5d5116',1,'ParticleEmitter']]],
   ['patch_5faudio_5fbank_2',['patch_audio_bank',['../load_8c.html#a1a5cff71e5c10ffbe459f2a317fc5005',1,'patch_audio_bank(struct AudioBank *mem, u8 *offset, u32 numInstruments, u32 numDrums):&#160;load.c'],['../load_8h.html#a1a5cff71e5c10ffbe459f2a317fc5005',1,'patch_audio_bank(struct AudioBank *mem, u8 *offset, u32 numInstruments, u32 numDrums):&#160;load.c']]],
   ['patch_5fsound_3',['patch_sound',['../load_8c.html#acbb441247e4f7d446c35a14bd75b61d6',1,'patch_sound(struct AudioBankSound *sound, u8 *memBase, u8 *offsetBase):&#160;load.c'],['../load_8h.html#acbb441247e4f7d446c35a14bd75b61d6',1,'patch_sound(struct AudioBankSound *sound, u8 *memBase, u8 *offsetBase):&#160;load.c']]],
@@ -66,8 +66,8 @@ var searchData=
   ['prepare_5freverb_5fring_5fbuffer_63',['prepare_reverb_ring_buffer',['../synthesis_8c.html#a9964410947181858fecd99e63c47d6a8',1,'prepare_reverb_ring_buffer(s32 chunkLen, u32 updateIndex, s32 reverbIndex):&#160;synthesis.c'],['../synthesis_8h.html#a9964410947181858fecd99e63c47d6a8',1,'prepare_reverb_ring_buffer(s32 chunkLen, u32 updateIndex, s32 reverbIndex):&#160;synthesis.c']]],
   ['prevent_5fitem_5fuse_64',['prevent_item_use',['../effects_8c.html#a9e5e60289584a6df9030ec442f581109',1,'prevent_item_use(Player *player):&#160;effects.c'],['../effects_8h.html#a67215dfe7a0b23f649a8281d38f6c6a7',1,'prevent_item_use(Player *):&#160;effects.c']]],
   ['previous_65',['Previous',['../classCup.html#ae2b0454ad3bde67d712c1638aa857ac2',1,'Cup']]],
-  ['previouscourse_66',['PreviousCourse',['../classWorld.html#a6b59f53cd244c09959e5f7606b8a447d',1,'World::PreviousCourse()'],['../Game_8cpp.html#ad11afb75122c50ee7b84672d6841a3e3',1,'PreviousCourse():&#160;Game.cpp'],['../Game_8h.html#ad11afb75122c50ee7b84672d6841a3e3',1,'PreviousCourse():&#160;Game.cpp']]],
-  ['previouscup_67',['PreviousCup',['../classWorld.html#a8b2c385e3bdc3d7fb07dfb33495bfd19',1,'World']]],
+  ['previouscup_66',['PreviousCup',['../classWorld.html#a8b2c385e3bdc3d7fb07dfb33495bfd19',1,'World']]],
+  ['previoustrack_67',['PreviousTrack',['../classWorld.html#af85a6495f8137e6d68e37af59a62e003',1,'World::PreviousTrack()'],['../Game_8cpp.html#a118e01e80d60114d2c29d4262698bcc2',1,'PreviousTrack():&#160;Game.cpp'],['../Game_8h.html#a118e01e80d60114d2c29d4262698bcc2',1,'PreviousTrack():&#160;Game.cpp']]],
   ['print_68',['print',['../is__debug_8c.html#a42e65774c872bb2ffd35e7827f481776',1,'is_debug.c']]],
   ['print3d_69',['Print3D',['../classAText.html#a988845ca5b2b1d21e84cf22a68924f30',1,'AText']]],
   ['print_5fletter_70',['print_letter',['../menu__items_8c.html#aafca6e35a19465ad361e68b13e467243',1,'print_letter(Gfx *arg0, MenuTexture *glyphTexture, f32 arg2, f32 arg3, s32 mode, f32 scaleX, f32 scaleY):&#160;menu_items.c'],['../menu__items_8h.html#aa587afa5d9479f79907d55593924d411',1,'print_letter(Gfx *, MenuTexture *, f32, f32, s32, f32, f32):&#160;menu_items.c']]],

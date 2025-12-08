@@ -57,11 +57,8 @@ var searchData=
   ['controller_5f4_54',['CONTROLLER_4',['../save_8h.html#ad4724da1441ca44603fb73b6c66f89f1',1,'save.h']]],
   ['controller_5fpak_5fmenu_55',['CONTROLLER_PAK_MENU',['../defines_8h.html#ae6e88862f1fe2a65ac007edc3f358725',1,'defines.h']]],
   ['course_5fdata_5fmenu_56',['COURSE_DATA_MENU',['../defines_8h.html#a3c38b8f03a3f96d8054b8768b651c947',1,'defines.h']]],
-  ['course_5fnull_57',['COURSE_NULL',['../mk64_8h.html#a1af10c9624fc6956bfa4bf7e77ae4b99',1,'mk64.h']]],
-  ['course_5fselect_5fmenu_58',['COURSE_SELECT_MENU',['../defines_8h.html#ae9e9974737d16f8449f0fe7e68c8e7a4',1,'defines.h']]],
-  ['course_5fselect_5fmenu_5ffrom_5fquit_59',['COURSE_SELECT_MENU_FROM_QUIT',['../defines_8h.html#a337651c847b706a5fa2c8c02ae323db7',1,'defines.h']]],
-  ['course_5ftimer_5fiter_60',['COURSE_TIMER_ITER',['../defines_8h.html#ab651d36bd66fc3e614b826872df411ea',1,'defines.h']]],
-  ['course_5ftimer_5fiter_5ff_61',['COURSE_TIMER_ITER_f',['../defines_8h.html#a2f525ee1d4444807b6d6d63db4ec8579',1,'defines.h']]],
-  ['credits_5fsequence_62',['CREDITS_SEQUENCE',['../defines_8h.html#ab44391bcab18019b1dce1711ea9995c1',1,'defines.h']]],
-  ['cutscene_63',['CUTSCENE',['../ceremony__and__credits_8c.html#a8a5c0237779d67c7e4b5ae4cc942bde6',1,'ceremony_and_credits.c']]]
+  ['course_5fselect_5fmenu_57',['COURSE_SELECT_MENU',['../defines_8h.html#ae9e9974737d16f8449f0fe7e68c8e7a4',1,'defines.h']]],
+  ['course_5fselect_5fmenu_5ffrom_5fquit_58',['COURSE_SELECT_MENU_FROM_QUIT',['../defines_8h.html#a337651c847b706a5fa2c8c02ae323db7',1,'defines.h']]],
+  ['credits_5fsequence_59',['CREDITS_SEQUENCE',['../defines_8h.html#ab44391bcab18019b1dce1711ea9995c1',1,'defines.h']]],
+  ['cutscene_60',['CUTSCENE',['../ceremony__and__credits_8c.html#a8a5c0237779d67c7e4b5ae4cc942bde6',1,'ceremony_and_credits.c']]]
 ];

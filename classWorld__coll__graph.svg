@@ -68,8 +68,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="448.5,-705.73 323.5,-705.73 323.5,-686.73 448.5,-686.73 448.5,-705.73"/>
-<text text-anchor="middle" x="386" y="-693.73" font-family="Helvetica,sans-Serif" font-size="10.00">shared_ptr&lt; Course &gt;</text>
+<polygon fill="white" stroke="#666666" points="444,-705.73 328,-705.73 328,-686.73 444,-686.73 444,-705.73"/>
+<text text-anchor="middle" x="386" y="-693.73" font-family="Helvetica,sans-Serif" font-size="10.00">shared_ptr&lt; Track &gt;</text>
 </a>
 </g>
 </g>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="445.47,-703.46 435.13,-705.74 444.64,-710.41 445.47,-703.46"/>
 </a>
 </g>
-<text text-anchor="middle" x="539" y="-711.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> CurrentCourse</text>
+<text text-anchor="middle" x="539" y="-711.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mTrack</text>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
@@ -176,8 +176,8 @@ var sectionId = 'dynsection-0';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="173.44,-474.71 163.26,-477.64 173.05,-481.7 173.44,-474.71"/>
 </a>
 </g>
-<text text-anchor="middle" x="386" y="-496.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> CourseIndex</text>
-<text text-anchor="middle" x="386" y="-485.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">CupIndex</text>
+<text text-anchor="middle" x="386" y="-496.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> CupIndex</text>
+<text text-anchor="middle" x="386" y="-485.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">TrackIndex</text>
 </g>
 <!-- Node7&#45;&gt;Node3 -->
 <g id="edge6_Node000003_Node000007" class="edge">
@@ -195,7 +195,7 @@ var sectionId = 'dynsection-0';
 <g id="a_Node000008"><a xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="197,-665.23 84,-665.23 84,-635.23 197,-635.23 197,-665.23"/>
 <text text-anchor="start" x="92" y="-653.23" font-family="Helvetica,sans-Serif" font-size="10.00">vector&lt; std::shared</text>
-<text text-anchor="middle" x="140.5" y="-642.23" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; Course &gt; &gt;</text>
+<text text-anchor="middle" x="140.5" y="-642.23" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; Track &gt; &gt;</text>
 </a>
 </g>
 </g>
@@ -207,7 +207,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="207.31,-653.75 197.09,-656.52 206.81,-660.73 207.31,-653.75"/>
 </a>
 </g>
-<text text-anchor="middle" x="386" y="-660.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> Courses</text>
+<text text-anchor="middle" x="386" y="-660.23" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> Tracks</text>
 </g>
 <!-- Node8&#45;&gt;Node3 -->
 <g id="edge7_Node000003_Node000008" class="edge">

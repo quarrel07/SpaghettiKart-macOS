@@ -10,7 +10,7 @@ var searchData=
   ['none_7',['none',['../namespacepfd.html#a1a482ccd57bb939dcbf7d9caacd3f997a334c4a4c42fdb79d7ebc3e73b517e6f8',1,'pfd']]],
   ['normal_8',['NORMAL',['../classOLakitu.html#aaac2fc8b2404c3db2c5c14eb57a88925a241a031f157712b83cce93e1afad90d3',1,'OLakitu']]],
   ['north_9',['NORTH',['../defines_8h.html#aa268a41a13430b18e933ed40207178d0ad0611de6f28d4a9c9eac959f5344698e',1,'defines.h']]],
-  ['num_5fcourses_10',['NUM_COURSES',['../mk64_8h.html#acf250ad4ca05ca435a61203c41d4ca88ab491e3c35f36dc6baccdb5ca3a2eff60',1,'mk64.h']]],
-  ['num_5fcups_11',['NUM_CUPS',['../defines_8h.html#ae701751e4c86a447b2b7d96715151241a247a3829ad369f4c64745af093f65304',1,'defines.h']]],
-  ['num_5ftime_5ftrial_5fdata_12',['NUM_TIME_TRIAL_DATA',['../mk64_8h.html#af99386c6c69e4c7491c1ca0f1a4b44ccadca646b71ad13bf72d1f26b440b7e187',1,'mk64.h']]]
+  ['num_5fcups_10',['NUM_CUPS',['../defines_8h.html#ae701751e4c86a447b2b7d96715151241a247a3829ad369f4c64745af093f65304',1,'defines.h']]],
+  ['num_5ftime_5ftrial_5fdata_11',['NUM_TIME_TRIAL_DATA',['../mk64_8h.html#af99386c6c69e4c7491c1ca0f1a4b44ccadca646b71ad13bf72d1f26b440b7e187',1,'mk64.h']]],
+  ['num_5ftracks_12',['NUM_TRACKS',['../mk64_8h.html#a845f5f9d73146971c78756dc81bc17a0a31e024d0557a3690869f04c7291de001',1,'mk64.h']]]
 ];

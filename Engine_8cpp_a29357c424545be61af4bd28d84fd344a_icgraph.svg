@@ -421,9 +421,9 @@ var sectionId = 'dynsection-11';
 <!-- Node50 -->
 <g id="Node000050" class="node">
 <title>Node50</title>
-<g id="a_Node000050"><a xlink:href="classRainbowRoad.html#ae2a6678b6140c08676b7986131230a74" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="319,-56 161,-56 161,-37 319,-37 319,-56"/>
-<text text-anchor="middle" x="240" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">RainbowRoad::UpdateClouds</text>
+<g id="a_Node000050"><a xlink:href="classRainbowRoad.html#ac8769b08e2d7972ee293b98de707fc8e" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="311.5,-56 168.5,-56 168.5,-37 311.5,-37 311.5,-56"/>
+<text text-anchor="middle" x="240" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">RainbowRoad::TickClouds</text>
 </a>
 </g>
 </g>
@@ -431,7 +431,7 @@ var sectionId = 'dynsection-11';
 <g id="edge11_Node000049_Node000050" class="edge">
 <title>Node49&#45;&gt;Node50</title>
 <g id="a_edge11_Node000049_Node000050"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M415.3,-31.68C387.11,-34.08 351.07,-37.14 319.1,-39.86"/>
+<path fill="none" stroke="#63b8ff" d="M414.99,-31.71C384.67,-34.29 345.38,-37.63 311.81,-40.48"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="415.65,-35.17 425.31,-30.83 415.05,-28.19 415.65,-35.17"/>
 </a>
 </g>
@@ -439,9 +439,9 @@ var sectionId = 'dynsection-11';
 <!-- Node51 -->
 <g id="Node000051" class="node">
 <title>Node51</title>
-<g id="a_Node000051"><a xlink:href="classToadsTurnpike.html#a4ae5e4cefa05f36e97f785ff99bfd246" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="319.5,-19 160.5,-19 160.5,0 319.5,0 319.5,-19"/>
-<text text-anchor="middle" x="240" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ToadsTurnpike::UpdateClouds</text>
+<g id="a_Node000051"><a xlink:href="classToadsTurnpike.html#a47be1f04c149cac0395c58def69ff150" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="312,-19 168,-19 168,0 312,0 312,-19"/>
+<text text-anchor="middle" x="240" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ToadsTurnpike::TickClouds</text>
 </a>
 </g>
 </g>
@@ -449,7 +449,7 @@ var sectionId = 'dynsection-11';
 <g id="edge12_Node000049_Node000051" class="edge">
 <title>Node49&#45;&gt;Node51</title>
 <g id="a_edge12_Node000049_Node000051"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M414.98,-23.51C386.97,-21.26 351.3,-18.38 319.56,-15.83"/>
+<path fill="none" stroke="#63b8ff" d="M415.03,-23.52C384.84,-21.08 345.75,-17.94 312.26,-15.24"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="415.06,-27.03 425.31,-24.34 415.63,-20.05 415.06,-27.03"/>
 </a>
 </g>

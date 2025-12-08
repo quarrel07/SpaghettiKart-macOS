@@ -126,7 +126,7 @@ $(function(){initNavTree('memory_8c.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="code__800029B0_8h_source.html">code_800029B0.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="defines_8h_source.html">defines.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="course__offsets_8h_source.html">course_offsets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Course_8h_source.html">engine/courses/Course.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Track_8h_source.html">engine/tracks/Track.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="stdio_8h_source.html">stdio.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="Game_8h_source.html">port/Game.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -178,9 +178,9 @@ Functions</h2></td></tr>
 <tr class="separator:a18ab4c1e32c3c90def2fbc839d7ee26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3617f7116e3cc000b7ebf38ad3bae48f" id="r_a3617f7116e3cc000b7ebf38ad3bae48f"><td class="memItemLeft" align="right" valign="top">u8 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3617f7116e3cc000b7ebf38ad3bae48f">load_lakitu_tlut_x64</a> (const char **textureList, size_t length)</td></tr>
 <tr class="separator:a3617f7116e3cc000b7ebf38ad3bae48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332cad400462e507d8d6d2d68035b0b2" id="r_a332cad400462e507d8d6d2d68035b0b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332cad400462e507d8d6d2d68035b0b2">load_course</a> (s32 courseId)</td></tr>
-<tr class="memdesc:a332cad400462e507d8d6d2d68035b0b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads &amp; DMAs course data. Vtx, textures, displaylists, etc.  <br /></td></tr>
-<tr class="separator:a332cad400462e507d8d6d2d68035b0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57deef5dc6c4eaa0d5a6bbb91de0b8cd" id="r_a57deef5dc6c4eaa0d5a6bbb91de0b8cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57deef5dc6c4eaa0d5a6bbb91de0b8cd">load_track</a> (s32 trackId)</td></tr>
+<tr class="memdesc:a57deef5dc6c4eaa0d5a6bbb91de0b8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads &amp; DMAs track data. Vtx, textures, displaylists, etc.  <br /></td></tr>
+<tr class="separator:a57deef5dc6c4eaa0d5a6bbb91de0b8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -405,41 +405,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a332cad400462e507d8d6d2d68035b0b2" name="a332cad400462e507d8d6d2d68035b0b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a332cad400462e507d8d6d2d68035b0b2">&#9670;&#160;</a></span>load_course()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void load_course </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>courseId</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Loads &amp; DMAs course data. Vtx, textures, displaylists, etc. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">courseId</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="memory_8c_a332cad400462e507d8d6d2d68035b0b2_cgraph.svg" width="387" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="memory_8c_a332cad400462e507d8d6d2d68035b0b2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a39fa43d59922488da06f0709f5ded15c" name="a39fa43d59922488da06f0709f5ded15c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39fa43d59922488da06f0709f5ded15c">&#9670;&#160;</a></span>load_data()</h2>
 
@@ -495,6 +460,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="memory_8c_a3617f7116e3cc000b7ebf38ad3bae48f_icgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a57deef5dc6c4eaa0d5a6bbb91de0b8cd" name="a57deef5dc6c4eaa0d5a6bbb91de0b8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57deef5dc6c4eaa0d5a6bbb91de0b8cd">&#9670;&#160;</a></span>load_track()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_track </td>
+          <td>(</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>trackId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads &amp; DMAs track data. Vtx, textures, displaylists, etc. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trackId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="memory_8c_a57deef5dc6c4eaa0d5a6bbb91de0b8cd_cgraph.svg" width="378" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="memory_8c_a57deef5dc6c4eaa0d5a6bbb91de0b8cd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

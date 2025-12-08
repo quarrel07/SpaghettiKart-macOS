@@ -272,7 +272,7 @@ var sectionId = 'dynsection-2';
 <!-- Node135 -->
 <g id="Node000135" class="node">
 <title>Node135</title>
-<g id="a_Node000135"><a xlink:href="actors_8c.html#ab38aac73e6ef03aa38f4474b612234b0" target="_top" xlink:title=" ">
+<g id="a_Node000135"><a xlink:href="actors_8c.html#a4de57fbadea56faba9dc6823dd2b64a5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="689.5,-130 568.5,-130 568.5,-111 689.5,-111 689.5,-130"/>
 <text text-anchor="middle" x="629" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">render_course_actors</text>
 </a>
@@ -290,7 +290,7 @@ var sectionId = 'dynsection-2';
 <!-- Node136 -->
 <g id="Node000136" class="node">
 <title>Node136</title>
-<g id="a_Node000136"><a xlink:href="actors_8c.html#ace8f7a78a157e497f149fa0943012622" target="_top" xlink:title=" ">
+<g id="a_Node000136"><a xlink:href="actors_8c.html#a911e7987e1670342aadf45be0095bde8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="684,-93 574,-93 574,-74 684,-74 684,-93"/>
 <text text-anchor="middle" x="629" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">render_item_boxes</text>
 </a>
@@ -581,7 +581,7 @@ var sectionId = 'dynsection-2';
 <!-- Node130 -->
 <g id="Node000130" class="node">
 <title>Node130</title>
-<g id="a_Node000130"><a xlink:href="actors_8c.html#a142a32371ea62d0303702286b839bdfd" target="_top" xlink:title="Loads actor textures, course specific actor textures. Calls to spawn_course_vehicles and place_course...">
+<g id="a_Node000130"><a xlink:href="actors_8c.html#a142a32371ea62d0303702286b839bdfd" target="_top" xlink:title="Loads actor textures, track specific actor textures. Calls to spawn_track_vehicles and place_track_ac...">
 <polygon fill="#fff0f0" stroke="red" points="490,-930.5 373,-930.5 373,-900.5 490,-900.5 490,-930.5"/>
 <text text-anchor="start" x="381" y="-918.5" font-family="Helvetica,sans-Serif" font-size="10.00">init_actors_and_load</text>
 <text text-anchor="middle" x="431.5" y="-907.5" font-family="Helvetica,sans-Serif" font-size="10.00">_textures</text>
@@ -1024,9 +1024,9 @@ var sectionId = 'dynsection-2';
 <!-- Node71 -->
 <g id="Node000071" class="node">
 <title>Node71</title>
-<g id="a_Node000071"><a xlink:href="classTestCourse.html#a2e9ee67b0384ba842b8eca8697bac6f0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="494,-463 369,-463 369,-444 494,-444 494,-463"/>
-<text text-anchor="middle" x="431.5" y="-451" font-family="Helvetica,sans-Serif" font-size="10.00">TestCourse::BeginPlay</text>
+<g id="a_Node000071"><a xlink:href="classTestTrack.html#a2837e5e48c268d15ca1590ced6aa7a00" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="489.5,-463 373.5,-463 373.5,-444 489.5,-444 489.5,-463"/>
+<text text-anchor="middle" x="431.5" y="-451" font-family="Helvetica,sans-Serif" font-size="10.00">TestTrack::BeginPlay</text>
 </a>
 </g>
 </g>
@@ -1034,7 +1034,7 @@ var sectionId = 'dynsection-2';
 <g id="edge52_Node000088_Node000071" class="edge">
 <title>Node88&#45;&gt;Node71</title>
 <g id="a_edge52_Node000088_Node000071"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M555.29,-453.5C535.18,-453.5 513.56,-453.5 494.14,-453.5"/>
+<path fill="none" stroke="#63b8ff" d="M555.18,-453.5C533.49,-453.5 510.04,-453.5 489.51,-453.5"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="555.34,-457 565.34,-453.5 555.34,-450 555.34,-457"/>
 </a>
 </g>

@@ -724,9 +724,9 @@ var sectionId = 'dynsection-165';
 <!-- Node44 -->
 <g id="Node000044" class="node">
 <title>Node44</title>
-<g id="a_Node000044"><a xlink:href="Game_8cpp.html#a3bd5b6d5945f1342484ffda8e361d0d1" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="414.5,-56 304.5,-56 304.5,-37 414.5,-37 414.5,-56"/>
-<text text-anchor="middle" x="359.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">SetCourseFromCup</text>
+<g id="a_Node000044"><a xlink:href="Game_8cpp.html#ae22f9eac795eb716b246a295a38e5343" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="420.5,-56 298.5,-56 298.5,-37 420.5,-37 420.5,-56"/>
+<text text-anchor="middle" x="359.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">SetCupCursorPosition</text>
 </a>
 </g>
 </g>
@@ -734,17 +734,17 @@ var sectionId = 'dynsection-165';
 <g id="edge44_Node000013_Node000044" class="edge">
 <title>Node13&#45;&gt;Node44</title>
 <g id="a_edge44_Node000013_Node000044"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M177.4,-480.86C179.98,-423.3 196.19,-125.66 258,-64.5 267.84,-54.77 281.02,-49.3 294.59,-46.4"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="295.22,-49.84 304.5,-44.71 294.05,-42.94 295.22,-49.84"/>
+<path fill="none" stroke="#63b8ff" d="M177.4,-480.86C179.98,-423.3 196.19,-125.66 258,-64.5 266.33,-56.26 277.07,-51.07 288.4,-47.91"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="289.5,-51.25 298.48,-45.63 287.95,-44.43 289.5,-51.25"/>
 </a>
 </g>
 </g>
 <!-- Node45 -->
 <g id="Node000045" class="node">
 <title>Node45</title>
-<g id="a_Node000045"><a xlink:href="Game_8cpp.html#ae22f9eac795eb716b246a295a38e5343" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="420.5,-19 298.5,-19 298.5,0 420.5,0 420.5,-19"/>
-<text text-anchor="middle" x="359.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SetCupCursorPosition</text>
+<g id="a_Node000045"><a xlink:href="Game_8cpp.html#a39a600533d17ea739c0cc7778087d82e" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="410,-19 309,-19 309,0 410,0 410,-19"/>
+<text text-anchor="middle" x="359.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SetTrackFromCup</text>
 </a>
 </g>
 </g>
@@ -752,8 +752,8 @@ var sectionId = 'dynsection-165';
 <g id="edge45_Node000013_Node000045" class="edge">
 <title>Node13&#45;&gt;Node45</title>
 <g id="a_edge45_Node000013_Node000045"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M177.24,-480.82C178.95,-420.33 191.2,-94.57 258,-27.5 266.27,-19.19 276.98,-13.98 288.3,-10.81"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="289.4,-14.15 298.37,-8.53 287.85,-7.33 289.4,-14.15"/>
+<path fill="none" stroke="#63b8ff" d="M177.24,-480.82C178.95,-420.33 191.2,-94.57 258,-27.5 268.72,-16.73 283.53,-11.16 298.49,-8.51"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="299.38,-11.92 308.82,-7.11 298.44,-4.98 299.38,-11.92"/>
 </a>
 </g>
 </g>
@@ -850,9 +850,9 @@ var sectionId = 'dynsection-165';
 <!-- Node43 -->
 <g id="Node000043" class="node">
 <title>Node43</title>
-<g id="a_Node000043"><a xlink:href="Game_8cpp.html#a70dfa94e07750a1aa0749a37ecd916fd" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="631,-93 544,-93 544,-74 631,-74 631,-93"/>
-<text text-anchor="middle" x="587.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">UnLoadCourse</text>
+<g id="a_Node000043"><a xlink:href="Game_8cpp.html#a1a0b86b75ed10f91ff616764992e6829" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="627,-93 548,-93 548,-74 627,-74 627,-93"/>
+<text text-anchor="middle" x="587.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">UnLoadTrack</text>
 </a>
 </g>
 </g>
@@ -860,8 +860,8 @@ var sectionId = 'dynsection-165';
 <g id="edge43_Node000042_Node000043" class="edge">
 <title>Node42&#45;&gt;Node43</title>
 <g id="a_edge43_Node000042_Node000043"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M409.54,-83.5C446.09,-83.5 495.95,-83.5 533.43,-83.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="533.65,-87 543.65,-83.5 533.65,-80 533.65,-87"/>
+<path fill="none" stroke="#63b8ff" d="M409.54,-83.5C447.39,-83.5 499.53,-83.5 537.4,-83.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="537.68,-87 547.68,-83.5 537.68,-80 537.68,-87"/>
 </a>
 </g>
 </g>

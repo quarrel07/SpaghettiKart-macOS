@@ -113,7 +113,7 @@ $(function(){initNavTree('SceneManager_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;libultraship/libultraship.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="CoreMath_8h_source.html">CoreMath.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Course_8h_source.html">engine/courses/Course.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Track_8h_source.html">engine/tracks/Track.h</a>&quot;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;nlohmann/json.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -124,7 +124,7 @@ Include dependency graph for SceneManager.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SceneManager_8h__dep__incl.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SceneManager_8h__dep__incl.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="SceneManager_8h_source.html">Go to the source code of this file.</a></p>
@@ -138,30 +138,30 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a7f2229e4a768c53fcfb4b8dd1b1272d9" id="r_a7f2229e4a768c53fcfb4b8dd1b1272d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a7f2229e4a768c53fcfb4b8dd1b1272d9">Editor::SaveLevel</a> ()</td></tr>
 <tr class="separator:a7f2229e4a768c53fcfb4b8dd1b1272d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac95c825fc97e637d93f36fe4e9121515" id="r_ac95c825fc97e637d93f36fe4e9121515"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#ac95c825fc97e637d93f36fe4e9121515">Editor::LoadLevel</a> (<a class="el" href="classCourse.html">Course</a> *course, std::string sceneFile)</td></tr>
-<tr class="separator:ac95c825fc97e637d93f36fe4e9121515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14086449f5cecdf73c783aa287b2791d" id="r_a14086449f5cecdf73c783aa287b2791d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a14086449f5cecdf73c783aa287b2791d">Editor::LoadLevel</a> (<a class="el" href="classTrack.html">Track</a> *track, std::string sceneFile)</td></tr>
+<tr class="separator:a14086449f5cecdf73c783aa287b2791d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5682c68f8c058161eac4f98905aa0c86" id="r_a5682c68f8c058161eac4f98905aa0c86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a5682c68f8c058161eac4f98905aa0c86">Editor::Load_AddStaticMeshActor</a> (const nlohmann::json &amp;actorJson)</td></tr>
 <tr class="separator:a5682c68f8c058161eac4f98905aa0c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85a38f16e0f715d247a34fc1a51d599d" id="r_a85a38f16e0f715d247a34fc1a51d599d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a85a38f16e0f715d247a34fc1a51d599d">Editor::SetSceneFile</a> (std::shared_ptr&lt; Ship::Archive &gt; archive, std::string sceneFile)</td></tr>
 <tr class="separator:a85a38f16e0f715d247a34fc1a51d599d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98e9712b85e0226321f81e1cc620777a" id="r_a98e9712b85e0226321f81e1cc620777a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a98e9712b85e0226321f81e1cc620777a">Editor::LoadMinimap</a> (<a class="el" href="classCourse.html">Course</a> *course, std::string filePath)</td></tr>
-<tr class="separator:a98e9712b85e0226321f81e1cc620777a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16ee4fdafc5f31285b8604f717f40438" id="r_a16ee4fdafc5f31285b8604f717f40438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a16ee4fdafc5f31285b8604f717f40438">Editor::SetDefaultMinimap</a> (<a class="el" href="classCourse.html">Course</a> *course)</td></tr>
-<tr class="separator:a16ee4fdafc5f31285b8604f717f40438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c0627b0072cd457fa62ca0c18f0403" id="r_af8c0627b0072cd457fa62ca0c18f0403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#af8c0627b0072cd457fa62ca0c18f0403">Editor::LoadMinimap</a> (<a class="el" href="classTrack.html">Track</a> *track, std::string filePath)</td></tr>
+<tr class="separator:af8c0627b0072cd457fa62ca0c18f0403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe4f452a1127decdc0ac83df9c184c2" id="r_aebe4f452a1127decdc0ac83df9c184c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#aebe4f452a1127decdc0ac83df9c184c2">Editor::SetDefaultMinimap</a> (<a class="el" href="classTrack.html">Track</a> *track)</td></tr>
+<tr class="separator:aebe4f452a1127decdc0ac83df9c184c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa164982e09ca2812f69c6408ee8149e7" id="r_aa164982e09ca2812f69c6408ee8149e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#aa164982e09ca2812f69c6408ee8149e7">Editor::SaveActors</a> (nlohmann::json &amp;actorList)</td></tr>
 <tr class="separator:aa164982e09ca2812f69c6408ee8149e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70cb66b6c3265e069a7d40e430f6efe5" id="r_a70cb66b6c3265e069a7d40e430f6efe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a70cb66b6c3265e069a7d40e430f6efe5">Editor::SaveStaticMeshActors</a> (nlohmann::json &amp;actorList)</td></tr>
 <tr class="separator:a70cb66b6c3265e069a7d40e430f6efe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4f05867dba1ec63e0638d365f54805e" id="r_ab4f05867dba1ec63e0638d365f54805e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#ab4f05867dba1ec63e0638d365f54805e">Editor::SaveTour</a> (nlohmann::json &amp;tour)</td></tr>
 <tr class="separator:ab4f05867dba1ec63e0638d365f54805e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac889659f9eba7f23eba74579b0dded64" id="r_ac889659f9eba7f23eba74579b0dded64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#ac889659f9eba7f23eba74579b0dded64">Editor::LoadProps</a> (<a class="el" href="classCourse.html">Course</a> *course, nlohmann::json &amp;data)</td></tr>
-<tr class="separator:ac889659f9eba7f23eba74579b0dded64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a432aae20cd7a713f5cc3ba38ecfd3af4" id="r_a432aae20cd7a713f5cc3ba38ecfd3af4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a432aae20cd7a713f5cc3ba38ecfd3af4">Editor::LoadActors</a> (<a class="el" href="classCourse.html">Course</a> *course, nlohmann::json &amp;data)</td></tr>
-<tr class="separator:a432aae20cd7a713f5cc3ba38ecfd3af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4697168fae026ab11c35133c2dbea7bf" id="r_a4697168fae026ab11c35133c2dbea7bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a4697168fae026ab11c35133c2dbea7bf">Editor::LoadStaticMeshActors</a> (<a class="el" href="classCourse.html">Course</a> *course, nlohmann::json &amp;data)</td></tr>
-<tr class="separator:a4697168fae026ab11c35133c2dbea7bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0123d5f7befc013345aed2247f7ea74" id="r_aa0123d5f7befc013345aed2247f7ea74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#aa0123d5f7befc013345aed2247f7ea74">Editor::LoadTour</a> (<a class="el" href="classCourse.html">Course</a> *course, nlohmann::json &amp;data)</td></tr>
-<tr class="separator:aa0123d5f7befc013345aed2247f7ea74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327e5fedb8a5d9dca25b05c63b05ab49" id="r_a327e5fedb8a5d9dca25b05c63b05ab49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a327e5fedb8a5d9dca25b05c63b05ab49">Editor::LoadProps</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;data)</td></tr>
+<tr class="separator:a327e5fedb8a5d9dca25b05c63b05ab49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a51f3b87492840cf1b06ac16a1e7b70" id="r_a0a51f3b87492840cf1b06ac16a1e7b70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a0a51f3b87492840cf1b06ac16a1e7b70">Editor::LoadActors</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;data)</td></tr>
+<tr class="separator:a0a51f3b87492840cf1b06ac16a1e7b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1425eb1edfff28e7d8d422e4cba35fb8" id="r_a1425eb1edfff28e7d8d422e4cba35fb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#a1425eb1edfff28e7d8d422e4cba35fb8">Editor::LoadStaticMeshActors</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;data)</td></tr>
+<tr class="separator:a1425eb1edfff28e7d8d422e4cba35fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8c94d55e92c4b7090dd062f44a50c4" id="r_aec8c94d55e92c4b7090dd062f44a50c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#aec8c94d55e92c4b7090dd062f44a50c4">Editor::LoadTour</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;data)</td></tr>
+<tr class="separator:aec8c94d55e92c4b7090dd062f44a50c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbe4273a6d0045bd9079baaaa8b04196" id="r_afbe4273a6d0045bd9079baaaa8b04196"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#afbe4273a6d0045bd9079baaaa8b04196">Editor::SpawnActors</a> (std::vector&lt; std::pair&lt; std::string, <a class="el" href="structSpawnParams.html">SpawnParams</a> &gt; &gt; spawnList)</td></tr>
 <tr class="separator:afbe4273a6d0045bd9079baaaa8b04196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac53b027d0bf127bb5f0520b97c57ab0b" id="r_ac53b027d0bf127bb5f0520b97c57ab0b"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceEditor.html#ac53b027d0bf127bb5f0520b97c57ab0b">Editor::ToJson</a> (const <a class="el" href="structFVector.html">FVector</a> &amp;v)</td></tr>

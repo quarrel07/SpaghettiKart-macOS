@@ -468,7 +468,7 @@ var code__80005FD0_8c =
     [ "gCarList", "code__80005FD0_8c.html#a98edd6c555769caa23ca17968301ac2b", null ],
     [ "gCourseCompletionPercentByPlayerId", "code__80005FD0_8c.html#ac7306c0a90875ea7942d2e8f4cfdaf57", null ],
     [ "gCourseCompletionPercentByRank", "code__80005FD0_8c.html#aa783cfef589f97380a189a6341d39593", null ],
-    [ "gCoursesCPUBehaviour", "code__80005FD0_8c.html#a33edc5bb155ee66b2314104325acc24b", null ],
+    [ "gCoursesCPUBehaviour", "code__80005FD0_8c.html#aa3c41ca100f462bfe3f813128801e0f7", null ],
     [ "gCurrentCPUBehaviourId", "code__80005FD0_8c.html#a0a6e5a88fce863407a257fc9b36b7b61", null ],
     [ "gCurrentCpuTargetSpeed", "code__80005FD0_8c.html#a0aa1170283450bcbcd968b23c7f9717c", null ],
     [ "gCurrentNearestPathPoint", "code__80005FD0_8c.html#a62890ad61462895fe84a0a5c69bd041b", null ],

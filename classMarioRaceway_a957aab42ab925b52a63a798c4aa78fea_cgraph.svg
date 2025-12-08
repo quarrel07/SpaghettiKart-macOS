@@ -49,7 +49,7 @@
 <script type="application/ecmascript">
 var viewWidth = 1073;
 var viewHeight = 298;
-var sectionId = 'dynsection-6';
+var sectionId = 'dynsection-8';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -104,7 +104,7 @@ var sectionId = 'dynsection-6';
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="Course_8cpp.html#a0406803b8f06bfcaf7e1bd3ad2ab2e12" target="_top" xlink:title=" ">
+<g id="a_Node000018"><a xlink:href="Track_8cpp.html#a0406803b8f06bfcaf7e1bd3ad2ab2e12" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="318,-83 153,-83 153,-64 318,-64 318,-83"/>
 <text text-anchor="middle" x="235.5" y="-71" font-family="Helvetica,sans-Serif" font-size="10.00">InvertTriangleWindingByName</text>
 </a>
@@ -122,9 +122,9 @@ var sectionId = 'dynsection-6';
 <!-- Node21 -->
 <g id="Node000021" class="node">
 <title>Node21</title>
-<g id="a_Node000021"><a xlink:href="render__courses_8c.html#a206a552c1a565c9737d6749aeee3e07b" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="306.5,-123 164.5,-123 164.5,-104 306.5,-104 306.5,-123"/>
-<text text-anchor="middle" x="235.5" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">parse_course_displaylists</text>
+<g id="a_Node000021"><a xlink:href="render__courses_8c.html#ac97a07076b3e301db5da93c0fe8f0500" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="302.5,-123 168.5,-123 168.5,-104 302.5,-104 302.5,-123"/>
+<text text-anchor="middle" x="235.5" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00">parse_track_displaylists</text>
 </a>
 </g>
 </g>
@@ -132,8 +132,8 @@ var sectionId = 'dynsection-6';
 <g id="edge26_Node000001_Node000021" class="edge">
 <title>Node1&#45;&gt;Node21</title>
 <g id="a_edge26_Node000001_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M117.29,-127.57C129.15,-126.14 141.84,-124.62 154.33,-123.12"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="154.77,-126.59 164.28,-121.93 153.93,-119.64 154.77,-126.59"/>
+<path fill="none" stroke="#63b8ff" d="M117.29,-127.57C130.43,-125.99 144.58,-124.29 158.35,-122.64"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="158.78,-126.11 168.29,-121.45 157.94,-119.16 158.78,-126.11"/>
 </a>
 </g>
 </g>
@@ -430,7 +430,7 @@ var sectionId = 'dynsection-6';
 <!-- Node19 -->
 <g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_Node000019"><a xlink:href="Course_8cpp.html#ad29b2b4706dd79c5d6239851b61530d4" target="_top" xlink:title=" ">
+<g id="a_Node000019"><a xlink:href="Track_8cpp.html#ad29b2b4706dd79c5d6239851b61530d4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="515,-56 354,-56 354,-37 515,-37 515,-56"/>
 <text text-anchor="middle" x="434.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">InvertTriangleWindingInternal</text>
 </a>
@@ -466,7 +466,7 @@ var sectionId = 'dynsection-6';
 <!-- Node20 -->
 <g id="Node000020" class="node">
 <title>Node20</title>
-<g id="a_Node000020"><a xlink:href="Course_8cpp.html#a5bae290668f6b484d13626d67e16cc3f" target="_top" xlink:title=" ">
+<g id="a_Node000020"><a xlink:href="Track_8cpp.html#a5bae290668f6b484d13626d67e16cc3f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="685.5,-19 565.5,-19 565.5,0 685.5,0 685.5,-19"/>
 <text text-anchor="middle" x="625.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SwapTriangleVertices</text>
 </a>
@@ -485,8 +485,8 @@ var sectionId = 'dynsection-6';
 <g id="edge27_Node000021_Node000007" class="edge">
 <title>Node21&#45;&gt;Node7</title>
 <g id="a_edge27_Node000021_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M306.51,-122.38C322.35,-124.4 339.27,-126.54 355.43,-128.59"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="355.01,-132.07 365.37,-129.85 355.89,-125.12 355.01,-132.07"/>
+<path fill="none" stroke="#63b8ff" d="M302.65,-121.89C319.47,-124.03 337.7,-126.34 355.07,-128.55"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="354.81,-132.04 365.17,-129.83 355.69,-125.1 354.81,-132.04"/>
 </a>
 </g>
 </g>

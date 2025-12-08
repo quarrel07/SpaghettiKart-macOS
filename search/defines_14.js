@@ -29,10 +29,13 @@ var searchData=
   ['tofrac_26',['toFrac',['../macros_8h.html#afb95d4bc9307ade70d0ac672aa24b82f',1,'macros.h']]],
   ['toggle_5fbtn_27',['TOGGLE_BTN',['../SpaghettiGui_8cpp.html#a5b5c99d34aba0e0c65d2d146a1a409d6',1,'SpaghettiGui.cpp']]],
   ['toggle_5fpad_5fbtn_28',['TOGGLE_PAD_BTN',['../SpaghettiGui_8cpp.html#a3973e846a303ecb2f0968b0e94cf26cd',1,'SpaghettiGui.cpp']]],
-  ['train_5fcrossing_5fai_5fdistance_29',['TRAIN_CROSSING_AI_DISTANCE',['../vehicles_8h.html#a4bec98d6b15d5c4b8f014470e2a7e731',1,'vehicles.h']]],
-  ['train_5fsmoke_5frender_5fdistance_30',['TRAIN_SMOKE_RENDER_DISTANCE',['../vehicles_8h.html#ab8f8167c848e4fb57186e7be13e0b94e',1,'vehicles.h']]],
-  ['trig_5ftables_31',['TRIG_TABLES',['../segments_8h.html#a761c05cde348942fdce0754b88fb1ca6',1,'segments.h']]],
-  ['trig_5ftables_5from_5fstart_32',['TRIG_TABLES_ROM_START',['../segments_8h.html#a20d77c6ed229d04a4e116f6efee58b65',1,'segments.h']]],
-  ['trig_5ftables_5fsize_33',['TRIG_TABLES_SIZE',['../segments_8h.html#a2e9dea20b55782f35a2f810a20bea0ab',1,'segments.h']]],
-  ['two_5fplayers_5fselected_34',['TWO_PLAYERS_SELECTED',['../defines_8h.html#a98748f4c5112d0a0081d909822d4c8ab',1,'defines.h']]]
+  ['track_5fnull_29',['TRACK_NULL',['../mk64_8h.html#a27ccccc09869f5a644db1ea358900c86',1,'mk64.h']]],
+  ['track_5ftimer_5fiter_30',['TRACK_TIMER_ITER',['../defines_8h.html#aa813c1233a4309d8496cd2ff2edb2250',1,'defines.h']]],
+  ['track_5ftimer_5fiter_5ff_31',['TRACK_TIMER_ITER_f',['../defines_8h.html#a74e18d27f9159a88553a87917bddbca5',1,'defines.h']]],
+  ['train_5fcrossing_5fai_5fdistance_32',['TRAIN_CROSSING_AI_DISTANCE',['../vehicles_8h.html#a4bec98d6b15d5c4b8f014470e2a7e731',1,'vehicles.h']]],
+  ['train_5fsmoke_5frender_5fdistance_33',['TRAIN_SMOKE_RENDER_DISTANCE',['../vehicles_8h.html#ab8f8167c848e4fb57186e7be13e0b94e',1,'vehicles.h']]],
+  ['trig_5ftables_34',['TRIG_TABLES',['../segments_8h.html#a761c05cde348942fdce0754b88fb1ca6',1,'segments.h']]],
+  ['trig_5ftables_5from_5fstart_35',['TRIG_TABLES_ROM_START',['../segments_8h.html#a20d77c6ed229d04a4e116f6efee58b65',1,'segments.h']]],
+  ['trig_5ftables_5fsize_36',['TRIG_TABLES_SIZE',['../segments_8h.html#a2e9dea20b55782f35a2f810a20bea0ab',1,'segments.h']]],
+  ['two_5fplayers_5fselected_37',['TWO_PLAYERS_SELECTED',['../defines_8h.html#a98748f4c5112d0a0081d909822d4c8ab',1,'defines.h']]]
 ];

@@ -1,10 +1,10 @@
 var skybox__and__splitscreen_8c =
 [
     [ "copy_framebuffer", "skybox__and__splitscreen_8c.html#a97049ca439feed0c004c1d41f302189e", null ],
-    [ "func_802A3730", "skybox__and__splitscreen_8c.html#ae4ccafca07028b0c92356fdf52e84180", null ],
+    [ "func_802A3730", "skybox__and__splitscreen_8c.html#acc9cba21c82598c6d7d4301fa6a67981", null ],
     [ "func_802A38AC", "skybox__and__splitscreen_8c.html#a52a89ac5b94f92acb106384aa5668246", null ],
     [ "func_802A38B4", "skybox__and__splitscreen_8c.html#a3e841fd472316b42bf7b4d8f077b2d1c", null ],
-    [ "func_802A39E0", "skybox__and__splitscreen_8c.html#a08aab98d7e7cbdd307a7baec0e234b0b", null ],
+    [ "func_802A39E0", "skybox__and__splitscreen_8c.html#ae9db843ff7843d9015394262bd432df3", null ],
     [ "func_802A40A4", "skybox__and__splitscreen_8c.html#a5bf59001832476e3a668963b8a7e7b13", null ],
     [ "func_802A40AC", "skybox__and__splitscreen_8c.html#a1916aa290f54567a8d42e666d3c1e2e3", null ],
     [ "func_802A40B4", "skybox__and__splitscreen_8c.html#a034bf3614991fd4978b4281754e5276f", null ],
@@ -15,8 +15,8 @@ var skybox__and__splitscreen_8c =
     [ "func_802A40DC", "skybox__and__splitscreen_8c.html#a82d0b28d568171fb511b650436cbd021", null ],
     [ "func_802A4300", "skybox__and__splitscreen_8c.html#a67bde07a20019a64500eba855d93ff4a", null ],
     [ "func_802A450C", "skybox__and__splitscreen_8c.html#ae7c45179d5b0717d70dc1a894355b26d", null ],
-    [ "func_802A487C", "skybox__and__splitscreen_8c.html#ac2b757ad60cbf91f4c5a7a9b290b10f6", null ],
-    [ "func_802A4A0C", "skybox__and__splitscreen_8c.html#a6135e98ec3076399696ca04f441529f4", null ],
+    [ "func_802A487C", "skybox__and__splitscreen_8c.html#a957121c0bb1c28d3526a6a29fa723d79", null ],
+    [ "func_802A4A0C", "skybox__and__splitscreen_8c.html#a51d622a3e48bc5ed08a534bc490d0b1d", null ],
     [ "func_802A4D18", "skybox__and__splitscreen_8c.html#a1520a44a27c37f0b2554764974afb428", null ],
     [ "func_802A4EF4", "skybox__and__splitscreen_8c.html#a1521be679cd75bb46d9e6f0e1ae184f4", null ],
     [ "func_802A5004", "skybox__and__splitscreen_8c.html#a106a6c5b25b49dea0722c25630e2bdb9", null ],

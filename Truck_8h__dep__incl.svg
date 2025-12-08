@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 641;
+var viewWidth = 725;
 var viewHeight = 214;
 var sectionId = 'dynsection-1';
 </script>
@@ -59,9 +59,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="506,-206 396,-206 396,-176 506,-176 506,-206"/>
-<text text-anchor="start" x="404" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/vehicles</text>
-<text text-anchor="middle" x="451" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">/Truck.h</text>
+<polygon fill="#999999" stroke="#666666" points="548,-206 438,-206 438,-176 548,-176 548,-206"/>
+<text text-anchor="start" x="446" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/vehicles</text>
+<text text-anchor="middle" x="493" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">/Truck.h</text>
 </a>
 </g>
 </g>
@@ -78,8 +78,8 @@ var sectionId = 'dynsection-1';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M412.47,-171.46C387.14,-159.27 355.2,-143.9 335.7,-134.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="411.28,-174.77 421.81,-175.95 414.32,-168.46 411.28,-174.77"/>
+<path fill="none" stroke="#63b8ff" d="M444.93,-172.42C411.21,-160.09 367.62,-144.15 341.29,-134.52"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="444,-175.81 454.6,-175.95 446.41,-169.23 444,-175.81"/>
 </a>
 </g>
 </g>
@@ -87,9 +87,8 @@ var sectionId = 'dynsection-1';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="ToadsTurnpike_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="505,-140 397,-140 397,-110 505,-110 505,-140"/>
-<text text-anchor="start" x="405" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/courses</text>
-<text text-anchor="middle" x="451" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">/ToadsTurnpike.cpp</text>
+<polygon fill="white" stroke="#666666" points="588.5,-134.5 397.5,-134.5 397.5,-115.5 588.5,-115.5 588.5,-134.5"/>
+<text text-anchor="middle" x="493" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/ToadsTurnpike.cpp</text>
 </a>
 </g>
 </g>
@@ -97,8 +96,8 @@ var sectionId = 'dynsection-1';
 <g id="edge8_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
 <g id="a_edge8_Node000001_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M451,-165.54C451,-156.96 451,-147.61 451,-140.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="447.5,-165.8 451,-175.8 454.5,-165.8 447.5,-165.8"/>
+<path fill="none" stroke="#63b8ff" d="M493,-165.6C493,-154.8 493,-142.78 493,-134.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="489.5,-165.8 493,-175.8 496.5,-165.8 489.5,-165.8"/>
 </a>
 </g>
 </g>
@@ -106,9 +105,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="Truck_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="633,-140 523,-140 523,-110 633,-110 633,-140"/>
-<text text-anchor="start" x="531" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/vehicles</text>
-<text text-anchor="middle" x="578" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">/Truck.cpp</text>
+<polygon fill="white" stroke="#666666" points="717,-140 607,-140 607,-110 717,-110 717,-140"/>
+<text text-anchor="start" x="615" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/vehicles</text>
+<text text-anchor="middle" x="662" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">/Truck.cpp</text>
 </a>
 </g>
 </g>
@@ -116,8 +115,8 @@ var sectionId = 'dynsection-1';
 <g id="edge9_Node000001_Node000009" class="edge">
 <title>Node1&#45;&gt;Node9</title>
 <g id="a_edge9_Node000001_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M487.95,-171.38C507.83,-161.36 531.93,-149.22 550.19,-140.01"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="486.23,-168.33 478.87,-175.95 489.38,-174.58 486.23,-168.33"/>
+<path fill="none" stroke="#63b8ff" d="M539.68,-172.32C566.58,-162.14 599.92,-149.51 625,-140.01"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="538.2,-169.14 530.09,-175.95 540.68,-175.69 538.2,-169.14"/>
 </a>
 </g>
 </g>

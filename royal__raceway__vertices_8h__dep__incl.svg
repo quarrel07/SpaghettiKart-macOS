@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 527;
+var viewWidth = 545;
 var viewHeight = 181;
 var sectionId = 'dynsection-1';
 </script>
@@ -59,10 +59,10 @@ var sectionId = 'dynsection-1';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="277.5,-173 133.5,-173 133.5,-132 277.5,-132 277.5,-173"/>
-<text text-anchor="start" x="141.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">include/assets/models</text>
-<text text-anchor="start" x="141.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">/tracks/royal_raceway</text>
-<text text-anchor="middle" x="205.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">/royal_raceway_vertices.h</text>
+<polygon fill="#999999" stroke="#666666" points="267.5,-173 123.5,-173 123.5,-132 267.5,-132 267.5,-173"/>
+<text text-anchor="start" x="131.5" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">include/assets/models</text>
+<text text-anchor="start" x="131.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">/tracks/royal_raceway</text>
+<text text-anchor="middle" x="195.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">/royal_raceway_vertices.h</text>
 </a>
 </g>
 </g>
@@ -70,9 +70,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="all__course__model_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="124,-96 17,-96 17,-66 124,-66 124,-96"/>
-<text text-anchor="start" x="25" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">courses/all_course</text>
-<text text-anchor="middle" x="70.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">_model.h</text>
+<polygon fill="white" stroke="#666666" points="107,-96 0,-96 0,-66 107,-66 107,-96"/>
+<text text-anchor="start" x="8" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">courses/all_course</text>
+<text text-anchor="middle" x="53.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">_model.h</text>
 </a>
 </g>
 </g>
@@ -80,129 +80,109 @@ var sectionId = 'dynsection-1';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M158.46,-127.28C138.23,-116.87 115.29,-105.06 97.91,-96.11"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="157.04,-130.49 167.54,-131.96 160.25,-124.27 157.04,-130.49"/>
-</a>
-</g>
-</g>
-<!-- Node4 -->
-<g id="Node000004" class="node">
-<title>Node4</title>
-<g id="a_Node000004"><a xlink:href="PodiumCeremony_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="262.5,-96 148.5,-96 148.5,-66 262.5,-66 262.5,-96"/>
-<text text-anchor="start" x="156.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/courses</text>
-<text text-anchor="middle" x="205.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/PodiumCeremony.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3_Node000001_Node000004" class="edge">
-<title>Node1&#45;&gt;Node4</title>
-<g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M205.5,-121.66C205.5,-112.76 205.5,-103.42 205.5,-96.04"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="202,-121.77 205.5,-131.77 209,-121.77 202,-121.77"/>
-</a>
-</g>
-</g>
-<!-- Node7 -->
-<g id="Node000007" class="node">
-<title>Node7</title>
-<g id="a_Node000007"><a xlink:href="RoyalRaceway_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="391,-96 284,-96 284,-66 391,-66 391,-96"/>
-<text text-anchor="start" x="292" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/courses</text>
-<text text-anchor="middle" x="337.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/RoyalRaceway.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6_Node000001_Node000007" class="edge">
-<title>Node1&#45;&gt;Node7</title>
-<g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M251.49,-127.28C271.27,-116.87 293.7,-105.06 310.7,-96.11"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="249.84,-124.2 242.62,-131.96 253.1,-130.39 249.84,-124.2"/>
+<path fill="none" stroke="#63b8ff" d="M146.31,-127.42C124.96,-116.98 100.7,-105.1 82.33,-96.11"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="145.05,-130.7 155.57,-131.96 148.12,-124.42 145.05,-130.7"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="courseTable_8c.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="123,-24.5 0,-24.5 0,-5.5 123,-5.5 123,-24.5"/>
-<text text-anchor="middle" x="61.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">courses/courseTable.c</text>
+<g id="a_Node000003"><a xlink:href="PodiumCeremony_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="265.5,-96 125.5,-96 125.5,-66 265.5,-66 265.5,-96"/>
+<text text-anchor="start" x="133.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/Podium</text>
+<text text-anchor="middle" x="195.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">Ceremony.h</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2_Node000002_Node000003" class="edge">
-<title>Node2&#45;&gt;Node3</title>
-<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M67.07,-55.6C65.55,-44.8 63.86,-32.78 62.74,-24.84"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="63.64,-56.38 68.5,-65.8 70.58,-55.41 63.64,-56.38"/>
-</a>
-</g>
-</g>
-<!-- Node5 -->
-<g id="Node000005" class="node">
-<title>Node5</title>
-<g id="a_Node000005"><a xlink:href="PodiumCeremony_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="266,-30 141,-30 141,0 266,0 266,-30"/>
-<text text-anchor="start" x="149" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/courses</text>
-<text text-anchor="middle" x="203.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/PodiumCeremony.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4_Node000004_Node000005" class="edge">
-<title>Node4&#45;&gt;Node5</title>
-<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M204.74,-55.54C204.47,-46.96 204.18,-37.61 203.94,-30.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="201.25,-55.91 205.06,-65.8 208.24,-55.69 201.25,-55.91"/>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2_Node000001_Node000003" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M195.5,-121.66C195.5,-112.76 195.5,-103.42 195.5,-96.04"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="192,-121.77 195.5,-131.77 199,-121.77 192,-121.77"/>
 </a>
 </g>
 </g>
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="390.5,-24.5 284.5,-24.5 284.5,-5.5 390.5,-5.5 390.5,-24.5"/>
-<text text-anchor="middle" x="337.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+<g id="a_Node000006"><a xlink:href="RoyalRaceway_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="465.5,-90.5 283.5,-90.5 283.5,-71.5 465.5,-71.5 465.5,-90.5"/>
+<text text-anchor="middle" x="374.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/RoyalRaceway.h</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5_Node000004_Node000006" class="edge">
-<title>Node4&#45;&gt;Node6</title>
-<g id="a_edge5_Node000004_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M243.74,-61.46C268.88,-49.27 300.58,-33.9 319.93,-24.52"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="241.94,-58.44 234.47,-65.95 244.99,-64.74 241.94,-58.44"/>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5_Node000001_Node000006" class="edge">
+<title>Node1&#45;&gt;Node6</title>
+<g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M255.54,-128.19C288.97,-115.21 328.57,-99.83 352.6,-90.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="253.89,-125.07 245.84,-131.96 256.43,-131.6 253.89,-125.07"/>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge8_Node000007_Node000006" class="edge">
-<title>Node7&#45;&gt;Node6</title>
-<g id="a_edge8_Node000007_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M337.5,-55.6C337.5,-44.8 337.5,-32.78 337.5,-24.84"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="334,-55.8 337.5,-65.8 341,-55.8 334,-55.8"/>
+<!-- Node4 -->
+<g id="Node000004" class="node">
+<title>Node4</title>
+<g id="a_Node000004"><a xlink:href="PodiumCeremony_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="200.5,-30 60.5,-30 60.5,0 200.5,0 200.5,-30"/>
+<text text-anchor="start" x="68.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/Podium</text>
+<text text-anchor="middle" x="130.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Ceremony.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node8 -->
-<g id="Node000008" class="node">
-<title>Node8</title>
-<g id="a_Node000008"><a xlink:href="RoyalRaceway_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="518.5,-30 408.5,-30 408.5,0 518.5,0 518.5,-30"/>
-<text text-anchor="start" x="416.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/courses</text>
-<text text-anchor="middle" x="463.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">/RoyalRaceway.cpp</text>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3_Node000003_Node000004" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M173.81,-58.65C164.29,-49.27 153.38,-38.53 144.89,-30.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="171.49,-61.27 181.07,-65.8 176.4,-56.29 171.49,-61.27"/>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7_Node000007_Node000008" class="edge">
-<title>Node7&#45;&gt;Node8</title>
-<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M374.16,-61.38C393.88,-51.36 417.79,-39.22 435.91,-30.01"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="372.48,-58.31 365.15,-65.95 375.65,-64.55 372.48,-58.31"/>
+<!-- Node5 -->
+<g id="Node000005" class="node">
+<title>Node5</title>
+<g id="a_Node000005"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="324.5,-24.5 218.5,-24.5 218.5,-5.5 324.5,-5.5 324.5,-24.5"/>
+<text text-anchor="middle" x="271.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge4_Node000003_Node000005" class="edge">
+<title>Node3&#45;&gt;Node5</title>
+<g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M220.13,-59.26C233.96,-47.61 250.49,-33.69 261,-24.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="217.76,-56.68 212.37,-65.8 222.27,-62.03 217.76,-56.68"/>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge7_Node000006_Node000005" class="edge">
+<title>Node6&#45;&gt;Node5</title>
+<g id="a_edge7_Node000006_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M352,-66.02C331.74,-53.43 302.6,-35.32 285.5,-24.7"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="350.27,-69.06 360.61,-71.37 353.96,-63.12 350.27,-69.06"/>
+</a>
+</g>
+</g>
+<!-- Node7 -->
+<g id="Node000007" class="node">
+<title>Node7</title>
+<g id="a_Node000007"><a xlink:href="RoyalRaceway_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="536.5,-24.5 342.5,-24.5 342.5,-5.5 536.5,-5.5 536.5,-24.5"/>
+<text text-anchor="middle" x="439.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/RoyalRaceway.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge6_Node000006_Node000007" class="edge">
+<title>Node6&#45;&gt;Node7</title>
+<g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M390.42,-64.33C403,-51.94 420.12,-35.09 430.46,-24.91"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="387.94,-61.86 383.27,-71.37 392.85,-66.85 387.94,-61.86"/>
 </a>
 </g>
 </g>

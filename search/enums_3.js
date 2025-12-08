@@ -12,7 +12,6 @@ var searchData=
   ['controllerpakscrolldirectiontypes_9',['ControllerPakScrollDirectionTypes',['../menus_8h.html#ade7a936fe3769cf96e16ebd85b830e75',1,'menus.h']]],
   ['courserecordsmenuselectiontypes_10',['CourseRecordsMenuSelectionTypes',['../menus_8h.html#a692cee32dee79047b93531b8284fdf2e',1,'menus.h']]],
   ['courserecordssubmenuselectiontypes_11',['CourseRecordsSubMenuSelectionTypes',['../menus_8h.html#aa8db4705a38fb4254f7ec67212635423',1,'menus.h']]],
-  ['courses_12',['COURSES',['../mk64_8h.html#acf250ad4ca05ca435a61203c41d4ca88',1,'mk64.h']]],
-  ['cpu_5fbehaviours_13',['CPU_BEHAVIOURS',['../defines_8h.html#aaed8d6b54476ff414af55dd4f0b397ca',1,'defines.h']]],
-  ['cpuitemstrategyenum_14',['CpuItemStrategyEnum',['../code__80005FD0_8h.html#a6a3987fc720b4d6bdb1566d092553bca',1,'code_80005FD0.h']]]
+  ['cpu_5fbehaviours_12',['CPU_BEHAVIOURS',['../defines_8h.html#aaed8d6b54476ff414af55dd4f0b397ca',1,'defines.h']]],
+  ['cpuitemstrategyenum_13',['CpuItemStrategyEnum',['../code__80005FD0_8h.html#a6a3987fc720b4d6bdb1566d092553bca',1,'code_80005FD0.h']]]
 ];

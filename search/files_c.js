@@ -60,7 +60,5 @@ var searchData=
   ['moomoofarm_2ecpp_57',['MooMooFarm.cpp',['../MooMooFarm_8cpp.html',1,'']]],
   ['moomoofarm_2eh_58',['MooMooFarm.h',['../MooMooFarm_8h.html',1,'']]],
   ['moon_5fjump_2ec_59',['moon_jump.c',['../moon__jump_8c.html',1,'']]],
-  ['moon_5fjump_2eh_60',['moon_jump.h',['../moon__jump_8h.html',1,'']]],
-  ['multiplayerwindow_2ecpp_61',['MultiplayerWindow.cpp',['../MultiplayerWindow_8cpp.html',1,'']]],
-  ['multiplayerwindow_2eh_62',['MultiplayerWindow.h',['../MultiplayerWindow_8h.html',1,'']]]
+  ['moon_5fjump_2eh_60',['moon_jump.h',['../moon__jump_8h.html',1,'']]]
 ];

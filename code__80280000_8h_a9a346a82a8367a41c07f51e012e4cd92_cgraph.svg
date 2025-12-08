@@ -229,9 +229,9 @@ var sectionId = 'dynsection-9';
 <!-- Node63 -->
 <g id="Node000063" class="node">
 <title>Node63</title>
-<g id="a_Node000063"><a xlink:href="memory_8c.html#a332cad400462e507d8d6d2d68035b0b2" target="_top" xlink:title="Loads &amp; DMAs course data. Vtx, textures, displaylists, etc.">
-<polygon fill="white" stroke="#666666" points="213.5,-806 138.5,-806 138.5,-787 213.5,-787 213.5,-806"/>
-<text text-anchor="middle" x="176" y="-794" font-family="Helvetica,sans-Serif" font-size="10.00">load_course</text>
+<g id="a_Node000063"><a xlink:href="memory_8c.html#a57deef5dc6c4eaa0d5a6bbb91de0b8cd" target="_top" xlink:title="Loads &amp; DMAs track data. Vtx, textures, displaylists, etc.">
+<polygon fill="white" stroke="#666666" points="210,-806 142,-806 142,-787 210,-787 210,-806"/>
+<text text-anchor="middle" x="176" y="-794" font-family="Helvetica,sans-Serif" font-size="10.00">load_track</text>
 </a>
 </g>
 </g>
@@ -239,8 +239,8 @@ var sectionId = 'dynsection-9';
 <g id="edge60_Node000001_Node000063" class="edge">
 <title>Node1&#45;&gt;Node63</title>
 <g id="a_edge60_Node000001_Node000063"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M41.58,-658.01C48.6,-682.03 70.37,-745.6 112,-778.5 116.98,-782.43 122.78,-785.51 128.81,-787.91"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="127.78,-791.26 138.38,-791.16 130.03,-784.63 127.78,-791.26"/>
+<path fill="none" stroke="#63b8ff" d="M41.58,-658.01C48.6,-682.03 70.37,-745.6 112,-778.5 117.89,-783.15 124.93,-786.61 132.14,-789.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="131.39,-792.59 141.97,-792.13 133.41,-785.89 131.39,-792.59"/>
 </a>
 </g>
 </g>
@@ -265,9 +265,9 @@ var sectionId = 'dynsection-9';
 <!-- Node68 -->
 <g id="Node000068" class="node">
 <title>Node68</title>
-<g id="a_Node000068"><a xlink:href="Game_8cpp.html#a24c17fb197ea8720e0544c07db4e25dc" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="220,-148 132,-148 132,-129 220,-129 220,-148"/>
-<text text-anchor="middle" x="176" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SetCourseById</text>
+<g id="a_Node000068"><a xlink:href="Game_8cpp.html#a529474d78d45e739155d314cc5ba561a" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="216,-148 136,-148 136,-129 216,-129 216,-148"/>
+<text text-anchor="middle" x="176" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SetTrackById</text>
 </a>
 </g>
 </g>
@@ -275,8 +275,8 @@ var sectionId = 'dynsection-9';
 <g id="edge66_Node000001_Node000068" class="edge">
 <title>Node1&#45;&gt;Node68</title>
 <g id="a_edge66_Node000001_Node000068"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M39.08,-638.76C39.76,-576.41 46.49,-233.3 112,-157.5 115.02,-154 118.66,-151.14 122.65,-148.79"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="124.3,-151.88 131.84,-144.43 121.3,-145.56 124.3,-151.88"/>
+<path fill="none" stroke="#63b8ff" d="M39.08,-638.76C39.76,-576.41 46.49,-233.3 112,-157.5 115.92,-152.96 120.89,-149.48 126.31,-146.82"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="127.74,-150.02 135.74,-143.08 125.15,-143.52 127.74,-150.02"/>
 </a>
 </g>
 </g>
@@ -391,7 +391,7 @@ var sectionId = 'dynsection-9';
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="namespaceEditor.html#ac95c825fc97e637d93f36fe4e9121515" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="namespaceEditor.html#a14086449f5cecdf73c783aa287b2791d" target="_top" xlink:title=" ">
 <polygon fill="#fff0f0" stroke="red" points="612,-695 511,-695 511,-676 612,-676 612,-695"/>
 <text text-anchor="middle" x="561.5" y="-683" font-family="Helvetica,sans-Serif" font-size="10.00">Editor::LoadLevel</text>
 </a>
@@ -427,9 +427,9 @@ var sectionId = 'dynsection-9';
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="Game_8cpp.html#a70dfa94e07750a1aa0749a37ecd916fd" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="605,-769 518,-769 518,-750 605,-750 605,-769"/>
-<text text-anchor="middle" x="561.5" y="-757" font-family="Helvetica,sans-Serif" font-size="10.00">UnLoadCourse</text>
+<g id="a_Node000024"><a xlink:href="Game_8cpp.html#a1a0b86b75ed10f91ff616764992e6829" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="601,-769 522,-769 522,-750 601,-750 601,-769"/>
+<text text-anchor="middle" x="561.5" y="-757" font-family="Helvetica,sans-Serif" font-size="10.00">UnLoadTrack</text>
 </a>
 </g>
 </g>
@@ -437,8 +437,8 @@ var sectionId = 'dynsection-9';
 <g id="edge13_Node000023_Node000024" class="edge">
 <title>Node23&#45;&gt;Node24</title>
 <g id="a_edge13_Node000023_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M411.7,-759.5C440.9,-759.5 477.91,-759.5 507.72,-759.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="507.94,-763 517.94,-759.5 507.94,-756 507.94,-763"/>
+<path fill="none" stroke="#63b8ff" d="M411.7,-759.5C442.13,-759.5 481.04,-759.5 511.44,-759.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="511.81,-763 521.81,-759.5 511.81,-756 511.81,-763"/>
 </a>
 </g>
 </g>
@@ -1044,7 +1044,7 @@ var sectionId = 'dynsection-9';
 <g id="edge61_Node000063_Node000019" class="edge">
 <title>Node63&#45;&gt;Node19</title>
 <g id="a_edge61_Node000063_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M213.65,-804.16C222.65,-806.94 231.99,-810.64 240,-815.5 259.61,-827.41 255.91,-841.41 276,-852.5 284.86,-857.39 294.93,-860.96 304.94,-863.55"/>
+<path fill="none" stroke="#63b8ff" d="M210.05,-803.09C220.12,-805.97 230.92,-809.98 240,-815.5 259.61,-827.41 255.91,-841.41 276,-852.5 284.86,-857.39 294.93,-860.96 304.94,-863.55"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="304.37,-867.01 314.9,-865.84 305.93,-860.19 304.37,-867.01"/>
 </a>
 </g>
@@ -1062,7 +1062,7 @@ var sectionId = 'dynsection-9';
 <g id="edge62_Node000063_Node000064" class="edge">
 <title>Node63&#45;&gt;Node64</title>
 <g id="a_edge62_Node000063_Node000064"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M213.55,-802.08C222.96,-804.9 232.52,-809.13 240,-815.5 267.84,-839.21 247.2,-866.96 276,-889.5 277.59,-890.75 279.26,-891.91 280.97,-893"/>
+<path fill="none" stroke="#63b8ff" d="M210.28,-801.16C220.7,-803.94 231.65,-808.39 240,-815.5 267.84,-839.21 247.2,-866.96 276,-889.5 277.59,-890.75 279.26,-891.91 280.97,-893"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="279.5,-896.19 289.97,-897.84 282.82,-890.02 279.5,-896.19"/>
 </a>
 </g>
@@ -1070,9 +1070,9 @@ var sectionId = 'dynsection-9';
 <!-- Node65 -->
 <g id="Node000065" class="node">
 <title>Node65</title>
-<g id="a_Node000065"><a xlink:href="Game_8cpp.html#aaec9e1a017e19c9d9645d315bceb4b40" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="398.5,-954 324.5,-954 324.5,-935 398.5,-935 398.5,-954"/>
-<text text-anchor="middle" x="361.5" y="-942" font-family="Helvetica,sans-Serif" font-size="10.00">LoadCourse</text>
+<g id="a_Node000065"><a xlink:href="Game_8cpp.html#af8b0f2e0fee51a3d5afe1c6b6a8f0c7f" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="394,-954 329,-954 329,-935 394,-935 394,-954"/>
+<text text-anchor="middle" x="361.5" y="-942" font-family="Helvetica,sans-Serif" font-size="10.00">LoadTrack</text>
 </a>
 </g>
 </g>
@@ -1080,8 +1080,8 @@ var sectionId = 'dynsection-9';
 <g id="edge63_Node000063_Node000065" class="edge">
 <title>Node63&#45;&gt;Node65</title>
 <g id="a_edge63_Node000063_Node000065"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M213.51,-801.22C223.13,-804.02 232.82,-808.47 240,-815.5 277.05,-851.79 237.48,-891.78 276,-926.5 286.39,-935.86 300.42,-940.79 314.06,-943.28"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="313.95,-946.8 324.35,-944.73 314.94,-939.87 313.95,-946.8"/>
+<path fill="none" stroke="#63b8ff" d="M210.23,-800.33C220.9,-803.05 232,-807.67 240,-815.5 277.05,-851.79 237.48,-891.78 276,-926.5 287.59,-936.94 303.71,-941.87 318.76,-944.04"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="318.63,-947.55 328.95,-945.14 319.38,-940.59 318.63,-947.55"/>
 </a>
 </g>
 </g>

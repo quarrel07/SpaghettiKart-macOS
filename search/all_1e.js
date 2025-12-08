@@ -62,7 +62,7 @@ var searchData=
   ['_7esceneexplorerwindow_59',['~SceneExplorerWindow',['../classEditor_1_1SceneExplorerWindow.html#ae47cc73e2a2e7db1f122e627e4200b5f',1,'Editor::SceneExplorerWindow']]],
   ['_7esherbetland_60',['~SherbetLand',['../classSherbetLand.html#ae1f5d9b45b1760c2047ee352ad20c632',1,'SherbetLand']]],
   ['_7eskyscraper_61',['~Skyscraper',['../classSkyscraper.html#a0312ce3d2ac6c0f11474a8cf463a506d',1,'Skyscraper']]],
-  ['_7etestcourse_62',['~TestCourse',['../classTestCourse.html#a64ffefd4a428df37a3fa1979abb76a4b',1,'TestCourse']]],
+  ['_7etesttrack_62',['~TestTrack',['../classTestTrack.html#a6178f09470848c27324b6b3cd2eb4e3b',1,'TestTrack']]],
   ['_7etoadsturnpike_63',['~ToadsTurnpike',['../classToadsTurnpike.html#a0c95ec77f840be3490493e9bd399e2a5',1,'ToadsTurnpike']]],
   ['_7etoolswindow_64',['~ToolsWindow',['../classEditor_1_1ToolsWindow.html#a14fd2fd85619a75f3d33cccffb0f7a30',1,'Editor::ToolsWindow']]],
   ['_7etrackpropertieswindow_65',['~TrackPropertiesWindow',['../classEditor_1_1TrackPropertiesWindow.html#a7e3d19ace79288b146e1d9e337cf0db7',1,'Editor::TrackPropertiesWindow']]],

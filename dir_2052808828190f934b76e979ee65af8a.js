@@ -2,12 +2,12 @@ var dir_2052808828190f934b76e979ee65af8a =
 [
     [ "actors", "dir_1ee540f77cb35e295a0ce7e67d25f9b4.html", "dir_1ee540f77cb35e295a0ce7e67d25f9b4" ],
     [ "cameras", "dir_dcb1c6efe783e065ed54963fd19735bb.html", "dir_dcb1c6efe783e065ed54963fd19735bb" ],
-    [ "courses", "dir_361caa2d8f272974fdb8d014c7b22bcf.html", "dir_361caa2d8f272974fdb8d014c7b22bcf" ],
     [ "editor", "dir_f4f7efabaac21873a58d10d576a92da6.html", "dir_f4f7efabaac21873a58d10d576a92da6" ],
     [ "items", "dir_4716416bf40eb61b8c5d94822e695e00.html", "dir_4716416bf40eb61b8c5d94822e695e00" ],
     [ "mods", "dir_ca4a33ac1534ede54441cb850a34af20.html", "dir_ca4a33ac1534ede54441cb850a34af20" ],
     [ "objects", "dir_e542ca8db7fd71a1414236dde431d8c7.html", "dir_e542ca8db7fd71a1414236dde431d8c7" ],
     [ "particles", "dir_5be95e51eb5f418b7778cdd680745101.html", "dir_5be95e51eb5f418b7778cdd680745101" ],
+    [ "tracks", "dir_8955581d22ca769fa1400ba486b7589a.html", "dir_8955581d22ca769fa1400ba486b7589a" ],
     [ "vehicles", "dir_d9fd50ce652a2b377376480fd9039164.html", "dir_d9fd50ce652a2b377376480fd9039164" ],
     [ "Actor.cpp", "Actor_8cpp.html", null ],
     [ "Actor.h", "Actor_8h.html", "Actor_8h" ],
