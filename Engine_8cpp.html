@@ -112,13 +112,14 @@ $(function(){initNavTree('Engine_8cpp.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Engine_8h_source.html">Engine.h</a>&quot;</code><br />
-<code>#include &quot;StringHelper.h&quot;</code><br />
+<code>#include &quot;ship/utils/StringHelper.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="GameExtractor_8h_source.html">GameExtractor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ModManager_8h_source.html">mods/ModManager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ImguiUI_8h_source.html">ui/ImguiUI.h</a>&quot;</code><br />
-<code>#include &quot;libultraship/src/Context.h&quot;</code><br />
-<code>#include &quot;libultraship/src/controller/controldevice/controller/mapping/ControllerDefaultMappings.h&quot;</code><br />
+<code>#include &quot;ship/Context.h&quot;</code><br />
+<code>#include &quot;ship/controller/controldevice/controller/mapping/ControllerDefaultMappings.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="ResourceType_8h_source.html">resource/type/ResourceType.h</a>&quot;</code><br />
+<code>#include &quot;fast/resource/ResourceType.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="GenericArrayFactory_8h_source.html">resource/importers/GenericArrayFactory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AudioBankFactory_8h_source.html">resource/importers/AudioBankFactory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AudioSampleFactory_8h_source.html">resource/importers/AudioSampleFactory.h</a>&quot;</code><br />
@@ -134,22 +135,23 @@ $(function(){initNavTree('Engine_8cpp.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="ArrayFactory_8h_source.html">resource/importers/ArrayFactory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MinimapFactory_8h_source.html">resource/importers/MinimapFactory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="BetterTextureFactory_8h_source.html">resource/importers/BetterTextureFactory.h</a>&quot;</code><br />
-<code>#include &lt;Fonts.h&gt;</code><br />
-<code>#include &quot;window/gui/resource/Font.h&quot;</code><br />
-<code>#include &quot;window/gui/resource/FontFactory.h&quot;</code><br />
+<code>#include &lt;ship/window/gui/Fonts.h&gt;</code><br />
+<code>#include &quot;ship/window/gui/resource/Font.h&quot;</code><br />
+<code>#include &quot;ship/window/gui/resource/FontFactory.h&quot;</code><br />
+<code>#include &quot;libultraship/controller/controldeck/ControlDeck.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="SpaghettiGui_8h_source.html">SpaghettiGui.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="FrameInterpolation_8h_source.html">port/interpolation/FrameInterpolation.h</a>&quot;</code><br />
-<code>#include &lt;graphic/Fast3D/Fast3dWindow.h&gt;</code><br />
-<code>#include &lt;graphic/Fast3D/interpreter.h&gt;</code><br />
+<code>#include &lt;fast/Fast3dWindow.h&gt;</code><br />
+<code>#include &lt;fast/interpreter.h&gt;</code><br />
 <code>#include &lt;SDL2/SDL.h&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;<a class="el" href="macros_8h_source.html">macros.h</a>&gt;</code><br />
-<code>#include &lt;DisplayListFactory.h&gt;</code><br />
-<code>#include &lt;TextureFactory.h&gt;</code><br />
-<code>#include &lt;MatrixFactory.h&gt;</code><br />
-<code>#include &lt;BlobFactory.h&gt;</code><br />
-<code>#include &lt;VertexFactory.h&gt;</code><br />
-<code>#include &lt;LightFactory.h&gt;</code><br />
+<code>#include &lt;fast/resource/factory/DisplayListFactory.h&gt;</code><br />
+<code>#include &lt;fast/resource/factory/TextureFactory.h&gt;</code><br />
+<code>#include &lt;fast/resource/factory/MatrixFactory.h&gt;</code><br />
+<code>#include &lt;ship/resource/factory/BlobFactory.h&gt;</code><br />
+<code>#include &lt;fast/resource/factory/VertexFactory.h&gt;</code><br />
+<code>#include &lt;fast/resource/factory/LightFactory.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="internal_8h_source.html">audio/internal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="GameAudio_8h_source.html">audio/GameAudio.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
