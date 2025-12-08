@@ -185,7 +185,7 @@ var searchData=
   ['timers_182',['timers',['../structPiranhaPlant.html#aad0102ae4844055bddecf89439f28ba0',1,'PiranhaPlant']]],
   ['timerx_183',['timerX',['../structhud__player.html#a4e7f899bbe6582da0c78d383de4baf38',1,'hud_player']]],
   ['timery_184',['timerY',['../structhud__player.html#aa21cf21b02048bda46fcbb4fd38b37fc',1,'hud_player']]],
-  ['tips_185',['Tips',['../md_docs_2custom-characters.html#tips',1,'Tips'],['../md_docs_2custom-track.html#tips-1',1,'Tips']]],
+  ['tips_185',['Tips',['../md_docs_2custom-track.html#tips-1',1,'Tips'],['../md_docs_2custom-characters.html#tips',1,'Tips']]],
   ['tlnext_186',['tlnext',['../structOSThread__ListHead.html#adb438ed0998a6df6f1b35397beedf3ed',1,'OSThread_ListHead::tlnext'],['../structOSThread__s.html#ae3eedf57533a33bc381be42804bf0658',1,'OSThread_s::tlnext']]],
   ['tlut_187',['Tlut',['../classATree.html#a8b38f0a8f69b19459577eae8066b6216',1,'ATree']]],
   ['tlutlist_188',['tlutList',['../structObject.html#a01c1f3b5e0addfab28925726b8d67c90',1,'Object::tlutList'],['../structItemWindowObjects.html#ab41021cb48e9906970a709f3a3379247',1,'ItemWindowObjects::tlutList']]],
