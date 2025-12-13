@@ -163,7 +163,7 @@ var searchData=
   ['_5f_5full_5fto_5ff_160',['__ull_to_f',['../llconv_8c.html#a51538453fc805bfcbe15676842012509',1,'llconv.c']]],
   ['_5factive_161',['_active',['../classOGrandPrixBalloons.html#a9cc7ed6b51c0444b7a3f5a461f9ca66d',1,'OGrandPrixBalloons']]],
   ['_5fatan2f_162',['_atan2f',['../math__util_8c.html#ae5ccdf2ee48e06c8a0bced3f3a00f582',1,'_atan2f(f32 arg0, f32 arg1):&#160;math_util.c'],['../math__util_8h.html#a89f1de3af4d3b117aa089fc1645d5335',1,'_atan2f(f32, f32):&#160;math_util.c']]],
-  ['_5fbehaviour_163',['_behaviour',['../classABowserStatue.html#a7953cbc2e191def4539e6eeb7626b960',1,'ABowserStatue::_behaviour'],['../classOCheepCheep.html#aa14f649a2a698e2f1e8b49fbd73edec1',1,'OCheepCheep::_behaviour']]],
+  ['_5fbehaviour_163',['_behaviour',['../classOCheepCheep.html#aa14f649a2a698e2f1e8b49fbd73edec1',1,'OCheepCheep']]],
   ['_5fbhv_164',['_bhv',['../classOTrashBin.html#ad6ad69aa19f80e408785441d9772a4dd',1,'OTrashBin::_bhv'],['../classOTrophy.html#a49dec562364c78fb2a3fd1a318249c74',1,'OTrophy::_bhv']]],
   ['_5fbnkfpatchbank_165',['_bnkfPatchBank',['../alBnkfNew_8c.html#a390e754ea34c65169d72e5817dfd67c2',1,'alBnkfNew.c']]],
   ['_5fbodyindex_166',['_bodyIndex',['../classOSnowman.html#a5506eb12573f3bf31aa8e3d0c953fc41',1,'OSnowman']]],

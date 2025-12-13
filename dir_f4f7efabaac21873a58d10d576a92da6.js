@@ -2,7 +2,7 @@ var dir_f4f7efabaac21873a58d10d576a92da6 =
 [
     [ "Collision.cpp", "Collision_8cpp.html", "Collision_8cpp" ],
     [ "Collision.h", "Collision_8h.html", "Collision_8h" ],
-    [ "Editor.cpp", "Editor_8cpp.html", null ],
+    [ "Editor.cpp", "Editor_8cpp.html", "Editor_8cpp" ],
     [ "Editor.h", "Editor_8h.html", "Editor_8h" ],
     [ "EditorMath.cpp", "EditorMath_8cpp.html", "EditorMath_8cpp" ],
     [ "EditorMath.h", "EditorMath_8h.html", "EditorMath_8h" ],

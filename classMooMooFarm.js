@@ -1,6 +1,5 @@
 var classMooMooFarm =
 [
-    [ "~MooMooFarm", "classMooMooFarm.html#a51b6632c850ac28e91ac071dc9cbd9c8", null ],
     [ "MooMooFarm", "classMooMooFarm.html#a20cbaf053f9d088222d6b2ab6ec8c3e5", null ],
     [ "BeginPlay", "classMooMooFarm.html#a7b794a6f0f3e7955abb3ec2e77c7b30d", null ],
     [ "CreditsSpawnActors", "classMooMooFarm.html#a0143bd29a9784731fd49a84304fec835", null ],
@@ -8,7 +7,6 @@ var classMooMooFarm =
     [ "Draw", "classMooMooFarm.html#aba111385d7679d86f8d915cc024c5495", null ],
     [ "DrawCredits", "classMooMooFarm.html#a603e3273d8090433dec9621ab894b491", null ],
     [ "Load", "classMooMooFarm.html#a269feb0373a1972a877fec45e0f43d6f", null ],
-    [ "UnLoad", "classMooMooFarm.html#a115b55e5344561c26a03e033dee9721c", null ],
     [ "WhatDoesThisDo", "classMooMooFarm.html#a428558a75c45fdcc567551b83f9c0c84", null ],
     [ "WhatDoesThisDoAI", "classMooMooFarm.html#a5720c43aa4a220d1b6a244f7a7d8a045", null ]
 ];

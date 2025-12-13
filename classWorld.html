@@ -109,6 +109,7 @@ $(function(){initNavTree('classWorld.html',''); initResizable(true); });
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Data Fields</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">World Class Reference</div></div>
 </div><!--header-->
@@ -136,12 +137,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afa31aec713e3a54e22e4406e4442107d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68af48b64d5d719ff33afa8a0554ce28" id="r_a68af48b64d5d719ff33afa8a0554ce28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68af48b64d5d719ff33afa8a0554ce28">SetRaceManager</a> (std::unique_ptr&lt; RaceManager &gt; manager)</td></tr>
 <tr class="separator:a68af48b64d5d719ff33afa8a0554ce28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6962157728499e138c5aab126ebbe14" id="r_ac6962157728499e138c5aab126ebbe14"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6962157728499e138c5aab126ebbe14">AddTrack</a> (std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt; track)</td></tr>
-<tr class="separator:ac6962157728499e138c5aab126ebbe14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa74f5e967e46a14dbc82cf55062d922b" id="r_aa74f5e967e46a14dbc82cf55062d922b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74f5e967e46a14dbc82cf55062d922b">TickCameras</a> ()</td></tr>
 <tr class="separator:aa74f5e967e46a14dbc82cf55062d922b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc97e3d1b7d9c4e2ec14a38902411b2" id="r_abcc97e3d1b7d9c4e2ec14a38902411b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAActor.html">AActor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcc97e3d1b7d9c4e2ec14a38902411b2">AddActor</a> (<a class="el" href="classAActor.html">AActor</a> *actor)</td></tr>
-<tr class="separator:abcc97e3d1b7d9c4e2ec14a38902411b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad293502729ed5ecaf8aae97e10daf386" id="r_ad293502729ed5ecaf8aae97e10daf386"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAActor.html">AActor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad293502729ed5ecaf8aae97e10daf386">AddActor</a> (std::unique_ptr&lt; <a class="el" href="classAActor.html">AActor</a> &gt; actor)</td></tr>
+<tr class="separator:ad293502729ed5ecaf8aae97e10daf386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215117703aa8944483793767a0fb80ed" id="r_a215117703aa8944483793767a0fb80ed"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structActor.html">Actor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a215117703aa8944483793767a0fb80ed">AddBaseActor</a> ()</td></tr>
 <tr class="separator:a215117703aa8944483793767a0fb80ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f40d5f6f8bd3c76ad1e1ca4ccc4b74f" id="r_a0f40d5f6f8bd3c76ad1e1ca4ccc4b74f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f40d5f6f8bd3c76ad1e1ca4ccc4b74f">ActorBeginPlay</a> (<a class="el" href="structActor.html">Actor</a> *actor)</td></tr>
@@ -156,10 +155,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5236ae88205fb91bc623711bfdf7e54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea32ed8b9ceecf53a32d8634240f8705" id="r_aea32ed8b9ceecf53a32d8634240f8705"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea32ed8b9ceecf53a32d8634240f8705">DrawStaticMeshActors</a> ()</td></tr>
 <tr class="separator:aea32ed8b9ceecf53a32d8634240f8705"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a628f76057c19ec2c16cffd14a5dd23f4" id="r_a628f76057c19ec2c16cffd14a5dd23f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStaticMeshActor.html">StaticMeshActor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a628f76057c19ec2c16cffd14a5dd23f4">AddStaticMeshActor</a> (std::string name, <a class="el" href="structFVector.html">FVector</a> pos, <a class="el" href="structIRotator.html">IRotator</a> rot, <a class="el" href="structFVector.html">FVector</a> scale, std::string model, int32_t *collision)</td></tr>
-<tr class="separator:a628f76057c19ec2c16cffd14a5dd23f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73103feec297a917d4eaa55d00dfdca4" id="r_a73103feec297a917d4eaa55d00dfdca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOObject.html">OObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73103feec297a917d4eaa55d00dfdca4">AddObject</a> (<a class="el" href="classOObject.html">OObject</a> *object)</td></tr>
-<tr class="separator:a73103feec297a917d4eaa55d00dfdca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aae64ec4571ac8870d606dc1b0bd9be" id="r_a3aae64ec4571ac8870d606dc1b0bd9be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStaticMeshActor.html">StaticMeshActor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aae64ec4571ac8870d606dc1b0bd9be">AddStaticMeshActor</a> (const std::string &amp;name, <a class="el" href="structFVector.html">FVector</a> pos, <a class="el" href="structIRotator.html">IRotator</a> rot, <a class="el" href="structFVector.html">FVector</a> scale, const std::string &amp;model, int32_t *collision)</td></tr>
+<tr class="separator:a3aae64ec4571ac8870d606dc1b0bd9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9305e3c98df81e9f6989c344d4bc9c51" id="r_a9305e3c98df81e9f6989c344d4bc9c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOObject.html">OObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9305e3c98df81e9f6989c344d4bc9c51">AddObject</a> (std::unique_ptr&lt; <a class="el" href="classOObject.html">OObject</a> &gt; object)</td></tr>
+<tr class="separator:a9305e3c98df81e9f6989c344d4bc9c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de989a6f75eb63748dfe33065ab7212" id="r_a0de989a6f75eb63748dfe33065ab7212"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0de989a6f75eb63748dfe33065ab7212">TickObjects</a> ()</td></tr>
 <tr class="separator:a0de989a6f75eb63748dfe33065ab7212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0fe7e2a41fa1571819f7f4e4124628f" id="r_ab0fe7e2a41fa1571819f7f4e4124628f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0fe7e2a41fa1571819f7f4e4124628f">TickObjects60fps</a> ()</td></tr>
@@ -192,25 +191,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abfe11f8fda296f0183c52efa300791b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b2c385e3bdc3d7fb07dfb33495bfd19" id="r_a8b2c385e3bdc3d7fb07dfb33495bfd19"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b2c385e3bdc3d7fb07dfb33495bfd19">PreviousCup</a> ()</td></tr>
 <tr class="separator:a8b2c385e3bdc3d7fb07dfb33495bfd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b155915655e5a34123a28b2b25a0b8" id="r_ab7b155915655e5a34123a28b2b25a0b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b155915655e5a34123a28b2b25a0b8">SetTrackFromCup</a> ()</td></tr>
-<tr class="separator:ab7b155915655e5a34123a28b2b25a0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a425b754be9118b76205c27066b23c8d7" id="r_a425b754be9118b76205c27066b23c8d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWorld.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425b754be9118b76205c27066b23c8d7">GetWorld</a> (void)</td></tr>
 <tr class="separator:a425b754be9118b76205c27066b23c8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68c87061bbbd6d702596d0c0a837a7ac" id="r_a68c87061bbbd6d702596d0c0a837a7ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68c87061bbbd6d702596d0c0a837a7ac">CleanWorld</a> (void)</td></tr>
 <tr class="separator:a68c87061bbbd6d702596d0c0a837a7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76b13a09f655cc1fc4e660233433945c" id="r_a76b13a09f655cc1fc4e660233433945c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76b13a09f655cc1fc4e660233433945c">GetTrack</a> ()</td></tr>
-<tr class="separator:a76b13a09f655cc1fc4e660233433945c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18c75986da50aa86e5f4f233152e4b53" id="r_a18c75986da50aa86e5f4f233152e4b53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c75986da50aa86e5f4f233152e4b53">SetCurrentTrack</a> (std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt; track)</td></tr>
-<tr class="separator:a18c75986da50aa86e5f4f233152e4b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7045465542726bb370c6103231bdb62" id="r_aa7045465542726bb370c6103231bdb62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7045465542726bb370c6103231bdb62">SetTrack</a> (const char *)</td></tr>
-<tr class="separator:aa7045465542726bb370c6103231bdb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fc955a39e2388e6eff26ca9f464cc99" id="r_a5fc955a39e2388e6eff26ca9f464cc99"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a5fc955a39e2388e6eff26ca9f464cc99"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5fc955a39e2388e6eff26ca9f464cc99">SetTrackByType</a> ()</td></tr>
-<tr class="separator:a5fc955a39e2388e6eff26ca9f464cc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46b32996766e380950452206ac452836" id="r_a46b32996766e380950452206ac452836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b32996766e380950452206ac452836">NextTrack</a> (void)</td></tr>
-<tr class="separator:a46b32996766e380950452206ac452836"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af85a6495f8137e6d68e37af59a62e003" id="r_af85a6495f8137e6d68e37af59a62e003"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af85a6495f8137e6d68e37af59a62e003">PreviousTrack</a> (void)</td></tr>
-<tr class="separator:af85a6495f8137e6d68e37af59a62e003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a4dacc6aea0b846df998be0afc239f7" id="r_a1a4dacc6aea0b846df998be0afc239f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTrack.html">Track</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a4dacc6aea0b846df998be0afc239f7">GetTrack</a> ()</td></tr>
+<tr class="separator:a1a4dacc6aea0b846df998be0afc239f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25427e0a34095b888c41f28da36dcae" id="r_af25427e0a34095b888c41f28da36dcae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af25427e0a34095b888c41f28da36dcae">SetCurrentTrack</a> (std::unique_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt; track)</td></tr>
+<tr class="separator:af25427e0a34095b888c41f28da36dcae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab29872febb58768cf17e6f91d6e0b4b8" id="r_ab29872febb58768cf17e6f91d6e0b4b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTrainCrossing.html">TrainCrossing</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab29872febb58768cf17e6f91d6e0b4b8">AddCrossing</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> position, u32 waypointMin, u32 waypointMax, f32 approachRadius, f32 exitRadius)</td></tr>
 <tr class="separator:ab29872febb58768cf17e6f91d6e0b4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -224,29 +212,30 @@ Data Fields</h2></td></tr>
 <tr class="separator:a46358439ccabf4a7c7901a675a081b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f2a65519fdf369d3e8622dcc07a9032" id="r_a6f2a65519fdf369d3e8622dcc07a9032"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classGameCamera.html">GameCamera</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2a65519fdf369d3e8622dcc07a9032">Cameras</a></td></tr>
 <tr class="separator:a6f2a65519fdf369d3e8622dcc07a9032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5746fa7d0805b02b036c56a56a44b5b3" id="r_a5746fa7d0805b02b036c56a56a44b5b3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classStaticMeshActor.html">StaticMeshActor</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5746fa7d0805b02b036c56a56a44b5b3">StaticMeshActors</a></td></tr>
-<tr class="separator:a5746fa7d0805b02b036c56a56a44b5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a801d7b9b95a56aad4e6c850e7b3f04f2" id="r_a801d7b9b95a56aad4e6c850e7b3f04f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classAActor.html">AActor</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a801d7b9b95a56aad4e6c850e7b3f04f2">Actors</a></td></tr>
-<tr class="separator:a801d7b9b95a56aad4e6c850e7b3f04f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cbf7696cb1102cd7f07b937b8e42648" id="r_a6cbf7696cb1102cd7f07b937b8e42648"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classOObject.html">OObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cbf7696cb1102cd7f07b937b8e42648">Objects</a></td></tr>
-<tr class="separator:a6cbf7696cb1102cd7f07b937b8e42648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d7ec4f75f47071f83655159f47bb9d" id="r_af7d7ec4f75f47071f83655159f47bb9d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classStaticMeshActor.html">StaticMeshActor</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7d7ec4f75f47071f83655159f47bb9d">StaticMeshActors</a></td></tr>
+<tr class="separator:af7d7ec4f75f47071f83655159f47bb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85d8989d364e03673452ff207a9d310" id="r_ab85d8989d364e03673452ff207a9d310"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classAActor.html">AActor</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab85d8989d364e03673452ff207a9d310">Actors</a></td></tr>
+<tr class="separator:ab85d8989d364e03673452ff207a9d310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c81a0ec580798d2273a16e841e31cc" id="r_a28c81a0ec580798d2273a16e841e31cc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classOObject.html">OObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c81a0ec580798d2273a16e841e31cc">Objects</a></td></tr>
+<tr class="separator:a28c81a0ec580798d2273a16e841e31cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0809a65319b7239f660181674be13570" id="r_a0809a65319b7239f660181674be13570"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classParticleEmitter.html">ParticleEmitter</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0809a65319b7239f660181674be13570">Emitters</a></td></tr>
 <tr class="separator:a0809a65319b7239f660181674be13570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c54380783984ed65326a87dec631556" id="r_a1c54380783984ed65326a87dec631556"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; s32, <a class="el" href="classOLakitu.html">OLakitu</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c54380783984ed65326a87dec631556">Lakitus</a></td></tr>
 <tr class="separator:a1c54380783984ed65326a87dec631556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68c5fac3f48b4df5f1204a19c4f5a083" id="r_a68c5fac3f48b4df5f1204a19c4f5a083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPlayerBombKart.html">PlayerBombKart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68c5fac3f48b4df5f1204a19c4f5a083">playerBombKart</a> [4]</td></tr>
-<tr class="separator:a68c5fac3f48b4df5f1204a19c4f5a083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37e69520d6e295417b367621eec788b" id="r_ad37e69520d6e295417b367621eec788b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPlayerBombKart.html">PlayerBombKart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37e69520d6e295417b367621eec788b">mPlayerBombKart</a> [4]</td></tr>
+<tr class="separator:ad37e69520d6e295417b367621eec788b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619ee78eb9a2237f2a2eb5ef387d67b2" id="r_a619ee78eb9a2237f2a2eb5ef387d67b2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classTrainCrossing.html">TrainCrossing</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a619ee78eb9a2237f2a2eb5ef387d67b2">Crossings</a></td></tr>
 <tr class="separator:a619ee78eb9a2237f2a2eb5ef387d67b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467282a14d34a38470f51ed90eff5cdd" id="r_a467282a14d34a38470f51ed90eff5cdd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a467282a14d34a38470f51ed90eff5cdd">Tracks</a></td></tr>
-<tr class="separator:a467282a14d34a38470f51ed90eff5cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1a71597598ec585b7ad3defeeafee8" id="r_a5e1a71597598ec585b7ad3defeeafee8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e1a71597598ec585b7ad3defeeafee8">TrackIndex</a> = 0</td></tr>
-<tr class="separator:a5e1a71597598ec585b7ad3defeeafee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ae5232a83ce9a364ca135d27fa6848161" id="r_ae5232a83ce9a364ca135d27fa6848161"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classWorld.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5232a83ce9a364ca135d27fa6848161">Instance</a></td></tr>
+<tr class="separator:ae5232a83ce9a364ca135d27fa6848161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7ca80d21d766912269f09e4e837a8f88" id="r_a7ca80d21d766912269f09e4e837a8f88"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ca80d21d766912269f09e4e837a8f88">mTrack</a></td></tr>
-<tr class="separator:a7ca80d21d766912269f09e4e837a8f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7e2f067fffbdcbfabc04c93dc82f0d" id="r_adc7e2f067fffbdcbfabc04c93dc82f0d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc7e2f067fffbdcbfabc04c93dc82f0d">mTrack</a></td></tr>
+<tr class="separator:adc7e2f067fffbdcbfabc04c93dc82f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e0f7eaac70026f4a8f374eb9aacdc68" id="r_a4e0f7eaac70026f4a8f374eb9aacdc68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCup.html">Cup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e0f7eaac70026f4a8f374eb9aacdc68">CurrentCup</a></td></tr>
 <tr class="separator:a4e0f7eaac70026f4a8f374eb9aacdc68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdeb8c0608b0f76c2b2f2595c509b8b7" id="r_acdeb8c0608b0f76c2b2f2595c509b8b7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; RaceManager &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdeb8c0608b0f76c2b2f2595c509b8b7">RaceManagerInstance</a></td></tr>
@@ -278,7 +267,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_afa39d4e6f714a7a3691ac0c656f5e8a8_icgraph.svg" width="467" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_afa39d4e6f714a7a3691ac0c656f5e8a8_icgraph.svg" width="290" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -323,13 +312,18 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a0f40d5f6f8bd3c76ad1e1ca4ccc4b74f_cgraph.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a0f40d5f6f8bd3c76ad1e1ca4ccc4b74f_cgraph.svg" width="100%" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a0f40d5f6f8bd3c76ad1e1ca4ccc4b74f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="abcc97e3d1b7d9c4e2ec14a38902411b2" name="abcc97e3d1b7d9c4e2ec14a38902411b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcc97e3d1b7d9c4e2ec14a38902411b2">&#9670;&#160;</a></span>AddActor()</h2>
+<a id="ad293502729ed5ecaf8aae97e10daf386" name="ad293502729ed5ecaf8aae97e10daf386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad293502729ed5ecaf8aae97e10daf386">&#9670;&#160;</a></span>AddActor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,15 +331,15 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classAActor.html">AActor</a> * World::AddActor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classAActor.html">AActor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classAActor.html">AActor</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
+Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_abcc97e3d1b7d9c4e2ec14a38902411b2_cgraph.svg" width="591" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_ad293502729ed5ecaf8aae97e10daf386_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -364,6 +358,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a215117703aa8944483793767a0fb80ed_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -400,6 +399,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_ab29872febb58768cf17e6f91d6e0b4b8_icgraph.svg" width="400" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -417,6 +421,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a50c64c66a1807b8108ff78c079077aa4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -434,11 +443,16 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_af199b1b3744842e6fada8c57b309a612_icgraph.svg" width="507" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
-<a id="a73103feec297a917d4eaa55d00dfdca4" name="a73103feec297a917d4eaa55d00dfdca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73103feec297a917d4eaa55d00dfdca4">&#9670;&#160;</a></span>AddObject()</h2>
+<a id="a9305e3c98df81e9f6989c344d4bc9c51" name="a9305e3c98df81e9f6989c344d4bc9c51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9305e3c98df81e9f6989c344d4bc9c51">&#9670;&#160;</a></span>AddObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,16 +460,21 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classOObject.html">OObject</a> * World::AddObject </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classOObject.html">OObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classOObject.html">OObject</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a9305e3c98df81e9f6989c344d4bc9c51_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
-<a id="a628f76057c19ec2c16cffd14a5dd23f4" name="a628f76057c19ec2c16cffd14a5dd23f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a628f76057c19ec2c16cffd14a5dd23f4">&#9670;&#160;</a></span>AddStaticMeshActor()</h2>
+<a id="a3aae64ec4571ac8870d606dc1b0bd9be" name="a3aae64ec4571ac8870d606dc1b0bd9be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aae64ec4571ac8870d606dc1b0bd9be">&#9670;&#160;</a></span>AddStaticMeshActor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -463,7 +482,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classStaticMeshActor.html">StaticMeshActor</a> * World::AddStaticMeshActor </td>
           <td>(</td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -483,7 +502,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>model</em></span>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>model</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -492,23 +511,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a3aae64ec4571ac8870d606dc1b0bd9be_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div>
-<a id="ac6962157728499e138c5aab126ebbe14" name="ac6962157728499e138c5aab126ebbe14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6962157728499e138c5aab126ebbe14">&#9670;&#160;</a></span>AddTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt; World::AddTrack </td>
-          <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>track</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -534,7 +541,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_a68c87061bbbd6d702596d0c0a837a7ac_icgraph.svg" width="315" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a68c87061bbbd6d702596d0c0a837a7ac_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -575,7 +582,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_a944244b32a2219826939859c6138f6ab_icgraph.svg" width="435" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a944244b32a2219826939859c6138f6ab_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -594,6 +601,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_ae9fe987d2baa89be2ed53514b69de835_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -611,6 +623,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a86484f7baff0196195ef1fbbd3e096a7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -628,6 +645,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_aea32ed8b9ceecf53a32d8634240f8705_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -662,6 +684,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_ab508b5afe4c28e1b222d3fa1bcebd63f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -704,6 +731,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a37da13d556bec8e05d87b87942bdb19e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -746,11 +778,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_afa31aec713e3a54e22e4406e4442107d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
-<a id="a76b13a09f655cc1fc4e660233433945c" name="a76b13a09f655cc1fc4e660233433945c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76b13a09f655cc1fc4e660233433945c">&#9670;&#160;</a></span>GetTrack()</h2>
+<a id="a1a4dacc6aea0b846df998be0afc239f7" name="a1a4dacc6aea0b846df998be0afc239f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4dacc6aea0b846df998be0afc239f7">&#9670;&#160;</a></span>GetTrack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -759,7 +796,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt; World::GetTrack </td>
+          <td class="memname"><a class="el" href="classTrack.html">Track</a> * World::GetTrack </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -771,6 +808,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a1a4dacc6aea0b846df998be0afc239f7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -813,25 +855,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_abfe11f8fda296f0183c52efa300791b6_cgraph.svg" width="504" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_abfe11f8fda296f0183c52efa300791b6_cgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_abfe11f8fda296f0183c52efa300791b6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div>
-<a id="a46b32996766e380950452206ac452836" name="a46b32996766e380950452206ac452836"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46b32996766e380950452206ac452836">&#9670;&#160;</a></span>NextTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void World::NextTrack </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -852,25 +882,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_a8b2c385e3bdc3d7fb07dfb33495bfd19_cgraph.svg" width="530" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a8b2c385e3bdc3d7fb07dfb33495bfd19_cgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a8b2c385e3bdc3d7fb07dfb33495bfd19_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div>
-<a id="af85a6495f8137e6d68e37af59a62e003" name="af85a6495f8137e6d68e37af59a62e003"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af85a6495f8137e6d68e37af59a62e003">&#9670;&#160;</a></span>PreviousTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void World::PreviousTrack </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -888,6 +906,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a1b0c4b7543e78126675c38cd900c57c4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -905,6 +928,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a9790ca2103c8082b91a735423921b487_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -922,11 +950,16 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a26047598532e37305e3e096a0d0c2ecd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
-<a id="a18c75986da50aa86e5f4f233152e4b53" name="a18c75986da50aa86e5f4f233152e4b53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18c75986da50aa86e5f4f233152e4b53">&#9670;&#160;</a></span>SetCurrentTrack()</h2>
+<a id="af25427e0a34095b888c41f28da36dcae" name="af25427e0a34095b888c41f28da36dcae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25427e0a34095b888c41f28da36dcae">&#9670;&#160;</a></span>SetCurrentTrack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -934,20 +967,15 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void World::SetCurrentTrack </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>track</em></span></td><td>)</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classTrack.html">Track</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>track</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_a18c75986da50aa86e5f4f233152e4b53_cgraph.svg" width="335" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_a18c75986da50aa86e5f4f233152e4b53_icgraph.svg" width="410" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_af25427e0a34095b888c41f28da36dcae_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -977,83 +1005,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa7045465542726bb370c6103231bdb62" name="aa7045465542726bb370c6103231bdb62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7045465542726bb370c6103231bdb62">&#9670;&#160;</a></span>SetTrack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void World::SetTrack </td>
-          <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo</a></b></dt><dd>Use content dictionary instead </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_aa7045465542726bb370c6103231bdb62_cgraph.svg" width="506" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a5fc955a39e2388e6eff26ca9f464cc99" name="a5fc955a39e2388e6eff26ca9f464cc99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fc955a39e2388e6eff26ca9f464cc99">&#9670;&#160;</a></span>SetTrackByType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void World::SetTrackByType </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_a5fc955a39e2388e6eff26ca9f464cc99_cgraph.svg" width="552" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ab7b155915655e5a34123a28b2b25a0b8" name="ab7b155915655e5a34123a28b2b25a0b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b155915655e5a34123a28b2b25a0b8">&#9670;&#160;</a></span>SetTrackFromCup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void World::SetTrackFromCup </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classWorld_ab7b155915655e5a34123a28b2b25a0b8_cgraph.svg" width="563" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="a86d6ef1e859b7ba76982ec9feb7ff26e" name="a86d6ef1e859b7ba76982ec9feb7ff26e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86d6ef1e859b7ba76982ec9feb7ff26e">&#9670;&#160;</a></span>TickActors()</h2>
 
@@ -1068,6 +1019,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a86d6ef1e859b7ba76982ec9feb7ff26e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1085,6 +1041,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_aa74f5e967e46a14dbc82cf55062d922b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1102,6 +1063,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_a0de989a6f75eb63748dfe33065ab7212_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1119,6 +1085,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_ab0fe7e2a41fa1571819f7f4e4124628f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1136,18 +1107,23 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classWorld_aeedd48b1439ac9d191c666888df7e453_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
-<a id="a801d7b9b95a56aad4e6c850e7b3f04f2" name="a801d7b9b95a56aad4e6c850e7b3f04f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a801d7b9b95a56aad4e6c850e7b3f04f2">&#9670;&#160;</a></span>Actors</h2>
+<a id="ab85d8989d364e03673452ff207a9d310" name="ab85d8989d364e03673452ff207a9d310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab85d8989d364e03673452ff207a9d310">&#9670;&#160;</a></span>Actors</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classAActor.html">AActor</a>*&gt; World::Actors</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="classAActor.html">AActor</a>&gt; &gt; World::Actors</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1246,6 +1222,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ae5232a83ce9a364ca135d27fa6848161" name="ae5232a83ce9a364ca135d27fa6848161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5232a83ce9a364ca135d27fa6848161">&#9670;&#160;</a></span>Instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classWorld.html">World</a> * World::Instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1c54380783984ed65326a87dec631556" name="a1c54380783984ed65326a87dec631556"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c54380783984ed65326a87dec631556">&#9670;&#160;</a></span>Lakitus</h2>
 
@@ -1260,8 +1258,23 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a7ca80d21d766912269f09e4e837a8f88" name="a7ca80d21d766912269f09e4e837a8f88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ca80d21d766912269f09e4e837a8f88">&#9670;&#160;</a></span>mTrack</h2>
+<a id="ad37e69520d6e295417b367621eec788b" name="ad37e69520d6e295417b367621eec788b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37e69520d6e295417b367621eec788b">&#9670;&#160;</a></span>mPlayerBombKart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPlayerBombKart.html">PlayerBombKart</a> World::mPlayerBombKart[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Objects </p>
+
+</div>
+</div>
+<a id="adc7e2f067fffbdcbfabc04c93dc82f0d" name="adc7e2f067fffbdcbfabc04c93dc82f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7e2f067fffbdcbfabc04c93dc82f0d">&#9670;&#160;</a></span>mTrack</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1270,7 +1283,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classTrack.html">Track</a>&gt; World::mTrack</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classTrack.html">Track</a>&gt; World::mTrack</td>
         </tr>
       </table>
   </td>
@@ -1296,32 +1309,17 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a6cbf7696cb1102cd7f07b937b8e42648" name="a6cbf7696cb1102cd7f07b937b8e42648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cbf7696cb1102cd7f07b937b8e42648">&#9670;&#160;</a></span>Objects</h2>
+<a id="a28c81a0ec580798d2273a16e841e31cc" name="a28c81a0ec580798d2273a16e841e31cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28c81a0ec580798d2273a16e841e31cc">&#9670;&#160;</a></span>Objects</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classOObject.html">OObject</a>*&gt; World::Objects</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="classOObject.html">OObject</a>&gt; &gt; World::Objects</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a68c5fac3f48b4df5f1204a19c4f5a083" name="a68c5fac3f48b4df5f1204a19c4f5a083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68c5fac3f48b4df5f1204a19c4f5a083">&#9670;&#160;</a></span>playerBombKart</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classPlayerBombKart.html">PlayerBombKart</a> World::playerBombKart[4]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Objects </p>
 
 </div>
 </div>
@@ -1347,42 +1345,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a5746fa7d0805b02b036c56a56a44b5b3" name="a5746fa7d0805b02b036c56a56a44b5b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5746fa7d0805b02b036c56a56a44b5b3">&#9670;&#160;</a></span>StaticMeshActors</h2>
+<a id="af7d7ec4f75f47071f83655159f47bb9d" name="af7d7ec4f75f47071f83655159f47bb9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d7ec4f75f47071f83655159f47bb9d">&#9670;&#160;</a></span>StaticMeshActors</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classStaticMeshActor.html">StaticMeshActor</a>*&gt; World::StaticMeshActors</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e1a71597598ec585b7ad3defeeafee8" name="a5e1a71597598ec585b7ad3defeeafee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e1a71597598ec585b7ad3defeeafee8">&#9670;&#160;</a></span>TrackIndex</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t World::TrackIndex = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a467282a14d34a38470f51ed90eff5cdd" name="a467282a14d34a38470f51ed90eff5cdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a467282a14d34a38470f51ed90eff5cdd">&#9670;&#160;</a></span>Tracks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="classTrack.html">Track</a>&gt; &gt; World::Tracks</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="classStaticMeshActor.html">StaticMeshActor</a>&gt; &gt; World::StaticMeshActors</td>
         </tr>
       </table>
 </div><div class="memdoc">

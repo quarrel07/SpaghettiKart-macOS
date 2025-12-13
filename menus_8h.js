@@ -50,6 +50,7 @@ var menus_8h =
       [ "DEBUG_MENU_SCREEN_MODE", "menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7ca4be120a56f99914d803d852c29f78af7", null ],
       [ "DEBUG_MENU_PLAYER", "menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7ca83aed20e05b9f4455d08d8c95844dbc4", null ],
       [ "DEBUG_MENU_SOUND_MODE", "menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7caea406d2fa030183f08b58432e98a2def", null ],
+      [ "DEBUG_MENU_LAUNCH_EDITOR", "menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7cada1984f0273714510270fceebc74a0b0", null ],
       [ "DEBUG_MENU_GIVE_ALL_GOLD_CUP", "menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7ca70c464afdb5c2c851ecae709e7b5b71d", null ],
       [ "DEBUG_MENU_OPTION_SELECTED", "menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7ca520c391db4f8a90acb8bf5d520da20b0", null ]
     ] ],

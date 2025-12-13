@@ -1,6 +1,5 @@
 var classFrappeSnowland =
 [
-    [ "~FrappeSnowland", "classFrappeSnowland.html#a963e39c726e03b11c6217185bbacfe59", null ],
     [ "FrappeSnowland", "classFrappeSnowland.html#a2a1ee67367bef3adce5ff2776e1ac2cf", null ],
     [ "BeginPlay", "classFrappeSnowland.html#ad24c95ef68d598ac712ce0bfa1429f0a", null ],
     [ "Draw", "classFrappeSnowland.html#aa02c47ef7feaf9a044927f928d392db7", null ],
@@ -10,6 +9,5 @@ var classFrappeSnowland =
     [ "Load", "classFrappeSnowland.html#a17e17979c410746742c40604dc73103e", null ],
     [ "TickClouds", "classFrappeSnowland.html#ad3a2281bebeda34940bf20e7d03c6bd0", null ],
     [ "TickTrackObjects", "classFrappeSnowland.html#a96ecd2e1bd66ff82a6f0684ad88ee1af", null ],
-    [ "UnLoad", "classFrappeSnowland.html#a52a07b0abdeefbbc06a076efee47a013", null ],
     [ "Waypoints", "classFrappeSnowland.html#a4dcf5fd3f8172a187a01480dd8eb5986", null ]
 ];

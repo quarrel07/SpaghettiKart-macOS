@@ -1,9 +1,9 @@
 var classAShip =
 [
-    [ "Skin", "classAShip.html#aaf7ade7faf341ba878c83a2be5834b31", [
-      [ "GHOSTSHIP", "classAShip.html#aaf7ade7faf341ba878c83a2be5834b31a3986f74ebf740972bf046044b87fd2df", null ],
-      [ "SHIP2", "classAShip.html#aaf7ade7faf341ba878c83a2be5834b31a473dadfc228ef4176da443258d410b4e", null ],
-      [ "SHIP3", "classAShip.html#aaf7ade7faf341ba878c83a2be5834b31a6e134608fd3f7ff7523a77786edf2fda", null ]
+    [ "Skin", "classAShip.html#a38425bb0c0aa8fba8d15ac8bef5c667a", [
+      [ "GHOSTSHIP", "classAShip.html#a38425bb0c0aa8fba8d15ac8bef5c667aa3986f74ebf740972bf046044b87fd2df", null ],
+      [ "SHIP2", "classAShip.html#a38425bb0c0aa8fba8d15ac8bef5c667aa473dadfc228ef4176da443258d410b4e", null ],
+      [ "SHIP3", "classAShip.html#a38425bb0c0aa8fba8d15ac8bef5c667aa6e134608fd3f7ff7523a77786edf2fda", null ]
     ] ],
     [ "AShip", "classAShip.html#aa54a4eed162e1079237ca6bef019bacf", null ],
     [ "~AShip", "classAShip.html#ab7ae8c55208336759dad9b34046ce6c6", null ],

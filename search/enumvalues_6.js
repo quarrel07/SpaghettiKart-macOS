@@ -1,7 +1,7 @@
 var searchData=
 [
   ['genericarray_0',['GenericArray',['../namespaceSF64.html#ad35ecb646e9e3bef64034a5ea3c1f070a8c8886e12ab9253c95168612dc435b0f',1,'SF64']]],
-  ['ghostship_1',['GHOSTSHIP',['../classAShip.html#aaf7ade7faf341ba878c83a2be5834b31a3986f74ebf740972bf046044b87fd2df',1,'AShip']]],
+  ['ghostship_1',['GHOSTSHIP',['../classAShip.html#a38425bb0c0aa8fba8d15ac8bef5c667aa3986f74ebf740972bf046044b87fd2df',1,'AShip']]],
   ['go_5ffish_2',['GO_FISH',['../classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34a803b83a3105ab74e77eb0fc6fec6372b',1,'OTrophy']]],
   ['gold_3',['GOLD',['../classOTrophy.html#a43bb5d1394bcac120ff52ec88f765891af882c6b91edfc9bb4650be9750014e6c',1,'OTrophy']]],
   ['gold_5f150_4',['GOLD_150',['../classOTrophy.html#a43bb5d1394bcac120ff52ec88f765891a3f40d4cdf3ea8eb14b1ed5f9d21a9df0',1,'OTrophy']]],

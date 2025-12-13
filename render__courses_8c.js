@@ -12,8 +12,6 @@ var render__courses_8c =
     [ "render_track", "render__courses_8c.html#a7d24f6742649a89302bce107d4460779", null ],
     [ "render_track_sections", "render__courses_8c.html#aa2d036c2083162fb6a9fe86ebd20386b", null ],
     [ "currentScreenSection", "render__courses_8c.html#ad7284ffc2e41a12ca87537ef21156453", null ],
-    [ "D_802B87B0", "render__courses_8c.html#aafc54e5deb71bbd709098623507f93a7", null ],
-    [ "D_802B87B4", "render__courses_8c.html#aead5c755690f3f103495c17c97de3ec8", null ],
     [ "D_802B87B8", "render__courses_8c.html#a37e4f5227c5bb3b68c0ff7a4e7b90207", null ],
     [ "D_802B87BC", "render__courses_8c.html#a5ef23ec890f25eb018a19f03e7e931a3", null ],
     [ "D_802B87C0", "render__courses_8c.html#ae3ff5a3807c9059521b167eece3a806f", null ],
@@ -22,5 +20,7 @@ var render__courses_8c =
     [ "D_802B87CC", "render__courses_8c.html#a96f37bd6129294cc3ff7d1998f3b8686", null ],
     [ "D_802B87D0", "render__courses_8c.html#a9fce3bcb94935f64d7c2563668a6aafb", null ],
     [ "D_802B87D4", "render__courses_8c.html#a2bed696fe9427ae7c9853be4f1bc6f08", null ],
+    [ "gFogMax", "render__courses_8c.html#a9fcb662d455614a0c134f39675195f5b", null ],
+    [ "gFogMin", "render__courses_8c.html#af561c77a8b480cf7c662517a212b1ed1", null ],
     [ "isFlycam", "render__courses_8c.html#aa9da1128ba108a869ae75449671e29f7", null ]
 ];

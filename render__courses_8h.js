@@ -14,13 +14,13 @@ var render__courses_8h =
     [ "render_track_sections", "render__courses_8h.html#aad8f34ca276610b03d066879775253cb", null ],
     [ "D_800DC610", "render__courses_8h.html#a8005297cf5ecea6c6824222b894c8e8f", null ],
     [ "D_8015F59C", "render__courses_8h.html#a5dc8568a195491aeddd6112247e000b2", null ],
-    [ "D_802B87B0", "render__courses_8h.html#aafc54e5deb71bbd709098623507f93a7", null ],
-    [ "D_802B87B4", "render__courses_8h.html#aead5c755690f3f103495c17c97de3ec8", null ],
     [ "D_802B87BC", "render__courses_8h.html#a5ef23ec890f25eb018a19f03e7e931a3", null ],
     [ "D_802B87C4", "render__courses_8h.html#a2af444c495e48a500530fea69e682168", null ],
     [ "D_802B87C8", "render__courses_8h.html#afbb4dd9882a0ef44bce101c478e79de4", null ],
     [ "D_802B87CC", "render__courses_8h.html#a96f37bd6129294cc3ff7d1998f3b8686", null ],
     [ "D_802B87D0", "render__courses_8h.html#a9fce3bcb94935f64d7c2563668a6aafb", null ],
     [ "D_802B87D4", "render__courses_8h.html#a2bed696fe9427ae7c9853be4f1bc6f08", null ],
+    [ "gFogMax", "render__courses_8h.html#a9fcb662d455614a0c134f39675195f5b", null ],
+    [ "gFogMin", "render__courses_8h.html#af561c77a8b480cf7c662517a212b1ed1", null ],
     [ "gNumCollisionTriangles", "render__courses_8h.html#a31959c0ae2036221d88612dd175a01f6", null ]
 ];

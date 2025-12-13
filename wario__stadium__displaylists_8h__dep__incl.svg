@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 785;
+var viewWidth = 801;
 var viewHeight = 280;
 var sectionId = 'dynsection-1';
 </script>
@@ -59,10 +59,10 @@ var sectionId = 'dynsection-1';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="462,-272 301,-272 301,-231 462,-231 462,-272"/>
-<text text-anchor="start" x="309" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">include/assets/models</text>
-<text text-anchor="start" x="309" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">/tracks/wario_stadium</text>
-<text text-anchor="middle" x="381.5" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">/wario_stadium_displaylists.h</text>
+<polygon fill="#999999" stroke="#666666" points="445,-272 284,-272 284,-231 445,-231 445,-272"/>
+<text text-anchor="start" x="292" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">include/assets/models</text>
+<text text-anchor="start" x="292" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">/tracks/wario_stadium</text>
+<text text-anchor="middle" x="364.5" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">/wario_stadium_displaylists.h</text>
 </a>
 </g>
 </g>
@@ -70,9 +70,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="all__course__packed_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="341,-195 234,-195 234,-165 341,-165 341,-195"/>
-<text text-anchor="start" x="242" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">courses/all_course</text>
-<text text-anchor="middle" x="287.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">_packed.h</text>
+<polygon fill="white" stroke="#666666" points="337,-195 230,-195 230,-165 337,-165 337,-195"/>
+<text text-anchor="start" x="238" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">courses/all_course</text>
+<text text-anchor="middle" x="283.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">_packed.h</text>
 </a>
 </g>
 </g>
@@ -80,8 +80,8 @@ var sectionId = 'dynsection-1';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M346.83,-224.87C333.23,-214.81 318.14,-203.66 306.59,-195.11"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="344.94,-227.82 355.07,-230.96 349.11,-222.2 344.94,-227.82"/>
+<path fill="none" stroke="#63b8ff" d="M333.76,-224.12C322.23,-214.23 309.58,-203.38 299.86,-195.04"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="331.64,-226.91 341.51,-230.77 336.2,-221.6 331.64,-226.91"/>
 </a>
 </g>
 </g>
@@ -89,8 +89,8 @@ var sectionId = 'dynsection-1';
 <g id="Node000008" class="node">
 <title>Node8</title>
 <g id="a_Node000008"><a xlink:href="WarioStadium_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="646.5,-189.5 466.5,-189.5 466.5,-170.5 646.5,-170.5 646.5,-189.5"/>
-<text text-anchor="middle" x="556.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/WarioStadium.h</text>
+<polygon fill="white" stroke="#666666" points="612.5,-189.5 432.5,-189.5 432.5,-170.5 612.5,-170.5 612.5,-189.5"/>
+<text text-anchor="middle" x="522.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/WarioStadium.h</text>
 </a>
 </g>
 </g>
@@ -98,8 +98,8 @@ var sectionId = 'dynsection-1';
 <g id="edge7_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
 <g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M440.19,-227.19C472.88,-214.21 511.6,-198.83 535.09,-189.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="438.71,-224.01 430.71,-230.96 441.3,-230.52 438.71,-224.01"/>
+<path fill="none" stroke="#63b8ff" d="M418.25,-226.86C447.6,-213.95 482.14,-198.75 503.17,-189.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="416.68,-223.73 408.93,-230.96 419.5,-230.13 416.68,-223.73"/>
 </a>
 </g>
 </g>
@@ -116,8 +116,8 @@ var sectionId = 'dynsection-1';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M224.04,-162.72C181.45,-151.79 127.08,-137.84 92.76,-129.03"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="223.2,-166.12 233.76,-165.21 224.94,-159.33 223.2,-166.12"/>
+<path fill="none" stroke="#63b8ff" d="M220.06,-162.43C178.42,-151.56 125.68,-137.78 92.25,-129.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="219.29,-165.85 229.85,-164.99 221.06,-159.07 219.29,-165.85"/>
 </a>
 </g>
 </g>
@@ -134,8 +134,8 @@ var sectionId = 'dynsection-1';
 <g id="edge3_Node000002_Node000004" class="edge">
 <title>Node2&#45;&gt;Node4</title>
 <g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M259.55,-158.82C245.59,-148.73 229.42,-137.05 218.64,-129.27"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="257.74,-161.82 267.89,-164.84 261.83,-156.15 257.74,-161.82"/>
+<path fill="none" stroke="#63b8ff" d="M256.56,-158.53C243.37,-148.51 228.19,-136.98 218.04,-129.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="254.78,-161.58 264.86,-164.84 259.02,-156 254.78,-161.58"/>
 </a>
 </g>
 </g>
@@ -152,8 +152,8 @@ var sectionId = 'dynsection-1';
 <g id="edge6_Node000002_Node000007" class="edge">
 <title>Node2&#45;&gt;Node7</title>
 <g id="a_edge6_Node000002_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M315.45,-158.82C329.41,-148.73 345.58,-137.05 356.36,-129.27"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="313.17,-156.15 307.11,-164.84 317.26,-161.82 313.17,-156.15"/>
+<path fill="none" stroke="#63b8ff" d="M312.41,-159.1C327.16,-148.95 344.34,-137.13 355.76,-129.27"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="310.33,-156.29 304.08,-164.84 314.3,-162.05 310.33,-156.29"/>
 </a>
 </g>
 </g>
@@ -196,9 +196,9 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="WarioStadium_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="652,-129 461,-129 461,-110 652,-110 652,-129"/>
-<text text-anchor="middle" x="556.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/WarioStadium.cpp</text>
+<g id="a_Node000009"><a xlink:href="AllTracks_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="583.5,-129 461.5,-129 461.5,-110 583.5,-110 583.5,-129"/>
+<text text-anchor="middle" x="522.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/AllTracks.h</text>
 </a>
 </g>
 </g>
@@ -206,26 +206,62 @@ var sectionId = 'dynsection-1';
 <g id="edge8_Node000008_Node000009" class="edge">
 <title>Node8&#45;&gt;Node9</title>
 <g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M556.5,-160.16C556.5,-149.74 556.5,-137.3 556.5,-129.17"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="553,-160.37 556.5,-170.37 560,-160.37 553,-160.37"/>
+<path fill="none" stroke="#63b8ff" d="M522.5,-160.16C522.5,-149.74 522.5,-137.3 522.5,-129.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="519,-160.37 522.5,-170.37 526,-160.37 519,-160.37"/>
+</a>
+</g>
+</g>
+<!-- Node12 -->
+<g id="Node000012" class="node">
+<title>Node12</title>
+<g id="a_Node000012"><a xlink:href="WarioStadium_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="793,-129 602,-129 602,-110 793,-110 793,-129"/>
+<text text-anchor="middle" x="697.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/WarioStadium.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node12 -->
+<g id="edge11_Node000008_Node000012" class="edge">
+<title>Node8&#45;&gt;Node12</title>
+<g id="a_edge11_Node000008_Node000012"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M557.45,-167.32C591.3,-156 641.81,-139.12 672.02,-129.02"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="556.32,-164 547.95,-170.49 558.54,-170.64 556.32,-164"/>
 </a>
 </g>
 </g>
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="776.5,-129 670.5,-129 670.5,-110 776.5,-110 776.5,-129"/>
-<text text-anchor="middle" x="723.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+<g id="a_Node000010"><a xlink:href="RegisterContent_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="531,-74 362,-74 362,-55 531,-55 531,-74"/>
+<text text-anchor="middle" x="446.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/RegisterContent.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
-<g id="edge9_Node000008_Node000010" class="edge">
-<title>Node8&#45;&gt;Node10</title>
-<g id="a_edge9_Node000008_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M590.27,-167.17C622.56,-155.86 670.48,-139.07 699.19,-129.02"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="589.06,-163.88 580.78,-170.49 591.38,-170.49 589.06,-163.88"/>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge9_Node000009_Node000010" class="edge">
+<title>Node9&#45;&gt;Node10</title>
+<g id="a_edge9_Node000009_Node000010"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M501.92,-104.15C488.19,-94.57 470.57,-82.29 458.93,-74.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="500.08,-107.14 510.29,-109.98 504.09,-101.39 500.08,-107.14"/>
+</a>
+</g>
+</g>
+<!-- Node11 -->
+<g id="Node000011" class="node">
+<title>Node11</title>
+<g id="a_Node000011"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="654.5,-74 548.5,-74 548.5,-55 654.5,-55 654.5,-74"/>
+<text text-anchor="middle" x="601.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node11 -->
+<g id="edge10_Node000009_Node000011" class="edge">
+<title>Node9&#45;&gt;Node11</title>
+<g id="a_edge10_Node000009_Node000011"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M543.89,-104.15C558.17,-94.57 576.47,-82.29 588.58,-74.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="541.55,-101.51 535.19,-109.98 545.45,-107.32 541.55,-101.51"/>
 </a>
 </g>
 </g>

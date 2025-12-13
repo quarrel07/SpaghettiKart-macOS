@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 1762;
+var viewWidth = 1847;
 var viewHeight = 291;
 var sectionId = 'dynsection-1';
 </script>
@@ -378,9 +378,9 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node17&#45;&gt;Node16 -->
-<g id="edge19_Node000017_Node000016" class="edge">
+<g id="edge22_Node000017_Node000016" class="edge">
 <title>Node17&#45;&gt;Node16</title>
-<g id="a_edge19_Node000017_Node000016"><a xlink:title=" ">
+<g id="a_edge22_Node000017_Node000016"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1591.64,-167.53C1584.82,-158.43 1577.15,-148.19 1571.12,-140.16"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1589.05,-169.9 1597.85,-175.8 1594.65,-165.7 1589.05,-169.9"/>
 </a>
@@ -389,18 +389,54 @@ var sectionId = 'dynsection-1';
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1753.5,-134.5 1647.5,-134.5 1647.5,-115.5 1753.5,-115.5 1753.5,-134.5"/>
-<text text-anchor="middle" x="1700.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+<g id="a_Node000018"><a xlink:href="AllTracks_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1769.5,-134.5 1647.5,-134.5 1647.5,-115.5 1769.5,-115.5 1769.5,-134.5"/>
+<text text-anchor="middle" x="1708.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/AllTracks.h</text>
 </a>
 </g>
 </g>
 <!-- Node17&#45;&gt;Node18 -->
-<g id="edge20_Node000017_Node000018" class="edge">
+<g id="edge19_Node000017_Node000018" class="edge">
 <title>Node17&#45;&gt;Node18</title>
-<g id="a_edge20_Node000017_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1637.43,-169.87C1654.46,-158.03 1675.13,-143.65 1688.05,-134.66"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1635.13,-167.21 1628.92,-175.8 1639.13,-172.96 1635.13,-167.21"/>
+<g id="a_edge19_Node000017_Node000018"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1639.19,-170.36C1657.84,-158.42 1680.73,-143.77 1694.97,-134.66"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1637.23,-167.46 1630.69,-175.8 1641,-173.35 1637.23,-167.46"/>
+</a>
+</g>
+</g>
+<!-- Node19 -->
+<g id="Node000019" class="node">
+<title>Node19</title>
+<g id="a_Node000019"><a xlink:href="RegisterContent_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1715,-74 1546,-74 1546,-55 1715,-55 1715,-74"/>
+<text text-anchor="middle" x="1630.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/RegisterContent.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node18&#45;&gt;Node19 -->
+<g id="edge20_Node000018_Node000019" class="edge">
+<title>Node18&#45;&gt;Node19</title>
+<g id="a_edge20_Node000018_Node000019"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1688.96,-109.35C1674.19,-98.27 1654.4,-83.43 1642.06,-74.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1686.89,-112.17 1696.99,-115.37 1691.09,-106.57 1686.89,-112.17"/>
+</a>
+</g>
+</g>
+<!-- Node20 -->
+<g id="Node000020" class="node">
+<title>Node20</title>
+<g id="a_Node000020"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1838.5,-74 1732.5,-74 1732.5,-55 1838.5,-55 1838.5,-74"/>
+<text text-anchor="middle" x="1785.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node18&#45;&gt;Node20 -->
+<g id="edge21_Node000018_Node000020" class="edge">
+<title>Node18&#45;&gt;Node20</title>
+<g id="a_edge21_Node000018_Node000020"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1728.19,-109.04C1742.73,-97.99 1762.02,-83.34 1774.09,-74.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1725.71,-106.53 1719.86,-115.37 1729.94,-112.11 1725.71,-106.53"/>
 </a>
 </g>
 </g>

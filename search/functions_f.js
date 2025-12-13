@@ -18,7 +18,7 @@ var searchData=
   ['objectinit_15',['ObjectInit',['../classSF64_1_1ObjectInit.html#a62260a84078732431020983f325eab65',1,'SF64::ObjectInit']]],
   ['obombkart_16',['OBombKart',['../classOBombKart.html#a1566e8d56318b18ad900fbbac9966d9d',1,'OBombKart']]],
   ['oboos_17',['OBoos',['../classOBoos.html#a5ca65fe45b8fad72d56d3a8c68f7b23d',1,'OBoos']]],
-  ['ochainchomp_18',['OChainChomp',['../classOChainChomp.html#a4c282fe2a6eb60b0b62eeb8144e56c32',1,'OChainChomp']]],
+  ['ochainchomp_18',['OChainChomp',['../classOChainChomp.html#a4c282fe2a6eb60b0b62eeb8144e56c32',1,'OChainChomp::OChainChomp()'],['../classOChainChomp.html#a1256e8d188979eaf98a7f21476491f21',1,'OChainChomp::OChainChomp(const SpawnParams &amp;params)']]],
   ['ocheepcheep_19',['OCheepCheep',['../classOCheepCheep.html#acbc058537730252fb4413c3282baefea',1,'OCheepCheep']]],
   ['ocrab_20',['OCrab',['../classOCrab.html#a90f306e93984090bead14740aad50830',1,'OCrab']]],
   ['off_5ffreecam_21',['off_freecam',['../freecam_8cpp.html#aebafc6430a3f2591e8051a3afae4a22d',1,'off_freecam(void):&#160;freecam.cpp'],['../freecam_8h.html#aebafc6430a3f2591e8051a3afae4a22d',1,'off_freecam(void):&#160;freecam.cpp']]],

@@ -17,7 +17,6 @@ var mk64_8h =
     [ "STACKSIZE", "mk64_8h.html#a21d9543c516fffee84a7963224271f95", null ],
     [ "TEXTURE_LOAD_FIX", "mk64_8h.html#a6b83e97ffa5c3b46d10dfea382a4583a", null ],
     [ "TEXTURE_SIZE_FIX", "mk64_8h.html#ac086c362a297c6152b21ea14b8364dbf", null ],
-    [ "TRACK_NULL", "mk64_8h.html#a27ccccc09869f5a644db1ea358900c86", null ],
     [ "SURFACE_TYPE", "mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98", [
       [ "SURFACE_DEFAULT", "mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98aa6970bca9abd16aa3e5dc8c83ed9ffac", null ],
       [ "AIRBORNE", "mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98aae231593748597efa2fddd103805f4f0", null ],

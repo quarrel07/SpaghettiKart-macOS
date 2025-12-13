@@ -1,6 +1,5 @@
 var classToadsTurnpike =
 [
-    [ "~ToadsTurnpike", "classToadsTurnpike.html#a0c95ec77f840be3490493e9bd399e2a5", null ],
     [ "ToadsTurnpike", "classToadsTurnpike.html#a35b679b83f24475ff3944f043be65207", null ],
     [ "BeginPlay", "classToadsTurnpike.html#a25009a2dd4f7e438741965b0a9fc9a7e", null ],
     [ "Destroy", "classToadsTurnpike.html#a3ff7df7e518d7c59a16f62baa97ab917", null ],
@@ -10,7 +9,6 @@ var classToadsTurnpike =
     [ "Load", "classToadsTurnpike.html#a542814c4f9986a7933a4ad5f711fcca0", null ],
     [ "SomeSounds", "classToadsTurnpike.html#a5e6f9dcc4e536e24b3d38489ae783dc4", null ],
     [ "TickClouds", "classToadsTurnpike.html#a47be1f04c149cac0395c58def69ff150", null ],
-    [ "UnLoad", "classToadsTurnpike.html#a371f6c3283c0a5bcaee31f0b4d871a7f", null ],
     [ "WhatDoesThisDo", "classToadsTurnpike.html#a4e1f2cdcb97be5a74994e8d6fae249d3", null ],
     [ "WhatDoesThisDoAI", "classToadsTurnpike.html#a3fdc56084b2cb6c95376104700a3a7a6", null ],
     [ "_numBuses", "classToadsTurnpike.html#a63ea0d1a8ed2e6ea4a49a0bff095d6cd", null ],

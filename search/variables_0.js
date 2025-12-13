@@ -34,7 +34,7 @@ var searchData=
   ['_5f_5fosvimesgqueue_31',['__osViMesgQueue',['../osCreateViManager_8c.html#ae32f419521006a60fc754571114bff79',1,'osCreateViManager.c']]],
   ['_5f_5fosvinext_32',['__osViNext',['../____osViInit_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c'],['../____osViSwapContext_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c'],['../osViBlack_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c'],['../osViSetEvent_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c'],['../osViSetMode_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c'],['../osViSetSpecialFeatures_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c'],['../osViSwapBuffer_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e',1,'__osViNext:&#160;__osViInit.c']]],
   ['_5factive_33',['_active',['../classOGrandPrixBalloons.html#a9cc7ed6b51c0444b7a3f5a461f9ca66d',1,'OGrandPrixBalloons']]],
-  ['_5fbehaviour_34',['_behaviour',['../classABowserStatue.html#a7953cbc2e191def4539e6eeb7626b960',1,'ABowserStatue::_behaviour'],['../classOCheepCheep.html#aa14f649a2a698e2f1e8b49fbd73edec1',1,'OCheepCheep::_behaviour']]],
+  ['_5fbehaviour_34',['_behaviour',['../classOCheepCheep.html#aa14f649a2a698e2f1e8b49fbd73edec1',1,'OCheepCheep']]],
   ['_5fbhv_35',['_bhv',['../classOTrashBin.html#ad6ad69aa19f80e408785441d9772a4dd',1,'OTrashBin::_bhv'],['../classOTrophy.html#a49dec562364c78fb2a3fd1a318249c74',1,'OTrophy::_bhv']]],
   ['_5fbodyindex_36',['_bodyIndex',['../classOSnowman.html#a5506eb12573f3bf31aa8e3d0c953fc41',1,'OSnowman']]],
   ['_5fcamera_37',['_camera',['../classGameCamera.html#abf0e9bd6193193ea12ecde4dc5c8ef2a',1,'GameCamera']]],

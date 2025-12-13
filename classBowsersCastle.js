@@ -1,6 +1,5 @@
 var classBowsersCastle =
 [
-    [ "~BowsersCastle", "classBowsersCastle.html#ac18ec24a3a58b5520bb38c66fa744792", null ],
     [ "BowsersCastle", "classBowsersCastle.html#a2f3a973ddaa8729223ad41d81ae9ee43", null ],
     [ "BeginPlay", "classBowsersCastle.html#ac69e2f19bec161754a90b77bb3cb49dd", null ],
     [ "CreditsSpawnActors", "classBowsersCastle.html#a04352abc8fa45d789f02fe22c6acea68", null ],
@@ -15,7 +14,6 @@ var classBowsersCastle =
     [ "SomeSounds", "classBowsersCastle.html#af4af3372707ecff2076b28e964ffd32a", null ],
     [ "SpawnStockThwomp", "classBowsersCastle.html#a3f146aca3a65db017a2ea7bc9609b9d4", null ],
     [ "TickTrackObjects", "classBowsersCastle.html#ad41e25f66713393c3a578d78919de017", null ],
-    [ "UnLoad", "classBowsersCastle.html#ae3adcaa19ef1eea7ed520f4e5883624a", null ],
     [ "Waypoints", "classBowsersCastle.html#aa65885fb4f437efc57179e089cd9686a", null ],
     [ "WhatDoesThisDo", "classBowsersCastle.html#a64b96045b886d276dd659657c8787be2", null ],
     [ "WhatDoesThisDoAI", "classBowsersCastle.html#acaa1073a7d200b06ac93244cf795cfe4", null ]

@@ -1,6 +1,5 @@
 var classKoopaTroopaBeach =
 [
-    [ "~KoopaTroopaBeach", "classKoopaTroopaBeach.html#a9d085a2f6c21656dc73b2224adf79773", null ],
     [ "KoopaTroopaBeach", "classKoopaTroopaBeach.html#ab1ad6ef63092681a163dca75dcd02f76", null ],
     [ "BeginPlay", "classKoopaTroopaBeach.html#a9080e865d29d960d60c9d86d9370ea1a", null ],
     [ "Destroy", "classKoopaTroopaBeach.html#ab71c3c9846bfc0aadd85635d7cf61125", null ],
@@ -14,7 +13,6 @@ var classKoopaTroopaBeach =
     [ "SomeCollisionThing", "classKoopaTroopaBeach.html#a7ca6e564b45390c31b76e364a0ee6ff4", null ],
     [ "SomeSounds", "classKoopaTroopaBeach.html#addce42f093a615eb19465c1654257ecd", null ],
     [ "TickTrackObjects", "classKoopaTroopaBeach.html#a27ccf043fb35f84d226c74ac514c95d6", null ],
-    [ "UnLoad", "classKoopaTroopaBeach.html#ac1832546fc8d12e4f171c392288c3e20", null ],
     [ "WhatDoesThisDo", "classKoopaTroopaBeach.html#ad5f6333b7c941aaf1a903b4ecea9833f", null ],
     [ "WhatDoesThisDoAI", "classKoopaTroopaBeach.html#ae5bbb5ba843fc4876c31ac94eb60d7b2", null ]
 ];

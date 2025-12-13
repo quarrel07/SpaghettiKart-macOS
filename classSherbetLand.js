@@ -1,6 +1,5 @@
 var classSherbetLand =
 [
-    [ "~SherbetLand", "classSherbetLand.html#ae1f5d9b45b1760c2047ee352ad20c632", null ],
     [ "SherbetLand", "classSherbetLand.html#a019d70103fc5aac86286658521c6d2df", null ],
     [ "BeginPlay", "classSherbetLand.html#aaf3ff18960e8e9896f51bd93e2d8ff9a", null ],
     [ "CreditsSpawnActors", "classSherbetLand.html#a47792717cebb7f927b73d3810b1147f0", null ],
@@ -10,6 +9,5 @@ var classSherbetLand =
     [ "DrawWater", "classSherbetLand.html#aff141b1a3e1723e5e9330beb64cab548", null ],
     [ "GetWaterLevel", "classSherbetLand.html#a163bf1164702a3cb7cc2ac1aca586c92", null ],
     [ "Load", "classSherbetLand.html#a8a4f997aca9cf49e4f1859051d1706e0", null ],
-    [ "TickTrackObjects", "classSherbetLand.html#a7be7d2e38e9c68bf4ece3d1451dc2488", null ],
-    [ "UnLoad", "classSherbetLand.html#ae7b9de2521f859e9e9a9467597eff5fe", null ]
+    [ "TickTrackObjects", "classSherbetLand.html#a7be7d2e38e9c68bf4ece3d1451dc2488", null ]
 ];

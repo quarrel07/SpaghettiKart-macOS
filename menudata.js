@@ -79,7 +79,6 @@ var menudata={children:[
 {text:"i",url:"namespacemembers_vars.html#index_i"},
 {text:"l",url:"namespacemembers_vars.html#index_l"},
 {text:"m",url:"namespacemembers_vars.html#index_m"},
-{text:"o",url:"namespacemembers_vars.html#index_o"},
 {text:"p",url:"namespacemembers_vars.html#index_p"},
 {text:"s",url:"namespacemembers_vars.html#index_s"},
 {text:"t",url:"namespacemembers_vars.html#index_t"},
@@ -193,6 +192,7 @@ var menudata={children:[
 {text:"x",url:"functions_vars_x.html#index_x"},
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]},
+{text:"Typedefs",url:"functions_type.html"},
 {text:"Enumerations",url:"functions_enum.html",children:[
 {text:"b",url:"functions_enum.html#index_b"},
 {text:"c",url:"functions_enum.html#index_c"},

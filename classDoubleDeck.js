@@ -1,6 +1,5 @@
 var classDoubleDeck =
 [
-    [ "~DoubleDeck", "classDoubleDeck.html#a8955ed22a9fe27839c9b8267dbfed791", null ],
     [ "DoubleDeck", "classDoubleDeck.html#af51271ec8ff58f7d7326fcdbed19fd95", null ],
     [ "BeginPlay", "classDoubleDeck.html#a6249973995b9850ee976397d6fcd0134", null ],
     [ "Destroy", "classDoubleDeck.html#a2507f411d8301eee8b47c6c314517ff8", null ],
@@ -9,7 +8,6 @@ var classDoubleDeck =
     [ "InitTrackObjects", "classDoubleDeck.html#a4830bddd868cac65e270095929f78928", null ],
     [ "Load", "classDoubleDeck.html#a62afceec9ab1b031dafb05f113866894", null ],
     [ "SomeSounds", "classDoubleDeck.html#a7580ded463896516aaf8e9fec9cebc3a", null ],
-    [ "UnLoad", "classDoubleDeck.html#ac9c99cd12f854437177ec9e8e4487ebd", null ],
     [ "Waypoints", "classDoubleDeck.html#a758a603d053c09441543e68a85c0fd2f", null ],
     [ "WhatDoesThisDo", "classDoubleDeck.html#a7e347e72de627248baec544968e5a765", null ],
     [ "WhatDoesThisDoAI", "classDoubleDeck.html#aca6e6a749b85afd0631504785a0af874", null ]

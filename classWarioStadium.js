@@ -1,6 +1,5 @@
 var classWarioStadium =
 [
-    [ "~WarioStadium", "classWarioStadium.html#a8308ab45118e2b3c0fc56046b2b097f3", null ],
     [ "WarioStadium", "classWarioStadium.html#ad6234cf0916746358edc95f515aebb71", null ],
     [ "BeginPlay", "classWarioStadium.html#a4378b74fb0c8f22034f5235ff051e53d", null ],
     [ "CopyJumbotron", "classWarioStadium.html#a5985791e8b3a144c1ac0dce8494ca16d", null ],
@@ -15,7 +14,6 @@ var classWarioStadium =
     [ "SomeCollisionThing", "classWarioStadium.html#afb4250df522e6b36030a732700176ce5", null ],
     [ "SomeSounds", "classWarioStadium.html#a9e5056d92880b45ecdc154da2efe2364", null ],
     [ "TickClouds", "classWarioStadium.html#a01c3602dbf33f3d4f8279aea761bb1fd", null ],
-    [ "UnLoad", "classWarioStadium.html#aefc105c019a0c2ddedef45a039123e36", null ],
     [ "WhatDoesThisDo", "classWarioStadium.html#ac32350f49f12f4922c803c2647829ba1", null ],
     [ "WhatDoesThisDoAI", "classWarioStadium.html#aa62927effacb7fda946a2245ee218e24", null ]
 ];

@@ -1,6 +1,5 @@
 var classYoshiValley =
 [
-    [ "~YoshiValley", "classYoshiValley.html#ab1673bbd31226bde2becc5f5c5399bb3", null ],
     [ "YoshiValley", "classYoshiValley.html#a1c6c9234df6df81415b10d3f94a2ac9c", null ],
     [ "BeginPlay", "classYoshiValley.html#aeb7285a3e855f75b8a1bde321834be1b", null ],
     [ "CreditsSpawnActors", "classYoshiValley.html#a9ffd75b8a30ef4ca05f961ecf59ed0ee", null ],
@@ -13,7 +12,6 @@ var classYoshiValley =
     [ "ScrollingTextures", "classYoshiValley.html#a360a9f9a2eceba58d7ce5617a013fc48", null ],
     [ "SomeSounds", "classYoshiValley.html#a670dac1db8836a3b4524e6b4be5aef0b", null ],
     [ "TickTrackObjects", "classYoshiValley.html#a1aff894c2cc26546f45d49105744302b", null ],
-    [ "UnLoad", "classYoshiValley.html#a13694106cb6afcddb8a707804920d4f8", null ],
     [ "Waypoints", "classYoshiValley.html#abc089e9b67d8625d8a2f2905f8be07b8", null ],
     [ "WhatDoesThisDo", "classYoshiValley.html#a68ea7dc88f58e3e0af970fa437ae2096", null ],
     [ "WhatDoesThisDoAI", "classYoshiValley.html#a650551eccae5f407cf91640349b22894", null ]

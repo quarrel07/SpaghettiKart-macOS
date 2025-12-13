@@ -132,9 +132,9 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
-<g id="edge30_Node000001_Node000014" class="edge">
+<g id="edge32_Node000001_Node000014" class="edge">
 <title>Node1&#45;&gt;Node14</title>
-<g id="a_edge30_Node000001_Node000014"><a xlink:title=" ">
+<g id="a_edge32_Node000001_Node000014"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1396.65,-261.26C1299.87,-259.16 1140.54,-249.03 1103.5,-206 1046.83,-140.17 1050.45,-193.08 1349.5,-140 1358.63,-138.38 1368.41,-136.45 1377.61,-134.54"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1396.62,-264.76 1406.68,-261.46 1396.75,-257.76 1396.62,-264.76"/>
 </a>
@@ -273,37 +273,37 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node24 -->
-<g id="Node000024" class="node">
-<title>Node24</title>
-<g id="a_Node000024"><a xlink:href="Harbour_8cpp.html" target="_top" xlink:title=" ">
+<!-- Node26 -->
+<g id="Node000026" class="node">
+<title>Node26</title>
+<g id="a_Node000026"><a xlink:href="Harbour_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2151,-200.5 1990,-200.5 1990,-181.5 2151,-181.5 2151,-200.5"/>
 <text text-anchor="middle" x="2070.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/Harbour.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node24 -->
-<g id="edge28_Node000001_Node000024" class="edge">
-<title>Node1&#45;&gt;Node24</title>
-<g id="a_edge28_Node000001_Node000024"><a xlink:title=" ">
+<!-- Node1&#45;&gt;Node26 -->
+<g id="edge30_Node000001_Node000026" class="edge">
+<title>Node1&#45;&gt;Node26</title>
+<g id="a_edge30_Node000001_Node000026"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1548.63,-254.27C1648.09,-244.58 1827.6,-226.23 1980.5,-206 1992.73,-204.38 2005.86,-202.45 2018.21,-200.55"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1547.99,-250.82 1538.37,-255.27 1548.67,-257.79 1547.99,-250.82"/>
 </a>
 </g>
 </g>
-<!-- Node25 -->
-<g id="Node000025" class="node">
-<title>Node25</title>
-<g id="a_Node000025"><a xlink:href="TestTrack_8cpp.html" target="_top" xlink:title=" ">
+<!-- Node27 -->
+<g id="Node000027" class="node">
+<title>Node27</title>
+<g id="a_Node000027"><a xlink:href="TestTrack_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2337.5,-200.5 2169.5,-200.5 2169.5,-181.5 2337.5,-181.5 2337.5,-200.5"/>
 <text text-anchor="middle" x="2253.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/tracks/TestTrack.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node25 -->
-<g id="edge29_Node000001_Node000025" class="edge">
-<title>Node1&#45;&gt;Node25</title>
-<g id="a_edge29_Node000001_Node000025"><a xlink:title=" ">
+<!-- Node1&#45;&gt;Node27 -->
+<g id="edge31_Node000001_Node000027" class="edge">
+<title>Node1&#45;&gt;Node27</title>
+<g id="a_edge31_Node000001_Node000027"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1548.1,-257.11C1674.95,-249.37 1938.55,-231.63 2160.5,-206 2173.64,-204.48 2187.77,-202.52 2200.96,-200.56"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1547.87,-253.62 1538.1,-257.72 1548.3,-260.61 1547.87,-253.62"/>
 </a>
@@ -536,9 +536,9 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node22&#45;&gt;Node21 -->
-<g id="edge26_Node000022_Node000021" class="edge">
+<g id="edge29_Node000022_Node000021" class="edge">
 <title>Node22&#45;&gt;Node21</title>
-<g id="a_edge26_Node000022_Node000021"><a xlink:title=" ">
+<g id="a_edge29_Node000022_Node000021"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M1868.72,-170.3C1853.5,-160.56 1835.47,-149.02 1821.63,-140.16"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="1867,-173.35 1877.31,-175.8 1870.77,-167.46 1867,-173.35"/>
 </a>
@@ -547,18 +547,54 @@ var sectionId = 'dynsection-1';
 <!-- Node23 -->
 <g id="Node000023" class="node">
 <title>Node23</title>
-<g id="a_Node000023"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1995.5,-134.5 1889.5,-134.5 1889.5,-115.5 1995.5,-115.5 1995.5,-134.5"/>
-<text text-anchor="middle" x="1942.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+<g id="a_Node000023"><a xlink:href="AllTracks_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2011.5,-134.5 1889.5,-134.5 1889.5,-115.5 2011.5,-115.5 2011.5,-134.5"/>
+<text text-anchor="middle" x="1950.5" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/AllTracks.h</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node23 -->
-<g id="edge27_Node000022_Node000023" class="edge">
+<g id="edge26_Node000022_Node000023" class="edge">
 <title>Node22&#45;&gt;Node23</title>
-<g id="a_edge27_Node000022_Node000023"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1914.77,-167.28C1922.3,-156.07 1930.95,-143.19 1936.56,-134.84"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1911.71,-165.54 1909.04,-175.8 1917.53,-169.45 1911.71,-165.54"/>
+<g id="a_edge26_Node000022_Node000023"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1917.08,-167.94C1926.13,-156.58 1936.67,-143.36 1943.45,-134.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1914.31,-165.79 1910.82,-175.8 1919.79,-170.16 1914.31,-165.79"/>
+</a>
+</g>
+</g>
+<!-- Node24 -->
+<g id="Node000024" class="node">
+<title>Node24</title>
+<g id="a_Node000024"><a xlink:href="RegisterContent_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1957,-74 1788,-74 1788,-55 1957,-55 1957,-74"/>
+<text text-anchor="middle" x="1872.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">src/engine/RegisterContent.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node23&#45;&gt;Node24 -->
+<g id="edge27_Node000023_Node000024" class="edge">
+<title>Node23&#45;&gt;Node24</title>
+<g id="a_edge27_Node000023_Node000024"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1930.96,-109.35C1916.19,-98.27 1896.4,-83.43 1884.06,-74.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1928.89,-112.17 1938.99,-115.37 1933.09,-106.57 1928.89,-112.17"/>
+</a>
+</g>
+</g>
+<!-- Node25 -->
+<g id="Node000025" class="node">
+<title>Node25</title>
+<g id="a_Node000025"><a xlink:href="Game_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2080.5,-74 1974.5,-74 1974.5,-55 2080.5,-55 2080.5,-74"/>
+<text text-anchor="middle" x="2027.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">src/port/Game.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node23&#45;&gt;Node25 -->
+<g id="edge28_Node000023_Node000025" class="edge">
+<title>Node23&#45;&gt;Node25</title>
+<g id="a_edge28_Node000023_Node000025"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1970.19,-109.04C1984.73,-97.99 2004.02,-83.34 2016.09,-74.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1967.71,-106.53 1961.86,-115.37 1971.94,-112.11 1967.71,-106.53"/>
 </a>
 </g>
 </g>
