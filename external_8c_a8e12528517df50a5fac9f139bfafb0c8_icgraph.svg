@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 3117;
+var viewWidth = 3030;
 var viewHeight = 671;
 var sectionId = 'dynsection-162';
 </script>
@@ -59,17 +59,17 @@ var sectionId = 'dynsection-162';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="3109,-383 3016,-383 3016,-364 3109,-364 3109,-383"/>
-<text text-anchor="middle" x="3062.5" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">func_800CAFC0</text>
+<polygon fill="#999999" stroke="#666666" points="3022,-383 2929,-383 2929,-364 3022,-364 3022,-383"/>
+<text text-anchor="middle" x="2975.5" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">func_800CAFC0</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="effects_8c.html#a3bed0c3da44bfea1616d42194ba2f527" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2980,-383 2846,-383 2846,-364 2980,-364 2980,-383"/>
-<text text-anchor="middle" x="2913" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">apply_boo_sound_effect</text>
+<g id="a_Node000002"><a xlink:href="effects_8c.html#a8613cdd2af65a8d199de5eb9e3783a76" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2893,-383 2821,-383 2821,-364 2893,-364 2893,-383"/>
+<text text-anchor="middle" x="2857" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">trigger_boo</text>
 </a>
 </g>
 </g>
@@ -77,17 +77,17 @@ var sectionId = 'dynsection-162';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M3005.39,-373.5C2997.13,-373.5 2988.57,-373.5 2980.14,-373.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="3005.64,-377 3015.64,-373.5 3005.64,-370 3005.64,-377"/>
+<path fill="none" stroke="#63b8ff" d="M2918.66,-373.5C2909.96,-373.5 2901.19,-373.5 2893.13,-373.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2918.79,-377 2928.79,-373.5 2918.79,-370 2918.79,-377"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="player__controller_8c.html#ac1629fdff5af23b077201884ffff7f59" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2810,-383 2699,-383 2699,-364 2810,-364 2810,-383"/>
-<text text-anchor="middle" x="2754.5" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">apply_sound_effect</text>
+<g id="a_Node000003"><a xlink:href="player__controller_8c.html#a11a2ec537f347797e51ff2729b883678" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="2785,-383 2699,-383 2699,-364 2785,-364 2785,-383"/>
+<text text-anchor="middle" x="2742" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">apply_triggers</text>
 </a>
 </g>
 </g>
@@ -95,8 +95,8 @@ var sectionId = 'dynsection-162';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2835.59,-373.5C2827,-373.5 2818.38,-373.5 2810.14,-373.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2835.63,-377 2845.63,-373.5 2835.63,-370 2835.63,-377"/>
+<path fill="none" stroke="#63b8ff" d="M2810.81,-373.5C2802.38,-373.5 2793.6,-373.5 2785.26,-373.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2810.87,-377 2820.87,-373.5 2810.87,-370 2810.87,-377"/>
 </a>
 </g>
 </g>
@@ -113,8 +113,8 @@ var sectionId = 'dynsection-162';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M2688.77,-373.5C2680.18,-373.5 2671.54,-373.5 2663.38,-373.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="2688.78,-377 2698.78,-373.5 2688.78,-370 2688.78,-377"/>
+<path fill="none" stroke="#63b8ff" d="M2688.59,-373.5C2680.19,-373.5 2671.56,-373.5 2663.35,-373.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="2688.67,-377 2698.67,-373.5 2688.67,-370 2688.67,-377"/>
 </a>
 </g>
 </g>

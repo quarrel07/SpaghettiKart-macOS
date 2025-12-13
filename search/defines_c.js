@@ -80,10 +80,13 @@ var searchData=
   ['leo_5ftest_5fpin_5fsel_77',['LEO_TEST_PIN_SEL',['../piint_8h.html#ae313a27dd53a5e5e400cff449f42975b',1,'piint.h']]],
   ['leo_5ftest_5freg_78',['LEO_TEST_REG',['../piint_8h.html#aeafec13e1f8dc859a270fb06956c1605',1,'piint.h']]],
   ['lightning_5feffect_79',['LIGHTNING_EFFECT',['../defines_8h.html#a8dbdabe3aa4cd649ab8c2c052ff0846d',1,'defines.h']]],
-  ['load_5fasset_80',['LOAD_ASSET',['../Engine_8h.html#a79a4b47022d9d400a75e30aecb495845',1,'LOAD_ASSET:&#160;Engine.h'],['../align__asset__macro_8h.html#a79a4b47022d9d400a75e30aecb495845',1,'LOAD_ASSET:&#160;align_asset_macro.h']]],
-  ['load_5fasset_5fraw_81',['LOAD_ASSET_RAW',['../Engine_8h.html#a8b59e27ac08d0690cb93f94535229a8f',1,'LOAD_ASSET_RAW:&#160;Engine.h'],['../align__asset__macro_8h.html#a8b59e27ac08d0690cb93f94535229a8f',1,'LOAD_ASSET_RAW:&#160;align_asset_macro.h']]],
-  ['locomotive_5fonly_82',['LOCOMOTIVE_ONLY',['../vehicles_8h.html#a7bb7f90607adbbc2d74f3b248f820e09',1,'vehicles.h']]],
-  ['logo_5fintro_5fmenu_83',['LOGO_INTRO_MENU',['../defines_8h.html#a26c323982c7634f09f2d93900f27856d',1,'defines.h']]],
-  ['luigi_84',['LUIGI',['../defines_8h.html#a1ba3226d974a364d7682f44614e311d9',1,'defines.h']]],
-  ['luigi_5fsize_85',['LUIGI_SIZE',['../defines_8h.html#a57d2983415fa3cf8ab2a9bee6f087c7a',1,'defines.h']]]
+  ['lightning_5fstrike_5ftrigger_80',['LIGHTNING_STRIKE_TRIGGER',['../defines_8h.html#a8b62c4d0ecf9ddbd6e3eabec5a06e74b',1,'defines.h']]],
+  ['load_5fasset_81',['LOAD_ASSET',['../Engine_8h.html#a79a4b47022d9d400a75e30aecb495845',1,'LOAD_ASSET:&#160;Engine.h'],['../align__asset__macro_8h.html#a79a4b47022d9d400a75e30aecb495845',1,'LOAD_ASSET:&#160;align_asset_macro.h']]],
+  ['load_5fasset_5fraw_82',['LOAD_ASSET_RAW',['../Engine_8h.html#a8b59e27ac08d0690cb93f94535229a8f',1,'LOAD_ASSET_RAW:&#160;Engine.h'],['../align__asset__macro_8h.html#a8b59e27ac08d0690cb93f94535229a8f',1,'LOAD_ASSET_RAW:&#160;align_asset_macro.h']]],
+  ['locomotive_5fonly_83',['LOCOMOTIVE_ONLY',['../vehicles_8h.html#a7bb7f90607adbbc2d74f3b248f820e09',1,'vehicles.h']]],
+  ['logo_5fintro_5fmenu_84',['LOGO_INTRO_MENU',['../defines_8h.html#a26c323982c7634f09f2d93900f27856d',1,'defines.h']]],
+  ['lose_5fbattle_5feffect_85',['LOSE_BATTLE_EFFECT',['../defines_8h.html#a60528aaa3366d7dfd35145c2bfd62f69',1,'defines.h']]],
+  ['low_5ftumble_5ftrigger_86',['LOW_TUMBLE_TRIGGER',['../defines_8h.html#a31213c9fb13bbc97f0ae1e30c1a6b1cf',1,'defines.h']]],
+  ['luigi_87',['LUIGI',['../defines_8h.html#a1ba3226d974a364d7682f44614e311d9',1,'defines.h']]],
+  ['luigi_5fsize_88',['LUIGI_SIZE',['../defines_8h.html#a57d2983415fa3cf8ab2a9bee6f087c7a',1,'defines.h']]]
 ];

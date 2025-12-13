@@ -76,7 +76,9 @@ var searchData=
   ['dmem_5faddr_5fwet_5fright_5fch_73',['DMEM_ADDR_WET_RIGHT_CH',['../synthesis_8h.html#a7d0209c82345e7a6205f78c353b70547',1,'synthesis.h']]],
   ['dmem_5fbuf_5fsize_74',['DMEM_BUF_SIZE',['../mixer_8c.html#ad15aafa36ae4106e1bb5a20d9aad1c3b',1,'mixer.c']]],
   ['double_5fsize_5fon_5f64_5fbit_75',['DOUBLE_SIZE_ON_64_BIT',['../mk64_8h.html#a51ce46b2d0444f5227456740ff11f1ec',1,'mk64.h']]],
-  ['draw_5fcode_76',['DRAW_CODE',['../crash__screen_8c.html#a6e86d9bd5fab8cd3013afe8a9d74d1dd',1,'crash_screen.c']]],
-  ['drifting_5feffect_77',['DRIFTING_EFFECT',['../defines_8h.html#a3e226e3ad50d318aa0e7dfa1be372961',1,'defines.h']]],
-  ['dvdl_78',['DVDL',['../debug_8h.html#a24dcc0e2be4e5fd7da6da57d3477edea',1,'debug.h']]]
+  ['drag_5fitem_5feffect_76',['DRAG_ITEM_EFFECT',['../defines_8h.html#adc856e170e2775ef474d350e0179c09b',1,'defines.h']]],
+  ['draw_5fcode_77',['DRAW_CODE',['../crash__screen_8c.html#a6e86d9bd5fab8cd3013afe8a9d74d1dd',1,'crash_screen.c']]],
+  ['drifting_5feffect_78',['DRIFTING_EFFECT',['../defines_8h.html#a3e226e3ad50d318aa0e7dfa1be372961',1,'defines.h']]],
+  ['driving_5fspinout_5ftrigger_79',['DRIVING_SPINOUT_TRIGGER',['../defines_8h.html#aafd5522730cfe2fac2e8c4ee75e38742',1,'defines.h']]],
+  ['dvdl_80',['DVDL',['../debug_8h.html#a24dcc0e2be4e5fd7da6da57d3477edea',1,'debug.h']]]
 ];
