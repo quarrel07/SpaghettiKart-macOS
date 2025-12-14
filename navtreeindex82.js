@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structfreecamSaveState.html":[18,0,124],
+"structfreecamSaveState.html#a69b728fc7fa3e5b9607f8002aa65e165":[18,0,124,2],
 "structfreecamSaveState.html#a7abeebf33c2e984ed35794769b7314ac":[18,0,124,0],
 "structfreecamSaveState.html#ac526af9b375adbba446cb8f1abf8c401":[18,0,124,1],
 "structhud__player.html":[18,0,138],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structma__context__config.html#a6e6b4a745b16535b32671667130e9e73":[18,0,180,5],
 "structma__context__config.html#a6fbeaccc6b038ed672bd1e6df4f4317c":[18,0,180,19],
 "structma__context__config.html#a73d11fabc0aa171961aa9aa157474c4d":[18,0,180,20],
-"structma__context__config.html#a7fda3b69210f2bea17711a95070c8209":[18,0,180,12],
-"structma__context__config.html#adc8c82b5adfd4c44f56b88d5b155201f":[18,0,180,11],
-"structma__context__config.html#aec7b00b8a724660dc13a9d09c39b8ab9":[18,0,180,21]
+"structma__context__config.html#a7fda3b69210f2bea17711a95070c8209":[18,0,180,12]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classYoshiValley.html":[18,0,497],
 "classYoshiValley.html#a0fd15ccad82ac674d034899b8133b47e":[18,0,497,5],
 "classYoshiValley.html#a1aff894c2cc26546f45d49105744302b":[18,0,497,11],
 "classYoshiValley.html#a1c6c9234df6df81415b10d3f94a2ac9c":[18,0,497,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "code__800029B0_8c.html#aca6165112fc92e65ad6477e785a7098c":[19,0,3,16,6],
 "code__800029B0_8c.html#acd2abe1d3f00f9dee4d679d14074480e":[19,0,3,16,73],
 "code__800029B0_8c.html#ad1c83fd95a77dc8709a93eb139dec031":[19,0,3,16,60],
-"code__800029B0_8c.html#ad2261513ccdc1dde9259588945f5e55f":[19,0,3,16,7],
-"code__800029B0_8c.html#ad3079a089ee0633538c1fc8e12f1fa74":[19,0,3,16,59]
+"code__800029B0_8c.html#ad2261513ccdc1dde9259588945f5e55f":[19,0,3,16,7]
 };

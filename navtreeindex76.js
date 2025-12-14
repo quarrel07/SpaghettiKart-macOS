@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structPaddleWheelBoat.html#a04c8b0f00d8fa9d26e2190baacca43da":[18,0,360,3],
+"structPaddleWheelBoat.html#a13855281c1459077beb9a4e7f8478a37":[18,0,360,0],
 "structPaddleWheelBoat.html#a1f0605c31f4b5daac9882f80c2637117":[18,0,360,6],
 "structPaddleWheelBoat.html#a2d7a35ed976dc26fb5925f0017c78d79":[18,0,360,10],
 "structPaddleWheelBoat.html#a4b167594716e305f92305e1b6c9e09a0":[18,0,360,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structRegisterMenuInitFunc.html":[18,0,377],
 "structRegisterMenuInitFunc.html#ac3391061fb68feb3ed9eef8c4f86cc26":[18,0,377,0],
 "structRegisterMenuUpdateFunc.html":[18,0,378],
-"structRegisterMenuUpdateFunc.html#a104daa46187e488dd09101c832159896":[18,0,378,0],
-"structRegistry_1_1Entry.html":[18,0,379,0],
-"structRegistry_1_1Entry.html#ac0da6e03bb3c2ae991aa56eab56c6ae1":[18,0,379,0,0]
+"structRegisterMenuUpdateFunc.html#a104daa46187e488dd09101c832159896":[18,0,378,0]
 };

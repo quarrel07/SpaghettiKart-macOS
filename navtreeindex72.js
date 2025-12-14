@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structALSeqFile.html#abb6866cc44247035b94fb14d2a4c288d":[18,0,53,1],
 "structALSound__s.html":[18,0,54],
 "structALSound__s.html#a359b8901cc1233fafd17a3507b93a0a4":[18,0,54,1],
 "structALSound__s.html#a649e0313749f127e30ce6754fbd81324":[18,0,54,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structCPUBehaviour.html#ab3ab2b38bf26b94b5afc767e49001377":[18,0,100,2],
 "structCPUBehaviour.html#abc8026e90285a4ba6254037aee0ae28a":[18,0,100,1],
 "structCPUBehaviour.html#aee8504f6e1fd7bdfd6fcee09a60d5a8a":[18,0,100,0],
-"structCamera.html":[18,0,85],
-"structCamera.html#a0a744b9293131f7719e3beb956add5bc":[18,0,85,18]
+"structCamera.html":[18,0,85]
 };

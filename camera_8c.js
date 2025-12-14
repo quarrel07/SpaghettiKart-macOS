@@ -14,7 +14,7 @@ var camera_8c =
     [ "func_8001E8E8", "camera_8c.html#a42c7d84be6dd6af219b2df890e90296e", null ],
     [ "func_8001EA0C", "camera_8c.html#ae341a27f4172416f06cc042880ec71e8", null ],
     [ "func_8001EE98", "camera_8c.html#aa9c99b4c8605e42825107adeed2c382a", null ],
-    [ "func_8001F394", "camera_8c.html#a0044cd79d56fa26de4dfd49bc77e3471", null ],
+    [ "func_8001F394", "camera_8c.html#ad9ea255bea3cc3fde70c3721539ee9b7", null ],
     [ "func_8001F87C", "camera_8c.html#a1a9254549775676e7fe5dc508bc4c4b0", null ],
     [ "camera1", "camera_8c.html#a55c57426bead74311a6710cc88980ead", null ],
     [ "camera2", "camera_8c.html#ab0a9da286408e4a3557cf93c690e6ab2", null ],

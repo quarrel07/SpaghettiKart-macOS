@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"frappe__snowland__displaylists_8h.html":[19,0,2,0,0,0,7,1],
 "frappe__snowland__displaylists_8h.html#ac766fc02707a0a2c4eab09a1ba9336d0":[19,0,2,0,0,0,7,1,0],
 "frappe__snowland__displaylists_8h_source.html":[19,0,2,0,0,0,7,1],
 "frappe__snowland__vertices_8h.html":[19,0,2,0,0,0,7,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "ghostship__model_8h.html#ab37af69cf8deaf01cb1e65d7f6564cad":[19,0,0,8,1,12],
 "ghostship__model_8h.html#ab4511ec795aed765c24b76745594f844":[19,0,0,8,1,6],
 "ghostship__model_8h.html#ab9fa869ed20b7183eeda4b4d8de47c29":[19,0,0,8,1,40],
-"ghostship__model_8h.html#aba0b29f581e6f989d5be0ee01c22d5b1":[19,0,0,8,1,14],
-"ghostship__model_8h.html#abfa6c172d8effee7580e0f7f5475d8f0":[19,0,0,8,1,5]
+"ghostship__model_8h.html#aba0b29f581e6f989d5be0ee01c22d5b1":[19,0,0,8,1,14]
 };

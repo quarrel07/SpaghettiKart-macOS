@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structRegistry_1_1Entry.html":[18,0,379,0],
+"structRegistry_1_1Entry.html#ac0da6e03bb3c2ae991aa56eab56c6ae1":[18,0,379,0,0],
 "structRegistry_1_1Entry.html#ad7c60e37cb8fab04094eafa991d913d8":[18,0,379,0,1],
 "structReverbBitsData.html":[18,0,381],
 "structReverbBitsData.html#a42316602952126aea4ef731d64cfbed5":[18,0,381,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structScreenContext.html#a4a8af035c4d1ba8f97a814fec99bd2ff":[18,0,392,15],
 "structScreenContext.html#a4c24c11a7238d219e543ad2d7883f597":[18,0,392,6],
 "structScreenContext.html#a62119713660d9e2c44c19885f4ae2356":[18,0,392,17],
-"structScreenContext.html#a7016e594bde705446e206363da8018f5":[18,0,392,16],
-"structScreenContext.html#a73a1cac81064661f40e0ceb01c0b68b8":[18,0,392,3],
-"structScreenContext.html#a7d61ef50a930610ab8f8d814dfa329c3":[18,0,392,7]
+"structScreenContext.html#a7016e594bde705446e206363da8018f5":[18,0,392,16]
 };

@@ -73,7 +73,6 @@ var main_8h =
     [ "gActiveSPTask", "main_8h.html#accb154d4bdb694c146209dd0bcae7dae", null ],
     [ "gAudioThread", "main_8h.html#aeee4be02bcfc0efcfb087971e68d6d5d", null ],
     [ "gAudioThreadStack", "main_8h.html#a5005a83f9006657fc6010c87f9f6ba58", null ],
-    [ "gCameraFOV", "main_8h.html#aae86ab2328d8095de4670e53dc9d1da2", null ],
     [ "gCCSelection", "main_8h.html#ad099cd16f814954ae5c4d3e5c02b7cbb", null ],
     [ "gCollisionGrid", "main_8h.html#ac28ca52e35ba2b8986194642f87a6a56", null ],
     [ "gControllerBits", "main_8h.html#af9b11e21ba2e375a19aa78c6426141be", null ],

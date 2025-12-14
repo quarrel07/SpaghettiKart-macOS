@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"external_8c.html#a2be9efc97a92e19d02aaee90d676acc1":[19,0,3,1,5,65],
 "external_8c.html#a2da15c5d1c72e38f4264ec8100b7b9d5":[19,0,3,1,5,44],
 "external_8c.html#a2e070b57d16b89dc2c659017259dee6b":[19,0,3,1,5,188],
 "external_8c.html#a31297f06b362966d9b312581905a2b64":[19,0,3,1,5,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "framebuffer__effects_8h.html#aef1318b65c7cb307a60254a0be2af06c":[19,0,3,10,7,6],
 "framebuffer__effects_8h_source.html":[19,0,3,10,7],
 "frappe__snowland_2course__offsets_8c.html":[19,0,0,7,0],
-"frappe__snowland_2course__offsets_8c.html#a27d7272b97936603921076893fd6d948":[19,0,0,7,0,0],
-"frappe__snowland__displaylists_8h.html":[19,0,2,0,0,0,7,1]
+"frappe__snowland_2course__offsets_8c.html#a27d7272b97936603921076893fd6d948":[19,0,0,7,0,0]
 };

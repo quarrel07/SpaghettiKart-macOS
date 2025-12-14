@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structSpawnParams.html#af6b9b4e7f5f55e429b672bd0fe77379e":[18,0,409,20],
+"structSpawnParams.html#af886d4f4964369a7602c611bcb19b7ac":[18,0,409,24],
 "structSpawnParams.html#afd4d83dc300011f7d84912103cd448db":[18,0,409,7],
 "structSplineControlPoint.html":[18,0,410],
 "structSplineControlPoint.html#a152d68920abe7000d46964cdb924aef4":[18,0,410,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structUIWidgets_1_1FloatSliderOptions.html#ad81abc9a7ac11d1567528d12a93f2419":[18,0,7,3,18],
 "structUIWidgets_1_1FloatSliderOptions.html#afe0e94e96f3eae2de10acc7994b2745a":[17,0,10,4,6],
 "structUIWidgets_1_1FloatSliderOptions.html#afe0e94e96f3eae2de10acc7994b2745a":[18,0,7,3,6],
-"structUIWidgets_1_1IntSliderOptions.html":[17,0,10,5],
-"structUIWidgets_1_1IntSliderOptions.html":[18,0,7,4],
-"structUIWidgets_1_1IntSliderOptions.html#a11fdfb6c30fc8798ea63e48c5bbdd8a9":[17,0,10,5,11]
+"structUIWidgets_1_1IntSliderOptions.html":[17,0,10,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"race__logic_8c.html#abe207ea8c493abfaa7e63d66ae57453e":[19,0,3,10,12,4],
 "race__logic_8c.html#ac028ea2114c7fd2e35661cb1f1ec3aa7":[19,0,3,10,12,38],
 "race__logic_8c.html#ac50527ef661d883bf7903adfc6f67497":[19,0,3,10,12,17],
 "race__logic_8c.html#ac566dbdbe9f5b8db1511bce7fc511ed1":[19,0,3,10,12,22],
@@ -53,7 +54,7 @@ var NAVTREEINDEX62 =
 "race__logic_8h.html#af98d49ae0af39ccd86b3a2c269969d3c":[19,0,3,10,13,25],
 "race__logic_8h_source.html":[19,0,3,10,13],
 "railroad__crossing_2render_8inc_8c.html":[19,0,3,0,14,0],
-"railroad__crossing_2render_8inc_8c.html#af46eb6e934ce3e283872f68ac3140493":[19,0,3,0,14,0,0],
+"railroad__crossing_2render_8inc_8c.html#a3d364204bf0eabb39251ada3cb10520e":[19,0,3,0,14,0,0],
 "railroad__crossing_2render_8inc_8c_source.html":[19,0,3,0,14,0],
 "railroad__crossing_2update_8inc_8c.html":[19,0,3,0,14,1],
 "railroad__crossing_2update_8inc_8c.html#a3a7c47d74c98d510346305b5c5ee3b9a":[19,0,3,0,14,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "render__objects_8c.html#a52e219df24b6bd4433f7faf09ef387ff":[19,0,3,56,99],
 "render__objects_8c.html#a53902e7459f4a9f94665e0617a1db210":[19,0,3,56,375],
 "render__objects_8c.html#a53910c46210072858c5036e8a243d5d0":[19,0,3,56,350],
-"render__objects_8c.html#a53ac825fe01e36aed6a854a76b998f8e":[19,0,3,56,36],
-"render__objects_8c.html#a5407272ec58435381c47df981f5d8c81":[19,0,3,56,354]
+"render__objects_8c.html#a53ac825fe01e36aed6a854a76b998f8e":[19,0,3,56,36]
 };

@@ -160,6 +160,8 @@ Functions</h2></td></tr>
 <tr class="separator:a70cb66b6c3265e069a7d40e430f6efe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f03f8226c2418c158411ba2f3f7b482" id="r_a1f03f8226c2418c158411ba2f3f7b482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f03f8226c2418c158411ba2f3f7b482">SaveTour</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;tour)</td></tr>
 <tr class="separator:a1f03f8226c2418c158411ba2f3f7b482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e2d56ba37d9454fd597b75b1053189" id="r_a62e2d56ba37d9454fd597b75b1053189"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62e2d56ba37d9454fd597b75b1053189">SaveFog</a> (nlohmann::json &amp;fog)</td></tr>
+<tr class="separator:a62e2d56ba37d9454fd597b75b1053189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a327e5fedb8a5d9dca25b05c63b05ab49" id="r_a327e5fedb8a5d9dca25b05c63b05ab49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a327e5fedb8a5d9dca25b05c63b05ab49">LoadProps</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;data)</td></tr>
 <tr class="separator:a327e5fedb8a5d9dca25b05c63b05ab49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76bb55d45b89046f16c539c451d7a1dd" id="r_a76bb55d45b89046f16c539c451d7a1dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76bb55d45b89046f16c539c451d7a1dd">LoadPaths</a> (<a class="el" href="classTrack.html">Track</a> *track, const std::string &amp;trackPath)</td></tr>
@@ -172,6 +174,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1425eb1edfff28e7d8d422e4cba35fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec8c94d55e92c4b7090dd062f44a50c4" id="r_aec8c94d55e92c4b7090dd062f44a50c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8c94d55e92c4b7090dd062f44a50c4">LoadTour</a> (<a class="el" href="classTrack.html">Track</a> *track, nlohmann::json &amp;data)</td></tr>
 <tr class="separator:aec8c94d55e92c4b7090dd062f44a50c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad996ff1db543be199ec07a07aa56d286" id="r_ad996ff1db543be199ec07a07aa56d286"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad996ff1db543be199ec07a07aa56d286">LoadFog</a> (nlohmann::json &amp;data)</td></tr>
+<tr class="separator:ad996ff1db543be199ec07a07aa56d286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbe4273a6d0045bd9079baaaa8b04196" id="r_afbe4273a6d0045bd9079baaaa8b04196"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbe4273a6d0045bd9079baaaa8b04196">SpawnActors</a> (std::vector&lt; std::pair&lt; std::string, <a class="el" href="structSpawnParams.html">SpawnParams</a> &gt; &gt; spawnList)</td></tr>
 <tr class="separator:afbe4273a6d0045bd9079baaaa8b04196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac53b027d0bf127bb5f0520b97c57ab0b" id="r_ac53b027d0bf127bb5f0520b97c57ab0b"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac53b027d0bf127bb5f0520b97c57ab0b">ToJson</a> (const <a class="el" href="structFVector.html">FVector</a> &amp;v)</td></tr>
@@ -422,6 +426,23 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespaceEditor_a0a51f3b87492840cf1b06ac16a1e7b70_icgraph.svg" width="423" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="ad996ff1db543be199ec07a07aa56d286" name="ad996ff1db543be199ec07a07aa56d286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad996ff1db543be199ec07a07aa56d286">&#9670;&#160;</a></span>LoadFog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Editor::LoadFog </td>
+          <td>(</td>
+          <td class="paramtype">nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -681,6 +702,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a62e2d56ba37d9454fd597b75b1053189" name="a62e2d56ba37d9454fd597b75b1053189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e2d56ba37d9454fd597b75b1053189">&#9670;&#160;</a></span>SaveFog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Editor::SaveFog </td>
+          <td>(</td>
+          <td class="paramtype">nlohmann::json &amp;</td>          <td class="paramname"><span class="paramname"><em>fog</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceEditor_a62e2d56ba37d9454fd597b75b1053189_icgraph.svg" width="518" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ab89a406fcd6d370db3937ac0b3c64e27" name="ab89a406fcd6d370db3937ac0b3c64e27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab89a406fcd6d370db3937ac0b3c64e27">&#9670;&#160;</a></span>SaveLevel()</h2>
 
@@ -700,7 +743,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceEditor_ab89a406fcd6d370db3937ac0b3c64e27_cgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceEditor_ab89a406fcd6d370db3937ac0b3c64e27_cgraph.svg" width="100%" height="477"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

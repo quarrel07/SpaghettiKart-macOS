@@ -1,6 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"math__util__2_8h.html#a3b8a4e7411829eec9d307da607e8602f":[19,0,3,47,25],
 "math__util__2_8h.html#a3cd04b1ba067544946d7dafefc98544d":[19,0,3,47,14],
 "math__util__2_8h.html#a3d04ad1c09ccf355292d4044a3f0e0cb":[19,0,3,47,67],
 "math__util__2_8h.html#a3e33711c2fe0592a76c1cd096814e879":[19,0,3,47,69],
@@ -157,12 +156,12 @@ var NAVTREEINDEX41 =
 "md_docs_2BUILDING.html#windows-1":[2,0],
 "md_docs_2custom-audio.html":[4],
 "md_docs_2custom-audio.html#example":[4,0],
-"md_docs_2custom-audio.html#future-plans-1":[4,1],
+"md_docs_2custom-audio.html#future-plans":[4,1],
 "md_docs_2custom-characters.html":[5],
 "md_docs_2custom-characters.html#additional-files":[5,1],
 "md_docs_2custom-characters.html#change-viewport-render-settings":[5,1,0,0],
 "md_docs_2custom-characters.html#examples-for-all-characters":[5,0],
-"md_docs_2custom-characters.html#future-plans":[5,1,2],
+"md_docs_2custom-characters.html#future-plans-1":[5,1,2],
 "md_docs_2custom-characters.html#tips":[5,1,0],
 "md_docs_2custom-characters.html#tools-to-help":[5,1,1],
 "md_docs_2custom-track.html":[6],
@@ -189,7 +188,7 @@ var NAVTREEINDEX41 =
 "md_docs_2migrations.html#other-textures":[8,2,0,2],
 "md_docs_2migrations.html#overview":[8,0],
 "md_docs_2migrations.html#path-changes":[8,2],
-"md_docs_2migrations.html#see-also":[8,7],
+"md_docs_2migrations.html#see-also-1":[8,7],
 "md_docs_2migrations.html#textures":[8,2,0],
 "md_docs_2migrations.html#track-textures":[8,2,0,0],
 "md_docs_2migrations.html#troubleshooting":[8,6],
@@ -211,7 +210,7 @@ var NAVTREEINDEX41 =
 "md_docs_2mods-toml.html#location":[10,0],
 "md_docs_2mods-toml.html#migration-script-support":[10,8],
 "md_docs_2mods-toml.html#mod-section":[10,3,0],
-"md_docs_2mods-toml.html#see-also-1":[10,9],
+"md_docs_2mods-toml.html#see-also":[10,9],
 "md_docs_2mods-toml.html#validation":[10,5],
 "md_docs_2mods-toml.html#version-requirements":[10,3,1,0],
 "md_docs_2sequences-information.html":[11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "memory_8c.html#a858b086d3b0b10b5ba111676f16e970c":[19,0,3,10,10,24],
 "memory_8c.html#a8a31f6da859d433a76fafd673eeefaaa":[19,0,3,10,10,10],
 "memory_8c.html#a8fbe607cbb34960f0419dcdd1f76e1e1":[19,0,3,10,10,26],
-"memory_8c.html#a9ffd2fdc9057d78341e50960dbaac6c3":[19,0,3,10,10,33]
+"memory_8c.html#a9ffd2fdc9057d78341e50960dbaac6c3":[19,0,3,10,10,33],
+"memory_8c.html#aa124e5309ca66077ae36d26dae0b9036":[19,0,3,10,10,21]
 };

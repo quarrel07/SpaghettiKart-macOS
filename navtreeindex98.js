@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"waypoints_8h.html#a7fef4fd6c9ea0fef98bc7bb6d06861c9":[19,0,2,24,21],
+"waypoints_8h.html#a85904da90b18c414860f964712f7bb85":[19,0,2,24,16],
 "waypoints_8h.html#a95ff1a706d5fb5bd43a94bb9737f5797":[19,0,2,24,20],
 "waypoints_8h.html#ab65b47dda5e717c02a1910cd9e6e5dd2":[19,0,2,24,13],
 "waypoints_8h.html#abe3f9b84841d59b43bafa84554f151d4":[19,0,2,24,12],
@@ -15,7 +17,7 @@ var NAVTREEINDEX98 =
 "waypoints_8h.html#af5dd8797b862da2ce3e9cfdbcaceb79e":[19,0,2,24,5],
 "waypoints_8h_source.html":[19,0,2,24],
 "yoshi__egg_2render_8inc_8c.html":[19,0,3,0,20,0],
-"yoshi__egg_2render_8inc_8c.html#a4d082cb0256600e693927bccddbee605":[19,0,3,0,20,0,0],
+"yoshi__egg_2render_8inc_8c.html#acd8ade327cc04f2d1dd0de7ff85d6d8d":[19,0,3,0,20,0,0],
 "yoshi__egg_2render_8inc_8c_source.html":[19,0,3,0,20,0],
 "yoshi__egg_2update_8inc_8c.html":[19,0,3,0,20,1],
 "yoshi__egg_2update_8inc_8c.html#ab59d1718525ade7c99a8332e32a20ec2":[19,0,3,0,20,1,0],

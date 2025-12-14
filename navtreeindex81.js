@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structVehicleStuff.html":[18,0,489],
+"structVehicleStuff.html#a154666f1e460a83f36963a88a8fc248b":[18,0,489,6],
 "structVehicleStuff.html#a42b91e05e163e43016a48ffb0a15b80c":[18,0,489,9],
 "structVehicleStuff.html#a4ee837208dabe33d22fabfea9d51aed6":[18,0,489,8],
 "structVehicleStuff.html#a503a23964a7da3b7d421aa428899092d":[18,0,489,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structexceptionPreamble.html#a24df675a64592bdd350c23dd4914e843":[18,0,117,1],
 "structexceptionPreamble.html#a298bf389ef8a63e27e6459d6f47e7482":[18,0,117,2],
 "structexceptionPreamble.html#aa74d1fa5f5ddb5fd71a3a96a9e4560d4":[18,0,117,3],
-"structexceptionPreamble.html#ad367fcbaca7878ffdb68863d9e836ed6":[18,0,117,0],
-"structfreecamSaveState.html":[18,0,124],
-"structfreecamSaveState.html#a69b728fc7fa3e5b9607f8002aa65e165":[18,0,124,2]
+"structexceptionPreamble.html#ad367fcbaca7878ffdb68863d9e836ed6":[18,0,117,0]
 };

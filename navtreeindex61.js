@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"podium__ceremony__actors_8c.html#ab2ac33a173465c17c9774eb06eb2b006":[19,0,3,5,13,42],
 "podium__ceremony__actors_8c.html#ab4a2b3023e104635f01e66a08874f578":[19,0,3,5,13,21],
 "podium__ceremony__actors_8c.html#abe5e7d6664a9f39449fbf6848898baa1":[19,0,3,5,13,7],
 "podium__ceremony__actors_8c.html#aca4471232210cb9f7177a97d0300af4e":[19,0,3,5,13,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "race__logic_8c.html#aac5e7f61ed2c0c4e066e6b1811ecdeb0":[19,0,3,10,12,34],
 "race__logic_8c.html#aac937545c174100218f0726a70d83e33":[19,0,3,10,12,20],
 "race__logic_8c.html#ab3cce6260fc4d7f0c4610aeebce8de54":[19,0,3,10,12,5],
-"race__logic_8c.html#ab653b6e6bb04ca0f7995cb58cbeba9af":[19,0,3,10,12,25],
-"race__logic_8c.html#abe207ea8c493abfaa7e63d66ae57453e":[19,0,3,10,12,4]
+"race__logic_8c.html#ab653b6e6bb04ca0f7995cb58cbeba9af":[19,0,3,10,12,25]
 };

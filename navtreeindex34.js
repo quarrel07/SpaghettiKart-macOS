@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"ghostship__model_8h.html#abfa6c172d8effee7580e0f7f5475d8f0":[19,0,0,8,1,5],
 "ghostship__model_8h.html#abfde948f24d984e4dbedba6729dba711":[19,0,0,8,1,9],
 "ghostship__model_8h.html#ac065283b8979ee5f5a379f47fa9373df":[19,0,0,8,1,2],
 "ghostship__model_8h.html#ac2163e3e21cd86988c881bfad64c683d":[19,0,0,8,1,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "hardware_8h.html#a0fc82be210410943f92b75a0b70192ff":[19,0,3,8,49,6],
 "hardware_8h.html#a15843286b09a49dff41ce29fd1560eaa":[19,0,3,8,49,80],
 "hardware_8h.html#a16465c417cc0231826fd02ba1f9894e7":[19,0,3,8,49,89],
-"hardware_8h.html#a1719643f789249714343639beda6917a":[19,0,3,8,49,82],
-"hardware_8h.html#a1fd8bab4a431b3faeee37e9a019c7034":[19,0,3,8,49,39]
+"hardware_8h.html#a1719643f789249714343639beda6917a":[19,0,3,8,49,82]
 };

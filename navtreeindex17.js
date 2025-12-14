@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classSherbetLand.html#aff141b1a3e1723e5e9330beb64cab548":[18,0,399,6],
 "classShip_1_1Menu.html":[17,0,8,0],
 "classShip_1_1Menu.html":[18,0,5,0],
 "classShip_1_1Menu.html#a0edbc3567ae7dbf1a51fddd74586c94f":[17,0,8,0,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classWorld.html#af25427e0a34095b888c41f28da36dcae":[18,0,496,30],
 "classWorld.html#af7d7ec4f75f47071f83655159f47bb9d":[18,0,496,51],
 "classWorld.html#afa31aec713e3a54e22e4406e4442107d":[18,0,496,22],
-"classWorld.html#afa39d4e6f714a7a3691ac0c656f5e8a8":[18,0,496,1],
-"classYoshiValley.html":[18,0,497]
+"classWorld.html#afa39d4e6f714a7a3691ac0c656f5e8a8":[18,0,496,1]
 };

@@ -2,6 +2,7 @@ var classEditor_1_1TrackPropertiesWindow =
 [
     [ "~TrackPropertiesWindow", "classEditor_1_1TrackPropertiesWindow.html#a7e3d19ace79288b146e1d9e337cf0db7", null ],
     [ "DrawElement", "classEditor_1_1TrackPropertiesWindow.html#a4c8136ada1d99519401a32e413399f31", null ],
+    [ "DrawFog", "classEditor_1_1TrackPropertiesWindow.html#ad6a61b4a2dda81fb0578029746c66388", null ],
     [ "DrawLight", "classEditor_1_1TrackPropertiesWindow.html#a9c0a882cebba2e32a9fb41db0018d689", null ],
     [ "DrawMusic", "classEditor_1_1TrackPropertiesWindow.html#a1e9ff69fe776ad12bc72f4c7bac8539a", null ],
     [ "DrawTourCamera", "classEditor_1_1TrackPropertiesWindow.html#a4b4fbf010ca458a4218eaf5f2b363aa2", null ],
