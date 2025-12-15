@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"compiling.html#building-eu":[1,0,6],
+"compiling.html#building-us":[1,0,5],
+"compiling.html#docker":[1,0,4],
+"compiling.html#linux":[1,0,1],
 "compiling.html#macos":[1,0,3],
 "compiling.html#windows":[1,0,2],
 "concepts.html":[1,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "data_8h.html#ac82f5ca42754e95508010324f8d3bb3a":[19,0,3,1,2,4],
 "data_8h.html#ad497c67b613981e72191ab7ed1aa8675":[19,0,3,1,2,33],
 "data_8h.html#ad5c4274341788878d2b3b767c6c9b16c":[19,0,3,1,2,0],
-"data_8h.html#ad6e40370cb4f1131cfaaa8730c04a823":[19,0,3,1,2,35],
-"data_8h.html#ae44c3b154f24466343442ea487984bae":[19,0,3,1,2,5],
-"data_8h.html#ae7a46ecea21f4b881092d2b349e74513":[19,0,3,1,2,23],
-"data_8h.html#aea53dfa8574ac2f606fd30c6882da9be":[19,0,3,1,2,43],
-"data_8h.html#aea5c4124bf4146d5f0a9b2dbbb4acfc1":[19,0,3,1,2,19]
+"data_8h.html#ad6e40370cb4f1131cfaaa8730c04a823":[19,0,3,1,2,35]
 };

@@ -21,7 +21,6 @@ var structProperties =
     [ "PathSizes", "structProperties.html#a9288c516957161c0c4d2c83d811f50fa", null ],
     [ "PathTable", "structProperties.html#a7a3eb51cc47be9c2bcbd1b2f18622f1e", null ],
     [ "PathTable2", "structProperties.html#a2a82bd54b19123b9c4a4477c029baf80", null ],
-    [ "ResourceName", "structProperties.html#a6246c77bf50e288d2b7afec0a0a025b8", null ],
     [ "Sequence", "structProperties.html#acd753e07362c52af62ea8b632c50570e", null ],
     [ "Skybox", "structProperties.html#ac3c175569725579891325503e37e0bce", null ],
     [ "TrackLength", "structProperties.html#ac6c76f0d3fd68ef6f705442fa23cb028", null ],

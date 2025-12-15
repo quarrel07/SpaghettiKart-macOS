@@ -4,7 +4,7 @@ var searchData=
   ['savedata_1',['SaveData',['../structSaveData.html',1,'']]],
   ['saveinfo_2',['SaveInfo',['../structSaveInfo.html',1,'']]],
   ['scalardata_3',['ScalarData',['../unionMK64_1_1ScalarData.html',1,'MK64']]],
-  ['sceneexplorerwindow_4',['SceneExplorerWindow',['../classEditor_1_1SceneExplorerWindow.html',1,'Editor']]],
+  ['sceneexplorerwindow_4',['SceneExplorerWindow',['../classTrackEditor_1_1SceneExplorerWindow.html',1,'TrackEditor']]],
   ['screencontext_5',['ScreenContext',['../structScreenContext.html',1,'']]],
   ['script_6',['Script',['../classSF64_1_1Script.html',1,'SF64']]],
   ['scriptcmds_7',['ScriptCMDs',['../classSF64_1_1ScriptCMDs.html',1,'SF64']]],

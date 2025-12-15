@@ -6,7 +6,7 @@ var searchData=
   ['objectinitdata_3',['ObjectInitData',['../structSF64_1_1ObjectInitData.html',1,'SF64']]],
   ['objectinterpdata_4',['ObjectInterpData',['../structObjectInterpData.html',1,'']]],
   ['objectinterpdata2_5',['ObjectInterpData2',['../structObjectInterpData2.html',1,'']]],
-  ['objectpicker_6',['ObjectPicker',['../classEditor_1_1ObjectPicker.html',1,'Editor']]],
+  ['objectpicker_6',['ObjectPicker',['../classTrackEditor_1_1ObjectPicker.html',1,'TrackEditor']]],
   ['obombkart_7',['OBombKart',['../classOBombKart.html',1,'']]],
   ['oboos_8',['OBoos',['../classOBoos.html',1,'']]],
   ['ochainchomp_9',['OChainChomp',['../classOChainChomp.html',1,'']]],

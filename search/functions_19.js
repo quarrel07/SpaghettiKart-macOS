@@ -21,7 +21,7 @@ var searchData=
   ['_7eaudiobank_18',['~AudioBank',['../classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200',1,'SM64::AudioBank']]],
   ['_7eaudiosample_19',['~AudioSample',['../classSM64_1_1AudioSample.html#a022b7be1dbb54f875285c7fa899801a2',1,'SM64::AudioSample']]],
   ['_7eawariosign_20',['~AWarioSign',['../classAWarioSign.html#aa92ffb76f7a2c729fd1af9f4b0197c6d',1,'AWarioSign']]],
-  ['_7econtentbrowserwindow_21',['~ContentBrowserWindow',['../classEditor_1_1ContentBrowserWindow.html#ad73ed6620f0edf9c41b847f5fea2cce9',1,'Editor::ContentBrowserWindow']]],
+  ['_7econtentbrowserwindow_21',['~ContentBrowserWindow',['../classTrackEditor_1_1ContentBrowserWindow.html#acfcc7e10a7f148b7fe0ae651473a7c43',1,'TrackEditor::ContentBrowserWindow']]],
   ['_7eexecutor_22',['~executor',['../classpfd_1_1internal_1_1executor.html#a2d46b9964c60985ea8406c4092393be3',1,'pfd::internal::executor']]],
   ['_7egamecamera_23',['~GameCamera',['../classGameCamera.html#a11208978751592323524698c4d3dcf3b',1,'GameCamera']]],
   ['_7emenu_24',['~Menu',['../classShip_1_1Menu.html#a31e24be344c0fb64838cfae9d7bb5afe',1,'Ship::Menu']]],
@@ -42,9 +42,9 @@ var searchData=
   ['_7eparticleemitter_39',['~ParticleEmitter',['../classParticleEmitter.html#a1fc9dd9af74aa5553520c55bacaecf1d',1,'ParticleEmitter']]],
   ['_7epodiumceremony_40',['~PodiumCeremony',['../classPodiumCeremony.html#ac8ead1ad19eeeb58bf714573cbc59b1a',1,'PodiumCeremony']]],
   ['_7eportmenu_41',['~PortMenu',['../classGameUI_1_1PortMenu.html#a47032191fff5c67cc5fa1a356704a13a',1,'GameUI::PortMenu']]],
-  ['_7epropertieswindow_42',['~PropertiesWindow',['../classEditor_1_1PropertiesWindow.html#a2eb265eb9b3f321202ab1e14d13da737',1,'Editor::PropertiesWindow']]],
-  ['_7esceneexplorerwindow_43',['~SceneExplorerWindow',['../classEditor_1_1SceneExplorerWindow.html#ae47cc73e2a2e7db1f122e627e4200b5f',1,'Editor::SceneExplorerWindow']]],
-  ['_7etoolswindow_44',['~ToolsWindow',['../classEditor_1_1ToolsWindow.html#a14fd2fd85619a75f3d33cccffb0f7a30',1,'Editor::ToolsWindow']]],
-  ['_7etrackpropertieswindow_45',['~TrackPropertiesWindow',['../classEditor_1_1TrackPropertiesWindow.html#a7e3d19ace79288b146e1d9e337cf0db7',1,'Editor::TrackPropertiesWindow']]],
+  ['_7epropertieswindow_42',['~PropertiesWindow',['../classTrackEditor_1_1PropertiesWindow.html#abf9caceb2eaf7fc3ba018c9a08cb9081',1,'TrackEditor::PropertiesWindow']]],
+  ['_7esceneexplorerwindow_43',['~SceneExplorerWindow',['../classTrackEditor_1_1SceneExplorerWindow.html#a41312259ab8aaaff7cc07163aa522b70',1,'TrackEditor::SceneExplorerWindow']]],
+  ['_7etoolswindow_44',['~ToolsWindow',['../classTrackEditor_1_1ToolsWindow.html#a47c7ec57e8ec3734d326e9d4e0f32614',1,'TrackEditor::ToolsWindow']]],
+  ['_7etrackpropertieswindow_45',['~TrackPropertiesWindow',['../classTrackEditor_1_1TrackPropertiesWindow.html#a9f6887a95120fe43c73bcbf883d4e3de',1,'TrackEditor::TrackPropertiesWindow']]],
   ['_7eworld_46',['~World',['../classWorld.html#a8c73fba541a5817fff65147ba47cd827',1,'World']]]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX98 =
 {
+"waypoints_8h.html#a700cceb8cfdbc970e03ef5d30b305183":[19,0,2,24,15],
+"waypoints_8h.html#a7a4eb6c1b5118ff6d77f1cdf49886336":[19,0,2,24,7],
+"waypoints_8h.html#a7bd58a8d541eeae499e71f2cdb0acc3f":[19,0,2,24,6],
 "waypoints_8h.html#a7fef4fd6c9ea0fef98bc7bb6d06861c9":[19,0,2,24,21],
 "waypoints_8h.html#a85904da90b18c414860f964712f7bb85":[19,0,2,24,16],
 "waypoints_8h.html#a95ff1a706d5fb5bd43a94bb9737f5797":[19,0,2,24,20],

@@ -128,27 +128,29 @@ var hierarchy =
     ] ],
     [ "GameExtractor", "classGameExtractor.html", null ],
     [ "GameModePack", "unionGameModePack.html", null ],
-    [ "Editor::GameObject", "classEditor_1_1GameObject.html", [
-      [ "Editor::Handles", "classEditor_1_1Handles.html", null ],
-      [ "Editor::LightObject", "classEditor_1_1LightObject.html", null ]
+    [ "TrackEditor::GameObject", "classTrackEditor_1_1GameObject.html", [
+      [ "TrackEditor::Handles", "classTrackEditor_1_1Handles.html", null ],
+      [ "TrackEditor::LightObject", "classTrackEditor_1_1LightObject.html", null ]
     ] ],
     [ "GfxPool", "structGfxPool.html", null ],
-    [ "Editor::Gizmo", "classEditor_1_1Gizmo.html", null ],
+    [ "TrackEditor::Gizmo", "classTrackEditor_1_1Gizmo.html", null ],
     [ "Gui", "classGui.html", [
       [ "Ship::SpaghettiGui", "classShip_1_1SpaghettiGui.html", null ]
     ] ],
     [ "Ship::GuiMenuBar", null, [
       [ "GameMenuBar", "classGameMenuBar.html", null ]
     ] ],
-    [ "Ship::GuiWindow", null, [
-      [ "Editor::ContentBrowserWindow", "classEditor_1_1ContentBrowserWindow.html", null ],
-      [ "Editor::PropertiesWindow", "classEditor_1_1PropertiesWindow.html", null ],
-      [ "Editor::SceneExplorerWindow", "classEditor_1_1SceneExplorerWindow.html", null ],
-      [ "Editor::ToolsWindow", "classEditor_1_1ToolsWindow.html", null ],
-      [ "Editor::TrackPropertiesWindow", "classEditor_1_1TrackPropertiesWindow.html", null ],
+    [ "GuiWindow", "classGuiWindow.html", [
       [ "Ship::Menu", "classShip_1_1Menu.html", [
         [ "GameUI::PortMenu", "classGameUI_1_1PortMenu.html", null ]
       ] ]
+    ] ],
+    [ "Ship::GuiWindow", null, [
+      [ "TrackEditor::ContentBrowserWindow", "classTrackEditor_1_1ContentBrowserWindow.html", null ],
+      [ "TrackEditor::PropertiesWindow", "classTrackEditor_1_1PropertiesWindow.html", null ],
+      [ "TrackEditor::SceneExplorerWindow", "classTrackEditor_1_1SceneExplorerWindow.html", null ],
+      [ "TrackEditor::ToolsWindow", "classTrackEditor_1_1ToolsWindow.html", null ],
+      [ "TrackEditor::TrackPropertiesWindow", "classTrackEditor_1_1TrackPropertiesWindow.html", null ]
     ] ],
     [ "HegdehogSpawn", "structHegdehogSpawn.html", null ],
     [ "hud_player", "structhud__player.html", null ],
@@ -347,7 +349,7 @@ var hierarchy =
     [ "SF64::ObjectInitData", "structSF64_1_1ObjectInitData.html", null ],
     [ "ObjectInterpData", "structObjectInterpData.html", null ],
     [ "ObjectInterpData2", "structObjectInterpData2.html", null ],
-    [ "Editor::ObjectPicker", "classEditor_1_1ObjectPicker.html", null ],
+    [ "TrackEditor::ObjectPicker", "classTrackEditor_1_1ObjectPicker.html", null ],
     [ "OnlyBestTimeTrialRecords", "structOnlyBestTimeTrialRecords.html", null ],
     [ "OObject", "classOObject.html", [
       [ "OBat", "classOBat.html", null ],
@@ -551,7 +553,7 @@ var hierarchy =
       [ "WarioStadium", "classWarioStadium.html", null ],
       [ "YoshiValley", "classYoshiValley.html", null ]
     ] ],
-    [ "Editor::Gizmo::TrackDimensions", "structEditor_1_1Gizmo_1_1TrackDimensions.html", null ],
+    [ "TrackEditor::Gizmo::TrackDimensions", "structTrackEditor_1_1Gizmo_1_1TrackDimensions.html", null ],
     [ "TrackInfo", "structTrackInfo.html", null ],
     [ "TrackPathPoint", "structTrackPathPoint.html", null ],
     [ "TrackPathSizes", "structTrackPathSizes.html", null ],

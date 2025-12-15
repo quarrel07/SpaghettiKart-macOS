@@ -1,7 +1,7 @@
 var searchData=
 [
   ['handedness_0',['handedness',['../structma__spatializer__listener__config.html#a2c43e7115aa36adc8d9719bf642ddbd0',1,'ma_spatializer_listener_config::handedness'],['../structma__spatializer__config.html#ae4a90f35d4d65b8f4184d643286456f5',1,'ma_spatializer_config::handedness'],['../structma__spatializer.html#a0a32bf1426e17ff59265ca673271b453',1,'ma_spatializer::handedness']]],
-  ['handlesize_1',['HandleSize',['../classEditor_1_1Gizmo.html#a28498f50e836dade61968f93da671e10',1,'Editor::Gizmo']]],
+  ['handlesize_1',['HandleSize',['../classTrackEditor_1_1Gizmo.html#ad2c9f5caf59a2b8aab6f62255e76c1d0',1,'TrackEditor::Gizmo']]],
   ['harbour_5fpath_2',['harbour_path',['../Harbour_8cpp.html#ab73bd95e4e4a2e2020a0d5cf139330ee',1,'Harbour.cpp']]],
   ['harbour_5fsurfaces_3',['harbour_surfaces',['../Harbour_8cpp.html#aeb58c2c25ba73367be35d04921447ad3',1,'Harbour.cpp']]],
   ['has_5fvalue_5fbut_5fnever_5fused_4',['has_value_but_never_used',['../structAnimation.html#ad561123739ac752758490eedc9d05775',1,'Animation']]],

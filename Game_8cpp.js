@@ -141,7 +141,7 @@ var Game_8cpp =
     [ "bCleanWorld", "Game_8cpp.html#a01d714b2b723ef06b42b05588c43b5c5", null ],
     [ "gActorRegistry", "Game_8cpp.html#adc7e41b644ace2e381a2d8e4b6b08e8b", null ],
     [ "gBattleCup", "Game_8cpp.html#a1293d434f6a3154a2949ec28c3cd86de", null ],
-    [ "gEditor", "Game_8cpp.html#aef756720bbfb1014b84a72efcd5088f0", null ],
+    [ "gEditor", "Game_8cpp.html#a9cdeae48ef20e5d6cf587cdc67eff7c8", null ],
     [ "gFlowerCup", "Game_8cpp.html#a1c3bcc27160a98e35e660b4fd2d25b2f", null ],
     [ "gMenuIntro", "Game_8cpp.html#a7548ea7aee88170c42476d1c130c66a0", null ],
     [ "gMushroomCup", "Game_8cpp.html#a8af8e08b5e4bf0373880797502fd7280", null ],

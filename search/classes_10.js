@@ -19,5 +19,5 @@ var searchData=
   ['printf_5fstruct_16',['printf_struct',['../structprintf__struct.html',1,'']]],
   ['profilerframedata_17',['ProfilerFrameData',['../structProfilerFrameData.html',1,'']]],
   ['properties_18',['Properties',['../structProperties.html',1,'']]],
-  ['propertieswindow_19',['PropertiesWindow',['../classEditor_1_1PropertiesWindow.html',1,'Editor']]]
+  ['propertieswindow_19',['PropertiesWindow',['../classTrackEditor_1_1PropertiesWindow.html',1,'TrackEditor']]]
 ];

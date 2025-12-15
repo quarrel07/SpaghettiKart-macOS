@@ -4,7 +4,7 @@ var searchData=
   ['centertext_1',['CenterText',['../menu__items_8h.html#a37c0662e1116d4c21e0d494de2fa86bc',1,'menu_items.h']]],
   ['ceremonyactortype_2',['CeremonyActorType',['../podium__ceremony__actors_8h.html#a698a9866415b2f1874f87d9dfc960c67',1,'podium_ceremony_actors.h']]],
   ['choice_3',['choice',['../namespacepfd.html#a70b4c2a87aca3443a4de387bedae49e8',1,'pfd']]],
-  ['collisiontype_4',['CollisionType',['../classEditor_1_1GameObject.html#ac70f7d17c6c49208d513814ad5e30a3c',1,'Editor::GameObject']]],
+  ['collisiontype_4',['CollisionType',['../classTrackEditor_1_1GameObject.html#afb4234940a6f12576196401c5ffb9972',1,'TrackEditor::GameObject']]],
   ['color_5fid_5',['COLOR_ID',['../defines_8h.html#a1580960a492ffea2b97726574fdd3110',1,'defines.h']]],
   ['colors_6',['Colors',['../namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26',1,'UIWidgets']]],
   ['componentalignment_7',['ComponentAlignment',['../namespaceUIWidgets.html#a24213ddadaf03dbf74f3eb862f6aa146',1,'UIWidgets']]],

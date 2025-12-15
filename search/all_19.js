@@ -161,7 +161,7 @@ var searchData=
   ['vtx1_158',['vtx1',['../structCollisionTriangle.html#a672e8e008d9a0b6a55cc40c1b7d34f90',1,'CollisionTriangle']]],
   ['vtx2_159',['vtx2',['../structCollisionTriangle.html#aa1aa152e5e08c932bee19cd15147d3d9',1,'CollisionTriangle']]],
   ['vtx3_160',['vtx3',['../structCollisionTriangle.html#a2256eec7a4eb182b1f9548e6e19e13a4',1,'CollisionTriangle']]],
-  ['vtx_5fintersect_161',['VTX_INTERSECT',['../classEditor_1_1GameObject.html#ac70f7d17c6c49208d513814ad5e30a3ca5f54b414f17e612f14bf67064e668964',1,'Editor::GameObject']]],
+  ['vtx_5fintersect_161',['VTX_INTERSECT',['../classTrackEditor_1_1GameObject.html#afb4234940a6f12576196401c5ffb9972a5f54b414f17e612f14bf67064e668964',1,'TrackEditor::GameObject']]],
   ['vtxbuffer_162',['vtxBuffer',['../code__800029B0_8c.html#aa0ad826ca04f449e196c0f7c0825c7d2',1,'vtxBuffer:&#160;code_800029B0.c'],['../code__800029B0_8h.html#a3a6a06fba59b75eba6032889f42330a2',1,'vtxBuffer:&#160;code_800029B0.c']]],
   ['vtxsegend_163',['vtxSegEnd',['../memory_8c.html#a9ffd2fdc9057d78341e50960dbaac6c3',1,'memory.c']]]
 ];

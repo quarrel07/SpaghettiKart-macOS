@@ -55,7 +55,7 @@ var searchData=
   ['airborne_52',['AIRBORNE',['../mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98aae231593748597efa2fddd103805f4f0',1,'mk64.h']]],
   ['al_5fadpcm_5fwave_53',['AL_ADPCM_WAVE',['../libaudio__internal_8h.html#ab5e6f808ad8bee3386220f00c3342a9da7f18be1646f533e496b1228ee0df8435',1,'libaudio_internal.h']]],
   ['al_5fraw16_5fwave_54',['AL_RAW16_WAVE',['../libaudio__internal_8h.html#ab5e6f808ad8bee3386220f00c3342a9da9f7c04ebfd0910e043023fd2c5a09d9d',1,'libaudio_internal.h']]],
-  ['all_5faxis_55',['All_Axis',['../classEditor_1_1Gizmo.html#ae18806d0a0b07538986788e4372692d2a57b31661dc16fec55670c9f244c9137b',1,'Editor::Gizmo']]],
+  ['all_5faxis_55',['All_Axis',['../classTrackEditor_1_1Gizmo.html#a914ef09ef658ea87d83e38b8623e4e9ba57b31661dc16fec55670c9f244c9137b',1,'TrackEditor::Gizmo']]],
   ['altheader_56',['AltHeader',['../namespaceMK64.html#a7bd07479273b52e702ac4baf9081791daabb18fe8d0dd71552dda8cb9b878b28d',1,'MK64']]],
   ['animation_57',['Animation',['../namespaceMK64.html#a7bd07479273b52e702ac4baf9081791dad6b6b668dbca9d4fe774bb654226ebe3',1,'MK64']]],
   ['animdata_58',['AnimData',['../namespaceSF64.html#ad35ecb646e9e3bef64034a5ea3c1f070a6f722531b789645bdd146dacc7ce8bba',1,'SF64']]],

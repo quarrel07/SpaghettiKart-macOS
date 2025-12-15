@@ -25,7 +25,7 @@ var searchData=
   ['roomcommand_22',['RoomCommand',['../namespaceMK64.html#a7bd07479273b52e702ac4baf9081791daed72c6bc2e4c0ca8969ad56e01e3c2ed',1,'MK64']]],
   ['rope_5fbridge_23',['ROPE_BRIDGE',['../mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98a840c6af15539978eb506fbb93491bde4',1,'mk64.h']]],
   ['rotate_24',['ROTATE',['../classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34a6d93e325790f0aa030f838f5705c772f',1,'OTrophy']]],
-  ['rotate_25',['Rotate',['../classEditor_1_1Gizmo.html#a4079af999abf79844f52386284a43c51a8d2de5368588552fbae54044ac5c7b3d',1,'Editor::Gizmo']]],
+  ['rotate_25',['Rotate',['../classTrackEditor_1_1Gizmo.html#aecba2b552b56f2671296dd7f10695507a8d2de5368588552fbae54044ac5c7b3d',1,'TrackEditor::Gizmo']]],
   ['rotate2_26',['ROTATE2',['../classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34ab9d9b4988c1cfb6199d200b20a817a6a',1,'OTrophy']]],
   ['rsp_5fcomplete_27',['RSP_COMPLETE',['../profiler_8h.html#af588a3a9b27840d837d5417d4be531e8a7bf6fe6348b92ac9975f5ac8b1777759',1,'profiler.h']]]
 ];

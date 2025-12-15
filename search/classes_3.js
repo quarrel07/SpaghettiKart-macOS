@@ -15,7 +15,7 @@ var searchData=
   ['colpoly_12',['ColPoly',['../classSF64_1_1ColPoly.html',1,'SF64']]],
   ['colpolydata_13',['ColPolyData',['../structSF64_1_1ColPolyData.html',1,'SF64']]],
   ['comboboxoptions_14',['ComboboxOptions',['../structUIWidgets_1_1ComboboxOptions.html',1,'UIWidgets']]],
-  ['contentbrowserwindow_15',['ContentBrowserWindow',['../classEditor_1_1ContentBrowserWindow.html',1,'Editor']]],
+  ['contentbrowserwindow_15',['ContentBrowserWindow',['../classTrackEditor_1_1ContentBrowserWindow.html',1,'TrackEditor']]],
   ['controller_16',['Controller',['../structController.html',1,'']]],
   ['controllerpak_17',['ControllerPak',['../structControllerPak.html',1,'']]],
   ['course_5ftexture_18',['course_texture',['../structcourse__texture.html',1,'']]],

@@ -593,7 +593,7 @@ var searchData=
   ['motion_5fblur_5falways_5foff_590',['MOTION_BLUR_ALWAYS_OFF',['../MenuTypes_8h.html#a15cb71ee758e7abb2c7d48e09ac0883ea8418529445d6b849960bae1c0d798ce8',1,'MenuTypes.h']]],
   ['motion_5fblur_5falways_5fon_591',['MOTION_BLUR_ALWAYS_ON',['../MenuTypes_8h.html#a15cb71ee758e7abb2c7d48e09ac0883ea66165326692a1d3745d0b025b3db23a3',1,'MenuTypes.h']]],
   ['motion_5fblur_5fdynamic_592',['MOTION_BLUR_DYNAMIC',['../MenuTypes_8h.html#a15cb71ee758e7abb2c7d48e09ac0883ea26eb9c05b79963913909c05333a37d63',1,'MenuTypes.h']]],
-  ['move_593',['Move',['../classEditor_1_1Gizmo.html#a4079af999abf79844f52386284a43c51a6bc362dbf494c61ea117fe3c71ca48a5',1,'Editor::Gizmo']]],
+  ['move_593',['Move',['../classTrackEditor_1_1Gizmo.html#aecba2b552b56f2671296dd7f10695507a6bc362dbf494c61ea117fe3c71ca48a5',1,'TrackEditor::Gizmo']]],
   ['move_5fand_5frotate_594',['MOVE_AND_ROTATE',['../classOThwomp.html#ab058a1bffedb77d79e477fc5acbc4e6aabe636995084c0d8b8626dc5faf3ae8c6',1,'OThwomp']]],
   ['move_5ffar_595',['MOVE_FAR',['../classOThwomp.html#ab058a1bffedb77d79e477fc5acbc4e6aa227e7be87b4001b18454b32d30ed2adc',1,'OThwomp']]],
   ['moving_5fshell_596',['MOVING_SHELL',['../actor__types_8h.html#ac01c8e97d91d8f2968ca1f8d4eb0495ba453f34a714854991280e3f087d9715af',1,'actor_types.h']]],
