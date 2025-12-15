@@ -15,7 +15,7 @@ var searchData=
   ['save_5fplayer_5freplay_12',['save_player_replay',['../replays_8c.html#a4fb5574aa326150440afec4fb318d617',1,'save_player_replay(void):&#160;replays.c'],['../replays_8h.html#a4fb5574aa326150440afec4fb318d617',1,'save_player_replay(void):&#160;replays.c']]],
   ['saveactors_13',['SaveActors',['../namespaceEditor.html#aa164982e09ca2812f69c6408ee8149e7',1,'Editor']]],
   ['savefog_14',['SaveFog',['../namespaceEditor.html#a62e2d56ba37d9454fd597b75b1053189',1,'Editor']]],
-  ['savelevel_15',['SaveLevel',['../namespaceEditor.html#ab89a406fcd6d370db3937ac0b3c64e27',1,'Editor']]],
+  ['savelevel_15',['SaveLevel',['../namespaceEditor.html#a19ed3388aed49eb6301d4d22cb657797',1,'Editor']]],
   ['savestaticmeshactors_16',['SaveStaticMeshActors',['../namespaceEditor.html#a70cb66b6c3265e069a7d40e430f6efe5',1,'Editor']]],
   ['savetour_17',['SaveTour',['../namespaceEditor.html#a1f03f8226c2418c158411ba2f3f7b482',1,'Editor']]],
   ['scale_18',['Scale',['../classEditor_1_1Gizmo.html#afb71d20f843f744829ae8a39b652e7b8',1,'Editor::Gizmo']]],
