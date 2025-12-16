@@ -99,7 +99,7 @@ var searchData=
   ['actorindex_96',['actorIndex',['../structunexpiredActors.html#a1e1419ce2f7577336dd49e2bd062ce17',1,'unexpiredActors::actorIndex'],['../structCpuItemStrategyData.html#a64646e154024acc1d4e40610811b0520',1,'CpuItemStrategyData::actorIndex'],['../structTrainCarStuff.html#a534b8b495eec302fd11a493758be8a80',1,'TrainCarStuff::actorIndex'],['../structPaddleBoatStuff.html#ad9b828347dae9adcc6c5d8a301faad06',1,'PaddleBoatStuff::actorIndex'],['../structVehicleStuff.html#aa2cb9651e75a3ddf588ecda2135ed1b8',1,'VehicleStuff::actorIndex']]],
   ['actorinfo_97',['ActorInfo',['../structActorInfo.html',1,'']]],
   ['actorinitparams_98',['ActorInitParams',['../structActorInitParams.html',1,'']]],
-  ['actors_99',['Actors',['../classWorld.html#ab85d8989d364e03673452ff207a9d310',1,'World::Actors'],['../actorsmenu.html',1,'Actors'],['../actors.html#actors',1,'Actors'],['../controlflow.html#actors-1',1,'Actors']]],
+  ['actors_99',['Actors',['../classWorld.html#ab85d8989d364e03673452ff207a9d310',1,'World::Actors'],['../actorsmenu.html',1,'Actors'],['../controlflow.html#actors',1,'Actors'],['../actors.html#actors-1',1,'Actors']]],
   ['actors_20work_100',['How Actors Work',['../actors.html',1,'actorsmenu']]],
   ['actors_2ec_101',['actors.c',['../actors_8c.html',1,'']]],
   ['actors_2eh_102',['actors.h',['../actors_8h.html',1,'']]],
