@@ -1,5 +1,14 @@
 var NAVTREEINDEX53 =
 {
+"miniaudio_8h.html#ad06ec973576781943f5e717866ba35c7":[19,0,2,1,0,495],
+"miniaudio_8h.html#ad084a5bd6d1cfbbaa2ba8334d0ac9434":[19,0,2,1,0,597],
+"miniaudio_8h.html#ad09ec43808e2e4d3c1a740f0cf5c5e12":[19,0,2,1,0,719],
+"miniaudio_8h.html#ad10121d33b3637b8d8efa3456d08e6f2":[19,0,2,1,0,778],
+"miniaudio_8h.html#ad16dbc555ee4f881b02dfa19d9edd3fe":[19,0,2,1,0,767],
+"miniaudio_8h.html#ad184d763936061214e3eb9b45dc0c8a0":[19,0,2,1,0,948],
+"miniaudio_8h.html#ad1a04e53edf78c58e00613a1207bc881":[19,0,2,1,0,324],
+"miniaudio_8h.html#ad1a04e53edf78c58e00613a1207bc881a041cd96b1c48fadb1398bb6fec926668":[19,0,2,1,0,324,32],
+"miniaudio_8h.html#ad1a04e53edf78c58e00613a1207bc881a044bf5a434fc10bd2a94aae5b9098585":[19,0,2,1,0,324,15],
 "miniaudio_8h.html#ad1a04e53edf78c58e00613a1207bc881a08b1ac4b811f94e85a358815c3f7e2c1":[19,0,2,1,0,324,38],
 "miniaudio_8h.html#ad1a04e53edf78c58e00613a1207bc881a0bc9f369bf77b50a1207821bb7741c2e":[19,0,2,1,0,324,70],
 "miniaudio_8h.html#ad1a04e53edf78c58e00613a1207bc881a19e8e5248bb84a517f335cc672b324f2":[19,0,2,1,0,324,52],
@@ -240,14 +249,5 @@ var NAVTREEINDEX53 =
 "miniaudio_8h.html#aea0bdba2f02eea9dd25acfff7c6b88b7":[19,0,2,1,0,402],
 "miniaudio_8h.html#aea17ce49f569234e67068c9aceac6275":[19,0,2,1,0,166],
 "miniaudio_8h.html#aea2efc09fe7cedfe64610e7e9bafe623":[19,0,2,1,0,952],
-"miniaudio_8h.html#aea436da2183da3a66cb335b84c4e44cc":[19,0,2,1,0,458],
-"miniaudio_8h.html#aea7eb7334763b433ec5e6aad3597ad27":[19,0,2,1,0,1004],
-"miniaudio_8h.html#aeab3b3dc3a2da8501538c5842ecc84c4":[19,0,2,1,0,763],
-"miniaudio_8h.html#aeac1e2a705719ce8fac1c60afbbe70af":[19,0,2,1,0,286],
-"miniaudio_8h.html#aeaf2aa30dd9f27b01c3173b64e9358c0":[19,0,2,1,0,931],
-"miniaudio_8h.html#aeb66a02377b478cd8bb729ae8d7cc510":[19,0,2,1,0,824],
-"miniaudio_8h.html#aebd25728c49b89d97d3a4adecd6a851a":[19,0,2,1,0,1053],
-"miniaudio_8h.html#aec15152eed9508ae2747930ff7f9dee0":[19,0,2,1,0,379],
-"miniaudio_8h.html#aec746b001dcc56f872fb6f88c071765f":[19,0,2,1,0,733],
-"miniaudio_8h.html#aecd5b71b51c9325eb9481c645d40d40b":[19,0,2,1,0,1039]
+"miniaudio_8h.html#aea436da2183da3a66cb335b84c4e44cc":[19,0,2,1,0,458]
 };

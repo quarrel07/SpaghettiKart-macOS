@@ -1,5 +1,14 @@
 var NAVTREEINDEX59 =
 {
+"pak_8cpp.html#ae0739abb62393e32cab63e2c658fd5d3":[19,0,3,9,11,8],
+"palm__tree_2render_8inc_8c.html":[19,0,3,0,12,0],
+"palm__tree_2render_8inc_8c.html#ae35957e867320b51295c1c6c9066bd0b":[19,0,3,0,12,0,0],
+"palm__tree_2render_8inc_8c_source.html":[19,0,3,0,12,0],
+"path__spawn__metadata_8c.html":[19,0,3,3,1],
+"path__spawn__metadata_8c.html#a020f3a1b86b1e2149ef39225f862e183":[19,0,3,3,1,5],
+"path__spawn__metadata_8c.html#a56efa5095869bc7d2d65e4cb08015e1c":[19,0,3,3,1,4],
+"path__spawn__metadata_8c.html#a5da7c759d9be67a80475d4d887814c2f":[19,0,3,3,1,2],
+"path__spawn__metadata_8c.html#a736a3c54ce6ccc5d27bdb9096a706f14":[19,0,3,3,1,0],
 "path__spawn__metadata_8c.html#aa1225cbe034f8220381bf006bcb48ba1":[19,0,3,3,1,1],
 "path__spawn__metadata_8c.html#aff0cf43668bf5133962be53f680bddbe":[19,0,3,3,1,3],
 "path__spawn__metadata_8h.html":[19,0,3,3,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX59 =
 "player__controller_8c.html#a511b8da63f28e9b1f9cd7d2af7511601":[19,0,3,52,66],
 "player__controller_8c.html#a580196e5546fbba9685f42750c3ef7df":[19,0,3,52,63],
 "player__controller_8c.html#a5b91146f79f3e94ce4b406315e231684":[19,0,3,52,78],
-"player__controller_8c.html#a5bb23c788b1a40f8ed2a56ccbd4d5aea":[19,0,3,52,4],
-"player__controller_8c.html#a60b22a77aa4cf0b2be0942a3e115a1eb":[19,0,3,52,15],
-"player__controller_8c.html#a64443ee4c9ff13a18757793ccc8a93f4":[19,0,3,52,21],
-"player__controller_8c.html#a6878b822bb2d42f5504e9c8f10e715be":[19,0,3,52,140],
-"player__controller_8c.html#a6ab60cd01fe159bb7f6c60d06d9e16a6":[19,0,3,52,67],
-"player__controller_8c.html#a6b1e8ffb2bbabc2a10c924e272d82330":[19,0,3,52,77],
-"player__controller_8c.html#a6b6fd3480e0194198716b04ac2a1e009":[19,0,3,52,128],
-"player__controller_8c.html#a6e18c268d5850258f841bdb80c6c5ba1":[19,0,3,52,127],
-"player__controller_8c.html#a6e5c0e67e55deda79c1b6c3be77cd8c4":[19,0,3,52,123],
-"player__controller_8c.html#a6f44b07e387daa69d970f213ba55334a":[19,0,3,52,103]
+"player__controller_8c.html#a5bb23c788b1a40f8ed2a56ccbd4d5aea":[19,0,3,52,4]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX87 =
 {
+"structma__sound__config.html#a1ab6518205bcee9593e57ac5d61202b5":[18,0,295,11],
+"structma__sound__config.html#a2651a56d78e524bbd631d03f7489579f":[18,0,295,2],
+"structma__sound__config.html#a337d34c20761e17912101909bc52078f":[18,0,295,6],
+"structma__sound__config.html#a522b86e048c70d979b0abf9dc3612a97":[18,0,295,17],
+"structma__sound__config.html#a5c2f62c0561b37375390ccd54245554d":[18,0,295,5],
+"structma__sound__config.html#a72fc7110a02775d0dbb3d7b3d38725de":[18,0,295,18],
+"structma__sound__config.html#a827e473d93c7fd1d7c73a78997c276d4":[18,0,295,0],
+"structma__sound__config.html#a96f54115d3921bf3a7814c37c8c2c0d3":[18,0,295,16],
+"structma__sound__config.html#aa969fba07e8edf41cc6dde0e9ab35836":[18,0,295,19],
 "structma__sound__config.html#ab4f254379c3d420d1db1b73f93c010e0":[18,0,295,12],
 "structma__sound__config.html#aba675bfc810935fcc26731592cf64ba5":[18,0,295,10],
 "structma__sound__config.html#ac960f23b85b9b076bd51ff79416f1716":[18,0,295,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX87 =
 "structstruct__D__801930D0__inner.html#ad5d6555362a114d418fba7a008768773":[18,0,434,5],
 "structstruct__D__802874D8.html":[18,0,435],
 "structstruct__D__802874D8.html#a376c647d46884be2cbf01f65bf30834e":[18,0,435,1],
-"structstruct__D__802874D8.html#a543aa34b6de446afd99b5adda183eb0a":[18,0,435,4],
-"structstruct__D__802874D8.html#a81915496d06fe4f254ed97b7aec7904e":[18,0,435,0],
-"structstruct__D__802874D8.html#a9971c5c574a48f613ca5f13e34a0c038":[18,0,435,3],
-"structstruct__D__802874D8.html#ab9413587ba6f6219734dfeefef3eeb6f":[18,0,435,6],
-"structstruct__D__802874D8.html#ac2d3e30b45493f725952c0bf917c68ef":[18,0,435,5],
-"structstruct__D__802874D8.html#aeccd16c824656980ec355e3685fe60d9":[18,0,435,2],
-"structstruct__D__802BFB80__4.html":[18,0,436],
-"structstruct__D__802BFB80__4.html#a1d7dabc9a32435456f09a063c4bed20d":[18,0,436,0],
-"structstruct__D__802BFB80__8.html":[18,0,437],
-"structstruct__D__802BFB80__8.html#a44fcc092ef129c832b1b29eece8fa985":[18,0,437,0]
+"structstruct__D__802874D8.html#a543aa34b6de446afd99b5adda183eb0a":[18,0,435,4]
 };

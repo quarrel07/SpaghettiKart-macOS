@@ -1,5 +1,14 @@
 var NAVTREEINDEX75 =
 {
+"structKiwanoFruit.html#adf70a7f3dc53798340be6b62a77cdf43":[18,0,150,7],
+"structKiwanoFruit.html#af729769e8645be38eacc0d73e46f442f":[18,0,150,5],
+"structM64ScriptState.html":[18,0,156],
+"structM64ScriptState.html#a1aae4070b924b65d1a69253f2f5bf565":[18,0,156,0],
+"structM64ScriptState.html#a3722f02366a20f7f2c075c03af593bcc":[18,0,156,2],
+"structM64ScriptState.html#a55c9181d0f0d8aa6001e77ea57b330b1":[18,0,156,3],
+"structM64ScriptState.html#ac0b70c21099f0e964bb0e294ef4cb74f":[18,0,156,1],
+"structMK64_1_1MinimapTexture.html":[17,0,4,5],
+"structMK64_1_1MinimapTexture.html":[18,0,1,5],
 "structMK64_1_1MinimapTexture.html#a10f09cfef0113419b93aa29f23a4c00e":[17,0,4,5,1],
 "structMK64_1_1MinimapTexture.html#a10f09cfef0113419b93aa29f23a4c00e":[18,0,1,5,1],
 "structMK64_1_1MinimapTexture.html#a82816439159df1f98f9dc3c73312966c":[17,0,4,5,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX75 =
 "structObject.html#ab70c3da83d65403964e4622fe0534c2a":[18,0,331,46],
 "structObject.html#aba46e66f4189e43720f11f0beff29c1c":[18,0,331,57],
 "structObject.html#ac119943023c98ad6d4a7e7e080678178":[18,0,331,27],
-"structObject.html#acbe7d3f5a48477064198769bfdde3074":[18,0,331,19],
-"structObject.html#acd56662e2cd8ae1de22450f59ba5cc81":[18,0,331,16],
-"structObject.html#acd592ea1870890b429c082cec0ce42c3":[18,0,331,15],
-"structObject.html#acd7b1f562450174011ac4705eec46808":[18,0,331,42],
-"structObject.html#ad21308f8e57eee606a974266c278e81c":[18,0,331,37],
-"structObject.html#ad65a6c2920855c41c9511c91739176e7":[18,0,331,9],
-"structObject.html#ad843ff3af17bd1e968559b2d7d8c957f":[18,0,331,53],
-"structObject.html#ad926409c9d53feb94e66c71d8ec92558":[18,0,331,14],
-"structObject.html#adb151c072a08584e75362bbabf6e6c1d":[18,0,331,3],
-"structObject.html#addd6910e926d1e9459c6567c37957ffe":[18,0,331,8]
+"structObject.html#acbe7d3f5a48477064198769bfdde3074":[18,0,331,19]
 };

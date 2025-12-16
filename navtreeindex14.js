@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classOSeagull.html#aa8b22830202db11f9023229cbd9d2f8c":[18,0,350,2],
 "classOSeagull.html#ac6af838a820a0232e940575521844caa":[18,0,350,3],
 "classOSeagull.html#aecaeaea3ef1cd4205d9049803ea997e5":[18,0,350,4],
 "classOSeagull.html#afb8d3fd824adf5e5edbf698c94f59111":[18,0,350,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classSF64_1_1EnvSettings.html#a0d70341c432cdc2faae9cf0fbfb9c1df":[18,0,3,4,0],
 "classSF64_1_1EnvSettings.html#a16c34daf76613f78d22874e579271b01":[17,0,6,4,3],
 "classSF64_1_1EnvSettings.html#a16c34daf76613f78d22874e579271b01":[18,0,3,4,3],
-"classSF64_1_1EnvSettings.html#acee56a3293e48990c8baf233bead8e14":[17,0,6,4,1],
-"classSF64_1_1EnvSettings.html#acee56a3293e48990c8baf233bead8e14":[18,0,3,4,1]
+"classSF64_1_1EnvSettings.html#acee56a3293e48990c8baf233bead8e14":[17,0,6,4,1]
 };

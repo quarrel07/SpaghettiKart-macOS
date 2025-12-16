@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classShip_1_1SpaghettiGui.html#afa61a266d1e286ece3fe56601195ba89":[17,0,7,1,2],
 "classShip_1_1SpaghettiGui.html#afa61a266d1e286ece3fe56601195ba89":[18,0,4,1,2],
 "classSkyscraper.html":[18,0,404],
 "classSkyscraper.html#a0d658759e928b6278ebeb524379e58c0":[18,0,404,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classTrackEditor_1_1Gizmo.html#ab2c4ddb960a928e1fb41e1c7987085df":[18,0,6,2,31],
 "classTrackEditor_1_1Gizmo.html#ab57552640c805ab5a4fde01f6a55b1ac":[17,0,9,2,5],
 "classTrackEditor_1_1Gizmo.html#ab57552640c805ab5a4fde01f6a55b1ac":[18,0,6,2,5],
-"classTrackEditor_1_1Gizmo.html#ab6c6cf6e86b1aa4d8888c3ff6eb388eb":[17,0,9,2,21],
-"classTrackEditor_1_1Gizmo.html#ab6c6cf6e86b1aa4d8888c3ff6eb388eb":[18,0,6,2,21]
+"classTrackEditor_1_1Gizmo.html#ab6c6cf6e86b1aa4d8888c3ff6eb388eb":[17,0,9,2,21]
 };

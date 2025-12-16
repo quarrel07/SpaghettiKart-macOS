@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classSF64_1_1EnvSettings.html#acee56a3293e48990c8baf233bead8e14":[18,0,3,4,1],
 "classSF64_1_1GenericArray.html":[17,0,6,6],
 "classSF64_1_1GenericArray.html":[18,0,3,6],
 "classSF64_1_1GenericArray.html#a262fad72b29e433fdf725e72757293f7":[17,0,6,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classShip_1_1SpaghettiGui.html#a939c942b2068ca039bb11d3160a22038":[17,0,7,1,0],
 "classShip_1_1SpaghettiGui.html#a939c942b2068ca039bb11d3160a22038":[18,0,4,1,0],
 "classShip_1_1SpaghettiGui.html#af3b8807b330a6fc0fa13118bf4d188cf":[17,0,7,1,1],
-"classShip_1_1SpaghettiGui.html#af3b8807b330a6fc0fa13118bf4d188cf":[18,0,4,1,1],
-"classShip_1_1SpaghettiGui.html#afa61a266d1e286ece3fe56601195ba89":[17,0,7,1,2]
+"classShip_1_1SpaghettiGui.html#af3b8807b330a6fc0fa13118bf4d188cf":[18,0,4,1,1]
 };

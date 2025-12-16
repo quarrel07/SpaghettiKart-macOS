@@ -1,5 +1,14 @@
 var NAVTREEINDEX71 =
 {
+"spawn__players_8c.html#af4ffc0854efc3e4c009e6d40b651f773":[19,0,3,64,11],
+"spawn__players_8c.html#af842921a7b1d289620c50388285cd81b":[19,0,3,64,36],
+"spawn__players_8c.html#af91b04968cf23ed2ace337eca1e20923":[19,0,3,64,62],
+"spawn__players_8c.html#afb1c307e34d73d9c004936d2752c44ce":[19,0,3,64,8],
+"spawn__players_8c.html#afca0f7e6a7fc5d3e6f51a6426cfb755a":[19,0,3,64,2],
+"spawn__players_8c.html#afcd7ca66ef7f294837c339bcf698bd11":[19,0,3,64,25],
+"spawn__players_8h.html":[19,0,3,65],
+"spawn__players_8h_source.html":[19,0,3,65],
+"spline_8h.html":[19,0,2,21],
 "spline_8h_source.html":[19,0,2,21],
 "sprintf_8c.html":[19,0,3,8,117],
 "sprintf_8c.html#a353b2f73aed82bd1eb8cc2b34ec936d9":[19,0,3,8,117,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX71 =
 "structALADPCMloop.html#a77efa500c195e50e91fd3cb1a5e751a4":[18,0,41,2],
 "structALADPCMloop.html#a79a950184af0347c58501e770a27b07b":[18,0,41,0],
 "structALBankFile.html":[18,0,44],
-"structALBankFile.html#a01c1cee5df95ccd5db0690f34e742ad2":[18,0,44,1],
-"structALBankFile.html#a0248bb12530179de5061822eacdaf91e":[18,0,44,0],
-"structALBankFile.html#ab94aa3f283c52419547e417151e84bfb":[18,0,44,2],
-"structALBank__s.html":[18,0,43],
-"structALBank__s.html#a09c8b064e5f89189e117b0927941b2a0":[18,0,43,2],
-"structALBank__s.html#a0bf3563b4c60b580a2b09422de6eebce":[18,0,43,4],
-"structALBank__s.html#a51e528879a570e855363b7a47d00acaf":[18,0,43,1],
-"structALBank__s.html#a52c6d304efe60e4efd36a8b92c03d548":[18,0,43,3],
-"structALBank__s.html#a9a04d0e24c6392eed59ddcc31d0251e3":[18,0,43,0],
-"structALBank__s.html#abada388cb1468f1fffddda6a8e24fa21":[18,0,43,5]
+"structALBankFile.html#a01c1cee5df95ccd5db0690f34e742ad2":[18,0,44,1]
 };

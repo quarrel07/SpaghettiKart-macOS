@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMK64_1_1CourseVtxClass.html#a3af12dd9cae5aa7265072412494cb9a0":[17,0,4,2,2],
 "classMK64_1_1CourseVtxClass.html#a3af12dd9cae5aa7265072412494cb9a0":[18,0,1,2,2],
 "classMK64_1_1CourseVtxClass.html#ac5891d6b4b573ab6dc66575d1918e10f":[17,0,4,2,3],
 "classMK64_1_1CourseVtxClass.html#ac5891d6b4b573ab6dc66575d1918e10f":[18,0,1,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classOCheepCheep.html#a8a723a1a1cd3eaa7231fb9e484b4c5a8a06cfc1176cd69fa5dc7c9b5f37645501":[18,0,337,0,1],
 "classOCheepCheep.html#a8a723a1a1cd3eaa7231fb9e484b4c5a8a91091fa318f35200ca9eb9176798a1f1":[18,0,337,0,0],
 "classOCheepCheep.html#a8b53061efba5deef7c5a4ca7e611fe65":[18,0,337,7],
-"classOCheepCheep.html#a901571b114b82c2398d64c0068429b1e":[18,0,337,5],
-"classOCheepCheep.html#a90b1658bbfd1513588a5ed10207999d3":[18,0,337,13]
+"classOCheepCheep.html#a901571b114b82c2398d64c0068429b1e":[18,0,337,5]
 };

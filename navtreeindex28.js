@@ -1,5 +1,12 @@
 var NAVTREEINDEX28 =
 {
+"common__structs_8h.html#ab93bd6395d36692d43a18c9f1d70bd39":[19,0,2,7,26],
+"common__structs_8h.html#acae9cd4e955edf4d0d8a7f03b042c7db":[19,0,2,7,31],
+"common__structs_8h.html#ad02ffef6c3b5923607677815162c71a8":[19,0,2,7,27],
+"common__structs_8h.html#af30b552f88edd02ed3a72b3dd2467544":[19,0,2,7,28],
+"common__structs_8h_source.html":[19,0,2,7],
+"compiling.html":[1,0],
+"compiling.html#build-instructions":[1,0,0],
 "compiling.html#building-eu":[1,0,6],
 "compiling.html#building-us":[1,0,5],
 "compiling.html#docker":[1,0,4],
@@ -29,7 +36,7 @@ var NAVTREEINDEX28 =
 "contramwrite_8c.html#a5a8e6638b28caf3b5faba67df76d099c":[19,0,3,8,34,1],
 "contramwrite_8c.html#ac0f1bb81601cedc5fc5868fc7e500b88":[19,0,3,8,34,0],
 "controlflow.html":[1,2],
-"controlflow.html#actors":[1,2,4,2],
+"controlflow.html#actors-1":[1,2,4,2],
 "controlflow.html#code-breakdown":[1,2,4],
 "controlflow.html#course-folder":[1,2,4,4,0],
 "controlflow.html#ending":[1,2,4,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX28 =
 "data_8h.html#a976342338c1ff6032f600d46a9dc777f":[19,0,3,1,2,29],
 "data_8h.html#a98ebb3e8b4773992daddf918154d9985":[19,0,3,1,2,16],
 "data_8h.html#a9f273f0536979240c65c4c7c0fc08625":[19,0,3,1,2,11],
-"data_8h.html#aa7ed73e948f47fa899fce22e05095d39":[19,0,3,1,2,8],
-"data_8h.html#aa894d10bf91fcbb2809974d57965309e":[19,0,3,1,2,36],
-"data_8h.html#abbebc73c3e5e0948f468b44526de53bc":[19,0,3,1,2,13],
-"data_8h.html#ac13d8ecfe015ef9e5420887d5a629806":[19,0,3,1,2,1],
-"data_8h.html#ac82f5ca42754e95508010324f8d3bb3a":[19,0,3,1,2,4],
-"data_8h.html#ad497c67b613981e72191ab7ed1aa8675":[19,0,3,1,2,33],
-"data_8h.html#ad5c4274341788878d2b3b767c6c9b16c":[19,0,3,1,2,0],
-"data_8h.html#ad6e40370cb4f1131cfaaa8730c04a823":[19,0,3,1,2,35]
+"data_8h.html#aa7ed73e948f47fa899fce22e05095d39":[19,0,3,1,2,8]
 };

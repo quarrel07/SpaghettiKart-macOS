@@ -1,5 +1,14 @@
 var NAVTREEINDEX78 =
 {
+"structSF64_1_1Vec4f.html#abc4f48523e675455db4e36e0c448ee51":[18,0,3,31,0],
+"structSF64_1_1Vec4s.html":[17,0,6,32],
+"structSF64_1_1Vec4s.html":[18,0,3,32],
+"structSF64_1_1Vec4s.html#a064294c58de126c46026828f1ff9cd6c":[17,0,6,32,0],
+"structSF64_1_1Vec4s.html#a064294c58de126c46026828f1ff9cd6c":[18,0,3,32,0],
+"structSF64_1_1Vec4s.html#a43479bd08dd8ec946abd579718aac1c9":[17,0,6,32,1],
+"structSF64_1_1Vec4s.html#a43479bd08dd8ec946abd579718aac1c9":[18,0,3,32,1],
+"structSF64_1_1Vec4s.html#a49c80a81edeb101054ad87ad36d0657e":[17,0,6,32,4],
+"structSF64_1_1Vec4s.html#a49c80a81edeb101054ad87ad36d0657e":[18,0,3,32,4],
 "structSF64_1_1Vec4s.html#a628a8c47243897b7acff5fdc87c71227":[17,0,6,32,2],
 "structSF64_1_1Vec4s.html#a628a8c47243897b7acff5fdc87c71227":[18,0,3,32,2],
 "structSF64_1_1Vec4s.html#ac2ab7d3df0b314d32c8da655f02fce12":[17,0,6,32,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX78 =
 "structSoundCharacteristics.html#aa3c6784630a430cae8cdd5f44584337c":[18,0,408,10],
 "structSoundCharacteristics.html#aa73d78cbb44d656e932ead93f907612a":[18,0,408,12],
 "structSoundCharacteristics.html#ac33e1e3c09646337435bc116839b4c75":[18,0,408,8],
-"structSoundCharacteristics.html#ad543f04b8b3c903dd7b60c8c23dbe9e6":[18,0,408,7],
-"structSoundCharacteristics.html#aef79409427b23e6314bcbe12e4157729":[18,0,408,0],
-"structSoundCharacteristics.html#af61da05719188f6ab5b0bb0fe7765375":[18,0,408,6],
-"structSoundCharacteristics.html#afe6d8a04574b04b7152b25c5afe166bc":[18,0,408,14],
-"structSoundMultiPool.html":[18,0,409],
-"structSoundMultiPool.html#a9a72b154bd09a211baecb8f2976157b4":[18,0,409,0],
-"structSoundMultiPool.html#ae26f6edcb58e56220c5b5a92d42902cd":[18,0,409,2],
-"structSoundMultiPool.html#aeaad151fd1e59a21a034efa00385bcf0":[18,0,409,1],
-"structSpawnParams.html":[18,0,410],
-"structSpawnParams.html#a0da275013c339361970cdedb5c582689":[18,0,410,8]
+"structSoundCharacteristics.html#ad543f04b8b3c903dd7b60c8c23dbe9e6":[18,0,408,7]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX41 =
 {
+"math__util__2_8c.html#aae502d60ed48e002c9bf17890477aebc":[19,0,3,46,66],
+"math__util__2_8c.html#ab05a6d20123383498f07f82db7b6fb8d":[19,0,3,46,70],
+"math__util__2_8c.html#ab46c3f2d99626d7feaec3cbb9191da56":[19,0,3,46,76],
+"math__util__2_8c.html#ab70b077c4d314699e7fb4bea342827e0":[19,0,3,46,42],
+"math__util__2_8c.html#ab851956f2f0e9d7f276b5f7f6448d123":[19,0,3,46,5],
+"math__util__2_8c.html#abb262e95c887f6ca23b806fc38b081d2":[19,0,3,46,48],
+"math__util__2_8c.html#ac3c639fb250a4c3010321877199b7145":[19,0,3,46,39],
+"math__util__2_8c.html#ac40bfdeffa5a3c0f8d7c1ce43c075a45":[19,0,3,46,53],
+"math__util__2_8c.html#ac7e450bb740459f3b14228b10e8406ab":[19,0,3,46,18],
 "math__util__2_8c.html#aca064a66dc29c36e1db7b79a6b679e25":[19,0,3,46,51],
 "math__util__2_8c.html#aca3e34a96d7735fc47c28d85cd2ac22c":[19,0,3,46,46],
 "math__util__2_8c.html#ad546b30137674cd0c7ff2383b6b1cd63":[19,0,3,46,37],
@@ -229,7 +238,7 @@ var NAVTREEINDEX41 =
 "md_docs_2migrations.html#other-textures":[8,2,0,2],
 "md_docs_2migrations.html#overview":[8,0],
 "md_docs_2migrations.html#path-changes":[8,2],
-"md_docs_2migrations.html#see-also":[8,7],
+"md_docs_2migrations.html#see-also-1":[8,7],
 "md_docs_2migrations.html#textures":[8,2,0],
 "md_docs_2migrations.html#track-textures":[8,2,0,0],
 "md_docs_2migrations.html#troubleshooting":[8,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX41 =
 "md_docs_2modding.html#mod-loading-order":[9,0,1],
 "md_docs_2modding.html#mod-types":[9,2],
 "md_docs_2modding.html#supported-formats":[9,0,0],
-"md_docs_2mods-toml.html":[10],
-"md_docs_2mods-toml.html#basic-structure":[10,1],
-"md_docs_2mods-toml.html#best-practices":[10,7],
-"md_docs_2mods-toml.html#complete-structure":[10,2],
-"md_docs_2mods-toml.html#core-dependencies":[10,4],
-"md_docs_2mods-toml.html#dependencies-section":[10,3,1],
-"md_docs_2mods-toml.html#fields-reference":[10,3],
-"md_docs_2mods-toml.html#load-order":[10,6],
-"md_docs_2mods-toml.html#location":[10,0],
-"md_docs_2mods-toml.html#migration-script-support":[10,8]
+"md_docs_2mods-toml.html":[10]
 };

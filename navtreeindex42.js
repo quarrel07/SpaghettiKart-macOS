@@ -1,7 +1,16 @@
 var NAVTREEINDEX42 =
 {
+"md_docs_2mods-toml.html#basic-structure":[10,1],
+"md_docs_2mods-toml.html#best-practices":[10,7],
+"md_docs_2mods-toml.html#complete-structure":[10,2],
+"md_docs_2mods-toml.html#core-dependencies":[10,4],
+"md_docs_2mods-toml.html#dependencies-section":[10,3,1],
+"md_docs_2mods-toml.html#fields-reference":[10,3],
+"md_docs_2mods-toml.html#load-order":[10,6],
+"md_docs_2mods-toml.html#location":[10,0],
+"md_docs_2mods-toml.html#migration-script-support":[10,8],
 "md_docs_2mods-toml.html#mod-section":[10,3,0],
-"md_docs_2mods-toml.html#see-also-1":[10,9],
+"md_docs_2mods-toml.html#see-also":[10,9],
 "md_docs_2mods-toml.html#validation":[10,5],
 "md_docs_2mods-toml.html#version-requirements":[10,3,1,0],
 "md_docs_2sequences-information.html":[11],
@@ -240,14 +249,5 @@ var NAVTREEINDEX42 =
 "menu__items_8c.html#a5585e4292b7d43e9b9dfefe83cc75dc4":[19,0,3,48,457],
 "menu__items_8c.html#a56cfa922219f124d2b12c0f0f7e3cd9f":[19,0,3,48,125],
 "menu__items_8c.html#a5783e95a8e8e7ef1793dbf79570e339e":[19,0,3,48,272],
-"menu__items_8c.html#a57e1e920cc29e6d1b13f4ebf198a6f3c":[19,0,3,48,142],
-"menu__items_8c.html#a57eda320919df4cd8968b1d2c00e7862":[19,0,3,48,129],
-"menu__items_8c.html#a588742e39aadb10158a7afdf054afccc":[19,0,3,48,26],
-"menu__items_8c.html#a58a8022099c802b7ec83d22a0afa4e12":[19,0,3,48,494],
-"menu__items_8c.html#a58ceccdd649a0541c7a72d9b4fd59d53":[19,0,3,48,163],
-"menu__items_8c.html#a590538ae225b997be62909e235557473":[19,0,3,48,140],
-"menu__items_8c.html#a59f2346815d67f8312a8a4881eaa604b":[19,0,3,48,225],
-"menu__items_8c.html#a5a8e55be1315ed840571d9a15fb3d25d":[19,0,3,48,124],
-"menu__items_8c.html#a5a91d52e74dfa2abed609322f1abe8c5":[19,0,3,48,472],
-"menu__items_8c.html#a5abcef085b1e2089c54ea352ab09c9e2":[19,0,3,48,296]
+"menu__items_8c.html#a57e1e920cc29e6d1b13f4ebf198a6f3c":[19,0,3,48,142]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX60 =
 {
+"player__controller_8c.html#a60b22a77aa4cf0b2be0942a3e115a1eb":[19,0,3,52,15],
+"player__controller_8c.html#a64443ee4c9ff13a18757793ccc8a93f4":[19,0,3,52,21],
+"player__controller_8c.html#a6878b822bb2d42f5504e9c8f10e715be":[19,0,3,52,140],
+"player__controller_8c.html#a6ab60cd01fe159bb7f6c60d06d9e16a6":[19,0,3,52,67],
+"player__controller_8c.html#a6b1e8ffb2bbabc2a10c924e272d82330":[19,0,3,52,77],
+"player__controller_8c.html#a6b6fd3480e0194198716b04ac2a1e009":[19,0,3,52,128],
+"player__controller_8c.html#a6e18c268d5850258f841bdb80c6c5ba1":[19,0,3,52,127],
+"player__controller_8c.html#a6e5c0e67e55deda79c1b6c3be77cd8c4":[19,0,3,52,123],
+"player__controller_8c.html#a6f44b07e387daa69d970f213ba55334a":[19,0,3,52,103],
 "player__controller_8c.html#a6f9c3d01cab9a6cb4d72a421037c5c09":[19,0,3,52,83],
 "player__controller_8c.html#a70780be6cd5f4a3c8ac9ab8504e21f90":[19,0,3,52,71],
 "player__controller_8c.html#a7081f349ebcd0a5fee7467c1fe5e1212":[19,0,3,52,149],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "player__controller_8h.html#aecd406d683ef521325cbfe7279dfd0da":[19,0,3,53,82],
 "player__controller_8h.html#aee5b914a1ddf7362e30f2473024f442c":[19,0,3,53,114],
 "player__controller_8h.html#aeffdbb54b2a18ca66d5fe8f44b942ff3":[19,0,3,53,17],
-"player__controller_8h.html#af29a6502ef921511f0a4de4af49ff474":[19,0,3,53,67],
-"player__controller_8h.html#af320405612ade0d0a926ffdaa75ad30f":[19,0,3,53,50],
-"player__controller_8h.html#af40a7f662a3dd0bd16e6201c6e5700c6":[19,0,3,53,70],
-"player__controller_8h.html#af629a9ba6e347180495f707a0e5d45d6":[19,0,3,53,100],
-"player__controller_8h.html#af64e63cd711d06fb9458c360d182d10a":[19,0,3,53,22],
-"player__controller_8h.html#af917f12b29f31fbc3e06e36390b08cae":[19,0,3,53,38],
-"player__controller_8h.html#afa8731d4ae7f001614eccce9868c78d9":[19,0,3,53,153],
-"player__controller_8h.html#afb7b90dbe4879f29d125fbf320264a6e":[19,0,3,53,112],
-"player__controller_8h.html#afc14ef22bb2f0a530ba1064ff63c584b":[19,0,3,53,142],
-"player__controller_8h.html#afc6e18b1881cb4c6884f8d3d0e083dce":[19,0,3,53,92]
+"player__controller_8h.html#af29a6502ef921511f0a4de4af49ff474":[19,0,3,53,67]
 };

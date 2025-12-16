@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classBlockFort.html#aa950159c68ce91b2543b203cb117e894":[18,0,81,1],
 "classBlockFort.html#ad0fc5b31737ecde8b492805759603707":[18,0,81,2],
 "classBlockFort.html#af1bd37988e064423d9489422dddbe00b":[18,0,81,3],
 "classBowsersCastle.html":[18,0,84],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classMK64_1_1CourseVtxClass.html":[17,0,4,2],
 "classMK64_1_1CourseVtxClass.html":[18,0,1,2],
 "classMK64_1_1CourseVtxClass.html#a043879d6bada0cd5a1361ca043b03a93":[17,0,4,2,0],
-"classMK64_1_1CourseVtxClass.html#a043879d6bada0cd5a1361ca043b03a93":[18,0,1,2,0],
-"classMK64_1_1CourseVtxClass.html#a3af12dd9cae5aa7265072412494cb9a0":[17,0,4,2,2]
+"classMK64_1_1CourseVtxClass.html#a043879d6bada0cd5a1361ca043b03a93":[18,0,1,2,0]
 };

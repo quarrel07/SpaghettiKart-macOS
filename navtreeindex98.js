@@ -1,5 +1,14 @@
 var NAVTREEINDEX98 =
 {
+"vehicles_8h.html#ab8f8167c848e4fb57186e7be13e0b94e":[19,0,2,23,27],
+"vehicles_8h.html#abdde9f9274897ca74ed73c8f0e5ad507":[19,0,2,23,21],
+"vehicles_8h.html#ac244743e5ba49da3393199a6866f1461":[19,0,2,23,33],
+"vehicles_8h.html#ac85fa8465a4900385df692695bc47cd7":[19,0,2,23,28],
+"vehicles_8h.html#ad57e0cebff8fcbc3488535930f5d01f1":[19,0,2,23,10],
+"vehicles_8h.html#ad9c9b7eb822fcdb32e92b5878bca3fbc":[19,0,2,23,22],
+"vehicles_8h.html#add2a8da8f18ab6c292bac6907059fe55":[19,0,2,23,9],
+"vehicles_8h.html#afb990fae40ce49abe1bcb6d21a09b9c0":[19,0,2,23,14],
+"vehicles_8h.html#afc115b89b5da7a7d1dacacb76d2ea106":[19,0,2,23,15],
 "vehicles_8h.html#afe7daed3aedb2464b847f38cca6b64a9":[19,0,2,23,13],
 "vehicles_8h_source.html":[19,0,2,23],
 "vtx_8c.html":[19,0,0,17,2],

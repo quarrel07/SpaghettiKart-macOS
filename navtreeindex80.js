@@ -1,5 +1,14 @@
 var NAVTREEINDEX80 =
 {
+"structUIWidgets_1_1ComboboxOptions.html#ae7873570b7b0c61ac5c7804610a96fce":[17,0,10,3,3],
+"structUIWidgets_1_1ComboboxOptions.html#ae7873570b7b0c61ac5c7804610a96fce":[18,0,7,2,3],
+"structUIWidgets_1_1FloatSliderOptions.html":[17,0,10,4],
+"structUIWidgets_1_1FloatSliderOptions.html":[18,0,7,3],
+"structUIWidgets_1_1FloatSliderOptions.html#a11a789e4aa792be4c99fbe7e04ab91c3":[17,0,10,4,15],
+"structUIWidgets_1_1FloatSliderOptions.html#a11a789e4aa792be4c99fbe7e04ab91c3":[18,0,7,3,15],
+"structUIWidgets_1_1FloatSliderOptions.html#a1e3fe66b9a7838234705bb1cdc45abb7":[17,0,10,4,2],
+"structUIWidgets_1_1FloatSliderOptions.html#a1e3fe66b9a7838234705bb1cdc45abb7":[18,0,7,3,2],
+"structUIWidgets_1_1FloatSliderOptions.html#a250ee971de7e77532356d08dc1e18884":[17,0,10,4,10],
 "structUIWidgets_1_1FloatSliderOptions.html#a250ee971de7e77532356d08dc1e18884":[18,0,7,3,10],
 "structUIWidgets_1_1FloatSliderOptions.html#a2f8d48df1d0fb8552dea421387e63bc3":[17,0,10,4,1],
 "structUIWidgets_1_1FloatSliderOptions.html#a2f8d48df1d0fb8552dea421387e63bc3":[18,0,7,3,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX80 =
 "structUnk__800E9F7C.html":[18,0,465],
 "structUnk__800E9F7C.html#a2b399bd639a88fdd56091506e1de52bd":[18,0,465,8],
 "structUnk__800E9F7C.html#a4946152f38e26ca06d470223f4d81155":[18,0,465,11],
-"structUnk__800E9F7C.html#a4b68a23a23afa0f8def4755344ce5b85":[18,0,465,1],
-"structUnk__800E9F7C.html#a536df51d3f0241e2548c7c3390dc0951":[18,0,465,10],
-"structUnk__800E9F7C.html#a657170478b6cc1464e422aa3311adc6d":[18,0,465,5],
-"structUnk__800E9F7C.html#a69037fb7d29a3cca14b8fddfe7350391":[18,0,465,3],
-"structUnk__800E9F7C.html#a6c1eeb587e3a3219009d9925a2856c26":[18,0,465,6],
-"structUnk__800E9F7C.html#a77e10a0f94eee2ccbdc8d6c0ce4b9f21":[18,0,465,4],
-"structUnk__800E9F7C.html#a82d24ddf3bf8b5a49d6affe4484769cb":[18,0,465,2],
-"structUnk__800E9F7C.html#a87c83f2ccddc2e170a2ac29a27a67502":[18,0,465,9],
-"structUnk__800E9F7C.html#aaf16346504718babc5e50ab18d945e68":[18,0,465,12],
-"structUnk__800E9F7C.html#ae8fed38a7f135f9e08adf0c2ae48518b":[18,0,465,7]
+"structUnk__800E9F7C.html#a4b68a23a23afa0f8def4755344ce5b85":[18,0,465,1]
 };

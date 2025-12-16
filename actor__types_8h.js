@@ -23,6 +23,7 @@ var actor__types_8h =
     [ "FAKE_ITEM_BOX_ON_GROUND", "actor__types_8h.html#affb5ffde510634c5c1e09a5b934d29c3", null ],
     [ "GET_ACTOR", "actor__types_8h.html#aed038e4e6a4801ef264d0f74731ebdf8", null ],
     [ "HELD_FAKE_ITEM_BOX", "actor__types_8h.html#ae07d85ac7035dc21319b791b430d4246", null ],
+    [ "THROW_SHELL_BACKWARDS", "actor__types_8h.html#a189689ccc72ce97ca6c628e14361b033", null ],
     [ "ActorType", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990", [
       [ "ACTOR_UNKNOWN_0x01", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a6b485834b31c0ee8417d4ca27f20c38e", null ],
       [ "ACTOR_TREE_MARIO_RACEWAY", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990afa461a44c857f446e85c5ff28120c94b", null ],

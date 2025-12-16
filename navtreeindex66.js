@@ -1,5 +1,14 @@
 var NAVTREEINDEX66 =
 {
+"render__player_8c.html#a196985b7759b42df6514dd0ec7fc64a7":[19,0,3,58,7],
+"render__player_8c.html#a1a3ae58b761b7b0d14a08ecfaf1c10ad":[19,0,3,58,69],
+"render__player_8c.html#a1b4c1f505293981dcb7285bac305c8f4":[19,0,3,58,66],
+"render__player_8c.html#a1cfc917f2d97de8a1e438fd141f18096":[19,0,3,58,52],
+"render__player_8c.html#a216df4c5869b528d9072b6006536a841":[19,0,3,58,26],
+"render__player_8c.html#a2555e6001eefed5ff761a34efeeeee0b":[19,0,3,58,87],
+"render__player_8c.html#a26f92e74c10bdc3d173678bcf8f49fc6":[19,0,3,58,68],
+"render__player_8c.html#a26fb4ad724f6adf5cdaa5b79c5e3d5d1":[19,0,3,58,46],
+"render__player_8c.html#a2aa89d4fc7070bdd407ce7e9e2b8671e":[19,0,3,58,67],
 "render__player_8c.html#a2b2f28a894b719b9f7ea6d864f657dfc":[19,0,3,58,72],
 "render__player_8c.html#a2cffa64461486e9d80c11a3d32b277a0":[19,0,3,58,55],
 "render__player_8c.html#a30646967f10de8d498a70546d2b5f849":[19,0,3,58,90],
@@ -240,14 +249,5 @@ var NAVTREEINDEX66 =
 "replays_8h.html":[19,0,3,61],
 "replays_8h.html#a00d76e17b6cf4eab22dbc0a2cb1eeaf6":[19,0,3,61,29],
 "replays_8h.html#a0a5ecd7326c14f60dc23b1d25ff10599":[19,0,3,61,31],
-"replays_8h.html#a0eb82092a448ee36c1e468dfa4765ce6":[19,0,3,61,27],
-"replays_8h.html#a1222747ec31ebcacce5ef87743ab4846":[19,0,3,61,12],
-"replays_8h.html#a18c90301a091210cb4a8ac2f085cae38":[19,0,3,61,18],
-"replays_8h.html#a1a6ef299ab3b94fc793a3c13bdac9598":[19,0,3,61,22],
-"replays_8h.html#a20a0e567751bb2d0520ae189eaaab2e0":[19,0,3,61,4],
-"replays_8h.html#a33271f262e4e65181182b313cf6bcc2e":[19,0,3,61,6],
-"replays_8h.html#a34754865101fad6a4e3a9fc1b814c155":[19,0,3,61,13],
-"replays_8h.html#a3c4cb1f93d431addad4c91c97bc08231":[19,0,3,61,5],
-"replays_8h.html#a4fb5574aa326150440afec4fb318d617":[19,0,3,61,15],
-"replays_8h.html#a54bf30e0f61649a5c1337da985154dd9":[19,0,3,61,11]
+"replays_8h.html#a0eb82092a448ee36c1e468dfa4765ce6":[19,0,3,61,27]
 };

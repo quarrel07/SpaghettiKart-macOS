@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classTrackEditor_1_1Gizmo.html#ab6c6cf6e86b1aa4d8888c3ff6eb388eb":[18,0,6,2,21],
 "classTrackEditor_1_1Gizmo.html#abcec09b0ab6ac035db013f2af78d68fa":[17,0,9,2,34],
 "classTrackEditor_1_1Gizmo.html#abcec09b0ab6ac035db013f2af78d68fa":[18,0,6,2,34],
 "classTrackEditor_1_1Gizmo.html#ac0b99e28b032d13e7cdc4c59ec848e27":[17,0,9,2,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classWorld.html#ae9ce07f0239d6ddc4485d1a285cb3a14":[18,0,497,48],
 "classWorld.html#ae9fe987d2baa89be2ed53514b69de835":[18,0,497,14],
 "classWorld.html#aea32ed8b9ceecf53a32d8634240f8705":[18,0,497,16],
-"classWorld.html#aeedd48b1439ac9d191c666888df7e453":[18,0,497,36],
-"classWorld.html#af199b1b3744842e6fada8c57b309a612":[18,0,497,8]
+"classWorld.html#aeedd48b1439ac9d191c666888df7e453":[18,0,497,36]
 };
