@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"structstruct__80286A10.html#ab76d01a058088d38d949a56656cd2d7f":[18,0,432,0],
 "structstruct__D__8018CE10.html":[18,0,433],
 "structstruct__D__8018CE10.html#a127e1b12aed47ab382b129edabb71d52":[18,0,433,0],
 "structstruct__D__8018CE10.html#aa19ad185453a980c616cb8dcd2a86144":[18,0,433,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "textures_2tracks_2moo__moo__farm_2moo__moo__farm__data_8h.html#a115fd65a1b09ac498702e31b7ac2f577":[19,0,2,0,3,1,9,0,0],
 "textures_2tracks_2moo__moo__farm_2moo__moo__farm__data_8h.html#a8eb5b214f3c925a58390e9a2cc848de2":[19,0,2,0,3,1,9,0,1],
 "textures_2tracks_2moo__moo__farm_2moo__moo__farm__data_8h_source.html":[19,0,2,0,3,1,9,0],
-"textures_2tracks_2rainbow__road_2rainbow__road__data_8h.html":[19,0,2,0,3,1,10,0],
-"textures_2tracks_2rainbow__road_2rainbow__road__data_8h.html#a181304a92decfd0a5bab7f37b26bd455":[19,0,2,0,3,1,10,0,3]
+"textures_2tracks_2rainbow__road_2rainbow__road__data_8h.html":[19,0,2,0,3,1,10,0]
 };

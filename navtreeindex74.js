@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structCpuItemStrategyData.html#a329444045757248ac6a9d53a331255b6":[18,0,101,6],
 "structCpuItemStrategyData.html#a4c405935b89238dcdf070230a310997c":[18,0,101,2],
 "structCpuItemStrategyData.html#a64646e154024acc1d4e40610811b0520":[18,0,101,0],
 "structCpuItemStrategyData.html#a8d9c1178ee37b4b5b878ec83b8202691":[18,0,101,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structItemWindowObjects.html#a8e2b9fdb2882b91c6db1daf381d1c5da":[18,0,147,10],
 "structItemWindowObjects.html#a975631c0998ffc149ebbf10af80fd45d":[18,0,147,63],
 "structItemWindowObjects.html#a99cd4a3fa0a0337afeba6429dd729c90":[18,0,147,21],
-"structItemWindowObjects.html#a9a2cd647c73927367ee07d8b229fb473":[18,0,147,24],
-"structItemWindowObjects.html#aa3cabfe4fa9541f33fabd8ecfdb60ce6":[18,0,147,45]
+"structItemWindowObjects.html#a9a2cd647c73927367ee07d8b229fb473":[18,0,147,24]
 };

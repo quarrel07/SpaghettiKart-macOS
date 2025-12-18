@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"other_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html":[19,0,2,0,1,0,10,0],
 "other_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html#aceb06eb1dac104313e34c9d5817c3f4e":[19,0,2,0,1,0,10,0,0],
 "other_2tracks_2luigi__raceway_2luigi__raceway__data_8h_source.html":[19,0,2,0,1,0,10,0],
 "other_2tracks_2mario__raceway_2mario__raceway__data_8h.html":[19,0,2,0,1,0,11,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "playback_8h.html#ae50695bfbcd25a66988103d7c9fa48f9":[19,0,3,1,16,7],
 "playback_8h.html#ae678527ee6d71f696237b7652bb138ad":[19,0,3,1,16,11],
 "playback_8h.html#ae6fe57ea5191004e0eb491234f99dab3":[19,0,3,1,16,5],
-"playback_8h.html#aefe2c415c3d5647b658572a5e1a47b0d":[19,0,3,1,16,32],
-"playback_8h.html#af209b9fbed576f8935d36ad761fa82d8":[19,0,3,1,16,13]
+"playback_8h.html#aefe2c415c3d5647b658572a5e1a47b0d":[19,0,3,1,16,32]
 };

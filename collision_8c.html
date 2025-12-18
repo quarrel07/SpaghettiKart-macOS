@@ -203,6 +203,8 @@ Functions</h2></td></tr>
 <tr class="separator:a593833ca3f04f0c7d8f5dcabe6430115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30eb531df39ba558cd733e1d1cd6aaa0" id="r_a30eb531df39ba558cd733e1d1cd6aaa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30eb531df39ba558cd733e1d1cd6aaa0">set_vtx_buffer</a> (uintptr_t addr, u32 numVertices, u32 bufferIndex)</td></tr>
 <tr class="separator:a30eb531df39ba558cd733e1d1cd6aaa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7edd3f38403de0388af87355d4daf611" id="r_a7edd3f38403de0388af87355d4daf611"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7edd3f38403de0388af87355d4daf611">is_point_inside_triangle</a> (s16 px, s16 pz, s16 x1, s16 z1, s16 x2, s16 z2, s16 x3, s16 z3)</td></tr>
+<tr class="separator:a7edd3f38403de0388af87355d4daf611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef4f800cb44ad39ca233d0c76ce039a" id="r_a7ef4f800cb44ad39ca233d0c76ce039a"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef4f800cb44ad39ca233d0c76ce039a">is_line_intersecting_rectangle</a> (s16 minX, s16 maxX, s16 minZ, s16 maxZ, s16 x1, s16 z1, s16 x2, s16 z2)</td></tr>
 <tr class="separator:a7ef4f800cb44ad39ca233d0c76ce039a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e4ec74302aec60828a8d271390f7631" id="r_a4e4ec74302aec60828a8d271390f7631"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e4ec74302aec60828a8d271390f7631">is_triangle_intersecting_bounding_box</a> (s16 minX, s16 maxX, s16 minZ, s16 maxZ, u16 index)</td></tr>
@@ -962,11 +964,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Splits the collision mesh into 32x32 sections. This allows the game to check only nearby geography for a collision rather than checking against the whole collision mesh. (checking against the whole mesh for every actor would be expensive) </p>
+<p>Splits the collision mesh into a 32x32 grid of cells. This allows the game to check only nearby geography for a collision rather than checking against the whole collision mesh. (checking against the whole mesh for every actor would be expensive) </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="collision_8c_aa1116ededb9ebc0ee976259f02fe2a4e_cgraph.svg" width="603" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="collision_8c_aa1116ededb9ebc0ee976259f02fe2a4e_cgraph.svg" width="631" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1413,6 +1415,63 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a7edd3f38403de0388af87355d4daf611" name="a7edd3f38403de0388af87355d4daf611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7edd3f38403de0388af87355d4daf611">&#9670;&#160;</a></span>is_point_inside_triangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">s32 is_point_inside_triangle </td>
+          <td>(</td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>px</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>pz</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>x1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>z1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>x2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>z2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>x3</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s16</td>          <td class="paramname"><span class="paramname"><em>z3</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Source: <a href="https://web.archive.org/web/20220920081010/https://www.gamedev.net/forums/topic.asp?topic_id=295943">https://web.archive.org/web/20220920081010/https://www.gamedev.net/forums/topic.asp?topic_id=295943</a> </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="collision_8c_a7edd3f38403de0388af87355d4daf611_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a4e4ec74302aec60828a8d271390f7631" name="a4e4ec74302aec60828a8d271390f7631"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e4ec74302aec60828a8d271390f7631">&#9670;&#160;</a></span>is_triangle_intersecting_bounding_box()</h2>
 
@@ -1446,10 +1505,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Check if any point of the bounding box is inside the triangle Bug fix that was not in the original game. Without this, triangles that are bigger than a collision grid cell, will not be included in that cell Thus, players would spawn in the air at 3000.0f as a fallback, or could fall through that portion of the track.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="collision_8c_a4e4ec74302aec60828a8d271390f7631_cgraph.svg" width="382" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="collision_8c_a4e4ec74302aec60828a8d271390f7631_cgraph.svg" width="410" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

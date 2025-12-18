@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceGameUI.html#adf7464fdc65446273dd5320cc5cac59a":[17,0,3,11],
 "namespaceGameUI.html#ae223ff8efba940824a5c6246fa525eda":[17,0,3,13],
 "namespaceGameUI.html#ae409a19efedbadc64d434f2bbe87b395":[17,0,3,26],
 "namespaceGameUI.html#ae5899d332097130bdf2794bffd97de1a":[17,0,3,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespacemembers_g.html":[17,1,0,6],
 "namespacemembers_h.html":[17,1,0,7],
 "namespacemembers_i.html":[17,1,0,8],
-"namespacemembers_l.html":[17,1,0,9],
-"namespacemembers_m.html":[17,1,0,10]
+"namespacemembers_l.html":[17,1,0,9]
 };

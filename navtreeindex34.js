@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"functions_vars_y.html":[18,3,2,25],
 "functions_vars_z.html":[18,3,2,26],
 "functions_w.html":[18,3,0,23],
 "functions_x.html":[18,3,0,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "globals_vars_w.html":[19,1,2,22],
 "globals_vars_x.html":[19,1,2,23],
 "globals_vars_y.html":[19,1,2,24],
-"globals_vars_z.html":[19,1,2,25],
-"globals_w.html":[19,1,0,23]
+"globals_vars_z.html":[19,1,2,25]
 };

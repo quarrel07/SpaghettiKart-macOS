@@ -31,6 +31,7 @@ var collision_8c =
     [ "is_colliding_with_wall2", "collision_8c.html#a23443870e0d3a6797de707a89ded7ef0", null ],
     [ "is_cull_box", "collision_8c.html#a2419eefe1cdba5b280babacc4a15fc6c", null ],
     [ "is_line_intersecting_rectangle", "collision_8c.html#a7ef4f800cb44ad39ca233d0c76ce039a", null ],
+    [ "is_point_inside_triangle", "collision_8c.html#a7edd3f38403de0388af87355d4daf611", null ],
     [ "is_triangle_intersecting_bounding_box", "collision_8c.html#a4e4ec74302aec60828a8d271390f7631", null ],
     [ "nullify_displaylist", "collision_8c.html#a6275a3a99f8faf62b7c64d9aeca44c48", null ],
     [ "player_terrain_collision", "collision_8c.html#a4427df034a19844e238c770844455a0b", null ],

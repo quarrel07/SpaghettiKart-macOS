@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structUIWidgets_1_1ButtonOptions.html#a6ba8ceaf2c082e29650fbdcf060deaa0":[18,0,7,0,4],
 "structUIWidgets_1_1ButtonOptions.html#aa3ca2312ba7a4417b3186d8a39463299":[17,0,10,1,3],
 "structUIWidgets_1_1ButtonOptions.html#aa3ca2312ba7a4417b3186d8a39463299":[18,0,7,0,3],
 "structUIWidgets_1_1ButtonOptions.html#ab3d3fc603567389d14d839c61176dd86":[17,0,10,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structUnkStruct__800DDB40.html#a2d3ef7bcfd33f2175d746537baadfd55":[18,0,482,5],
 "structUnkStruct__800DDB40.html#a3a542f9d6fb82f4e65864c1c8aef14c6":[18,0,482,4],
 "structUnkStruct__800DDB40.html#a520587cb8d4ae9108185e2b29b15b5c9":[18,0,482,1],
-"structUnkStruct__800DDB40.html#a74bea61bc6c27b057684b4759f77a891":[18,0,482,7],
-"structUnkStruct__800DDB40.html#a7c6f398fff36aec6cd1d871fe5582e10":[18,0,482,9]
+"structUnkStruct__800DDB40.html#a74bea61bc6c27b057684b4759f77a891":[18,0,482,7]
 };

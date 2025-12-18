@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"md_docs_2BUILDING.html#generating-the-distributable":[2,0,1],
 "md_docs_2BUILDING.html#getting-ci-to-work-on-your-fork":[2,3],
 "md_docs_2BUILDING.html#install-dependencies":[2,1,1,0],
 "md_docs_2BUILDING.html#linux-1":[2,1],
@@ -13,12 +14,12 @@ var NAVTREEINDEX42 =
 "md_docs_2BUILDING.html#windows-1":[2,0],
 "md_docs_2custom-audio.html":[4],
 "md_docs_2custom-audio.html#example":[4,0],
-"md_docs_2custom-audio.html#future-plans":[4,1],
+"md_docs_2custom-audio.html#future-plans-1":[4,1],
 "md_docs_2custom-characters.html":[5],
 "md_docs_2custom-characters.html#additional-files":[5,1],
 "md_docs_2custom-characters.html#change-viewport-render-settings":[5,1,0,0],
 "md_docs_2custom-characters.html#examples-for-all-characters":[5,0],
-"md_docs_2custom-characters.html#future-plans-1":[5,1,2],
+"md_docs_2custom-characters.html#future-plans":[5,1,2],
 "md_docs_2custom-characters.html#tips":[5,1,0],
 "md_docs_2custom-characters.html#tools-to-help":[5,1,1],
 "md_docs_2custom-track.html":[6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "menu__items_8c.html#a360c4fd3a89a0d861062c665cdb875db":[19,0,3,48,367],
 "menu__items_8c.html#a36b50985f08aa8d4b566a89074c4e880":[19,0,3,48,302],
 "menu__items_8c.html#a37eb021a953285ba504198ac6ca73a9a":[19,0,3,48,74],
-"menu__items_8c.html#a38450c449b2700c6e43947ecc6b27261":[19,0,3,48,347],
-"menu__items_8c.html#a385c78f88e9bf95a406b76c8a289b2cd":[19,0,3,48,474]
+"menu__items_8c.html#a38450c449b2700c6e43947ecc6b27261":[19,0,3,48,347]
 };

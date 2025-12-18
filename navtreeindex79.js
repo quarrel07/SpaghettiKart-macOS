@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structShellActor.html#adaca452aa94770d8d57f99cc1f3b7151":[18,0,401,10],
 "structShellActor.html#af3da1448ac4320471aadbc7652ea81a5":[18,0,401,4],
 "structSidebarEntry.html":[18,0,403],
 "structSidebarEntry.html#a24c86d28452ab7fccb7235d03a830ec3":[18,0,403,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structUIWidgets_1_1ButtonOptions.html#a13696251aa297ab0e7e7490ef8d77bbf":[18,0,7,0,1],
 "structUIWidgets_1_1ButtonOptions.html#a32dce52a7a00ece8b153f6f00cf78fed":[17,0,10,1,2],
 "structUIWidgets_1_1ButtonOptions.html#a32dce52a7a00ece8b153f6f00cf78fed":[18,0,7,0,2],
-"structUIWidgets_1_1ButtonOptions.html#a6ba8ceaf2c082e29650fbdcf060deaa0":[17,0,10,1,4],
-"structUIWidgets_1_1ButtonOptions.html#a6ba8ceaf2c082e29650fbdcf060deaa0":[18,0,7,0,4]
+"structUIWidgets_1_1ButtonOptions.html#a6ba8ceaf2c082e29650fbdcf060deaa0":[17,0,10,1,4]
 };
