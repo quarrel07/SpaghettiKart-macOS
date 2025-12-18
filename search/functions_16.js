@@ -36,6 +36,5 @@ var searchData=
   ['vector_5fresult_33',['vector_result',['../classpfd_1_1internal_1_1file__dialog.html#ae28b6dd37ab4e47885ce7ca25652212b',1,'pfd::internal::file_dialog']]],
   ['vehiclecollision_34',['VehicleCollision',['../classAActor.html#a411c2279b7e08e0e31a02c3f98462c55',1,'AActor::VehicleCollision()'],['../classABoat.html#af8c2fe7da0757f60649de40ec229b70a',1,'ABoat::VehicleCollision()'],['../classABus.html#a5246880511fb76b4cc5d02b9df8effc4',1,'ABus::VehicleCollision()'],['../classACar.html#a807f87400ace96904e2ad6dc4a27409a',1,'ACar::VehicleCollision()'],['../classATankerTruck.html#a078da317114c1c0cb7b1d1ab2aa052f0',1,'ATankerTruck::VehicleCollision()'],['../classATrain.html#a1d96ec0abbb709840cffb53cda396d8e',1,'ATrain::VehicleCollision()'],['../classATruck.html#a7d1a8e16b8b0e0231fac07674d25dd8c',1,'ATruck::VehicleCollision()']]],
   ['verbose_35',['verbose',['../classpfd_1_1settings.html#a0ed32e8ed039106028474eb9f0a0a7bc',1,'pfd::settings']]],
-  ['verify_5fprobability_5ftable_36',['verify_probability_table',['../update__objects_8c.html#a3aaa8e38eb0600810c23ff7d14f0ef30',1,'update_objects.c']]],
-  ['vimgrmain_37',['viMgrMain',['../osCreateViManager_8c.html#a8e99d26459b45bf7ef8206045cc4dd95',1,'osCreateViManager.c']]]
+  ['vimgrmain_36',['viMgrMain',['../osCreateViManager_8c.html#a8e99d26459b45bf7ef8206045cc4dd95',1,'osCreateViManager.c']]]
 ];

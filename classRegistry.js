@@ -9,6 +9,7 @@ var classRegistry =
     [ "GetInfo", "classRegistry.html#a7efa315767a2399fc1b8b07d25cc4e3e", null ],
     [ "Invoke", "classRegistry.html#abfca38cf6ea36fe504eaf295d5f7c2d8", null ],
     [ "Remove", "classRegistry.html#a692c8c680da2ae06488ecf57f7ba987f", null ],
+    [ "Size", "classRegistry.html#a08c2609a94bc0ecff13421f0cde09117", null ],
     [ "mCounter", "classRegistry.html#a6af47fa9125439aea215eec7b2720c91", null ],
     [ "mMap", "classRegistry.html#a91b7f91266a19b2e74fa1d050e7fcfa8", null ]
 ];

@@ -128,12 +128,13 @@ $(function(){initNavTree('Game_8cpp.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="HM__Intro_8h_source.html">engine/HM_Intro.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Editor_8h_source.html">engine/editor/Editor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SceneManager_8h_source.html">engine/editor/SceneManager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="RegisterContent_8h_source.html">RegisterContent.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="RegisterContent_8h_source.html">engine/registry/RegisterContent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="GameCamera_8h_source.html">engine/cameras/GameCamera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="FreeCamera_8h_source.html">engine/cameras/FreeCamera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TourCamera_8h_source.html">engine/cameras/TourCamera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="LookBehindCamera_8h_source.html">engine/cameras/LookBehindCamera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TrackBrowser_8h_source.html">engine/TrackBrowser.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="RandomItemTable_8h_source.html">engine/RandomItemTable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="load_8h_source.html">audio/load.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="external_8h_source.html">audio/external.h</a>&quot;</code><br />
@@ -456,6 +457,10 @@ Variables</h2></td></tr>
 <tr class="separator:a01280f16a3f7ce7488988c1912c35783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc7e41b644ace2e381a2d8e4b6b08e8b" id="r_adc7e41b644ace2e381a2d8e4b6b08e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRegistry.html">Registry</a>&lt; <a class="el" href="structActorInfo.html">ActorInfo</a>, const <a class="el" href="structSpawnParams.html">SpawnParams</a> &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc7e41b644ace2e381a2d8e4b6b08e8b">gActorRegistry</a></td></tr>
 <tr class="separator:adc7e41b644ace2e381a2d8e4b6b08e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a030a891596f11a108ed3c1292e0a9606" id="r_a030a891596f11a108ed3c1292e0a9606"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRegistry.html">Registry</a>&lt; <a class="el" href="structItemInfo.html">ItemInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a030a891596f11a108ed3c1292e0a9606">gItemRegistry</a></td></tr>
+<tr class="separator:a030a891596f11a108ed3c1292e0a9606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab1a88158db2b58726dc2220b9eea64" id="r_a1ab1a88158db2b58726dc2220b9eea64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDataRegistry.html">DataRegistry</a>&lt; <a class="el" href="classRandomItemTable.html">RandomItemTable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ab1a88158db2b58726dc2220b9eea64">gItemTableRegistry</a></td></tr>
+<tr class="separator:a1ab1a88158db2b58726dc2220b9eea64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad866a6e3610a5cfb4da749c662c14e77" id="r_ad866a6e3610a5cfb4da749c662c14e77"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; TrackBrowser &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad866a6e3610a5cfb4da749c662c14e77">gTrackBrowser</a></td></tr>
 <tr class="separator:ad866a6e3610a5cfb4da749c662c14e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -2621,7 +2626,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo</a></b></dt><dd>Move gGfxPool out of <a class="el" href="main_8h.html">main.h</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo</a></b></dt><dd>Move gGfxPool out of <a class="el" href="main_8h.html">main.h</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -4205,6 +4210,35 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a030a891596f11a108ed3c1292e0a9606" name="a030a891596f11a108ed3c1292e0a9606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a030a891596f11a108ed3c1292e0a9606">&#9670;&#160;</a></span>gItemRegistry</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRegistry.html">Registry</a>&lt;<a class="el" href="structItemInfo.html">ItemInfo</a>&gt; gItemRegistry</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ab1a88158db2b58726dc2220b9eea64" name="a1ab1a88158db2b58726dc2220b9eea64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ab1a88158db2b58726dc2220b9eea64">&#9670;&#160;</a></span>gItemTableRegistry</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classDataRegistry.html">DataRegistry</a>&lt;<a class="el" href="classRandomItemTable.html">RandomItemTable</a>&gt; gItemTableRegistry</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Data Registries </p>
+
+</div>
+</div>
 <a id="a7548ea7aee88170c42476d1c130c66a0" name="a7548ea7aee88170c42476d1c130c66a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7548ea7aee88170c42476d1c130c66a0">&#9670;&#160;</a></span>gMenuIntro</h2>
 
@@ -4300,6 +4334,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Spawner Registries </p>
 
 </div>
 </div>

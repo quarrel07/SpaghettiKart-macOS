@@ -1,16 +1,8 @@
 var update__objects_8c =
 [
-    [ "ItemProbabilities", "structItemProbabilities.html", "structItemProbabilities" ],
-    [ "PERCENTAGE_BASE", "update__objects_8c.html#a4b9182eec500b425c94401632c268c45", null ],
-    [ "RandomItemOption", "update__objects_8c.html#a983c7e9680b59aebe0e1403f7beed001", [
-      [ "HUMAN_TABLE", "update__objects_8c.html#a983c7e9680b59aebe0e1403f7beed001a16359130b9420f11b4f31d4fdcd86fd4", null ],
-      [ "CPU_TABLE", "update__objects_8c.html#a983c7e9680b59aebe0e1403f7beed001a2b4b953457c439da73d1b4fda956296e", null ],
-      [ "HARD_CPU_TABLE", "update__objects_8c.html#a983c7e9680b59aebe0e1403f7beed001a3e2556a0cd685aa96e17b89a96f4cd3f", null ]
-    ] ],
     [ "add_unused_obj_index", "update__objects_8c.html#a6e56a43ec98e81db05f2410893efa437", null ],
     [ "clear_object_flag", "update__objects_8c.html#a3953241e15c6372ac8944ba842148a9a", null ],
     [ "consume_item", "update__objects_8c.html#abe0750bafe0e01a419bd8a8ad6b59bd5", null ],
-    [ "cpu_gen_random_item", "update__objects_8c.html#a7d9457500a57829bf6c622122fd2393c", null ],
     [ "delete_object", "update__objects_8c.html#a93e8c6d4dd528426ac3f3d7da2e063f6", null ],
     [ "delete_object_wrapper", "update__objects_8c.html#ae781b7bfb9e837c1ed2d10a9b3b089b3", null ],
     [ "find_unused_obj_index", "update__objects_8c.html#a92856990c4ca5fba1b8e0c61ca832c27", null ],
@@ -177,10 +169,6 @@ var update__objects_8c =
     [ "func_80085EF8", "update__objects_8c.html#abef9e21ca75285520cc71d37b6ef71b5", null ],
     [ "func_80085F74", "update__objects_8c.html#a611ea98550b46aa887eb34b7472ef871", null ],
     [ "func_80086110", "update__objects_8c.html#a0bbcf658cc179abdfa00efd79207efed", null ],
-    [ "gen_random_item", "update__objects_8c.html#a456e12fbd8dfd73574b91d4a860e12a2", null ],
-    [ "gen_random_item_human", "update__objects_8c.html#a475d92dfa4779b85886956f18cc59a0c", null ],
-    [ "getProbabilityArray", "update__objects_8c.html#ad088fd4ce9beca25bd05ffb28cf99247", null ],
-    [ "hard_cpu_gen_random_item", "update__objects_8c.html#a37e27700d709ac969f6456aa1e3d134f", null ],
     [ "init_ferry_smoke", "update__objects_8c.html#a0b8b409c069a5db09c88c870e23260ab", null ],
     [ "init_leaf_particle", "update__objects_8c.html#a86113b7f254606e89d4e7c566ce8ff27", null ],
     [ "init_obj_neon_mushroom", "update__objects_8c.html#a86976d4b79853c37ad7d3b5f0513a9b8", null ],
@@ -213,9 +201,7 @@ var update__objects_8c =
     [ "update_snowflakes", "update__objects_8c.html#aa48fd49d06dac7e1948b468b4f260477", null ],
     [ "update_stars", "update__objects_8c.html#aa8f45d9faeaae2c86b272f979f68b788", null ],
     [ "update_train_smoke", "update__objects_8c.html#a15790cbcb67f86644f6cad58073f6c19", null ],
-    [ "verify_probability_table", "update__objects_8c.html#a3aaa8e38eb0600810c23ff7d14f0ef30", null ],
     [ "wrapper_update_boos", "update__objects_8c.html#a33a1f1842134707236eefdf272dfdbae", null ],
-    [ "battleProbabilityCurve", "update__objects_8c.html#ad2b9deb416ecea685a4dcddd5b5ccce4", null ],
     [ "D_800E43B0", "update__objects_8c.html#adf5256c5c92e5b22c984e0b8d171cda6", null ],
     [ "D_800E43F0", "update__objects_8c.html#a3882cf453a42948f4ba52e848e7cbb86", null ],
     [ "D_800E4470", "update__objects_8c.html#a21a5a51609024a58c4fd47880f70e978", null ],
@@ -226,13 +212,7 @@ var update__objects_8c =
     [ "gItemWindowTLUTs", "update__objects_8c.html#a4822cce260938dab5599f44d394e0802", null ],
     [ "gPortraitTextures", "update__objects_8c.html#a601231686d436717b1f26ad0303fe7e3", null ],
     [ "gPortraitTLUTs", "update__objects_8c.html#af8ea7f4f544e6fa5e403f9af931ad5da", null ],
-    [ "grandPrixCPUProbabilityTable", "update__objects_8c.html#a84eb9da4d1a68b9a0da6dc6daf59e141", null ],
-    [ "grandPrixHardCPUProbabilityTable", "update__objects_8c.html#ac78d55855f6ac4c8ab5924a104673f2d", null ],
-    [ "grandPrixHumanProbabilityTable", "update__objects_8c.html#adfd1db5c51a580afd112557b3310a4b8", null ],
     [ "sNeonBooList", "update__objects_8c.html#a45c1a75871dff82a372eff3bb0525384", null ],
     [ "sNeonMarioList", "update__objects_8c.html#a2ee7ebb7b18c0c33a3a2354c7d2c0445", null ],
-    [ "sNeonMushroomList", "update__objects_8c.html#a4921ebe69cc0c7b565834fb5cdae6be8", null ],
-    [ "versus2PlayerProbabilityTable", "update__objects_8c.html#a3f36661504e32bc1def2cf19922f7c6f", null ],
-    [ "versus3PlayerProbabilityTable", "update__objects_8c.html#a7418a677e56b8fae58e4830a9fd5955e", null ],
-    [ "versus4PlayerProbabilityTable", "update__objects_8c.html#a26a8c9a81db24fd42b2b18578ace0b07", null ]
+    [ "sNeonMushroomList", "update__objects_8c.html#a4921ebe69cc0c7b565834fb5cdae6be8", null ]
 ];

@@ -161,7 +161,7 @@ var searchData=
   ['sin_158',['sin',['../math_8h.html#ad910bc71940a50c2a35d308c236013b6',1,'math.h']]],
   ['sinf_159',['sinf',['../sinf_8c.html#a8a7dc2a88e109f4e15b661247665709a',1,'sinf(float x):&#160;sinf.c'],['../math_8h.html#a312367f3e117fc37059783c301766042',1,'sinf(float):&#160;sinf.c']]],
   ['sins_160',['sins',['../math__util_8c.html#a19ed3bd78fd2d3e2bd0a29f6caf48545',1,'sins(u16 arg0):&#160;math_util.c'],['../math__util_8h.html#aedd2ba31fb085c44b1f185bb71b2a465',1,'sins(u16):&#160;math_util.c']]],
-  ['size_161',['Size',['../structUIWidgets_1_1ButtonOptions.html#a13696251aa297ab0e7e7490ef8d77bbf',1,'UIWidgets::ButtonOptions']]],
+  ['size_161',['Size',['../classDataRegistry.html#a962bfbd5eaa28d38c5ac0f54d719abb1',1,'DataRegistry::Size()'],['../classRegistry.html#a08c2609a94bc0ecff13421f0cde09117',1,'Registry::Size()'],['../structUIWidgets_1_1ButtonOptions.html#a13696251aa297ab0e7e7490ef8d77bbf',1,'UIWidgets::ButtonOptions::Size()']]],
   ['skeleton_162',['Skeleton',['../classSF64_1_1Skeleton.html#aee02ee1a1e8ebf2a7ea7bce63a226114',1,'SF64::Skeleton']]],
   ['skyscraper_163',['Skyscraper',['../classSkyscraper.html#a1a1a249e40523f3a8c1e13d975e613ac',1,'Skyscraper']]],
   ['sliderfloat_164',['SliderFloat',['../namespaceUIWidgets.html#ab0e1dc2ac8062d0124cef3260da95506',1,'UIWidgets']]],
