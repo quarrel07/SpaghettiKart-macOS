@@ -1,5 +1,10 @@
 var NAVTREEINDEX81 =
 {
+"structUnkStruct__46D0.html#ae6abbaf2038d293ba41cac74e1a14c14":[18,0,481,0],
+"structUnkStruct__800DDB40.html":[18,0,482],
+"structUnkStruct__800DDB40.html#a01b94a3a717caf8ef87065fcdb660baa":[18,0,482,2],
+"structUnkStruct__800DDB40.html#a2d3ef7bcfd33f2175d746537baadfd55":[18,0,482,5],
+"structUnkStruct__800DDB40.html#a3a542f9d6fb82f4e65864c1c8aef14c6":[18,0,482,4],
 "structUnkStruct__800DDB40.html#a520587cb8d4ae9108185e2b29b15b5c9":[18,0,482,1],
 "structUnkStruct__800DDB40.html#a74bea61bc6c27b057684b4759f77a891":[18,0,482,7],
 "structUnkStruct__800DDB40.html#a7c6f398fff36aec6cd1d871fe5582e10":[18,0,482,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX81 =
 "struct____OSInodeCache.html#a3733820db9596ac6724b29785d78d7f4":[18,0,16,1],
 "struct____OSInodeCache.html#a886e19bb5c2baa08a900922c148af008":[18,0,16,2],
 "struct____OSPackId.html":[18,0,18],
-"struct____OSPackId.html#a010be96d2b4109e8fea9fb8b1d7d6fd6":[18,0,18,0],
-"struct____OSPackId.html#a10afc2772970572388034c4024efd103":[18,0,18,4],
-"struct____OSPackId.html#a3c75f2e73e2f46a51008272dcf8ff41e":[18,0,18,1],
-"struct____OSPackId.html#a52c6e3b7cd0f0d6fc55e5579c70beb3f":[18,0,18,2],
-"struct____OSPackId.html#a7dffb071665931eee2521e4c134ff6bd":[18,0,18,8],
-"struct____OSPackId.html#ac0f67f0eb966699b7fd2002d9a24cf61":[18,0,18,5]
+"struct____OSPackId.html#a010be96d2b4109e8fea9fb8b1d7d6fd6":[18,0,18,0]
 };

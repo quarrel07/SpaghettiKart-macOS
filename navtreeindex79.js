@@ -1,5 +1,10 @@
 var NAVTREEINDEX79 =
 {
+"structShellActor.html#a77c5d4878d9a0867430326a1d63491dc":[18,0,401,5],
+"structShellActor.html#a89a884c6ba2b5b022b7dcb5e74d50910":[18,0,401,16],
+"structShellActor.html#abb69af2d8de513a7f3ddadb94b2b6078":[18,0,401,2],
+"structShellActor.html#ac40ddee32f5d1a093578e3f23ed76e0b":[18,0,401,3],
+"structShellActor.html#acd41b01d05450b6a241a81907bb4fbb8":[18,0,401,6],
 "structShellActor.html#acf7c6324c79136005a8a16b0280862d4":[18,0,401,14],
 "structShellActor.html#ad503d4399dfef15a8aeb4cfec64ac155":[18,0,401,12],
 "structShellActor.html#adaca452aa94770d8d57f99cc1f3b7151":[18,0,401,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX79 =
 "structTripleShellParent.html#a9f53226334d467678c1b06c8dcc9a271":[18,0,463,1],
 "structTripleShellParent.html#ab112cfcae0d742c9c6ffdf56f90cf932":[18,0,463,11],
 "structTripleShellParent.html#acb2b0f491126304b96ed36d280f593b1":[18,0,463,2],
-"structTripleShellParent.html#ae15f5957e569bd7f57fb0fc1bc0a2934":[18,0,463,6],
-"structUIWidgets_1_1ButtonOptions.html":[17,0,10,1],
-"structUIWidgets_1_1ButtonOptions.html":[18,0,7,0],
-"structUIWidgets_1_1ButtonOptions.html#a13696251aa297ab0e7e7490ef8d77bbf":[17,0,10,1,1],
-"structUIWidgets_1_1ButtonOptions.html#a13696251aa297ab0e7e7490ef8d77bbf":[18,0,7,0,1],
-"structUIWidgets_1_1ButtonOptions.html#a32dce52a7a00ece8b153f6f00cf78fed":[17,0,10,1,2]
+"structTripleShellParent.html#ae15f5957e569bd7f57fb0fc1bc0a2934":[18,0,463,6]
 };

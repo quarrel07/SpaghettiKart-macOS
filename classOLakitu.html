@@ -108,7 +108,8 @@ $(function(){initNavTree('classOLakitu.html',''); initResizable(true); });
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a>  </div>
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">OLakitu Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -148,6 +149,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac05c211fd1ce167fd5ee98bcbf561a13" id="r_ac05c211fd1ce167fd5ee98bcbf561a13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac05c211fd1ce167fd5ee98bcbf561a13">OLakitu</a> (s32 playerId, <a class="el" href="#ab2298e9648e9926d5cc3fce76bb53e4d">LakituType</a> type)</td></tr>
 <tr class="separator:ac05c211fd1ce167fd5ee98bcbf561a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff481e726aadd52a6685a88b50a766e2" id="r_aff481e726aadd52a6685a88b50a766e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff481e726aadd52a6685a88b50a766e2">~OLakitu</a> ()</td></tr>
+<tr class="separator:aff481e726aadd52a6685a88b50a766e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720b46e01a2525f7d7f72128fa99bd5b" id="r_a720b46e01a2525f7d7f72128fa99bd5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720b46e01a2525f7d7f72128fa99bd5b">Activate</a> (<a class="el" href="#ab2298e9648e9926d5cc3fce76bb53e4d">LakituType</a> type)</td></tr>
 <tr class="separator:a720b46e01a2525f7d7f72128fa99bd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a081694b47eb17ad1093b512e815c9" id="r_a71a081694b47eb17ad1093b512e815c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a081694b47eb17ad1093b512e815c9">Tick</a> () override</td></tr>
@@ -248,10 +251,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a5eda4f68418ed9c97b7c4c532a099a25" id="r_a5eda4f68418ed9c97b7c4c532a099a25"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eda4f68418ed9c97b7c4c532a099a25">_idx</a></td></tr>
+<tr class="separator:a5eda4f68418ed9c97b7c4c532a099a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba2bb0fe70450e656e0073abc5e41dd9" id="r_aba2bb0fe70450e656e0073abc5e41dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab2298e9648e9926d5cc3fce76bb53e4d">LakituType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba2bb0fe70450e656e0073abc5e41dd9">_type</a></td></tr>
 <tr class="separator:aba2bb0fe70450e656e0073abc5e41dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43a7734bb42ceefab84d89b08b73c0d5" id="r_a43a7734bb42ceefab84d89b08b73c0d5"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a7734bb42ceefab84d89b08b73c0d5">_playerId</a></td></tr>
-<tr class="separator:a43a7734bb42ceefab84d89b08b73c0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a943bc4f6cf72f1db8c1e5afec1150d32" id="r_a943bc4f6cf72f1db8c1e5afec1150d32"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a943bc4f6cf72f1db8c1e5afec1150d32">mPlayerId</a></td></tr>
+<tr class="separator:a943bc4f6cf72f1db8c1e5afec1150d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada92132e451d313bdc7ad975abcd7ee1" id="r_ada92132e451d313bdc7ad975abcd7ee1"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada92132e451d313bdc7ad975abcd7ee1">mCameraId</a></td></tr>
+<tr class="separator:ada92132e451d313bdc7ad975abcd7ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a041b535851def8d57fd1ddf290261f6a" id="r_a041b535851def8d57fd1ddf290261f6a"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a041b535851def8d57fd1ddf290261f6a">mLakituId</a></td></tr>
+<tr class="separator:a041b535851def8d57fd1ddf290261f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a454a2003647b41afcdef132909fd3f30" id="r_a454a2003647b41afcdef132909fd3f30"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454a2003647b41afcdef132909fd3f30">_count</a> = 0</td></tr>
+<tr class="separator:a454a2003647b41afcdef132909fd3f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -355,8 +369,33 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classOLakitu_ac05c211fd1ce167fd5ee98bcbf561a13_cgraph.svg" width="499" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classOLakitu_ac05c211fd1ce167fd5ee98bcbf561a13_cgraph.svg" width="579" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="aff481e726aadd52a6685a88b50a766e2" name="aff481e726aadd52a6685a88b50a766e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff481e726aadd52a6685a88b50a766e2">&#9670;&#160;</a></span>~OLakitu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OLakitu::~OLakitu </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -405,7 +444,6 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section warning"><dt>Warning</dt><dd>This usage may be problematic</dd></dl>
 
 <p>Reimplemented from <a class="el" href="classOObject.html#a566b6373fb76731d281cc00223ce4732">OObject</a>.</p>
 <div class="dynheader">
@@ -1314,8 +1352,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
-<a id="a43a7734bb42ceefab84d89b08b73c0d5" name="a43a7734bb42ceefab84d89b08b73c0d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43a7734bb42ceefab84d89b08b73c0d5">&#9670;&#160;</a></span>_playerId</h2>
+<a id="a454a2003647b41afcdef132909fd3f30" name="a454a2003647b41afcdef132909fd3f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454a2003647b41afcdef132909fd3f30">&#9670;&#160;</a></span>_count</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1324,7 +1362,29 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">s32 OLakitu::_playerId</td>
+          <td class="memname">size_t OLakitu::_count = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5eda4f68418ed9c97b7c4c532a099a25" name="a5eda4f68418ed9c97b7c4c532a099a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eda4f68418ed9c97b7c4c532a099a25">&#9670;&#160;</a></span>_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t OLakitu::_idx</td>
         </tr>
       </table>
   </td>
@@ -1347,6 +1407,72 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#ab2298e9648e9926d5cc3fce76bb53e4d">LakituType</a> OLakitu::_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada92132e451d313bdc7ad975abcd7ee1" name="ada92132e451d313bdc7ad975abcd7ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada92132e451d313bdc7ad975abcd7ee1">&#9670;&#160;</a></span>mCameraId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">s32 OLakitu::mCameraId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a041b535851def8d57fd1ddf290261f6a" name="a041b535851def8d57fd1ddf290261f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a041b535851def8d57fd1ddf290261f6a">&#9670;&#160;</a></span>mLakituId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">s32 OLakitu::mLakituId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a943bc4f6cf72f1db8c1e5afec1150d32" name="a943bc4f6cf72f1db8c1e5afec1150d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a943bc4f6cf72f1db8c1e5afec1150d32">&#9670;&#160;</a></span>mPlayerId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">s32 OLakitu::mPlayerId</td>
         </tr>
       </table>
   </td>

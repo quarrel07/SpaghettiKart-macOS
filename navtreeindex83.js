@@ -1,5 +1,10 @@
 var NAVTREEINDEX83 =
 {
+"structma__biquad__config.html#ada3303dc3fa03bd1812ab92dc62f903e":[18,0,169,1],
+"structma__biquad__node.html":[18,0,170],
+"structma__biquad__node.html#a8388b6283dfc0a0529235a66256b9107":[18,0,170,0],
+"structma__biquad__node.html#aab6bc51471361d0ef52f185572c25ae6":[18,0,170,1],
+"structma__biquad__node__config.html":[18,0,171],
 "structma__biquad__node__config.html#a4e3272fdb1c8336aee76c2408c50ac60":[18,0,171,1],
 "structma__biquad__node__config.html#ac77f7aa9dc239cecb8d49fca988b20d0":[18,0,171,0],
 "structma__bpf.html":[18,0,172],
@@ -244,10 +249,5 @@ var NAVTREEINDEX83 =
 "structma__device.html#a031f38334b08e106e68f2775531c7aa7":[18,0,199,31],
 "structma__device.html#a067736bded9aaf1712ec692850f44e84":[18,0,199,11],
 "structma__device.html#a0e4274972cffcbd5c9229db6609ff496":[18,0,199,17],
-"structma__device.html#a1163aeca6e3175d700d23211cb08bcd7":[18,0,199,45],
-"structma__device.html#a17659052eaec814246e00427ade6708f":[18,0,199,53],
-"structma__device.html#a19c2d89ae59e6df1ef874356a9aa8721":[18,0,199,37],
-"structma__device.html#a1d417b688e3d0fc66be5eb9dd44fcdc2":[18,0,199,33],
-"structma__device.html#a215cd4cb935dec521e48d8f713d75aad":[18,0,199,38],
-"structma__device.html#a296384964f4670de8d55639b874d66a6":[18,0,199,47]
+"structma__device.html#a1163aeca6e3175d700d23211cb08bcd7":[18,0,199,45]
 };

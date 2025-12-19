@@ -1,5 +1,10 @@
 var NAVTREEINDEX86 =
 {
+"structma__node__config.html#a4f3df0fb5719a37a17beb2da62f98ceb":[18,0,252,5],
+"structma__node__config.html#a50cd4f370dde6794006d79de9c5b21b8":[18,0,252,3],
+"structma__node__config.html#a59cd454ceb67cedd147eb7b8d30fcecc":[18,0,252,4],
+"structma__node__config.html#a8644a13fee61bf2db30350ab07930374":[18,0,252,0],
+"structma__node__graph.html":[18,0,253],
 "structma__node__graph.html#a08943d7ed3534b20641a8ac5c1370e21":[18,0,253,5],
 "structma__node__graph.html#a1738e61cea0edb08225855651614e055":[18,0,253,6],
 "structma__node__graph.html#a282a0a57fdeff1c11c6670633bd24731":[18,0,253,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX86 =
 "structma__resource__manager__data__stream.html#a1e4c46fead0a7b6284254b8686a5d03d":[18,0,287,15],
 "structma__resource__manager__data__stream.html#a2a10106f1d546c472ab82df452d1bcd3":[18,0,287,16],
 "structma__resource__manager__data__stream.html#a315e7654a602af849590235022dc2be7":[18,0,287,17],
-"structma__resource__manager__data__stream.html#a5ba03f08715a356e80ce9a3d05f6593b":[18,0,287,3],
-"structma__resource__manager__data__stream.html#a73baa138c5bf8d0eb36cfda0ec2ef07f":[18,0,287,9],
-"structma__resource__manager__data__stream.html#a794b10d001d40708dbe8d4eafdd4d16f":[18,0,287,10],
-"structma__resource__manager__data__stream.html#a89cfb369755e189bc4b9ac7fc7ee2b78":[18,0,287,14],
-"structma__resource__manager__data__stream.html#a918cf2011b54cefccd0964da21aab39b":[18,0,287,11],
-"structma__resource__manager__data__stream.html#a9d5a96685f3f71d465248baed6313950":[18,0,287,8]
+"structma__resource__manager__data__stream.html#a5ba03f08715a356e80ce9a3d05f6593b":[18,0,287,3]
 };

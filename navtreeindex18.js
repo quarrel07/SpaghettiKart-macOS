@@ -1,5 +1,10 @@
 var NAVTREEINDEX18 =
 {
+"classWarioStadium.html#a5985791e8b3a144c1ac0dce8494ca16d":[18,0,495,2],
+"classWarioStadium.html#a5da559e4bfb670bc4e68b49fca0f3507":[18,0,495,10],
+"classWarioStadium.html#a853a4139fafcd9ec922211abe2df6f4e":[18,0,495,6],
+"classWarioStadium.html#a8f942d57864a1a0f0711c972275624d2":[18,0,495,3],
+"classWarioStadium.html#a9de4c2ca5d31734e65ff74981b183900":[18,0,495,4],
 "classWarioStadium.html#a9e5056d92880b45ecdc154da2efe2364":[18,0,495,12],
 "classWarioStadium.html#aa62927effacb7fda946a2245ee218e24":[18,0,495,15],
 "classWarioStadium.html#ac32350f49f12f4922c803c2647829ba1":[18,0,495,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX18 =
 "code__800029B0_8c.html#a2e7d63dbfdabad69a70a95734822fe41":[19,0,3,16,71],
 "code__800029B0_8c.html#a301741636b1f27625d727db54d3af996":[19,0,3,16,8],
 "code__800029B0_8c.html#a3171c0aaeac3ef35ab672564e9f0be90":[19,0,3,16,12],
-"code__800029B0_8c.html#a31959c0ae2036221d88612dd175a01f6":[19,0,3,16,80],
-"code__800029B0_8c.html#a32a2013878ce647a9a6ef6749924110c":[19,0,3,16,31],
-"code__800029B0_8c.html#a3a4728a1c22d73e057da7fa354307d42":[19,0,3,16,40],
-"code__800029B0_8c.html#a3c5279e152c4762fd43722b882bfd3d4":[19,0,3,16,92],
-"code__800029B0_8c.html#a3ce3001b1bfd4f8df4d3f46af7af9ae0":[19,0,3,16,93],
-"code__800029B0_8c.html#a3eb30d3c46acdbed880bc2b5952878a6":[19,0,3,16,29]
+"code__800029B0_8c.html#a31959c0ae2036221d88612dd175a01f6":[19,0,3,16,80]
 };

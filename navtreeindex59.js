@@ -1,5 +1,10 @@
 var NAVTREEINDEX59 =
 {
+"other_2tracks_2frappe__snowland_2frappe__snowland__data_8h_source.html":[19,0,2,0,1,0,7,0],
+"other_2tracks_2kalimari__desert_2kalimari__desert__data_8h.html":[19,0,2,0,1,0,8,0],
+"other_2tracks_2kalimari__desert_2kalimari__desert__data_8h.html#aa975e0e608e8a7e52cf27e78abd623cf":[19,0,2,0,1,0,8,0,0],
+"other_2tracks_2kalimari__desert_2kalimari__desert__data_8h_source.html":[19,0,2,0,1,0,8,0],
+"other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html":[19,0,2,0,1,0,9,0],
 "other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html#a48408150ea4407e74645ed36a11d199b":[19,0,2,0,1,0,9,0,0],
 "other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h_source.html":[19,0,2,0,1,0,9,0],
 "other_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html":[19,0,2,0,1,0,10,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX59 =
 "playback_8h.html#abe9cedc9bee1ad483029367cda7fce4e":[19,0,3,1,16,1],
 "playback_8h.html#ac5a1883479a1e40ad448fe8dc18fb7d8":[19,0,3,1,16,14],
 "playback_8h.html#acd59fb0284ed814274e41b89fac21c20":[19,0,3,1,16,16],
-"playback_8h.html#acd82370edabb02666da36b6537ef7ed2":[19,0,3,1,16,10],
-"playback_8h.html#ace709086a69d817bf9ae6b2f31c21d6c":[19,0,3,1,16,18],
-"playback_8h.html#ad207555e373f6d6c77469487897e9f41":[19,0,3,1,16,2],
-"playback_8h.html#adfbbcc03a0a8cd327e60e10bee1a9e19":[19,0,3,1,16,0],
-"playback_8h.html#ae50695bfbcd25a66988103d7c9fa48f9":[19,0,3,1,16,7],
-"playback_8h.html#ae678527ee6d71f696237b7652bb138ad":[19,0,3,1,16,11]
+"playback_8h.html#acd82370edabb02666da36b6537ef7ed2":[19,0,3,1,16,10]
 };

@@ -2304,7 +2304,7 @@ var searchData=
   ['dmem_5faddr_5fwet_5fleft_5fch_2301',['DMEM_ADDR_WET_LEFT_CH',['../synthesis_8h.html#a7f59b9e4b76238914747f4d44efaf00b',1,'synthesis.h']]],
   ['dmem_5faddr_5fwet_5fright_5fch_2302',['DMEM_ADDR_WET_RIGHT_CH',['../synthesis_8h.html#a7d0209c82345e7a6205f78c353b70547',1,'synthesis.h']]],
   ['dmem_5fbuf_5fsize_2303',['DMEM_BUF_SIZE',['../mixer_8c.html#ad15aafa36ae4106e1bb5a20d9aad1c3b',1,'mixer.c']]],
-  ['docker_2304',['Docker',['../md_docs_2BUILDING.html#docker',1,'Docker'],['../compiling.html#docker-1',1,'Docker']]],
+  ['docker_2304',['Docker',['../compiling.html#docker',1,'Docker'],['../md_docs_2BUILDING.html#docker-1',1,'Docker']]],
   ['docker_20container_2305',['Create the docker container',['../md_docs_2BUILDING.html#create-the-docker-container',1,'']]],
   ['done_2306',['done',['../structma__resource__manager__pipeline__notifications.html#a8f99f7234bc0adda91d68faa5353fa09',1,'ma_resource_manager_pipeline_notifications']]],
   ['donkeykong_5fkart_2eh_2307',['donkeykong_kart.h',['../donkeykong__kart_8h.html',1,'']]],
