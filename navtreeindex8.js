@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"camera_8h.html#aac2167e4dbac5cfbfa219e742436780f":[19,0,3,15,19],
+"camera_8h.html#aafd122319f0159b7ef4cc32b0c302394":[19,0,3,15,29],
 "camera_8h.html#ab0a9da286408e4a3557cf93c690e6ab2":[19,0,3,15,22],
 "camera_8h.html#ab8c5ab4b9dbb53aacd0a3025b27592bf":[19,0,3,15,10],
 "camera_8h.html#ac5c90fc9c417ded1c7e1ecb3352ecffe":[19,0,3,15,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "ceremony__and__credits_8h.html#a962c73610661594729d6bfd9a6b3be68":[19,0,3,5,3,59],
 "ceremony__and__credits_8h.html#a968de4038a8c9b664257383084a62124":[19,0,3,5,3,35],
 "ceremony__and__credits_8h.html#a978c756b7640fe6e57c13f1561b7b349":[19,0,3,5,3,37],
-"ceremony__and__credits_8h.html#a979d6972bcdcd0ee0ec96b0b1d2863c9":[19,0,3,5,3,21],
-"ceremony__and__credits_8h.html#a991079ad2acfd2f1c2f6a239f39a32bf":[19,0,3,5,3,52],
-"ceremony__and__credits_8h.html#a9bb1fb7b81e707241135b8c0ab2f239c":[19,0,3,5,3,29]
+"ceremony__and__credits_8h.html#a979d6972bcdcd0ee0ec96b0b1d2863c9":[19,0,3,5,3,21]
 };

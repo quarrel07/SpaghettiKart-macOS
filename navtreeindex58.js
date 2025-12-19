@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"osEepromRead_8c.html#afe8553b91d51b2a96d97792d1359a516":[19,0,3,8,71,4],
+"osEepromWrite_8c.html":[19,0,3,8,72],
 "osEepromWrite_8c.html#a821b8ce22af671850530fdbd8aa56e9d":[19,0,3,8,72,2],
 "osEepromWrite_8c.html#a8e53a603dc8223f6f83d874f7fbc85af":[19,0,3,8,72,0],
 "osEepromWrite_8c.html#a9297ef9905c6ea39653f28233432d792":[19,0,3,8,72,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "other_2tracks_2kalimari__desert_2kalimari__desert__data_8h.html":[19,0,2,0,1,0,8,0],
 "other_2tracks_2kalimari__desert_2kalimari__desert__data_8h.html#aa975e0e608e8a7e52cf27e78abd623cf":[19,0,2,0,1,0,8,0,0],
 "other_2tracks_2kalimari__desert_2kalimari__desert__data_8h_source.html":[19,0,2,0,1,0,8,0],
-"other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html":[19,0,2,0,1,0,9,0],
-"other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html#a48408150ea4407e74645ed36a11d199b":[19,0,2,0,1,0,9,0,0],
-"other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h_source.html":[19,0,2,0,1,0,9,0]
+"other_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html":[19,0,2,0,1,0,9,0]
 };

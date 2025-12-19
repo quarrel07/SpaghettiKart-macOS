@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"starship__model_8h.html#a7633d172a74b98bd7f03bbdc19f1bfec":[19,0,0,8,11,15],
+"starship__model_8h.html#a7b1c7e02b599bb79515e8bb8c76c5162":[19,0,0,8,11,1],
 "starship__model_8h.html#a7fcb6377627321523dad10daffc4db7a":[19,0,0,8,11,10],
 "starship__model_8h.html#a82c2c1965859181854f3ffe3e4bd3970":[19,0,0,8,11,26],
 "starship__model_8h.html#a90ee75c2a9d1b2e67305a76651caa1e6":[19,0,0,8,11,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structAudioBufferParametersEU.html":[18,0,71],
 "structAudioBufferParametersEU.html#a1697638b0af762c9d700b187e120c890":[18,0,71,11],
 "structAudioBufferParametersEU.html#a1bd0929427fba0eb364af0fb963d4a78":[18,0,71,8],
-"structAudioBufferParametersEU.html#a27bd45852eccb436898465fe7b1066be":[18,0,71,6],
-"structAudioBufferParametersEU.html#a4269f815326e4ec0ea0a6ef7f248af4a":[18,0,71,5],
-"structAudioBufferParametersEU.html#a5d51807d6c8d3b668901193e15be2030":[18,0,71,3]
+"structAudioBufferParametersEU.html#a27bd45852eccb436898465fe7b1066be":[18,0,71,6]
 };

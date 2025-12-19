@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"skybox__and__splitscreen_8c.html#a82f24f7e2e98540d8ea10579ee3b6315":[19,0,3,10,16,41],
+"skybox__and__splitscreen_8c.html#a862515e1d473f5fbbe04543cddfc4fa4":[19,0,3,10,16,29],
 "skybox__and__splitscreen_8c.html#a9119e27ac748939929d0b105173cdb43":[19,0,3,10,16,43],
 "skybox__and__splitscreen_8c.html#a97049ca439feed0c004c1d41f302189e":[19,0,3,10,16,0],
 "skybox__and__splitscreen_8c.html#a9a7113658a35b34e9332a4968906e701":[19,0,3,10,16,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "sounds_8h.html#ae06060f6d675e55c04372ae8072541af":[19,0,2,20,18],
 "sounds_8h_source.html":[19,0,2,20],
 "spawn__players_8c.html":[19,0,3,64],
-"spawn__players_8c.html#a06860d6cd4c6493aa9eacd1d5ebe6418":[19,0,3,64,54],
-"spawn__players_8c.html#a0dcf8951e29d15c6032604bee6020e31":[19,0,3,64,61],
-"spawn__players_8c.html#a17947350cc883f519b2eb6e9ef318fea":[19,0,3,64,45]
+"spawn__players_8c.html#a06860d6cd4c6493aa9eacd1d5ebe6418":[19,0,3,64,54]
 };

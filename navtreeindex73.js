@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structAudioBufferParametersEU.html#a4269f815326e4ec0ea0a6ef7f248af4a":[18,0,71,5],
+"structAudioBufferParametersEU.html#a5d51807d6c8d3b668901193e15be2030":[18,0,71,3],
 "structAudioBufferParametersEU.html#a675f5849a446429e68e7c03f89be6841":[18,0,71,0],
 "structAudioBufferParametersEU.html#a70aacf89643dec4da96e97cba1f9082f":[18,0,71,12],
 "structAudioBufferParametersEU.html#a7925b2687a66f353b9cb08754bef6dbc":[18,0,71,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structCourseVtxData.html#aa00b934840c12995f56fe52efaeeb230":[18,0,99,1],
 "structCourseVtxData.html#affa1c900764cd1dba0f2cb7f3fee2e21":[18,0,99,0],
 "structCpuItemStrategyData.html":[18,0,101],
-"structCpuItemStrategyData.html#a0c8194db7d548d1e5db6e6e92586eedb":[18,0,101,5],
-"structCpuItemStrategyData.html#a1724c40f8255d4ef4cef0c91de1f040b":[18,0,101,1],
-"structCpuItemStrategyData.html#a2b5ea1a8bf0452ff2e148f5d280eb8c7":[18,0,101,7]
+"structCpuItemStrategyData.html#a0c8194db7d548d1e5db6e6e92586eedb":[18,0,101,5]
 };

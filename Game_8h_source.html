@@ -338,13 +338,29 @@ $(function(){initNavTree('Game_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="keywordtype">void</span> <a class="code hl_function" href="Game_8h.html#a653209c17a221876506140f4d377270b">CM_RunGarbageCollector</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="keywordtype">void</span> <a class="code hl_function" href="Game_8h.html#a6c3b9e6da7b395aa8a1b97ba2e966fff">CM_ResetAudio</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="comment">// NOLINTEND(readability-identifier-naming)</span></div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>}</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="preprocessor">#endif </span><span class="comment">// _GAME_H</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="comment">// Add print formatting check attribute</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="preprocessor">#if defined(__GNUC__) || defined(__clang__)</span></div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>__attribute__((format(printf, 1, 2)))</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="comment">// Add noreturn attribute</span></div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="preprocessor">#if defined(_MSC_VER)</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>    __declspec(noreturn) </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="preprocessor">#elif defined(__APPLE__)</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#elif defined(__cplusplus) || (__STDC_VERSION__ &gt;= 202311)</span></div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    [[noreturn]] </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">#elif defined(__GNUC__)</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    __attribute__((noreturn))</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="keywordtype">void</span> <a class="code hl_function" href="Game_8h.html#a80db20776c19d77be4a28e58df4dfbf2">CM_ThrowRuntimeError</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_define" href="pak_8cpp.html#a24ae7463666f625674a1f1d44146784f">fmt</a>, ...);</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="comment">// NOLINTEND(readability-identifier-naming)</span></div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>}</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#endif </span><span class="comment">// _GAME_H</span></div>
 <div class="ttc" id="aDataRegistry_8h_html"><div class="ttname"><a href="DataRegistry_8h.html">DataRegistry.h</a></div></div>
 <div class="ttc" id="aEditor_8h_html"><div class="ttname"><a href="Editor_8h.html">Editor.h</a></div></div>
 <div class="ttc" id="aGame_8cpp_html_a01280f16a3f7ce7488988c1912c35783"><div class="ttname"><a href="Game_8cpp.html#a01280f16a3f7ce7488988c1912c35783">gTrackRegistry</a></div><div class="ttdeci">Registry&lt; TrackInfo &gt; gTrackRegistry</div><div class="ttdef"><b>Definition</b> Game.cpp:78</div></div>
@@ -417,6 +433,7 @@ $(function(){initNavTree('Game_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aGame_8h_html_a7dfa77f8baa97e05f88abc7be3dd45a1"><div class="ttname"><a href="Game_8h.html#a7dfa77f8baa97e05f88abc7be3dd45a1">IsToadsTurnpike</a></div><div class="ttdeci">bool IsToadsTurnpike()</div><div class="ttdef"><b>Definition</b> Game.cpp:826</div></div>
 <div class="ttc" id="aGame_8h_html_a7e396328bc711895f42cbed0b0a0b1b5"><div class="ttname"><a href="Game_8h.html#a7e396328bc711895f42cbed0b0a0b1b5">CM_SetCupIndex</a></div><div class="ttdeci">void CM_SetCupIndex(size_t index)</div><div class="ttdef"><b>Definition</b> Game.cpp:207</div></div>
 <div class="ttc" id="aGame_8h_html_a7ff5610a2d67bb8a510d93cf238e6ffb"><div class="ttname"><a href="Game_8h.html#a7ff5610a2d67bb8a510d93cf238e6ffb">CM_GetWaterLevel</a></div><div class="ttdeci">f32 CM_GetWaterLevel(Vec3f pos, Collision *collision)</div><div class="ttdef"><b>Definition</b> Game.cpp:810</div></div>
+<div class="ttc" id="aGame_8h_html_a80db20776c19d77be4a28e58df4dfbf2"><div class="ttname"><a href="Game_8h.html#a80db20776c19d77be4a28e58df4dfbf2">CM_ThrowRuntimeError</a></div><div class="ttdeci">void CM_ThrowRuntimeError(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> Game.cpp:909</div></div>
 <div class="ttc" id="aGame_8h_html_a872b3eafef96f83081b83794fb4681e5"><div class="ttname"><a href="Game_8h.html#a872b3eafef96f83081b83794fb4681e5">CM_InitTrackObjects</a></div><div class="ttdeci">void CM_InitTrackObjects()</div><div class="ttdef"><b>Definition</b> Game.cpp:577</div></div>
 <div class="ttc" id="aGame_8h_html_a88c0d93fc49776f7a5c145312f4f81a0"><div class="ttname"><a href="Game_8h.html#a88c0d93fc49776f7a5c145312f4f81a0">CM_BeginPlay</a></div><div class="ttdeci">void CM_BeginPlay()</div><div class="ttdef"><b>Definition</b> Game.cpp:356</div></div>
 <div class="ttc" id="aGame_8h_html_a892acd610181b8a67f9bd4f74d242a4a"><div class="ttname"><a href="Game_8h.html#a892acd610181b8a67f9bd4f74d242a4a">CM_WhatDoesThisDo</a></div><div class="ttdeci">void CM_WhatDoesThisDo(Player *player, int8_t playerId)</div><div class="ttdef"><b>Definition</b> Game.cpp:610</div></div>
@@ -501,6 +518,7 @@ $(function(){initNavTree('Game_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassWorld_html"><div class="ttname"><a href="classWorld.html">World</a></div><div class="ttdef"><b>Definition</b> World.h:39</div></div>
 <div class="ttc" id="acode__800029B0_8h_html"><div class="ttname"><a href="code__800029B0_8h.html">code_800029B0.h</a></div></div>
 <div class="ttc" id="acommon__structs_8h_html_a5290523279339ea495248ab3a36cb46e"><div class="ttname"><a href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a></div><div class="ttdeci">f32 Vec3f[3]</div><div class="ttdef"><b>Definition</b> common_structs.h:10</div></div>
+<div class="ttc" id="apak_8cpp_html_a24ae7463666f625674a1f1d44146784f"><div class="ttname"><a href="pak_8cpp.html#a24ae7463666f625674a1f1d44146784f">fmt</a></div><div class="ttdeci">#define fmt(...)</div><div class="ttdef"><b>Definition</b> pak.cpp:8</div></div>
 <div class="ttc" id="astructActor_html"><div class="ttname"><a href="structActor.html">Actor</a></div><div class="ttdef"><b>Definition</b> actor_types.h:126</div></div>
 <div class="ttc" id="astructActor_html_afa1455dbf1a4698584ed8c501439692f"><div class="ttname"><a href="structActor.html#afa1455dbf1a4698584ed8c501439692f">Actor::pos</a></div><div class="ttdeci">Vec3f pos</div><div class="ttdef"><b>Definition</b> actor_types.h:135</div></div>
 <div class="ttc" id="astructCamera_html"><div class="ttname"><a href="structCamera.html">Camera</a></div><div class="ttdef"><b>Definition</b> camera.h:35</div></div>

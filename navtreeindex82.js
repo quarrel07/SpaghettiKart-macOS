@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"struct____OSPackId.html#ad95d778ef40568afd8eaa046fe2b6cf5":[18,0,18,3],
+"struct____OSPackId.html#aedb8d48f39e421454e41c5e62bc75a1d":[18,0,18,6],
 "struct____OSPackId.html#afac412c1b6d035fa3f646afb314d68b8":[18,0,18,7],
 "struct____OSThreadContext.html":[18,0,19],
 "struct____OSThreadContext.html#a01b732da156629ef599b85463ca2aa7c":[18,0,19,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structma__biquad__node.html":[18,0,170],
 "structma__biquad__node.html#a8388b6283dfc0a0529235a66256b9107":[18,0,170,0],
 "structma__biquad__node.html#aab6bc51471361d0ef52f185572c25ae6":[18,0,170,1],
-"structma__biquad__node__config.html":[18,0,171],
-"structma__biquad__node__config.html#a4e3272fdb1c8336aee76c2408c50ac60":[18,0,171,1],
-"structma__biquad__node__config.html#ac77f7aa9dc239cecb8d49fca988b20d0":[18,0,171,0]
+"structma__biquad__node__config.html":[18,0,171]
 };

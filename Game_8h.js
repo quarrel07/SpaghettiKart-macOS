@@ -57,6 +57,7 @@ var Game_8h =
     [ "CM_SomeCollisionThing", "Game_8h.html#a8c040973097c16e82cb1738a5eb2fb55", null ],
     [ "CM_SomeSounds", "Game_8h.html#a02c1b51d60911b41fb21349de5ecada2", null ],
     [ "CM_SpawnStarterLakitu", "Game_8h.html#ac36c43e20fcfc2c96b91f33aa13d88f8", null ],
+    [ "CM_ThrowRuntimeError", "Game_8h.html#a80db20776c19d77be4a28e58df4dfbf2", null ],
     [ "CM_TickActors", "Game_8h.html#ae181f7d71aa16b176abd7be2444a0299", null ],
     [ "CM_TickCameras", "Game_8h.html#a60b215c5adc1d7af1c7e1c36713035ae", null ],
     [ "CM_TickClouds", "Game_8h.html#a11ebc0cdf2c06b647891e4d8a4a6471b", null ],

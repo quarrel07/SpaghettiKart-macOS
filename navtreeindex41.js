@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"math__util_8h.html#ad41bc953b17168c852f5240afb82ba50":[19,0,3,10,9,26],
+"math__util_8h.html#adee8c6d2fc20a1194cf64c481e7b6353":[19,0,3,10,9,0],
 "math__util_8h.html#ae2b95152b2e5052bc08599ac1ce63ac2":[19,0,3,10,9,39],
 "math__util_8h.html#ae4ff378f0bd45f9a49e1bf250176cc62":[19,0,3,10,9,15],
 "math__util_8h.html#aed216a6563959eca5d95547a23cf35bb":[19,0,3,10,9,18],
@@ -235,7 +237,7 @@ var NAVTREEINDEX41 =
 "md_docs_2BUILDING.html#additional-cmake-targets":[2,0,2],
 "md_docs_2BUILDING.html#additional-cmake-targets-1":[2,1,4],
 "md_docs_2BUILDING.html#additional-cmake-targets-2":[2,2,1],
-"md_docs_2BUILDING.html#arch-1":[2,1,1,0,1],
+"md_docs_2BUILDING.html#arch":[2,1,1,0,1],
 "md_docs_2BUILDING.html#build":[2,1,1,1],
 "md_docs_2BUILDING.html#clean":[2,0,2,0],
 "md_docs_2BUILDING.html#clean-1":[2,1,4,0],
@@ -246,8 +248,6 @@ var NAVTREEINDEX41 =
 "md_docs_2BUILDING.html#create-the-docker-container":[2,1,2,0],
 "md_docs_2BUILDING.html#debianubuntu":[2,1,1,0,0],
 "md_docs_2BUILDING.html#developing-spaghettikart":[2,0,0],
-"md_docs_2BUILDING.html#docker-1":[2,1,2],
-"md_docs_2BUILDING.html#fedora-1":[2,1,1,0,2],
-"md_docs_2BUILDING.html#generate-a-distributable":[2,1,3],
-"md_docs_2BUILDING.html#generating-a-distributable":[2,2,0]
+"md_docs_2BUILDING.html#docker":[2,1,2],
+"md_docs_2BUILDING.html#fedora":[2,1,1,0,2]
 };

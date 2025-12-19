@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classTrackEditor_1_1Gizmo.html#a385576fd8da261ebe1d245905d825997":[17,0,9,2,3],
+"classTrackEditor_1_1Gizmo.html#a385576fd8da261ebe1d245905d825997":[18,0,6,2,3],
 "classTrackEditor_1_1Gizmo.html#a3a500e83694015900af3d4b80246a605":[17,0,9,2,38],
 "classTrackEditor_1_1Gizmo.html#a3a500e83694015900af3d4b80246a605":[18,0,6,2,38],
 "classTrackEditor_1_1Gizmo.html#a506da1ca723b4a39f702864c71c119c5":[17,0,9,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classWarioStadium.html#a5da559e4bfb670bc4e68b49fca0f3507":[18,0,495,10],
 "classWarioStadium.html#a853a4139fafcd9ec922211abe2df6f4e":[18,0,495,6],
 "classWarioStadium.html#a8f942d57864a1a0f0711c972275624d2":[18,0,495,3],
-"classWarioStadium.html#a9de4c2ca5d31734e65ff74981b183900":[18,0,495,4],
-"classWarioStadium.html#a9e5056d92880b45ecdc154da2efe2364":[18,0,495,12],
-"classWarioStadium.html#aa62927effacb7fda946a2245ee218e24":[18,0,495,15]
+"classWarioStadium.html#a9de4c2ca5d31734e65ff74981b183900":[18,0,495,4]
 };
