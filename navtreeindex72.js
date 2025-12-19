@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"starship__model_8h.html#a4e3189118da52c20a9c8f586518ffcf3":[19,0,0,8,11,4],
 "starship__model_8h.html#a584777225d4e215d5609fc60512352fd":[19,0,0,8,11,6],
 "starship__model_8h.html#a67cb391ff911c4d6e78595e1f51d4b0d":[19,0,0,8,11,27],
 "starship__model_8h.html#a6995972a9b8c39ac2cbfee728773eaec":[19,0,0,8,11,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structAudioBankSample.html#ad66d2ea44427eef3ea448179e1f4a0c0":[18,0,69,0],
 "structAudioBankSound.html":[18,0,70],
 "structAudioBankSound.html#a071a356c7f702306b8071e1bc830c11d":[18,0,70,3],
-"structAudioBankSound.html#a2d41c84ecf76ec2edcf520495380a693":[18,0,70,2],
-"structAudioBankSound.html#a5809c38d8d1b258c056580bf3f64f3a2":[18,0,70,0]
+"structAudioBankSound.html#a2d41c84ecf76ec2edcf520495380a693":[18,0,70,2]
 };

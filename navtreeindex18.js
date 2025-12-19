@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classWarioStadium.html#a481ab9ed0032979bf75f780c0816c921":[18,0,495,7],
 "classWarioStadium.html#a5985791e8b3a144c1ac0dce8494ca16d":[18,0,495,2],
 "classWarioStadium.html#a5da559e4bfb670bc4e68b49fca0f3507":[18,0,495,10],
 "classWarioStadium.html#a853a4139fafcd9ec922211abe2df6f4e":[18,0,495,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "code__800029B0_8c.html#a2abf110fcd9442f55162d7fa57dc23d1":[19,0,3,16,99],
 "code__800029B0_8c.html#a2e7d63dbfdabad69a70a95734822fe41":[19,0,3,16,71],
 "code__800029B0_8c.html#a301741636b1f27625d727db54d3af996":[19,0,3,16,8],
-"code__800029B0_8c.html#a3171c0aaeac3ef35ab672564e9f0be90":[19,0,3,16,12],
-"code__800029B0_8c.html#a31959c0ae2036221d88612dd175a01f6":[19,0,3,16,80]
+"code__800029B0_8c.html#a3171c0aaeac3ef35ab672564e9f0be90":[19,0,3,16,12]
 };

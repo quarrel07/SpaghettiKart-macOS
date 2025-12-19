@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"math__util_8h.html#abd1a0f950c852c8eb022bd4145f8289f":[19,0,3,10,9,14],
 "math__util_8h.html#ac8db283a5f8620da533b57e18b0705b3":[19,0,3,10,9,40],
 "math__util_8h.html#acb7bf16d18c56f9542125ea045a0ea2a":[19,0,3,10,9,21],
 "math__util_8h.html#acfdc15af4b0c64cb3bba6b4f55be9f2d":[19,0,3,10,9,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "md_docs_2BUILDING.html#clean-1":[2,1,4,0],
 "md_docs_2BUILDING.html#clean-2":[2,2,1,0],
 "md_docs_2BUILDING.html#clone-the-repo-and-enter-the-directory":[2,1,0],
-"md_docs_2BUILDING.html#compile-the-project":[2,1,2,2],
-"md_docs_2BUILDING.html#configure-the-project":[2,1,2,1]
+"md_docs_2BUILDING.html#compile-the-project":[2,1,2,2]
 };

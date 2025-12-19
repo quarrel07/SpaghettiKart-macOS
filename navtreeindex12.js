@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classLuigiRaceway.html#a98dd94fabd5d18a0635293c915ed4238":[18,0,156,11],
 "classLuigiRaceway.html#abb3079f978b1fa36c85b006a29f06e3a":[18,0,156,0],
 "classLuigiRaceway.html#ae26d30076bbf601c8c7b79631043645e":[18,0,156,7],
 "classMK64_1_1ActorSpawn.html":[17,0,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classOBoos.html#a0d0c2c54e84a8b7f384680c13af12673":[18,0,336,4],
 "classOBoos.html#a0f55a08d009e8e79d1da684a2881c983":[18,0,336,7],
 "classOBoos.html#a123adc574849a28fab28a6bfa3b49228":[18,0,336,14],
-"classOBoos.html#a12c6c9d602befe0bdc7383aa3f3530ed":[18,0,336,16],
-"classOBoos.html#a12cd9861039fafc289bad7b2a9459c47":[18,0,336,13]
+"classOBoos.html#a12c6c9d602befe0bdc7383aa3f3530ed":[18,0,336,16]
 };

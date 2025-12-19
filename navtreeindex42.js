@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"md_docs_2BUILDING.html#configure-the-project":[2,1,2,1],
 "md_docs_2BUILDING.html#create-the-docker-container":[2,1,2,0],
 "md_docs_2BUILDING.html#debianubuntu":[2,1,1,0,0],
 "md_docs_2BUILDING.html#developing-spaghettikart":[2,0,0],
@@ -79,7 +80,7 @@ var NAVTREEINDEX42 =
 "md_docs_2mods-toml.html#validation":[10,5],
 "md_docs_2mods-toml.html#version-requirements":[10,3,1,0],
 "md_docs_2sequences-information.html":[11],
-"md_docs_2sequences-information.html#battle-courses":[11,1],
+"md_docs_2sequences-information.html#battle-courses-1":[11,1],
 "md_docs_2sequences-information.html#general":[11,2],
 "md_docs_2sequences-information.html#race-tracks":[11,0],
 "md_docs_2textures-pack.html":[12],
@@ -87,7 +88,7 @@ var NAVTREEINDEX42 =
 "md_docs_2textures-pack.html#future-plans-2":[12,2],
 "md_docs_2textures-pack.html#tools-to-help-1":[12,1],
 "md_docs_2track__returns.html":[13],
-"md_docs_2track__returns.html#battle-courses-1":[13,1],
+"md_docs_2track__returns.html#battle-courses":[13,1],
 "md_docs_2track__returns.html#mario-kart-world-remixes":[13,2],
 "md_docs_2track__returns.html#specifically-used-to-help-find-music-and-to-see-how-courses-are-adapted-in-the-future-including-references-too":[13,0],
 "memory_8c.html":[19,0,3,10,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "menu__items_8c.html#a33697d36ec15d6db80b203d2d7416a14":[19,0,3,48,282],
 "menu__items_8c.html#a3398cf29d209a963651e19d02e49e0ce":[19,0,3,48,442],
 "menu__items_8c.html#a339d2d418704e61fba5d9bd467ebebfd":[19,0,3,48,299],
-"menu__items_8c.html#a34084a40fcd849fb784bf0b30717920d":[19,0,3,48,301],
-"menu__items_8c.html#a3476b052d43fdcbf9e8c032cd6d3f5e6":[19,0,3,48,491]
+"menu__items_8c.html#a34084a40fcd849fb784bf0b30717920d":[19,0,3,48,301]
 };

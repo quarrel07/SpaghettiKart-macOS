@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"powered_8c.html#a2caa152d25107cc5933334480920017e":[19,0,0,8,2,13],
 "powered_8c.html#a3623de975f45afc82d33593f35fc8fdd":[19,0,0,8,2,12],
 "powered_8c.html#a3b87f8cc210a08994eb7eb58f54871e2":[19,0,0,8,2,6],
 "powered_8c.html#a43c094f0f8394bdde45e77c9f77d7c88":[19,0,0,8,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "render__courses_8h_source.html":[19,0,3,10,15],
 "render__objects_8c.html":[19,0,3,56],
 "render__objects_8c.html#a006d81ba9fcf76009f6396c04dc489a9":[19,0,3,56,14],
-"render__objects_8c.html#a01136bcb8f763bd80f4cb9296988d0ad":[19,0,3,56,368],
-"render__objects_8c.html#a01bc499dd41ca4911d4e2e8e1b34a806":[19,0,3,56,30]
+"render__objects_8c.html#a01136bcb8f763bd80f4cb9296988d0ad":[19,0,3,56,368]
 };

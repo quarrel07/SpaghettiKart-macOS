@@ -7,6 +7,7 @@ var classCup =
     [ "Previous", "classCup.html#ae2b0454ad3bde67d712c1638aa857ac2", null ],
     [ "SetTrack", "classCup.html#a2df105b4e6b6478ff4beef1231ee6b64", null ],
     [ "ShuffleTracks", "classCup.html#a28efb180de785a68fbe5746edf7eb230", null ],
+    [ "ValidateTrackIds", "classCup.html#a2d53b50434a5d47510fa60e90afd4cac", null ],
     [ "CursorPosition", "classCup.html#a29897a1ceed2b5f276287ff6ec828a02", null ],
     [ "Id", "classCup.html#ae8e4b8f0ae8705ccd57a6da8797ecb11", null ],
     [ "mTracks", "classCup.html#af87f586fbfd577bba3e78f1a2ffb2b8d", null ],

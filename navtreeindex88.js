@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"structstruct__80286A04.html#a014ef3bf3c231253742beb11c5448b81":[18,0,431,4],
 "structstruct__80286A04.html#a04fb00c7feb791b8070407f790e54250":[18,0,431,1],
 "structstruct__80286A04.html#a30f831942bfdb2abd01472554b13c993":[18,0,431,3],
 "structstruct__80286A04.html#a784c7e8b3b3c0f33d5bee9500ebfcb9b":[18,0,431,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "textures_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h_source.html":[19,0,2,0,3,1,6,0],
 "textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html":[19,0,2,0,3,1,7,0],
 "textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html#ae7b54410b4a7c3ef3889084042be8f0c":[19,0,2,0,3,1,7,0,0],
-"textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h_source.html":[19,0,2,0,3,1,7,0],
-"textures_2tracks_2mario__raceway_2mario__raceway__data_8h.html":[19,0,2,0,3,1,8,0]
+"textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h_source.html":[19,0,2,0,3,1,7,0]
 };
