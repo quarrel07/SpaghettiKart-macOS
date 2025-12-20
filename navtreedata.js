@@ -148,7 +148,7 @@ var NAVTREE =
     ] ],
     [ "Sequence Information (Music)", "md_docs_2sequences-information.html", [
       [ "Race Tracks", "md_docs_2sequences-information.html#race-tracks", null ],
-      [ "Battle Courses", "md_docs_2sequences-information.html#battle-courses-1", null ],
+      [ "Battle Courses", "md_docs_2sequences-information.html#battle-courses", null ],
       [ "General", "md_docs_2sequences-information.html#general", null ]
     ] ],
     [ "Texture Pack", "md_docs_2textures-pack.html", [
@@ -158,7 +158,7 @@ var NAVTREE =
     ] ],
     [ "Returning Tracks", "md_docs_2track__returns.html", [
       [ "Specifically Used to help find music and to see how courses are adapted in the future including refer...", "md_docs_2track__returns.html#specifically-used-to-help-find-music-and-to-see-how-courses-are-adapted-in-the-future-including-references-too", null ],
-      [ "Battle Courses", "md_docs_2track__returns.html#battle-courses", null ],
+      [ "Battle Courses", "md_docs_2track__returns.html#battle-courses-1", null ],
       [ "Mario Kart World Remixes", "md_docs_2track__returns.html#mario-kart-world-remixes", null ]
     ] ],
     [ "Tutorials", "tutorials.html", "tutorials" ],
