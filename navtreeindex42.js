@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"md_docs_2BUILDING.html#clone-the-repo-and-enter-the-directory":[2,1,0],
+"md_docs_2BUILDING.html#compile-the-project":[2,1,2,2],
 "md_docs_2BUILDING.html#configure-the-project":[2,1,2,1],
 "md_docs_2BUILDING.html#create-the-docker-container":[2,1,2,0],
 "md_docs_2BUILDING.html#debianubuntu":[2,1,1,0,0],
@@ -54,7 +56,7 @@ var NAVTREEINDEX42 =
 "md_docs_2migrations.html#other-textures":[8,2,0,2],
 "md_docs_2migrations.html#overview":[8,0],
 "md_docs_2migrations.html#path-changes":[8,2],
-"md_docs_2migrations.html#see-also-1":[8,7],
+"md_docs_2migrations.html#see-also":[8,7],
 "md_docs_2migrations.html#textures":[8,2,0],
 "md_docs_2migrations.html#track-textures":[8,2,0,0],
 "md_docs_2migrations.html#troubleshooting":[8,6],
@@ -76,7 +78,7 @@ var NAVTREEINDEX42 =
 "md_docs_2mods-toml.html#location":[10,0],
 "md_docs_2mods-toml.html#migration-script-support":[10,8],
 "md_docs_2mods-toml.html#mod-section":[10,3,0],
-"md_docs_2mods-toml.html#see-also":[10,9],
+"md_docs_2mods-toml.html#see-also-1":[10,9],
 "md_docs_2mods-toml.html#validation":[10,5],
 "md_docs_2mods-toml.html#version-requirements":[10,3,1,0],
 "md_docs_2sequences-information.html":[11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "menu__items_8c.html#a330704d30d106268fbb062e6ced61926":[19,0,3,48,103],
 "menu__items_8c.html#a33341dba00d6251c3aac738b843d0b6d":[19,0,3,48,489],
 "menu__items_8c.html#a33697d36ec15d6db80b203d2d7416a14":[19,0,3,48,282],
-"menu__items_8c.html#a3398cf29d209a963651e19d02e49e0ce":[19,0,3,48,442],
-"menu__items_8c.html#a339d2d418704e61fba5d9bd467ebebfd":[19,0,3,48,299],
-"menu__items_8c.html#a34084a40fcd849fb784bf0b30717920d":[19,0,3,48,301]
+"menu__items_8c.html#a3398cf29d209a963651e19d02e49e0ce":[19,0,3,48,442]
 };

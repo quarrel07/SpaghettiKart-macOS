@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structCourseVtx.html#a9e1920e5a6d52a2ee632b6a5f074cd42":[18,0,98,1],
+"structCourseVtx.html#aa0fcae78aa4ae7fd3c2eb4b1246b8169":[18,0,98,0],
 "structCourseVtxData.html":[18,0,99],
 "structCourseVtxData.html#a16033b0dae80ba3250d0da6b9f4997dd":[18,0,99,2],
 "structCourseVtxData.html#aa00b934840c12995f56fe52efaeeb230":[18,0,99,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structItemWindowObjects.html#a776f4d5da35e50acb606c2072b3ce59d":[18,0,147,40],
 "structItemWindowObjects.html#a7c4e3ff508872a5b80e1f50a81a04881":[18,0,147,34],
 "structItemWindowObjects.html#a81df9d661b58b0669ade5d5ca5a76707":[18,0,147,64],
-"structItemWindowObjects.html#a82a6f991da85ffebec4ed05524ac3ebc":[18,0,147,26],
-"structItemWindowObjects.html#a82e245298e79a40bc70ef80420d5c3bf":[18,0,147,39],
-"structItemWindowObjects.html#a8618dba6b9c74342fe3b97a32068fa59":[18,0,147,3]
+"structItemWindowObjects.html#a82a6f991da85ffebec4ed05524ac3ebc":[18,0,147,26]
 };

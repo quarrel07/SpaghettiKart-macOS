@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structstruct__80285D80.html#ae3e24f4151a89ce548d0293aac126ada":[18,0,430,1],
+"structstruct__80286A04.html":[18,0,431],
 "structstruct__80286A04.html#a014ef3bf3c231253742beb11c5448b81":[18,0,431,4],
 "structstruct__80286A04.html#a04fb00c7feb791b8070407f790e54250":[18,0,431,1],
 "structstruct__80286A04.html#a30f831942bfdb2abd01472554b13c993":[18,0,431,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "textures_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html#ad7dcce2b4142898ee3a28bd53db41135":[19,0,2,0,3,1,6,0,1],
 "textures_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h.html#af2b19e3ff8eacdce511b7b80b622a9bf":[19,0,2,0,3,1,6,0,0],
 "textures_2tracks_2koopa__troopa__beach_2koopa__troopa__beach__data_8h_source.html":[19,0,2,0,3,1,6,0],
-"textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html":[19,0,2,0,3,1,7,0],
-"textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html#ae7b54410b4a7c3ef3889084042be8f0c":[19,0,2,0,3,1,7,0,0],
-"textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h_source.html":[19,0,2,0,3,1,7,0]
+"textures_2tracks_2luigi__raceway_2luigi__raceway__data_8h.html":[19,0,2,0,3,1,7,0]
 };

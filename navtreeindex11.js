@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classATruck.html#afcd788c07f9ccdccaa3f4a386f1386e1":[18,0,67,15],
+"classATruck.html#afe7c33a6d77655f1404a658a747fa3f6":[18,0,67,8],
 "classAWarioSign.html":[18,0,76],
 "classAWarioSign.html#a20207b1db85d661c98a11f79b85c7afd":[18,0,76,5],
 "classAWarioSign.html#a6afbd9954a4ba3615eb120bffc0493a6":[18,0,76,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classLuigiRaceway.html#a099d1be5e54f51a388a02bd3ce7060ee":[18,0,156,2],
 "classLuigiRaceway.html#a0c0478a127cfe08cb0227b0e2f94889b":[18,0,156,6],
 "classLuigiRaceway.html#a3a0a9c605d10a2174c5f796c8358fea8":[18,0,156,10],
-"classLuigiRaceway.html#a550be86381f88873c265fd67b06e16c3":[18,0,156,3],
-"classLuigiRaceway.html#a70e9f11098a1bdca924bb1611d0d9a2b":[18,0,156,4],
-"classLuigiRaceway.html#a88ef58ad51ac7a8249dada2eb3eb75e2":[18,0,156,5]
+"classLuigiRaceway.html#a550be86381f88873c265fd67b06e16c3":[18,0,156,3]
 };
