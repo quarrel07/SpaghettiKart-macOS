@@ -148,7 +148,6 @@ var Game_8cpp =
     [ "gItemTableRegistry", "Game_8cpp.html#a1ab1a88158db2b58726dc2220b9eea64", null ],
     [ "gMenuIntro", "Game_8cpp.html#a7548ea7aee88170c42476d1c130c66a0", null ],
     [ "gMushroomCup", "Game_8cpp.html#a8af8e08b5e4bf0373880797502fd7280", null ],
-    [ "gPodiumCeremony", "Game_8cpp.html#ac904f85e419407ce7ad71bbeef74edf0", null ],
     [ "gSpecialCup", "Game_8cpp.html#a36b94f5e33fe411a7ded28bd17a9d60f", null ],
     [ "gStarCup", "Game_8cpp.html#a77b58dc71f28e0ef8878390fae8ac62b", null ],
     [ "gTrackBrowser", "Game_8cpp.html#ad866a6e3610a5cfb4da749c662c14e77", null ],

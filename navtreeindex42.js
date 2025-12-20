@@ -1,6 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"md_docs_2BUILDING.html#clone-the-repo-and-enter-the-directory":[2,1,0],
 "md_docs_2BUILDING.html#compile-the-project":[2,1,2,2],
 "md_docs_2BUILDING.html#configure-the-project":[2,1,2,1],
 "md_docs_2BUILDING.html#create-the-docker-container":[2,1,2,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX42 =
 "menu__items_8c.html#a330704d30d106268fbb062e6ced61926":[19,0,3,48,103],
 "menu__items_8c.html#a33341dba00d6251c3aac738b843d0b6d":[19,0,3,48,489],
 "menu__items_8c.html#a33697d36ec15d6db80b203d2d7416a14":[19,0,3,48,282],
-"menu__items_8c.html#a3398cf29d209a963651e19d02e49e0ce":[19,0,3,48,442]
+"menu__items_8c.html#a3398cf29d209a963651e19d02e49e0ce":[19,0,3,48,442],
+"menu__items_8c.html#a339d2d418704e61fba5d9bd467ebebfd":[19,0,3,48,299]
 };

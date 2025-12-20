@@ -24,7 +24,7 @@ var basics =
       [ "Code Breakdown", "controlflow.html#code-breakdown", [
         [ "Menus", "controlflow.html#menus", null ],
         [ "Players", "controlflow.html#players", null ],
-        [ "Actors", "controlflow.html#actors-1", null ],
+        [ "Actors", "controlflow.html#actors", null ],
         [ "Objects", "controlflow.html#objects-1", null ],
         [ "Tracks", "controlflow.html#tracks", [
           [ "Course Folder", "controlflow.html#course-folder", null ]

@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"____osViInit_8c.html#a25d8ccf1f778e1a80682cd23d0b76a5f":[19,0,3,8,25,1],
 "____osViInit_8c.html#a36511d1bdf47d5cdc155727f8f1ee88e":[19,0,3,8,25,2],
 "____osViInit_8c.html#a517cd7d58bc43a978cb893e815f78433":[19,0,3,8,25,6],
 "____osViInit_8c.html#a88e1c1713b33b8f41ca47f5e7ad61e1a":[19,0,3,8,25,0],
@@ -89,7 +88,7 @@ var NAVTREEINDEX6 =
 "actor__types_8h.html#affb5ffde510634c5c1e09a5b934d29c3":[19,0,2,4,20],
 "actor__types_8h_source.html":[19,0,2,4],
 "actors.html":[0,0],
-"actors.html#actors":[0,0,0],
+"actors.html#actors-1":[0,0,0],
 "actors_8c.html":[19,0,3,10,0],
 "actors_8c.html#a074156bcbfcb24d6b691adf751bb8580":[19,0,3,10,0,62],
 "actors_8c.html#a074bb86cc794d40a8b569035fcb5bbe9":[19,0,3,10,0,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "all__course__packed_8h_source.html":[19,0,0,24],
 "all__variables_8h.html":[19,0,3,4,0],
 "all__variables_8h_source.html":[19,0,3,4,0],
-"animation_8c.html":[19,0,3,11]
+"animation_8c.html":[19,0,3,11],
+"animation_8c.html#a5dad4f876a91b09b8d59e2b410302f20":[19,0,3,11,7]
 };

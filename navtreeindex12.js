@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classLuigiRaceway.html#a70e9f11098a1bdca924bb1611d0d9a2b":[18,0,156,4],
 "classLuigiRaceway.html#a88ef58ad51ac7a8249dada2eb3eb75e2":[18,0,156,5],
 "classLuigiRaceway.html#a98dd94fabd5d18a0635293c915ed4238":[18,0,156,11],
 "classLuigiRaceway.html#abb3079f978b1fa36c85b006a29f06e3a":[18,0,156,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "classOBoos.html#a06c7ba813761c3f04155694f28031269":[18,0,336,26],
 "classOBoos.html#a07e984e446fb9d77a66287bae5676ab1":[18,0,336,25],
 "classOBoos.html#a0d0c2c54e84a8b7f384680c13af12673":[18,0,336,4],
-"classOBoos.html#a0f55a08d009e8e79d1da684a2881c983":[18,0,336,7]
+"classOBoos.html#a0f55a08d009e8e79d1da684a2881c983":[18,0,336,7],
+"classOBoos.html#a123adc574849a28fab28a6bfa3b49228":[18,0,336,14]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"ModManager_8h_source.html":[19,0,3,6,4,1],
 "ModMetadata_8cpp.html":[19,0,3,6,4,2],
 "ModMetadata_8h.html":[19,0,3,6,4,3],
 "ModMetadata_8h_source.html":[19,0,3,6,4,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "TrackBrowser_8cpp.html#a68b937e1c686f894673a9b5025dcdd3e":[19,0,3,6,35,4],
 "TrackBrowser_8cpp.html#a9acd0e28e0a33399d24e6780e91494e0":[19,0,3,6,35,7],
 "TrackBrowser_8cpp.html#ab98abf81eec83fff6d7cb13f2802634c":[19,0,3,6,35,3],
-"TrackBrowser_8cpp.html#ad048b5c76fb389d783811689f45971bd":[19,0,3,6,35,1]
+"TrackBrowser_8cpp.html#ad048b5c76fb389d783811689f45971bd":[19,0,3,6,35,1],
+"TrackBrowser_8cpp.html#af032d2361ed4824be37f2bb1cf6c3673":[19,0,3,6,35,0]
 };
