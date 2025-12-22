@@ -412,7 +412,7 @@ var code__80057C60_8c =
     [ "gHUDModes", "code__80057C60_8c.html#acccb0c4298a150b4e0ccefa7946c0a92", null ],
     [ "gIndexLakituList", "code__80057C60_8c.html#ab05a6e870499c839662f18938b06f7c7", null ],
     [ "gIndexObjectBombKart", "code__80057C60_8c.html#a7478ae92d607d5622fc21aab2ad5bd46", null ],
-    [ "gItemWindowObjectByPlayerId", "code__80057C60_8c.html#ad6180931ee83dc714d853c9b1a83053f", null ],
+    [ "gItemWindowObjectByPlayerId", "code__80057C60_8c.html#a00fa80eb6f303e7a3c309e58c1e8ef9c", null ],
     [ "gLakituTextureBuffer", "code__80057C60_8c.html#af824f939fdd109e32258ec5a35a840af", null ],
     [ "gLakituTexturePtr", "code__80057C60_8c.html#a226d7d496c72d3e791c7c730b41bc2c7", null ],
     [ "gLeafParticle", "code__80057C60_8c.html#a541e385e332a3bc5070b81713c071e4f", null ],

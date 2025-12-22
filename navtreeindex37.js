@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"kart__attributes_8c.html#a858f79f82b6d6b22f38674e81fd684a4":[19,0,3,3,0,105],
+"kart__attributes_8c.html#a86d120e13e764fffc57969c0c8ae4554":[19,0,3,3,0,60],
 "kart__attributes_8c.html#a893c0bcd51ce85c895adb8b9869861b9":[19,0,3,3,0,46],
 "kart__attributes_8c.html#a89bf4f35fcd609b46bb97e418dab9420":[19,0,3,3,0,34],
 "kart__attributes_8c.html#a8b7977b960d85f50394d1948fbf4dc30":[19,0,3,3,0,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "libaudio__internal_8h_source.html":[19,0,3,8,52],
 "libultra__internal_8h.html":[19,0,3,8,53],
 "libultra__internal_8h.html#a0af3b45bb8f9da97fe663d268a42af62":[19,0,3,8,53,28],
-"libultra__internal_8h.html#a0faeb9436b5013995e833db5ed3e3d39":[19,0,3,8,53,33],
-"libultra__internal_8h.html#a1a8a62d03688af3c37ca1b87749d5e94":[19,0,3,8,53,30],
-"libultra__internal_8h.html#a1ddbdaedccff6cdc15cc72d7e5c1d0fe":[19,0,3,8,53,21]
+"libultra__internal_8h.html#a0faeb9436b5013995e833db5ed3e3d39":[19,0,3,8,53,33]
 };

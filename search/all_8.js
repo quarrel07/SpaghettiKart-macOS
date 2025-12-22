@@ -31,7 +31,7 @@ var searchData=
   ['egizmo_28',['eGizmo',['../classTrackEditor_1_1ObjectPicker.html#a9ac27c9870accb8498738c3323ebc6fd',1,'TrackEditor::ObjectPicker']]],
   ['elderindex_29',['elderIndex',['../structBananaActor.html#a7675553f8f43dd172f5dfe656509bb56',1,'BananaActor']]],
   ['emit_30',['Emit',['../classStarEmitter.html#aefc0e47ab167903bdd3826262a40104c',1,'StarEmitter']]],
-  ['emitters_31',['Emitters',['../classWorld.html#a0809a65319b7239f660181674be13570',1,'World']]],
+  ['emitters_31',['Emitters',['../classWorld.html#a681773e85669b7fff8d160ee2fec5a51',1,'World']]],
   ['emperor_32',['EMPEROR',['../classOPenguin.html#a6bcbe447d3e231f6661b0837523df8b0a5454777d3bf8a2945786d07f4d57f6e2',1,'OPenguin']]],
   ['emperorpenguin_33',['EmperorPenguin',['../classOPenguin.html#a1ec4a3b20ac1a6a2a83157fdda4eedf2',1,'OPenguin']]],
   ['enablecompatibilityworkarounds_34',['enableCompatibilityWorkarounds',['../structma__device__config.html#a766ee01b8ce89ce2877eedfb5da35957',1,'ma_device_config']]],

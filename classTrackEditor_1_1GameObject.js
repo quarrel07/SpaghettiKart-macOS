@@ -7,6 +7,7 @@ var classTrackEditor_1_1GameObject =
     ] ],
     [ "GameObject", "classTrackEditor_1_1GameObject.html#a09c2b50cc9b941e3816772a139c64892", null ],
     [ "GameObject", "classTrackEditor_1_1GameObject.html#a680cfadd1c7a4abb1caed358405a56e1", null ],
+    [ "~GameObject", "classTrackEditor_1_1GameObject.html#a98acc438382d393f3ae7f44a91c75c6a", null ],
     [ "Destroy", "classTrackEditor_1_1GameObject.html#acd9b0f219e5c6dd7cd502941270f5f91", null ],
     [ "Draw", "classTrackEditor_1_1GameObject.html#a9b2c636f91098b8057269ee65f46fff9", null ],
     [ "DrawEditorProperties", "classTrackEditor_1_1GameObject.html#a2a2aed870b2c16af0df59acd4bf4c2b0", null ],

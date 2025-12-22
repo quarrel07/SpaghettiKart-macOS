@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"starship__model_8h.html#a16ee5a59a2f77c91bbd60aca7f04642f":[19,0,0,8,11,14],
+"starship__model_8h.html#a2c9cd182002f286f550422e084b0179a":[19,0,0,8,11,25],
 "starship__model_8h.html#a39055ba5054600c58dc6484117fc946e":[19,0,0,8,11,17],
 "starship__model_8h.html#a4e3189118da52c20a9c8f586518ffcf3":[19,0,0,8,11,4],
 "starship__model_8h.html#a584777225d4e215d5609fc60512352fd":[19,0,0,8,11,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structAudioBankSample.html#abae57a9b292e1b7ffb68063c0d5d3a0e":[18,0,69,5],
 "structAudioBankSample.html#ad188e9d6ef8fb385d84bc3c635927469":[18,0,69,4],
 "structAudioBankSample.html#ad598652b025155d5a15a99251dd97828":[18,0,69,10],
-"structAudioBankSample.html#ad66d2ea44427eef3ea448179e1f4a0c0":[18,0,69,0],
-"structAudioBankSound.html":[18,0,70],
-"structAudioBankSound.html#a071a356c7f702306b8071e1bc830c11d":[18,0,70,3]
+"structAudioBankSample.html#ad66d2ea44427eef3ea448179e1f4a0c0":[18,0,69,0]
 };

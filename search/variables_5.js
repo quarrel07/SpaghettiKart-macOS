@@ -6,7 +6,7 @@ var searchData=
   ['eggrot_3',['eggRot',['../structYoshiValleyEgg.html#a310c040e760d3aa654300c466e7598f6',1,'YoshiValleyEgg']]],
   ['egizmo_4',['eGizmo',['../classTrackEditor_1_1ObjectPicker.html#a9ac27c9870accb8498738c3323ebc6fd',1,'TrackEditor::ObjectPicker']]],
   ['elderindex_5',['elderIndex',['../structBananaActor.html#a7675553f8f43dd172f5dfe656509bb56',1,'BananaActor']]],
-  ['emitters_6',['Emitters',['../classWorld.html#a0809a65319b7239f660181674be13570',1,'World']]],
+  ['emitters_6',['Emitters',['../classWorld.html#a681773e85669b7fff8d160ee2fec5a51',1,'World']]],
   ['enablecompatibilityworkarounds_7',['enableCompatibilityWorkarounds',['../structma__device__config.html#a766ee01b8ce89ce2877eedfb5da35957',1,'ma_device_config']]],
   ['enabled_8',['Enabled',['../classTrackEditor_1_1Gizmo.html#ac7fa061244fd7d6fa4b1713d15ca7f65',1,'TrackEditor::Gizmo']]],
   ['enabled_9',['enabled',['../structSequencePlayer.html#a635977b76a293b84a5300052140970d7',1,'SequencePlayer::enabled'],['../structSequenceChannel.html#aaa0ea8943c6b8d1cd4d9b7011dcc9779',1,'SequenceChannel::enabled'],['../structSequenceChannelLayer.html#a9ebb5f2009113ab0698671fe70aa4ad3',1,'SequenceChannelLayer::enabled'],['../structNoteSubEu.html#ae37271bcb252efc531b2cc103a1cd60d',1,'NoteSubEu::enabled']]],

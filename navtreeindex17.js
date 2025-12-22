@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classTrackEditor_1_1GameObject.html#afb4234940a6f12576196401c5ffb9972afb2ea1ec7b3bc42e65a0c3969dfe74f2":[18,0,6,1,0,1],
+"classTrackEditor_1_1Gizmo.html":[17,0,9,2],
 "classTrackEditor_1_1Gizmo.html":[18,0,6,2],
 "classTrackEditor_1_1Gizmo.html#a178d1b8f5a47b942f67670a63be0152a":[17,0,9,2,39],
 "classTrackEditor_1_1Gizmo.html#a178d1b8f5a47b942f67670a63be0152a":[18,0,6,2,39],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classTrainCrossing.html#aca11074a588ec9cd8703659bed8f4827":[18,0,460,11],
 "classTrainCrossing.html#aeaa4e6f111788ec9c6c0d411b2ddfc6a":[18,0,460,8],
 "classTrainCrossing.html#aecfe9d5aea1fd818aa905bd9aeb24509":[18,0,460,3],
-"classTrainCrossing.html#af81332fa8107587bc7f8fab7d3cce49d":[18,0,460,2],
-"classWarioStadium.html":[18,0,495],
-"classWarioStadium.html#a01c3602dbf33f3d4f8279aea761bb1fd":[18,0,495,13]
+"classTrainCrossing.html#af81332fa8107587bc7f8fab7d3cce49d":[18,0,460,2]
 };

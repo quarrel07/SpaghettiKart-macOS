@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structShellActor.html#a610da60b5b38774fba6b6bb3076fd007":[18,0,401,0],
+"structShellActor.html#a62b51240387f83c669e3e279aaecbed8":[18,0,401,11],
 "structShellActor.html#a6d1756d5e7cf11fdb35eec5ef86c6951":[18,0,401,9],
 "structShellActor.html#a6eb62ab515773b295e7d8c4f6c10ae1b":[18,0,401,13],
 "structShellActor.html#a77c5d4878d9a0867430326a1d63491dc":[18,0,401,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structTripleShellParent.html#a4fcf64256c3c06258809ee9a0871f6b6":[18,0,463,9],
 "structTripleShellParent.html#a6f46018f343929e837263418298da3a2":[18,0,463,4],
 "structTripleShellParent.html#a767e1128055034a8ffa0ee37b29042f7":[18,0,463,12],
-"structTripleShellParent.html#a87dd46e584b3ba824152e886d15e4d4d":[18,0,463,0],
-"structTripleShellParent.html#a9f53226334d467678c1b06c8dcc9a271":[18,0,463,1],
-"structTripleShellParent.html#ab112cfcae0d742c9c6ffdf56f90cf932":[18,0,463,11]
+"structTripleShellParent.html#a87dd46e584b3ba824152e886d15e4d4d":[18,0,463,0]
 };

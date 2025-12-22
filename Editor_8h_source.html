@@ -133,7 +133,7 @@ $(function(){initNavTree('Editor_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    ~Editor();</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    ObjectPicker eObjectPicker;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::vector&lt;GameObject*&gt; eGameObjects;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::vector&lt;std::unique_ptr&lt;GameObject&gt;&gt; eGameObjects;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> Load();</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> Enable();</div>
@@ -176,10 +176,10 @@ $(function(){initNavTree('Editor_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif </span><span class="comment">// EDITOR_H</span></div>
 <div class="ttc" id="aEditorMath_8h_html_a184566c244b6f86ed1728ff62afee2bc"><div class="ttname"><a href="EditorMath_8h.html#a184566c244b6f86ed1728ff62afee2bc">Clear</a></div><div class="ttdeci">void Clear(MtxF *mf)</div></div>
 <div class="ttc" id="aEditorMath_8h_html_ab214e16f2975deed27a80057b08125aa"><div class="ttname"><a href="EditorMath_8h.html#ab214e16f2975deed27a80057b08125aa">Copy</a></div><div class="ttdeci">void Copy(MtxF *src, MtxF *dest)</div></div>
-<div class="ttc" id="aEditor_8h_html_a0e604a667da52797e52a188eef706a48"><div class="ttname"><a href="Editor_8h.html#a0e604a667da52797e52a188eef706a48">Editor_IsEnabled</a></div><div class="ttdeci">EXTERN_C bool Editor_IsEnabled()</div><div class="ttdef"><b>Definition</b> Editor.cpp:254</div></div>
-<div class="ttc" id="aEditor_8h_html_a1131d9e78b967e764162f8a416234891"><div class="ttname"><a href="Editor_8h.html#a1131d9e78b967e764162f8a416234891">Editor_IsPaused</a></div><div class="ttdeci">EXTERN_C bool Editor_IsPaused()</div><div class="ttdef"><b>Definition</b> Editor.cpp:258</div></div>
-<div class="ttc" id="aEditor_8h_html_a48e06a8e70922f249e55c68a159fd37d"><div class="ttname"><a href="Editor_8h.html#a48e06a8e70922f249e55c68a159fd37d">Editor_SetLevelDimensions</a></div><div class="ttdeci">EXTERN_C void Editor_SetLevelDimensions(s16 minX, s16 maxX, s16 minZ, s16 maxZ, s16 minY, s16 maxY)</div><div class="ttdef"><b>Definition</b> Editor.cpp:250</div></div>
-<div class="ttc" id="aEditor_8h_html_ad9e6ebd00224233c0486631bcdb51c31"><div class="ttname"><a href="Editor_8h.html#ad9e6ebd00224233c0486631bcdb51c31">Editor_Launch</a></div><div class="ttdeci">EXTERN_C void Editor_Launch(const char *resourceName)</div><div class="ttdef"><b>Definition</b> Editor.cpp:243</div></div>
+<div class="ttc" id="aEditor_8h_html_a0e604a667da52797e52a188eef706a48"><div class="ttname"><a href="Editor_8h.html#a0e604a667da52797e52a188eef706a48">Editor_IsEnabled</a></div><div class="ttdeci">EXTERN_C bool Editor_IsEnabled()</div><div class="ttdef"><b>Definition</b> Editor.cpp:255</div></div>
+<div class="ttc" id="aEditor_8h_html_a1131d9e78b967e764162f8a416234891"><div class="ttname"><a href="Editor_8h.html#a1131d9e78b967e764162f8a416234891">Editor_IsPaused</a></div><div class="ttdeci">EXTERN_C bool Editor_IsPaused()</div><div class="ttdef"><b>Definition</b> Editor.cpp:259</div></div>
+<div class="ttc" id="aEditor_8h_html_a48e06a8e70922f249e55c68a159fd37d"><div class="ttname"><a href="Editor_8h.html#a48e06a8e70922f249e55c68a159fd37d">Editor_SetLevelDimensions</a></div><div class="ttdeci">EXTERN_C void Editor_SetLevelDimensions(s16 minX, s16 maxX, s16 minZ, s16 maxZ, s16 minY, s16 maxY)</div><div class="ttdef"><b>Definition</b> Editor.cpp:251</div></div>
+<div class="ttc" id="aEditor_8h_html_ad9e6ebd00224233c0486631bcdb51c31"><div class="ttname"><a href="Editor_8h.html#ad9e6ebd00224233c0486631bcdb51c31">Editor_Launch</a></div><div class="ttdeci">EXTERN_C void Editor_Launch(const char *resourceName)</div><div class="ttdef"><b>Definition</b> Editor.cpp:244</div></div>
 <div class="ttc" id="aGameObject_8h_html"><div class="ttname"><a href="GameObject_8h.html">GameObject.h</a></div></div>
 <div class="ttc" id="aObjectPicker_8h_html"><div class="ttname"><a href="ObjectPicker_8h.html">ObjectPicker.h</a></div></div>
 <div class="ttc" id="acamera_8h_html"><div class="ttname"><a href="camera_8h.html">camera.h</a></div></div>
