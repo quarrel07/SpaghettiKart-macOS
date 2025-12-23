@@ -75,7 +75,7 @@ var math__util__2_8c =
     [ "vec3f_rotate", "math__util__2_8c.html#a5dc5196d61a43564b753fb6e5ba185d9", null ],
     [ "vec3f_rotate_x_y", "math__util__2_8c.html#a6f90d4d34932da48fa6a3aaa5fa67ab7", null ],
     [ "vec3f_set_xyz", "math__util__2_8c.html#a03ebc759ba50db479384b0ad89225f1e", null ],
-    [ "gInterpolationMatrix", "math__util__2_8c.html#a955fb252b16c035884bae06080e13a2e", null ],
+    [ "gInterpolationMatrix", "math__util__2_8c.html#a742f148d5670e125f8923ed893139481", null ],
     [ "prevObject2", "math__util__2_8c.html#ab46c3f2d99626d7feaec3cbb9191da56", null ],
     [ "sInterpolationMatrixStack", "math__util__2_8c.html#a6ce93b249be82c8d3e1d379c53b4edc6", null ]
 ];
