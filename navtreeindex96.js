@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"track_8c.html#af84b9025cd6538a3954523283e16a4c1":[19,0,0,8,12,51],
+"track_8c.html#af911657cf1e2bfd5ffbbdb35f0af708f":[19,0,0,8,12,195],
+"track_8c.html#af941d4a5ab5ae5897cf70d4e46277aa8":[19,0,0,8,12,167],
+"track_8c.html#af967636fe933a56733755fe450a3beca":[19,0,0,8,12,74],
+"track_8c.html#af96ba6ae7650ddbd10df962ed5cb1436":[19,0,0,8,12,141],
+"track_8c.html#afa3109f29c8c444e4861213ded7e28c5":[19,0,0,8,12,97],
 "track_8c.html#afa7b30274ab48a0daa07388f8a69076a":[19,0,0,8,12,224],
 "track_8c.html#afb6fced98ddf7c71240dc8e1108bf3d2":[19,0,0,8,12,38],
 "track_8c.html#afd0ed2f0bad2e45c64f0d14844c5b4c3":[19,0,0,8,12,212],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "trig__tables_8h.html#a3d024cd3965b3ac3012cbab7ebd8b5fa":[19,0,3,2,9,1],
 "trig__tables_8h.html#a8ec49220180753fd012b924e7335b4f3":[19,0,3,2,9,0],
 "trig__tables_8h_source.html":[19,0,3,2,9],
-"trig__tables__bss_8c.html":[19,0,3,2,10],
-"trig__tables__bss_8c.html#a00cbbf5fc2549e66b6cb61219d22e7c8":[19,0,3,2,10,0],
-"tutorialaudio.html":[14,2],
-"tutorials.html":[14],
-"unionGameModePack.html":[18,0,135],
-"unionGameModePack.html#a070413d3976e79c9be223f8ab02369b7":[18,0,135,1],
-"unionGameModePack.html#a7480766028750720e0e81e64e658922c":[18,0,135,0]
+"trig__tables__bss_8c.html":[19,0,3,2,10]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX77 =
 {
+"structPlayer.html#a9df507c28783c74a597f319400ddea47":[18,0,368,110],
+"structPlayer.html#aa2aea429bcc24178e3e4f6a0a599f49f":[18,0,368,63],
+"structPlayer.html#aa3d81d78f1cce34a89a0f83d50f78733":[18,0,368,15],
+"structPlayer.html#aa47478e0b0fb0bb673c1081d5840268f":[18,0,368,58],
+"structPlayer.html#aa77a79a8862283a08c255f07962e6e60":[18,0,368,82],
+"structPlayer.html#aa78cd789ec34c4c664e8b413a3ab4276":[18,0,368,112],
 "structPlayer.html#aa7c506245f8f286f6d8f34eec2e3ece9":[18,0,368,67],
 "structPlayer.html#aa8a121a7db4672487c329c21681b2558":[18,0,368,122],
 "structPlayer.html#aa9b856aeb5c4245fbda7109d08fb150b":[18,0,368,93],
@@ -243,11 +249,5 @@ var NAVTREEINDEX77 =
 "structSF64_1_1LimbData.html#ae01329162e68607bf68d2689af442a98":[17,0,6,10,1],
 "structSF64_1_1LimbData.html#ae01329162e68607bf68d2689af442a98":[18,0,3,10,1],
 "structSF64_1_1MsgLookup.html":[17,0,6,13],
-"structSF64_1_1MsgLookup.html":[18,0,3,13],
-"structSF64_1_1MsgLookup.html#a1863ff8dc0ab9f3ad18b199d380f5e47":[17,0,6,13,0],
-"structSF64_1_1MsgLookup.html#a1863ff8dc0ab9f3ad18b199d380f5e47":[18,0,3,13,0],
-"structSF64_1_1MsgLookup.html#a31319e716c06fc85291cf691e258545f":[17,0,6,13,1],
-"structSF64_1_1MsgLookup.html#a31319e716c06fc85291cf691e258545f":[18,0,3,13,1],
-"structSF64_1_1ObjectInitData.html":[17,0,6,15],
-"structSF64_1_1ObjectInitData.html":[18,0,3,15]
+"structSF64_1_1MsgLookup.html":[18,0,3,13]
 };

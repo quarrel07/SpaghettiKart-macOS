@@ -376,7 +376,7 @@ var searchData=
   ['outputsamplerate_373',['outputSampleRate',['../structma__decoder.html#a9d4f0e1242f5faf1fb1614c619fbd6f0',1,'ma_decoder']]],
   ['overall_20control_20flow_374',['Overall Control Flow',['../controlflow.html#overall-control-flow',1,'']]],
   ['overflows_375',['Array Overflows',['../concepts.html#array-overflows',1,'']]],
-  ['overview_376',['Overview',['../controlflow.html',1,'Codebase Overview'],['../md_docs_2migrations.html#overview',1,'Overview']]],
+  ['overview_376',['Overview',['../controlflow.html',1,'Codebase Overview'],['../md_docs_2custom-track.html',1,'Custom Track Overview'],['../md_docs_2migrations.html#overview',1,'Overview']]],
   ['ownsbuffer_377',['ownsBuffer',['../structma__rb.html#acab6e4d4c05b0b2238d72ad625316605',1,'ma_rb']]],
   ['ownsdata_378',['ownsData',['../structma__audio__buffer.html#a8f792223090e7ed1e643c445145051b0',1,'ma_audio_buffer']]],
   ['ownsdatasource_379',['ownsDataSource',['../structma__sound.html#a05237ac41a384a307b631231d68afa78',1,'ma_sound']]],

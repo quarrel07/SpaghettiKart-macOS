@@ -24,8 +24,7 @@ var searchData=
   ['yoshivalley_2eh_21',['YoshiValley.h',['../YoshiValley_8h.html',1,'']]],
   ['yoshivalleyegg_22',['YoshiValleyEgg',['../structYoshiValleyEgg.html',1,'']]],
   ['youngerindex_23',['youngerIndex',['../structBananaActor.html#ad686614e95607653ffbf00b39cd10397',1,'BananaActor']]],
-  ['your_20custom_20track_24',['Playing Your Custom Track',['../md_docs_2custom-track.html#playing-your-custom-track',1,'']]],
-  ['your_20fork_25',['Getting CI to work on your fork',['../md_docs_2BUILDING.html#getting-ci-to-work-on-your-fork',1,'']]],
-  ['ypos_26',['yPos',['../structSF64_1_1ObjectInitData.html#a7c876a75d27346f2f24568cbd5710220',1,'SF64::ObjectInitData::yPos'],['../structBombKart.html#a8cc2966d931e376e71aa0942dfb85af3',1,'BombKart::yPos']]],
-  ['yvflagpolespawn_27',['YVFlagPoleSpawn',['../structYVFlagPoleSpawn.html',1,'']]]
+  ['your_20fork_24',['Getting CI to work on your fork',['../md_docs_2BUILDING.html#getting-ci-to-work-on-your-fork',1,'']]],
+  ['ypos_25',['yPos',['../structSF64_1_1ObjectInitData.html#a7c876a75d27346f2f24568cbd5710220',1,'SF64::ObjectInitData::yPos'],['../structBombKart.html#a8cc2966d931e376e71aa0942dfb85af3',1,'BombKart::yPos']]],
+  ['yvflagpolespawn_26',['YVFlagPoleSpawn',['../structYVFlagPoleSpawn.html',1,'']]]
 ];

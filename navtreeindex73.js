@@ -1,5 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"structAnimation.html#a2a8a3545ade56f6716c5af36d4b0b4c3":[18,0,57,2],
+"structAnimation.html#a3fa84d207339c08ecc5a12e9234383ce":[18,0,57,4],
+"structAnimation.html#a685d9d0e71cae3b49918fc4e76621b3b":[18,0,57,3],
+"structAnimation.html#ad561123739ac752758490eedc9d05775":[18,0,57,5],
+"structAnimation.html#af85d7839b1a8ea8eaac068a8c82cd955":[18,0,57,0],
+"structAnimation.html#af94fdd03186279b9531f67158159b722":[18,0,57,1],
 "structAnimationCycleSpec.html":[18,0,58],
 "structAnimationCycleSpec.html#a908f9e109d7fd0cda2501dee8a40815e":[18,0,58,0],
 "structAnimationCycleSpec.html#aafe200883957788393b92b5e614b341e":[18,0,58,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX73 =
 "structCollisionTriangle.html#a54e0f03eb426838bc75fb3b57ced264d":[18,0,92,8],
 "structCollisionTriangle.html#a672e8e008d9a0b6a55cc40c1b7d34f90":[18,0,92,12],
 "structCollisionTriangle.html#a7096cb79e5bc41462446b8bf11453d33":[18,0,92,3],
-"structCollisionTriangle.html#a71c6a2fe34923b3a3611b5fcbc696070":[18,0,92,10],
-"structCollisionTriangle.html#a7a24b29415e8ecf25171248862d87f94":[18,0,92,7],
-"structCollisionTriangle.html#a8da23d839b6b4d2ce26bcd938e9fba6b":[18,0,92,1],
-"structCollisionTriangle.html#a98a6554ebf1176c166b4ae8a84c268e6":[18,0,92,6],
-"structCollisionTriangle.html#aa1aa152e5e08c932bee19cd15147d3d9":[18,0,92,13],
-"structCollisionTriangle.html#aa29aca15df45129816343cb89249d5eb":[18,0,92,0],
-"structCollisionTriangle.html#ab72364ec32cb7c5c31dd97d1be5f3216":[18,0,92,5]
+"structCollisionTriangle.html#a71c6a2fe34923b3a3611b5fcbc696070":[18,0,92,10]
 };
