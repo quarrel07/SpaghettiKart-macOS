@@ -9,5 +9,6 @@ var searchData=
   ['sptaskstate_6',['SpTaskState',['../common__structs_8h.html#a4bb374aee872d45ca8292940f2a0ed03',1,'common_structs.h']]],
   ['states_7',['States',['../classOBombKart.html#a8e4601861010249f2213d909b9daa116',1,'OBombKart::States'],['../classOThwomp.html#ab058a1bffedb77d79e477fc5acbc4e6a',1,'OThwomp::States']]],
   ['submenuselectiontype_8',['SubMenuSelectionType',['../menus_8h.html#abfb65f784832a58c8c9cfe231056cae7',1,'menus.h']]],
-  ['surface_5ftype_9',['SURFACE_TYPE',['../mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98',1,'mk64.h']]]
+  ['surface_5ftype_9',['SURFACE_TYPE',['../mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98',1,'mk64.h']]],
+  ['surfaceclip_10',['SurfaceClip',['../classCustomTrack.html#a30944efe59d50eac50188133726efba0',1,'CustomTrack']]]
 ];

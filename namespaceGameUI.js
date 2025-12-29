@@ -46,6 +46,7 @@ var namespaceGameUI =
     [ "item_aspectRatio", "namespaceGameUI.html#a6d2b4f6dd15334a7b3d9c59c654d83bd", null ],
     [ "item_pixelCount", "namespaceGameUI.html#ae409a19efedbadc64d434f2bbe87b395", null ],
     [ "logLevels", "namespaceGameUI.html#a67e005bbaa2729af7d9e65fd1a4fb892", null ],
+    [ "MAX_FPS", "namespaceGameUI.html#a291610a1b19acbf05b97d3512a50c78f", null ],
     [ "max_integerScaleFactor", "namespaceGameUI.html#abf0be3caa6c7db8c5bc8da2911a26f95", null ],
     [ "maxVerticalPixelCount", "namespaceGameUI.html#afa865c03604144e2764bf5cc75e2bd4f", null ],
     [ "mConsoleWindow", "namespaceGameUI.html#ad578e6e03a0f0901d9bd3f505d76a152", null ],

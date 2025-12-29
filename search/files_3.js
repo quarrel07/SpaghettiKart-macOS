@@ -91,5 +91,7 @@ var searchData=
   ['cup_2eh_88',['Cup.h',['../Cup_8h.html',1,'']]],
   ['custom_2daudio_2emd_89',['custom-audio.md',['../custom-audio_8md.html',1,'']]],
   ['custom_2dcharacters_2emd_90',['custom-characters.md',['../custom-characters_8md.html',1,'']]],
-  ['custom_2dtrack_2emd_91',['custom-track.md',['../custom-track_8md.html',1,'']]]
+  ['custom_2dtrack_2emd_91',['custom-track.md',['../custom-track_8md.html',1,'']]],
+  ['customtrack_2ecpp_92',['CustomTrack.cpp',['../CustomTrack_8cpp.html',1,'']]],
+  ['customtrack_2eh_93',['CustomTrack.h',['../CustomTrack_8h.html',1,'']]]
 ];

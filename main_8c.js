@@ -1,7 +1,7 @@
 var main_8c =
 [
     [ "audio_init", "main_8c.html#a1057a490ba85ab32c800c0e3c9e85c78", null ],
-    [ "calculate_delta_time", "main_8c.html#a3fea25080bd641666553317d98cdbdec", null ],
+    [ "calculate_delta_time", "main_8c.html#a95ff41a7dc7b358aae7abb46f96bb01c", null ],
     [ "clear_framebuffer", "main_8c.html#ac6df158ad2a863eb16f6b82e12ea26e4", null ],
     [ "config_gfx_pool", "main_8c.html#a9b253735194a23ab701e8ab9cdc7b128", null ],
     [ "create_debug_thread", "main_8c.html#a77471bbea209b9d664b6569191c60787", null ],
@@ -22,7 +22,6 @@ var main_8c =
     [ "func_80091B78", "main_8c.html#a4c171632ff32db3cbe13719e6478d536", null ],
     [ "game_init_clear_framebuffer", "main_8c.html#a753fddc62059f70c07c0b83147998762", null ],
     [ "game_state_handler", "main_8c.html#ae04143ce8113cdafa007c642eb620bc8", null ],
-    [ "Graphics_PushFrame", "main_8c.html#a2172bcebf986571a5a9d3053a6ae7713", null ],
     [ "handle_dp_complete", "main_8c.html#a47a548bbf988125912df970a7ec6aa64", null ],
     [ "handle_sp_complete", "main_8c.html#ac787ae111abe00ee69fdd117c6917276", null ],
     [ "handle_vblank", "main_8c.html#a720f132930eedc22c2c0163a3d2ffed8", null ],

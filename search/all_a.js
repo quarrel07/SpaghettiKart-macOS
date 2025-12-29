@@ -743,7 +743,7 @@ var searchData=
   ['grandprixballoons_2ecpp_740',['GrandPrixBalloons.cpp',['../GrandPrixBalloons_8cpp.html',1,'']]],
   ['grandprixballoons_2eh_741',['GrandPrixBalloons.h',['../GrandPrixBalloons_8h.html',1,'']]],
   ['grandprixpoints_742',['grandPrixPoints',['../structSaveInfo.html#ab18934a34c84c3aea5bbee7c19bdc947',1,'SaveInfo']]],
-  ['graphics_5fpushframe_743',['Graphics_PushFrame',['../main_8c.html#a2172bcebf986571a5a9d3053a6ae7713',1,'Graphics_PushFrame(Gfx *data):&#160;Game.cpp'],['../Game_8cpp.html#a2172bcebf986571a5a9d3053a6ae7713',1,'Graphics_PushFrame(Gfx *data):&#160;Game.cpp']]],
+  ['graphics_5fpushframe_743',['Graphics_PushFrame',['../Game_8cpp.html#a6ca620461095200074d3abd3261c6e74',1,'Graphics_PushFrame(Gfx *pool):&#160;Game.cpp'],['../Game_8h.html#a6ca620461095200074d3abd3261c6e74',1,'Graphics_PushFrame(Gfx *pool):&#160;Game.cpp']]],
   ['grass_744',['GRASS',['../mk64_8h.html#a5344f2bdca4f9506c40f044e08ea8c98adbed8401e35adba25dab2e1729ee55fa',1,'mk64.h']]],
   ['grass_5fparticle_745',['GRASS_PARTICLE',['../common__structs_8h.html#a716891f13e6eacddeab1f963e3cf858aaa34e3c7138973acfb36a9f000f18974a',1,'common_structs.h']]],
   ['gravity_746',['Gravity',['../classACloud.html#a154648c1fe095813872ca232facac67d',1,'ACloud::Gravity'],['../classAFinishline.html#a09f2084a1a94a752ec9f02ace903a1ec',1,'AFinishline::Gravity']]],

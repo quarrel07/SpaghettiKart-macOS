@@ -47,7 +47,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 535;
+var viewWidth = 680;
 var viewHeight = 38;
 var sectionId = 'dynsection-8';
 </script>
@@ -59,9 +59,9 @@ var sectionId = 'dynsection-8';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="527,-30 375,-30 375,0 527,0 527,-30"/>
-<text text-anchor="start" x="383" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TrackEditor::Load_AddStatic</text>
-<text text-anchor="middle" x="451" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">MeshActor</text>
+<polygon fill="#999999" stroke="#666666" points="672,-30 520,-30 520,0 672,0 672,-30"/>
+<text text-anchor="start" x="528" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TrackEditor::Load_AddStatic</text>
+<text text-anchor="middle" x="596" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">MeshActor</text>
 </a>
 </g>
 </g>
@@ -69,9 +69,9 @@ var sectionId = 'dynsection-8';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="namespaceTrackEditor.html#a32d30c3e2c08be0ca763f6323bec6df2" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="339,-30 185,-30 185,0 339,0 339,-30"/>
-<text text-anchor="start" x="193" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TrackEditor::LoadStaticMesh</text>
-<text text-anchor="middle" x="262" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Actors</text>
+<polygon fill="white" stroke="#666666" points="484,-30 330,-30 330,0 484,0 484,-30"/>
+<text text-anchor="start" x="338" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TrackEditor::LoadStaticMesh</text>
+<text text-anchor="middle" x="407" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Actors</text>
 </a>
 </g>
 </g>
@@ -79,8 +79,8 @@ var sectionId = 'dynsection-8';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M364.74,-15C356.16,-15 347.49,-15 339.01,-15"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="364.75,-18.5 374.75,-15 364.75,-11.5 364.75,-18.5"/>
+<path fill="none" stroke="#63b8ff" d="M509.74,-15C501.16,-15 492.49,-15 484.01,-15"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="509.75,-18.5 519.75,-15 509.75,-11.5 509.75,-18.5"/>
 </a>
 </g>
 </g>
@@ -88,9 +88,9 @@ var sectionId = 'dynsection-8';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="namespaceTrackEditor.html#af5a960e46705549c4ff5b8f8f55bc21c" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="149,-30 0,-30 0,0 149,0 149,-30"/>
-<text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TrackEditor::LoadTrackData</text>
-<text text-anchor="middle" x="74.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">FromJson</text>
+<polygon fill="white" stroke="#666666" points="294,-30 145,-30 145,0 294,0 294,-30"/>
+<text text-anchor="start" x="153" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TrackEditor::LoadTrackData</text>
+<text text-anchor="middle" x="219.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">FromJson</text>
 </a>
 </g>
 </g>
@@ -98,8 +98,26 @@ var sectionId = 'dynsection-8';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M174.73,-15C166.15,-15 157.5,-15 149.07,-15"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="174.75,-18.5 184.75,-15 174.75,-11.5 174.75,-18.5"/>
+<path fill="none" stroke="#63b8ff" d="M319.73,-15C311.15,-15 302.5,-15 294.07,-15"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="319.75,-18.5 329.75,-15 319.75,-11.5 319.75,-18.5"/>
+</a>
+</g>
+</g>
+<!-- Node4 -->
+<g id="Node000004" class="node">
+<title>Node4</title>
+<g id="a_Node000004"><a xlink:href="classCustomTrack.html#a04441e98f3743d62b62e48240b141899" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="109,-24.5 0,-24.5 0,-5.5 109,-5.5 109,-24.5"/>
+<text text-anchor="middle" x="54.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">CustomTrack::Load</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3_Node000003_Node000004" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M134.51,-15C125.88,-15 117.29,-15 109.13,-15"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="134.63,-18.5 144.63,-15 134.63,-11.5 134.63,-18.5"/>
 </a>
 </g>
 </g>

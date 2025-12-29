@@ -10,6 +10,8 @@ var dir_8955581d22ca769fa1400ba486b7589a =
     [ "BowsersCastle.h", "BowsersCastle_8h.html", "BowsersCastle_8h" ],
     [ "ChocoMountain.cpp", "ChocoMountain_8cpp.html", "ChocoMountain_8cpp" ],
     [ "ChocoMountain.h", "ChocoMountain_8h.html", "ChocoMountain_8h" ],
+    [ "CustomTrack.cpp", "CustomTrack_8cpp.html", null ],
+    [ "CustomTrack.h", "CustomTrack_8h.html", "CustomTrack_8h" ],
     [ "DKJungle.cpp", "DKJungle_8cpp.html", "DKJungle_8cpp" ],
     [ "DKJungle.h", "DKJungle_8h.html", "DKJungle_8h" ],
     [ "DoubleDeck.cpp", "DoubleDeck_8cpp.html", "DoubleDeck_8cpp" ],

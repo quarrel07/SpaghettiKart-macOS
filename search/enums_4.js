@@ -5,5 +5,6 @@ var searchData=
   ['debugmenuselectiontypes_2',['DebugMenuSelectionTypes',['../menus_8h.html#ae19736bcf4a3556fd62ad21bf5773e7c',1,'menus.h']]],
   ['direction_3',['DIRECTION',['../defines_8h.html#aa268a41a13430b18e933ed40207178d0',1,'defines.h']]],
   ['disableoption_4',['DisableOption',['../MenuTypes_8h.html#a697cc769219ec155f54a4572d99d3432',1,'MenuTypes.h']]],
-  ['distanceprops_5',['DistanceProps',['../classAText.html#a5c3df12efd24dc28801f208f84136894',1,'AText']]]
+  ['distanceprops_5',['DistanceProps',['../classAText.html#a5c3df12efd24dc28801f208f84136894',1,'AText']]],
+  ['drawlayer_6',['DrawLayer',['../classCustomTrack.html#a572a7d7ba515c352d0a002a9daa50eae',1,'CustomTrack']]]
 ];

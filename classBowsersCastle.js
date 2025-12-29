@@ -7,7 +7,7 @@ var classBowsersCastle =
     [ "Draw", "classBowsersCastle.html#af31e1aa4941d02ce8638df7c1a8320a0", null ],
     [ "DrawCredits", "classBowsersCastle.html#a88cdb7b052162e21a9b957c609c2eb72", null ],
     [ "DrawTrackObjects", "classBowsersCastle.html#a0441776ccd815ec72871adadefc2cccb", null ],
-    [ "DrawWater", "classBowsersCastle.html#aeb1899cd8dc25c341673d6aae15bc685", null ],
+    [ "DrawTransparency", "classBowsersCastle.html#aae525a36515fdb38de5f26aad6907288", null ],
     [ "InitTrackObjects", "classBowsersCastle.html#a02e42bfc87c2d9e55c9a2533da960aa2", null ],
     [ "Load", "classBowsersCastle.html#a4bae64f1140c0d6f7ad385b406456bce", null ],
     [ "SomeCollisionThing", "classBowsersCastle.html#ac52e5556618a2593bd18b22ac0dea6e0", null ],

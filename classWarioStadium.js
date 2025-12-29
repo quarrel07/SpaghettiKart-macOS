@@ -7,7 +7,7 @@ var classWarioStadium =
     [ "Destroy", "classWarioStadium.html#a9de4c2ca5d31734e65ff74981b183900", null ],
     [ "Draw", "classWarioStadium.html#acc50cdddefeb93b3fd3d1b4b980b6ec9", null ],
     [ "DrawCredits", "classWarioStadium.html#a853a4139fafcd9ec922211abe2df6f4e", null ],
-    [ "DrawWater", "classWarioStadium.html#a481ab9ed0032979bf75f780c0816c921", null ],
+    [ "DrawTransparency", "classWarioStadium.html#ac5649463762e7c3e6705c647bee9f442", null ],
     [ "InitClouds", "classWarioStadium.html#af002126ac7006c5469ab04c0793627f4", null ],
     [ "InitTrackObjects", "classWarioStadium.html#acad89a24361349a9a7b262574197e615", null ],
     [ "Load", "classWarioStadium.html#a5da559e4bfb670bc4e68b49fca0f3507", null ],

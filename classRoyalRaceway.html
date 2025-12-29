@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33afab62a3884eb50876a644d4ebb502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aef1a6909a126d9d514d0daf69acaa3" id="r_a2aef1a6909a126d9d514d0daf69acaa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aef1a6909a126d9d514d0daf69acaa3">DrawCredits</a> () override</td></tr>
 <tr class="separator:a2aef1a6909a126d9d514d0daf69acaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a158bab2e59f53c0d96bd947a23510154" id="r_a158bab2e59f53c0d96bd947a23510154"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a158bab2e59f53c0d96bd947a23510154">ScrollingTextures</a> () override</td></tr>
-<tr class="separator:a158bab2e59f53c0d96bd947a23510154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c43aa1aa90fbc9aa42217c5f4b1117d" id="r_a2c43aa1aa90fbc9aa42217c5f4b1117d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c43aa1aa90fbc9aa42217c5f4b1117d">Waypoints</a> (<a class="el" href="structPlayer.html">Player</a> *player, int8_t playerId) override</td></tr>
 <tr class="separator:a2c43aa1aa90fbc9aa42217c5f4b1117d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9cf3be5d9227db6efa0d6eac5b34ca" id="r_ace9cf3be5d9227db6efa0d6eac5b34ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace9cf3be5d9227db6efa0d6eac5b34ca">Tick</a> () override</td></tr>
+<tr class="separator:ace9cf3be5d9227db6efa0d6eac5b34ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaa7f0828aa692e6a584d2e977e0ba011" name="aaa7f0828aa692e6a584d2e977e0ba011"></a>
@@ -330,36 +330,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a158bab2e59f53c0d96bd947a23510154" name="a158bab2e59f53c0d96bd947a23510154"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a158bab2e59f53c0d96bd947a23510154">&#9670;&#160;</a></span>ScrollingTextures()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RoyalRaceway::ScrollingTextures </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classRoyalRaceway_a158bab2e59f53c0d96bd947a23510154_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a7a19c8d2e4f69b4a6fe15438092ae8e7" name="a7a19c8d2e4f69b4a6fe15438092ae8e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a19c8d2e4f69b4a6fe15438092ae8e7">&#9670;&#160;</a></span>SetStaffGhost()</h2>
 
@@ -386,6 +356,36 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classRoyalRaceway_a7a19c8d2e4f69b4a6fe15438092ae8e7_cgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ace9cf3be5d9227db6efa0d6eac5b34ca" name="ace9cf3be5d9227db6efa0d6eac5b34ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace9cf3be5d9227db6efa0d6eac5b34ca">&#9670;&#160;</a></span>Tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RoyalRaceway::Tick </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classRoyalRaceway_ace9cf3be5d9227db6efa0d6eac5b34ca_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

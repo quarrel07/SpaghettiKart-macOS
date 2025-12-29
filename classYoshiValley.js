@@ -9,7 +9,6 @@ var classYoshiValley =
     [ "DrawTrackObjects", "classYoshiValley.html#a41e8fbccf5eb6331b9af6b1d6f8b3410", null ],
     [ "InitTrackObjects", "classYoshiValley.html#a8271010ec9ece16408669c0afd46951d", null ],
     [ "Load", "classYoshiValley.html#a2af0d0cd1d3b73ab9f3df77bad2a47be", null ],
-    [ "ScrollingTextures", "classYoshiValley.html#a360a9f9a2eceba58d7ce5617a013fc48", null ],
     [ "SomeSounds", "classYoshiValley.html#a670dac1db8836a3b4524e6b4be5aef0b", null ],
     [ "TickTrackObjects", "classYoshiValley.html#a1aff894c2cc26546f45d49105744302b", null ],
     [ "Waypoints", "classYoshiValley.html#abc089e9b67d8625d8a2f2905f8be07b8", null ],

@@ -32,6 +32,7 @@ var searchData=
   ['ctlentry_29',['CtlEntry',['../structCtlEntry.html',1,'']]],
   ['cup_30',['Cup',['../classCup.html',1,'']]],
   ['cuptimetrialrecords_31',['CupTimeTrialRecords',['../structCupTimeTrialRecords.html',1,'']]],
-  ['cutscene_32',['Cutscene',['../structCutscene.html',1,'']]],
-  ['cutscenesplinepoint_33',['CutsceneSplinePoint',['../structCutsceneSplinePoint.html',1,'']]]
+  ['customtrack_32',['CustomTrack',['../classCustomTrack.html',1,'']]],
+  ['cutscene_33',['Cutscene',['../structCutscene.html',1,'']]],
+  ['cutscenesplinepoint_34',['CutsceneSplinePoint',['../structCutsceneSplinePoint.html',1,'']]]
 ];

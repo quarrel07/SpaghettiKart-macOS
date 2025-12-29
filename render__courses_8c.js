@@ -1,13 +1,12 @@
 var render__courses_8c =
 [
+    [ "draw_transparent_geography", "render__courses_8c.html#a04b70c3630b91fe34b2675f04d544364", null ],
     [ "func_80290C20", "render__courses_8c.html#a9a9119b96bf015cf8b5a168485f67e3f", null ],
     [ "func_80291198", "render__courses_8c.html#aee88ee3e4f8a82e2e6135f10370570a4", null ],
-    [ "func_8029122C", "render__courses_8c.html#aed717b70ea311e1f2f85f7f2d14fca70", null ],
     [ "func_80295BF8", "render__courses_8c.html#a37ee937c815f25140e16f2ae6c528a73", null ],
     [ "func_80295C6C", "render__courses_8c.html#ab02cdf6684f984a12e7388fe973bc89a", null ],
     [ "func_80295D50", "render__courses_8c.html#acfcbf9a4823e15ce73fef8bb3389b314", null ],
     [ "func_80295D6C", "render__courses_8c.html#a95e4ea5c2df6f334ba984f7383834ec7", null ],
-    [ "func_802966A0", "render__courses_8c.html#a428cc27389999396856d940f3c74b2bc", null ],
     [ "parse_track_displaylists", "render__courses_8c.html#ac97a07076b3e301db5da93c0fe8f0500", null ],
     [ "render_track", "render__courses_8c.html#a7d24f6742649a89302bce107d4460779", null ],
     [ "render_track_sections", "render__courses_8c.html#aa2d036c2083162fb6a9fe86ebd20386b", null ],

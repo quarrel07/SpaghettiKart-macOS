@@ -7,7 +7,7 @@ var classRainbowRoad =
     [ "Draw", "classRainbowRoad.html#a36bac99e09736af6457205509dcd4f0c", null ],
     [ "DrawCredits", "classRainbowRoad.html#adcd9bcda415c7270fdbf4e7eee5bcfa9", null ],
     [ "DrawTrackObjects", "classRainbowRoad.html#ab0ee0c7304d5d0a2a8a1e7ef887c37d3", null ],
-    [ "DrawWater", "classRainbowRoad.html#a05491e02bc5f80cacc2d9e2a6727eb56", null ],
+    [ "DrawTransparency", "classRainbowRoad.html#a0f269e780663666f5e8b185be30a96da", null ],
     [ "InitClouds", "classRainbowRoad.html#abdbd5717ef5154aa41dc2b91642237e4", null ],
     [ "InitTrackObjects", "classRainbowRoad.html#aa38418b79ecf5a33c67aa7b01bc2c24c", null ],
     [ "Load", "classRainbowRoad.html#af83c2c751a88907d8f2870fb407cb044", null ],

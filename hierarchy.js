@@ -386,6 +386,7 @@ var hierarchy =
     [ "ParticleEmitter", "classParticleEmitter.html", [
       [ "StarEmitter", "classStarEmitter.html", null ]
     ] ],
+    [ "MK64::Paths::PathObject", "structMK64_1_1Paths_1_1PathObject.html", null ],
     [ "PersistentPool", "structPersistentPool.html", null ],
     [ "PiranhaPlant", "structPiranhaPlant.html", null ],
     [ "pfd::internal::platform", "classpfd_1_1internal_1_1platform.html", [
@@ -537,6 +538,7 @@ var hierarchy =
       [ "BlockFort", "classBlockFort.html", null ],
       [ "BowsersCastle", "classBowsersCastle.html", null ],
       [ "ChocoMountain", "classChocoMountain.html", null ],
+      [ "CustomTrack", "classCustomTrack.html", null ],
       [ "DKJungle", "classDKJungle.html", null ],
       [ "DoubleDeck", "classDoubleDeck.html", null ],
       [ "FrappeSnowland", "classFrappeSnowland.html", null ],

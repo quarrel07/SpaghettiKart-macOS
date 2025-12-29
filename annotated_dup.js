@@ -211,6 +211,7 @@ var annotated_dup =
     [ "CtlEntry", "structCtlEntry.html", "structCtlEntry" ],
     [ "Cup", "classCup.html", "classCup" ],
     [ "CupTimeTrialRecords", "structCupTimeTrialRecords.html", "structCupTimeTrialRecords" ],
+    [ "CustomTrack", "classCustomTrack.html", "classCustomTrack" ],
     [ "Cutscene", "structCutscene.html", "structCutscene" ],
     [ "CutsceneSplinePoint", "structCutsceneSplinePoint.html", "structCutsceneSplinePoint" ],
     [ "D_80150158", "structD__80150158.html", "structD__80150158" ],
