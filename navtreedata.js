@@ -24,11 +24,11 @@
 */
 var NAVTREE =
 [
-  [ "Mario Kart 64", "index.html", [
+  [ "SpaghettiKart", "index.html", [
     [ "Actors", "actorsmenu.html", "actorsmenu" ],
-    [ "Understanding the Basics", "basics.html", "basics" ],
+    [ "Understanding the Basics", "basics.html", null ],
     [ "Building SpagettiKart", "md_docs_2BUILDING.html", [
-      [ "Windows", "md_docs_2BUILDING.html#windows-1", [
+      [ "Windows", "md_docs_2BUILDING.html#windows", [
         [ "Developing SpaghettiKart", "md_docs_2BUILDING.html#developing-spaghettikart", [
           [ "Visual Studio", "md_docs_2BUILDING.html#visual-studio", null ],
           [ "Visual Studio Code or another editor", "md_docs_2BUILDING.html#visual-studio-code-or-another-editor", null ]
@@ -38,18 +38,18 @@ var NAVTREE =
           [ "Clean", "md_docs_2BUILDING.html#clean", null ]
         ] ]
       ] ],
-      [ "Linux", "md_docs_2BUILDING.html#linux-1", [
+      [ "Linux", "md_docs_2BUILDING.html#linux", [
         [ "Clone the repo and enter the directory", "md_docs_2BUILDING.html#clone-the-repo-and-enter-the-directory", null ],
         [ "Manual", "md_docs_2BUILDING.html#manual", [
           [ "Install dependencies", "md_docs_2BUILDING.html#install-dependencies", [
             [ "Debian/Ubuntu", "md_docs_2BUILDING.html#debianubuntu", null ],
-            [ "Arch", "md_docs_2BUILDING.html#arch-1", null ],
-            [ "Fedora", "md_docs_2BUILDING.html#fedora-1", null ],
+            [ "Arch", "md_docs_2BUILDING.html#arch", null ],
+            [ "Fedora", "md_docs_2BUILDING.html#fedora", null ],
             [ "openSUSE", "md_docs_2BUILDING.html#opensuse", null ]
           ] ],
           [ "Build", "md_docs_2BUILDING.html#build", null ]
         ] ],
-        [ "Docker", "md_docs_2BUILDING.html#docker-1", [
+        [ "Docker", "md_docs_2BUILDING.html#docker", [
           [ "Create the docker container", "md_docs_2BUILDING.html#create-the-docker-container", null ],
           [ "Configure the project", "md_docs_2BUILDING.html#configure-the-project", null ],
           [ "Compile the project", "md_docs_2BUILDING.html#compile-the-project", null ]
@@ -59,7 +59,7 @@ var NAVTREE =
           [ "Clean", "md_docs_2BUILDING.html#clean-1", null ]
         ] ]
       ] ],
-      [ "macOS", "md_docs_2BUILDING.html#macos-1", [
+      [ "macOS", "md_docs_2BUILDING.html#macos", [
         [ "Generating a distributable", "md_docs_2BUILDING.html#generating-a-distributable", null ],
         [ "Additional CMake Targets", "md_docs_2BUILDING.html#additional-cmake-targets-2", [
           [ "Clean", "md_docs_2BUILDING.html#clean-2", null ]
@@ -70,42 +70,29 @@ var NAVTREE =
         [ "Runner on UNIX systems", "md_docs_2BUILDING.html#runner-on-unix-systems", null ]
       ] ]
     ] ],
+    [ "Custom characters", "md_docs_2characters_2overview.html", [
+      [ "Examples for all characters:", "md_docs_2characters_2overview.html#examples-for-all-characters", null ],
+      [ "Additional Files", "md_docs_2characters_2overview.html#additional-files", [
+        [ "Tips", "md_docs_2characters_2overview.html#tips", [
+          [ "Change Viewport Render Settings", "md_docs_2characters_2overview.html#change-viewport-render-settings", null ]
+        ] ],
+        [ "Tools To Help", "md_docs_2characters_2overview.html#tools-to-help", null ],
+        [ "Future plans", "md_docs_2characters_2overview.html#future-plans", null ]
+      ] ]
+    ] ],
     [ "Courses", "coursesmenu.html", "coursesmenu" ],
     [ "Custom Audio", "md_docs_2custom-audio.html", [
       [ "Example:", "md_docs_2custom-audio.html#example", null ],
-      [ "Future plans", "md_docs_2custom-audio.html#future-plans", null ]
+      [ "Future plans", "md_docs_2custom-audio.html#future-plans-1", null ]
     ] ],
     [ "Custom characters", "md_docs_2custom-characters.html", [
-      [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters", null ],
-      [ "Additional Files", "md_docs_2custom-characters.html#additional-files", [
+      [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters-1", null ],
+      [ "Additional Files", "md_docs_2custom-characters.html#additional-files-1", [
         [ "Tips", "md_docs_2custom-characters.html#tips-1", [
-          [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings", null ]
+          [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings-1", null ]
         ] ],
         [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help-1", null ],
         [ "Future plans", "md_docs_2custom-characters.html#future-plans-2", null ]
-      ] ]
-    ] ],
-    [ "Custom Track Overview", "md_docs_2custom-track.html", [
-      [ "Dependencies", "md_docs_2custom-track.html#dependencies", null ],
-      [ "Configuration", "md_docs_2custom-track.html#configuration", null ],
-      [ "Adding the surface", "md_docs_2custom-track.html#adding-the-surface", [
-        [ "Adding a Path", "md_docs_2custom-track.html#adding-a-path", [
-          [ "Path Point Alignment", "md_docs_2custom-track.html#path-point-alignment", null ]
-        ] ]
-      ] ],
-      [ "Prepare for export", "md_docs_2custom-track.html#prepare-for-export", null ],
-      [ "Export", "md_docs_2custom-track.html#export", [
-        [ "Mods Path", "md_docs_2custom-track.html#mods-path", null ],
-        [ "Name", "md_docs_2custom-track.html#name", null ]
-      ] ],
-      [ "Packaging", "md_docs_2custom-track.html#packaging", [
-        [ "Game Test", "md_docs_2custom-track.html#game-test", null ],
-        [ "Extra info", "md_docs_2custom-track.html#extra-info", null ]
-      ] ],
-      [ "Materials", "md_docs_2custom-track.html#materials", null ],
-      [ "Export", "md_docs_2custom-track.html#export-1", null ],
-      [ "Tips", "md_docs_2custom-track.html#tips", [
-        [ "Extra information that may be helpful", "md_docs_2custom-track.html#extra-information-that-may-be-helpful", null ]
       ] ]
     ] ],
     [ "faq", "md_docs_2faq.html", null ],
@@ -129,7 +116,7 @@ var NAVTREE =
       [ "New Folder Structure", "md_docs_2migrations.html#new-folder-structure", null ],
       [ "Manual Migration", "md_docs_2migrations.html#manual-migration", null ],
       [ "Troubleshooting", "md_docs_2migrations.html#troubleshooting", null ],
-      [ "See Also", "md_docs_2migrations.html#see-also", null ]
+      [ "See Also", "md_docs_2migrations.html#see-also-1", null ]
     ] ],
     [ "Modding", "md_docs_2modding.html", [
       [ "General Structure", "md_docs_2modding.html#general-structure", [
@@ -154,7 +141,7 @@ var NAVTREE =
       [ "Load Order", "md_docs_2mods-toml.html#load-order", null ],
       [ "Best Practices", "md_docs_2mods-toml.html#best-practices", null ],
       [ "Migration Script Support", "md_docs_2mods-toml.html#migration-script-support", null ],
-      [ "See Also", "md_docs_2mods-toml.html#see-also-1", null ]
+      [ "See Also", "md_docs_2mods-toml.html#see-also", null ]
     ] ],
     [ "Sequence Information (Music)", "md_docs_2sequences-information.html", [
       [ "Race Tracks", "md_docs_2sequences-information.html#race-tracks", null ],
@@ -163,13 +150,83 @@ var NAVTREE =
     ] ],
     [ "Texture Pack", "md_docs_2textures-pack.html", [
       [ "Example:", "md_docs_2textures-pack.html#example-1", null ],
-      [ "Tools To Help", "md_docs_2textures-pack.html#tools-to-help", null ],
-      [ "Future plans", "md_docs_2textures-pack.html#future-plans-1", null ]
+      [ "Tools To Help", "md_docs_2textures-pack.html#tools-to-help-2", null ],
+      [ "Future plans", "md_docs_2textures-pack.html#future-plans-3", null ]
     ] ],
     [ "Returning Tracks", "md_docs_2track__returns.html", [
       [ "Specifically Used to help find music and to see how courses are adapted in the future including refer...", "md_docs_2track__returns.html#specifically-used-to-help-find-music-and-to-see-how-courses-are-adapted-in-the-future-including-references-too", null ],
       [ "Battle Courses", "md_docs_2track__returns.html#battle-courses-1", null ],
       [ "Mario Kart World Remixes", "md_docs_2track__returns.html#mario-kart-world-remixes", null ]
+    ] ],
+    [ "Export", "md_docs_2tracks_2export.html", [
+      [ "Quick Overview", "md_docs_2tracks_2export.html#quick-overview", null ],
+      [ "Setup", "md_docs_2tracks_2export.html#setup", null ],
+      [ "Export Panel", "md_docs_2tracks_2export.html#export-panel", null ],
+      [ "Packaging", "md_docs_2tracks_2export.html#packaging", null ]
+    ] ],
+    [ "Import", "md_docs_2tracks_2import.html", [
+      [ "Launch the Game", "md_docs_2tracks_2import.html#launch-the-game", [
+        [ "Resource Name", "md_docs_2tracks_2import.html#resource-name", null ],
+        [ "Name", "md_docs_2tracks_2import.html#name", null ],
+        [ "Debug Name", "md_docs_2tracks_2import.html#debug-name", null ],
+        [ "Track Length", "md_docs_2tracks_2import.html#track-length", null ]
+      ] ],
+      [ "Conclusion", "md_docs_2tracks_2import.html#conclusion", null ]
+    ] ],
+    [ "Materials", "md_docs_2tracks_2materials.html", null ],
+    [ "Minimap", "md_docs_2tracks_2minimap.html", [
+      [ "Format", "md_docs_2tracks_2minimap.html#format", null ],
+      [ "Tips", "md_docs_2tracks_2minimap.html#tips-2", null ],
+      [ "Option 1: Black Background, White Track", "md_docs_2tracks_2minimap.html#option-1-black-background-white-track", null ],
+      [ "Option 2: Transparent Background, White Track", "md_docs_2tracks_2minimap.html#option-2-transparent-background-white-track", null ],
+      [ "Export", "md_docs_2tracks_2minimap.html#export-1", null ],
+      [ "In-game configuration", "md_docs_2tracks_2minimap.html#in-game-configuration", null ]
+    ] ],
+    [ "Custom Track Overview", "md_docs_2tracks_2overview.html", [
+      [ "Dependencies", "md_docs_2tracks_2overview.html#dependencies", null ],
+      [ "Configuration", "md_docs_2tracks_2overview.html#configuration", null ],
+      [ "Adding the surface", "md_docs_2tracks_2overview.html#adding-the-surface", [
+        [ "Adding a Path", "md_docs_2tracks_2overview.html#adding-a-path", [
+          [ "Path Point Alignment", "md_docs_2tracks_2overview.html#path-point-alignment", null ]
+        ] ]
+      ] ],
+      [ "Prepare for export", "md_docs_2tracks_2overview.html#prepare-for-export", null ],
+      [ "Export", "md_docs_2tracks_2overview.html#export-2", [
+        [ "Mods Path", "md_docs_2tracks_2overview.html#mods-path", null ],
+        [ "Name", "md_docs_2tracks_2overview.html#name-1", null ]
+      ] ],
+      [ "Packaging", "md_docs_2tracks_2overview.html#packaging-1", [
+        [ "Game Test", "md_docs_2tracks_2overview.html#game-test", null ],
+        [ "Extra info", "md_docs_2tracks_2overview.html#extra-info", null ]
+      ] ],
+      [ "Materials", "md_docs_2tracks_2overview.html#materials-1", null ],
+      [ "Export", "md_docs_2tracks_2overview.html#export-3", null ]
+    ] ],
+    [ "Quick Reference", "md_docs_2tracks_2quick.html", [
+      [ "Track Details", "md_docs_2tracks_2quick.html#track-details", null ],
+      [ "The Laws of SpaghettiKart", "md_docs_2tracks_2quick.html#the-laws-of-spaghettikart", null ],
+      [ "Collision Surface Extra Types", "md_docs_2tracks_2quick.html#collision-surface-extra-types", null ]
+    ] ],
+    [ "Setup", "md_docs_2tracks_2setup.html", [
+      [ "Pre-requisites", "md_docs_2tracks_2setup.html#pre-requisites", null ],
+      [ "Install", "md_docs_2tracks_2setup.html#install", null ],
+      [ "Configure Fast64", "md_docs_2tracks_2setup.html#configure-fast64", null ]
+    ] ],
+    [ "Track Properties", "md_docs_2tracks_2track-properties.html", [
+      [ "Overview", "md_docs_2tracks_2track-properties.html#overview-1", null ],
+      [ "Environment", "md_docs_2tracks_2track-properties.html#environment", [
+        [ "AI", "md_docs_2tracks_2track-properties.html#ai", null ],
+        [ "Random Junk", "md_docs_2tracks_2track-properties.html#random-junk", null ]
+      ] ]
+    ] ],
+    [ "Troubleshooting", "md_docs_2tracks_2troubleshooting.html", [
+      [ "Players Spawn in the Air", "md_docs_2tracks_2troubleshooting.html#players-spawn-in-the-air", null ],
+      [ "Scaling Issues or Missing Geometry", "md_docs_2tracks_2troubleshooting.html#scaling-issues-or-missing-geometry", null ],
+      [ "Traversal Issues", "md_docs_2tracks_2troubleshooting.html#traversal-issues", [
+        [ "Driving Through Surfaces or onto Walls", "md_docs_2tracks_2troubleshooting.html#driving-through-surfaces-or-onto-walls", null ],
+        [ "Walls", "md_docs_2tracks_2troubleshooting.html#walls", null ]
+      ] ],
+      [ "Render Conflicts", "md_docs_2tracks_2troubleshooting.html#render-conflicts", null ]
     ] ],
     [ "Tutorials", "tutorials.html", "tutorials" ],
     [ "Bug List", "bug.html", null ],
@@ -245,76 +302,76 @@ var NAVTREEINDEX =
 "code__80057C60__var_8c.html#af72019c3e82b38b6c56722fa3364f5ab",
 "code__80086E70_8h.html#a1f0fde2692bce3bdc66b359029862295",
 "collision_8c.html#a6ea8b20f38e63c1b1157923085c8e306",
-"course__offsets_8h.html#ac521a9b6b1f1c0da4e40cc92a9b69879",
-"defines_8h.html#a698be281bf8b3216136b9440f534ca11ae5ebed8f202b292a95a6ae89e1adad49",
-"dir_772aa234f18051b47781854f12652ef1.html",
-"effects_8h.html#a2b56b5e7f811e4e0997c981ded95b890",
-"external_8c.html#ab0bfb7cffddcc44088e32d500b44aa63",
-"functions_m.html",
-"globals_m.html",
-"heap_8c.html#a2243e084612157cb2eb4ca114b6669b4",
-"kart__attributes_8c.html#a53535b5e8a0d8288195252ba4fb124d7",
-"koopa__troopa__beach_2course__offsets_8c.html#ad3afcd646013b41839b024849013b0ad",
-"load_8h.html#afffbf9a87f813e52ed7cf238f21a0405",
-"main_8h.html#a231e273fa0039dced19efec6888f12a4",
-"math__util_8h.html#a396a7f661d0230a93577a3af855851f3",
-"matrix_8h.html#a9ef6071383d568157006b80585c37431",
-"menu__items_8c.html#a23c443145e1ff12d71d7998c6fec8625",
-"menu__items_8c.html#aa33715ca86a2ae66fd6b5027a4bc3937",
-"menu__items_8h.html#a1227fcab0356080cbec4484c89b90108",
-"menu__items_8h.html#a31cc948c533418a21dcf7a153f44c7ec",
-"menu__items_8h.html#aa2124953cc8c7a68a3567eff662ed96c",
-"menus_8c.html#adb265aebc678c823d5bbf1c1a24f641a",
-"miniaudio_8h.html#a080f9deb23a563b4106a66d48dc4ab31",
-"miniaudio_8h.html#a3de50d813bfee47a833ed60691238f33",
-"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5a87ec34a5ce1f50967bbd0ffcfd9a0846",
-"miniaudio_8h.html#a90a9fb5b7f6ca9f28ecc2b6276bc29ce",
-"miniaudio_8h.html#abba9cd3ebedf77c4303ef342b3e0bc31",
-"miniaudio_8h.html#adbfae0dff7b59a3a4e1133595d8f5db6a15760257770d78247e1c8b1da74ddb8e",
-"mixer_8h.html#a07de26130bb1ee8c876f31e4b5a93dbf",
-"namespaceGameUI.html#a291610a1b19acbf05b97d3512a50c78f",
-"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2fa2a6ba71f7e292c424321a64637405",
-"osCreateViManager_8c.html#a0edac8108eba6f1352c1ab8821052178",
-"osint_8h.html#ae7860f826ed77c96b9a22078399d4528",
-"playback_8c.html#ab7a932f7c71e6b0511e3dbff42208251",
-"player__controller_8h.html#a3e181a69c334b7265a041f85b409b2f6",
-"port__eu_8h.html#a3b612c6ae414558b0907e9673ee3f51e",
-"render__courses_8c.html#ac97a07076b3e301db5da93c0fe8f0500",
-"render__objects_8c.html#a8d4e8d72d37c51a383106cf3ed3614d2",
-"render__objects_8h.html#a2e1c83693f564f57e277b882dad247f7",
-"render__objects_8h.html#ad0083ceac7956d34f2360c5bdc9d9a9a",
-"render__player_8h.html#aa87c9168e829f546f2d8fa0f5b4baf5e",
-"save_8h.html#a7363b8763617751dc18ca9d522b206e8",
-"ship2__model_8h.html",
-"ship__model_8h.html#aea003e5664538901de16f365339052ce",
-"sounds_8h.html#a462955cf4ece430059af4e4185a8727cac48d675bd3b7f0c0b0abcac5d1b8250b",
-"starship__model_8c.html#a6995972a9b8c39ac2cbfee728773eaec",
-"structAnimation.html#a2a8a3545ade56f6716c5af36d4b0b4c3",
-"structCollisionTriangle.html#a7a24b29415e8ecf25171248862d87f94",
-"structItemInfo.html#ae5b4c106a06650259d727eeb2c7b348a",
-"structNoteSynthesisState.html#a96e468829068c5e470ad2d4b7fd904bb",
-"structPlayer.html#a9df507c28783c74a597f319400ddea47",
-"structSF64_1_1MsgLookup.html#a1863ff8dc0ab9f3ad18b199d380f5e47",
-"structSequencePlayer.html#a7e090be80fe2c356047cce6da6ce9dcc",
-"structTrainCar.html#a56993587fa0526769f92973539dfaf43",
-"structUnkPlayerStruct258.html#a19511fc0c4d6cebf33ee2aae3eec0424",
-"struct____OSContRamReadFormat.html#ac7055b12a1eea87e08f289451465976c",
-"structma__audio__buffer__config.html#ace86689d2c6365c5cc13af823ead7fc7",
-"structma__decoder__config.html#a9ff07f790090caaeceb066ec1e77d4cb",
-"structma__engine__config.html#aa1ac7dc209aabcba6ded4f03f12b99d9",
-"structma__lpf1.html#aff78ab46af65610f2a31a4b027a33bb0",
-"structma__resource__manager__data__buffer.html#a6404cfc3672860c85f7cc52e82bbac75",
-"structstruct__8018E060__entry.html#a29371cbcb0234333744decad0ae26888",
-"textures_2common__data_8h.html#a00a0d914cb7ca9004868eded30634ee7",
-"textures_8c.html#a3a815ace064a49c0fb7544ff75d56e77",
-"textures_8c.html#a9786e2a8160ade0d31d9ea28562d2d4d",
-"textures_8c.html#af2ffa7e21b32df198f55f0d0320acbec",
-"textures_8h.html#a46f747049f099e71a711fb2f6fe8f1b9",
-"textures_8h.html#aa49ff51c875d5e3d377f0b8d9b229762",
-"textures_8h.html#afdbd643906e4274239cd619b64269bbf",
-"track_8c.html#af84b9025cd6538a3954523283e16a4c1",
-"trig__tables__bss_8c.html#a00cbbf5fc2549e66b6cb61219d22e7c8",
-"update__objects_8c.html#ac31769d6520eb620744212bb98a35c67"
+"crash__screen_8c.html#a8ee6b6d898040145ae0f493d1ab48a1c",
+"defines_8h.html#a74e18d27f9159a88553a87917bddbca5",
+"dir_aaa78332c64cd49ee6c43aaa9045bd00.html",
+"effects_8h.html#a6aa473ccdc965ace0ce835cb1a57aeab",
+"external_8c.html#ac3e2470f80cfc0db8789b71b87dd8822",
+"functions_vars_o.html",
+"globals_vars_p.html",
+"heap_8c.html#a844355f3b2c07f18f8f1b2c66e12ecaf",
+"kart__attributes_8c.html#a86d120e13e764fffc57969c0c8ae4554",
+"libultra__internal_8h.html#a1ddbdaedccff6cdc15cc72d7e5c1d0fe",
+"macros_8h.html#a635e1ead21634c60d387a6602b27ada8",
+"main_8h.html#a4d789d195e6fdd4b69cd8a0dd40b0647",
+"math__util_8h.html#ab5aa72ca9c41c01a1cbf2933a856a3e3",
+"md_docs_2BUILDING.html#compile-the-project",
+"menu__items_8c.html#a1afef788f26591e1ca9153ab8f9559db",
+"menu__items_8c.html#a966fabbb659fa5fb95a5333baecbd50d",
+"menu__items_8h.html#a0c2a74a8dabd4f7ae507e09a386908b8",
+"menu__items_8h.html#a265d6816ce4b1f28f0c26e1ac3e7b1bb",
+"menu__items_8h.html#a9b4bf4b38acc15c1fa28b3659674ceb4",
+"menus_8c.html#ab03d9dd47a411a5ab79754c67662d5e8",
+"miniaudio_8h.html#a034de76c3462a7a40ee5fe4c237cf935",
+"miniaudio_8h.html#a3bdfb97d332d0a243fb463fb31c94a09ad4a4f7007abde195dcbc4d0935c7655c",
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5a432b5b84f49682fd535ca65a95540e0d",
+"miniaudio_8h.html#a8b7ea9c03dffe3e1a5811e318192deb4",
+"miniaudio_8h.html#ab8d953f7b99e7aedf98cd1d011586cc8",
+"miniaudio_8h.html#adb02b5f8ae33f8bfadad0324ef70ed15",
+"mixer_8c.html#ab3b813cf20d66199744eff3099b24773",
+"moon__jump_8h.html",
+"namespaceUIWidgets.html#a83c40bba2a716d522071564c7fb40fd8",
+"osCreatePiManager_8c.html#a05f26736bbb41b551bde5cacc1571cdf",
+"osint_8h.html#a359a7a14acda8314d35aaf1019425e18",
+"playback_8c.html#a1d9c0dd4a7db097c7e209f944749ee20",
+"player__controller_8h.html#a2961e04015ab7e85e5a74a8eef36b9e9",
+"port__eu_8c.html#aad66eff8263b946ec99e576b961482c8",
+"random_8h_source.html",
+"render__objects_8c.html#a8529c96be58e31ec0cced65c056be1b6",
+"render__objects_8h.html#a243a75e7ef0be2d20cd71e4324d3dfa8",
+"render__objects_8h.html#abecbd1a1b07837fa3a4f1c69c858c2d8",
+"render__player_8h.html#a8109b3c68fbea07a9bd97c7c420849bb",
+"save_8h.html#a3d6cfb32ce3dab7f887b09289d6db6cb",
+"ship2__model_8c.html#ab86c870cc746540bfd09d1223caa5958",
+"ship__model_8h.html#a9f334afd6ecef2346c2410ea9e47336b",
+"sounds_8h.html#a462955cf4ece430059af4e4185a8727ca7003ace5d278d0f6d649d940fa232383",
+"staff__ghost__data_8h.html#a999f4f9a80eeb503c404414fa1f136d8",
+"structAdsrState.html#a5c9ed6e83b658cb0c9567066c944b64b",
+"structCollision.html#a9c9c78507d9c1f48a33d8555ff3c5f38",
+"structItemBox.html#a0da3ae45931357d0c3e53712f842069d",
+"structNoteSubEu.html#ab0d257defe24dd445d63bc2da57eeda8",
+"structPlayer.html#a681f0fac4abe58cf5919dd4c6ac503d0",
+"structSF64_1_1JointKey.html#aa39df1481a90d2fe9a681d4fe1fcdfb5",
+"structSequencePlayer.html",
+"structTrackPositionFactorInstruction.html#a46784a36fc904e298d2b043a334ae27a",
+"structUnkPlayerInner.html#a1b2f4f249c6532e70ed948ab667c2217",
+"structYoshiValleyEgg.html#ab647b34e2ed6932e70aba54660ef07ee",
+"structma__async__notification__poll.html",
+"structma__decoder.html#ad14a7f9e20dfd46e238f96d51d46f18f",
+"structma__engine.html#aee0d13f0fa49caa912b398ab8949c299",
+"structma__loshelf__node__config.html#ad3cad2e838afe51af1f5f32d84d8568d",
+"structma__resource__manager__config.html#ab8495e10b892d7b2bf6c3d7ab868bb4c",
+"structprintf__struct.html#ac36c05d65fbddf415770d5064ba9821b",
+"synthesis_8h_source.html",
+"textures_8c.html#a35dc3d6d268cb8a7ead3a4a9c8c2deab",
+"textures_8c.html#a915bf52dd62eebe01abec5d8e0012365",
+"textures_8c.html#aec5a5ff05daf0b427a98526493ff05f0",
+"textures_8h.html#a42d28431f00eebf97c45e5c96bd7cd1f",
+"textures_8h.html#a9e3fe56733421390fcbc2725ba6c3a5a",
+"textures_8h.html#af7e986ebb9347f2b044accec15bbbf20",
+"track_8c.html#adecf492c6fcca6fa8caa1d7e9972f3b4",
+"trees_2render_8inc_8c.html#ac3dbf52efe3d23fca8e5de6bc11a6c27",
+"update__objects_8c.html#ab41f725550186878218b0d8b3b0fa5d4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

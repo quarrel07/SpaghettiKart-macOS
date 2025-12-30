@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['ramps_0',['Boost Ramps',['../boostramps.html',1,'tutorials']]],
-  ['returning_20tracks_1',['Returning Tracks',['../md_docs_2track__returns.html',1,'']]]
+  ['sequence_20information_20music_0',['Sequence Information (Music)',['../md_docs_2sequences-information.html',1,'']]],
+  ['setup_1',['Setup',['../md_docs_2tracks_2setup.html',1,'']]],
+  ['spagettikart_2',['Building SpagettiKart',['../md_docs_2BUILDING.html',1,'']]],
+  ['spaghettikart_3',['SpaghettiKart',['../index.html',1,'']]],
+  ['structure_4',['mods.toml File Structure',['../md_docs_2mods-toml.html',1,'']]],
+  ['surface_20types_5',['Surface Types',['../surfacetypes.html',1,'coursesmenu']]]
 ];

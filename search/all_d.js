@@ -12,5 +12,6 @@ var searchData=
   ['jobthreadstacksize_9',['jobThreadStackSize',['../structma__resource__manager__config.html#a8c0ae46c21a801dd8160dd013c2f5175',1,'ma_resource_manager_config']]],
   ['jointkey_10',['JointKey',['../structSF64_1_1JointKey.html',1,'SF64']]],
   ['jointkey_11',['jointKey',['../structSF64_1_1AnimationData.html#a48ba7a894c1a547a613999f61d98055c',1,'SF64::AnimationData::jointKey'],['../classSF64_1_1Animation.html#a14bc9cb354ec1277e91d6bcd038ba460',1,'SF64::Animation::jointKey']]],
-  ['junk_12',['junk',['../render__player_8c.html#a44f82379da23af7f0aeeb7ae27131a1a',1,'render_player.c']]]
+  ['junk_12',['Random Junk',['../md_docs_2tracks_2track-properties.html#random-junk',1,'']]],
+  ['junk_13',['junk',['../render__player_8c.html#a44f82379da23af7f0aeeb7ae27131a1a',1,'render_player.c']]]
 ];
