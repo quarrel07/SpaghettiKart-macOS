@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SpaghettiKart: src/enhancements/collision_viewer.h File Reference</title>
+<title>SpaghettiKart: Troubleshooting</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('collision__viewer_8h.html',''); initResizable(true); });
+$(function(){initNavTree('troubleshooting.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,66 +104,72 @@ $(function(){initNavTree('collision__viewer_8h.html',''); initResizable(true); }
 </div>
 </div>
 
-<div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">collision_viewer.h File Reference</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Troubleshooting</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;libultraship.h&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for collision_viewer.h:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="collision__viewer_8h__incl.svg" width="210" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="collision__viewer_8h__dep__incl.svg" width="598" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<p><a href="collision__viewer_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:afaee40683a3ae56cae11b2c5687e3328" id="r_afaee40683a3ae56cae11b2c5687e3328"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaee40683a3ae56cae11b2c5687e3328">render_collision</a> (void)</td></tr>
-<tr class="separator:afaee40683a3ae56cae11b2c5687e3328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="afaee40683a3ae56cae11b2c5687e3328" name="afaee40683a3ae56cae11b2c5687e3328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaee40683a3ae56cae11b2c5687e3328">&#9670;&#160;</a></span>render_collision()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void render_collision </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo</a></b></dt><dd>decide to use colours or textures and fix displaylists because they are buggy </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="collision__viewer_8h_afaee40683a3ae56cae11b2c5687e3328_cgraph.svg" width="100%" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="collision__viewer_8h_afaee40683a3ae56cae11b2c5687e3328_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="troubleshooting-1"></a>
+Troubleshooting</h1>
+<h2><a class="anchor" id="players-spawn-in-the-air"></a>
+Players Spawn in the Air</h2>
+<p>Players and actors are placed at 3000.0 if the game cannot find a surface</p><ul>
+<li>The surface must be a plane not a cube</li>
+<li>Must be surface from (0,0,0) to (0,0,-420) in Blender units this is (0,-16.8,0) like so: <img src="https://github.com/user-attachments/assets/71566a5b-06b5-4a95-829a-1f9edde3c530" alt="image" width="600" class="inline"/></li>
+<li>The surface must be set to default clip or surface. Clip none means players can drive through the mesh <img src="image.png" alt="alt text" class="inline"/></li>
+</ul>
+<h2><a class="anchor" id="scaling-issues-or-missing-geometry"></a>
+Scaling Issues or Missing Geometry</h2>
+<ul>
+<li>Set scale in the Fast64 export panel between 20-25. Recommended 25.</li>
+<li>Select the geometry, press CTRL+A and click <code>Apply Transformations</code></li>
+</ul>
+<h2><a class="anchor" id="traversal-issues"></a>
+Traversal Issues</h2>
+<p>Certain rules must be followed for players to correctly traverse from one mesh to another mesh.</p>
+<h3><a class="anchor" id="driving-through-surfaces-or-onto-walls"></a>
+Driving Through Surfaces or onto Walls</h3>
+<ul>
+<li>The first example below will result in players ignoring the ramp. They will drive through the ramping geography keeping to the current racing surface.</li>
+<li>The second example correctly transfers the player onto the ramp.</li>
+</ul>
+<p><img src="image-11.png" alt="image" width="400" class="inline"/></p>
+<ul>
+<li>Players always stick to their current surface unless it ends and another begins. The below also does not consitute as good practice.</li>
+</ul>
+<p><img src="image-12.png" alt="image" width="400" class="inline"/></p>
+<ul>
+<li>The above variation will result in the player sticking to the original ground and not transferring to the ramp.</li>
+</ul>
+<h3><a class="anchor" id="walls"></a>
+Walls</h3>
+<ul>
+<li>The harsh angle of this wall will likely work as intended. However, it may result in unknown behaviour and as such is not good practice.</li>
+<li>The bottom of the wall should perfectly align with the surface for it to work reliably as a wall. Any gaps can be driven through.</li>
+</ul>
+<p><img src="image-13.png" alt="image" width="400" class="inline"/></p>
+<ul>
+<li>Here is an example of good modelling practices</li>
+</ul>
+<p><img src="image-14.png" alt="image" width="400" class="inline"/></p>
+<h2><a class="anchor" id="render-conflicts"></a>
+Render Conflicts</h2>
+<p>In-game example:</p>
+<p><img src="image-15.png" alt="image" width="160" class="inline"/></p>
+<p>Another example:</p>
+<p><img src="image-16.png" alt="image" width="360" class="inline"/></p>
+<ul>
+<li>Observe that two separate mesh objects are overlapping each other. Solve this by adding more vertices to the objects and connecting the vertices together:</li>
+</ul>
+<p><img src="image-17.png" alt="image" width="360" class="inline"/></p>
+<p>This may seem tedius. Especially if you rely on the extrude tool to make the track. However, there are other tools and tricks that help prevent this issue from happening as much</p>
+<p>Source: <a href="https://github.com/DeadHamster35/Tarmac64/wiki/Troubleshooting">https://github.com/DeadHamster35/Tarmac64/wiki/Troubleshooting</a> </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_b45e97d39ecfe8040b4610d59570e474.html">enhancements</a></li><li class="navelem"><a class="el" href="collision__viewer_8h.html">collision_viewer.h</a></li>
+    <li class="navelem"><a class="el" href="trackmenu.html">Track Making</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SpaghettiKart: Troubleshooting</title>
+<title>SpaghettiKart: Quick Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('md_docs_2tracks_2troubleshooting.html',''); initResizable(true); });
+$(function(){initNavTree('quick.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,69 +105,62 @@ $(function(){initNavTree('md_docs_2tracks_2troubleshooting.html',''); initResiza
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Troubleshooting</div></div>
+  <div class="headertitle"><div class="title">Quick Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="troubleshooting-1"></a></p>
-<h1><a class="anchor" id="players-spawn-in-the-air"></a>
-Players Spawn in the Air</h1>
-<p>Players and actors are placed at 3000.0 if the game cannot find a surface</p><ul>
-<li>The surface must be a plane not a cube</li>
-<li>Must be surface from (0,0,0) to (0,0,-420) in Blender units this is (0,-16.8,0) like so: <img src="https://github.com/user-attachments/assets/71566a5b-06b5-4a95-829a-1f9edde3c530" alt="image" width="600" class="inline"/></li>
-<li>The surface must be set to default clip or surface. Clip none means players can drive through the mesh <img src="image.png" alt="alt text" class="inline"/></li>
+<div class="textblock"><h1><a class="anchor" id="quick-reference"></a>
+Quick Reference</h1>
+<p>Important details without the steps</p>
+<h2><a class="anchor" id="track-details"></a>
+Track Details</h2>
+<p>Path Points: ~800 (any number is fine) <a class="el" href="structTriangle.html">Triangle</a> Count: Original tracks average ~6000 triangles</p><ul>
+<li>SpaghettiKart will start losing fps after ~100k triangles</li>
 </ul>
-<h1><a class="anchor" id="scaling-issues-or-missing-geometry"></a>
-Scaling Issues or Missing Geometry</h1>
+<p>Starting Line Width: 1.75 units <br  />
+ <a class="el" href="classTrack.html">Track</a> Boundaries: +-32767.0 in Blender units this is +-1310.68 (32767 / 25)</p><ul>
+<li><a class="el" href="structNote.html">Note</a> that this allows a very big track</li>
+</ul>
+<p><a class="el" href="classTrack.html">Track</a> Widths:</p><ul>
+<li>Wide: 1.5 points to 2.7 points.</li>
+<li>Medium: 1.5 points to 1 point.</li>
+<li>Narrow: 1 point to 0.5.*</li>
+</ul>
+<h2><a class="anchor" id="the-laws-of-spaghettikart"></a>
+The Laws of SpaghettiKart</h2>
 <ul>
-<li>Set scale in the Fast64 export panel between 20-25. Recommended 25.</li>
-<li>Select the geometry, press CTRL+A and click <code>Apply Transformations</code></li>
+<li><a class="el" href="classTrack.html">Track</a> geography must be a plane, not a box<ul>
+<li>A flat track with a basic plane (square), needs to be turned into triangules and/or subdivided a few times, otherwise the collision generation will 'wig out', placing the racers incorrectly</li>
 </ul>
-<h1><a class="anchor" id="traversal-issues"></a>
-Traversal Issues</h1>
-<p>Certain rules must be followed for players to correctly traverse from one mesh to another mesh.</p>
-<h2><a class="anchor" id="driving-through-surfaces-or-onto-walls"></a>
-Driving Through Surfaces or onto Walls</h2>
-<ul>
-<li>The first example below will result in players ignoring the ramp. They will drive through the ramping geography keeping to the current racing surface.</li>
-<li>The second example correctly transfers the player onto the ramp.</li>
+</li>
+<li>The starting line must face north<ul>
+<li>In Blender: Positive Green Y Axis</li>
+<li>In game: Negative Z axis</li>
 </ul>
-<p><img src="image-11.png" alt="image" width="400" class="inline"/></p>
-<ul>
-<li>Players always stick to their current surface unless it ends and another begins. The below also does not consitute as good practice.</li>
+</li>
+<li>The meshes anchor needs to be center of mass or at 0,0,0<ul>
+<li>Otherwise the mesh will have a weird offset.</li>
 </ul>
-<p><img src="image-12.png" alt="image" width="400" class="inline"/></p>
-<ul>
-<li>The above variation will result in the player sticking to the original ground and not transferring to the ramp.</li>
+</li>
+<li>Do not draw your path backwards (In blender turn on normals on the bezier curve to see the direction)</li>
+<li>The first path point is set at 0,0,0</li>
+<li>Recommend a scaling of 25 in the F3D Exporter window</li>
+<li>Must be 10 path points behind the starting line</li>
 </ul>
-<h2><a class="anchor" id="walls"></a>
-Walls</h2>
-<ul>
-<li>The harsh angle of this wall will likely work as intended. However, it may result in unknown behaviour and as such is not good practice.</li>
-<li>The bottom of the wall should perfectly align with the surface for it to work reliably as a wall. Any gaps can be driven through.</li>
+<h1><a class="anchor" id="collision-surface-extra-types"></a>
+Collision Surface Extra Types</h1>
+<p>Colouring vertices the following colours will set these actions for that area.</p><ul>
+<li><a class="el" href="structPlayer.html">Player</a> Tumbles: RGB(153, 0, 153)</li>
+<li>No <a class="el" href="structCollision.html">Collision</a>: RGB(0, 153, 153)</li>
+<li>Darkens the player: RGB(255, 0, 0)</li>
+<li>Out of Bounds: RGB(230, 204, 0) </li>
 </ul>
-<p><img src="image-13.png" alt="image" width="400" class="inline"/></p>
-<ul>
-<li>Here is an example of good modelling practices</li>
-</ul>
-<p><img src="image-14.png" alt="image" width="400" class="inline"/></p>
-<h1><a class="anchor" id="render-conflicts"></a>
-Render Conflicts</h1>
-<p>In-game example:</p>
-<p><img src="image-15.png" alt="image" width="160" class="inline"/></p>
-<p>Another example:</p>
-<p><img src="image-16.png" alt="image" width="360" class="inline"/></p>
-<ul>
-<li>Observe that two separate mesh objects are overlapping each other. Solve this by adding more vertices to the objects and connecting the vertices together:</li>
-</ul>
-<p><img src="image-17.png" alt="image" width="360" class="inline"/></p>
-<p>This may seem tedius. Especially if you rely on the extrude tool to make the track. However, there are other tools and tricks that help prevent this issue from happening as much</p>
-<p>Source: <a href="https://github.com/DeadHamster35/Tarmac64/wiki/Troubleshooting">https://github.com/DeadHamster35/Tarmac64/wiki/Troubleshooting</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="trackmenu.html">Track Making</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

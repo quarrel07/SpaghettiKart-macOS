@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SpaghettiKart: Track Properties</title>
+<title>SpaghettiKart: Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('md_docs_2tracks_2track-properties.html',''); initResizable(true); });
+$(function(){initNavTree('characteroverview.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,35 +105,63 @@ $(function(){initNavTree('md_docs_2tracks_2track-properties.html',''); initResiz
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Track Properties</div></div>
+  <div class="headertitle"><div class="title">Overview</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="track-properties"></a></p>
-<p><a class="el" href="classTrack.html">Track</a> Props contains the track data that the modern C++ interface sends into the C game engine. This allows complete configuration of the track from lighting, skybox, and environment, to CPU pathing, minimap, and music.</p>
-<h1><a class="anchor" id="overview-1"></a>
-Overview</h1>
-<p>The following settings are available. Most of these are straight forward.</p>
-<p><img src="image-20.png" alt="alt text" class="inline"/> </p>
-<h1><a class="anchor" id="environment"></a>
-Environment</h1>
-<p>Light 1 is unused. Use Light 2.</p>
-<h2><a class="anchor" id="ai"></a>
-AI</h2>
-<p>This allows adjusting how precise the CPUs steering is, and the separation between CPUs.</p>
+<div class="textblock"><h1><a class="anchor" id="custom-characters"></a>
+Custom characters</h1>
+<p>Custom characters can only replace existing characters for now.</p>
+<ol type="1">
+<li>Download the Kart Setup blender file included with this post(Slightly altered .blender file provided by the Overkart server with some adjustments to the animation to export for Spaghetti, thanks again Andrat for permission to post this and a huge thanks to the Overkart 64 community in general.) <a href="MK64_Spaghetti_Adjusted_Kart_Setup.blend">Kart Setup.blend</a></li>
+<li>Replace Mario with your character, and handle weights of the skeleton as needed to make them move properly.</li>
+<li>Set the path a valid one(the included path is what Andrat had setup for his original kart setup) but make sure the name matches a listed kart name below and ends with ###, this will ensure it is 3 digits(example path/to/export/toad_kart/toad_kart_frame###)</li>
+<li>Render the animation at whatever power of 2 of 64x64 you want(64x64, 128x128, 256x256 and so on),</li>
+<li>In the above toad example, zip up the toad_kart folder and rename it to a .o2r file.</li>
+<li>Put it in mods folder and run.</li>
+</ol>
+<h1><a class="anchor" id="examples-for-all-characters"></a>
+Examples for all characters:</h1>
+<p>mario_kart/mario_kart_frame###</p>
+<p>luigi_kart/luigi_kart_frame###</p>
+<p>peach_kart/peach_kart_frame###</p>
+<p>wario_kart/wario_kart_frame###</p>
+<p>toad_kart/toad_kart_frame###</p>
+<p>donkeykong_kart/donkeykong_kart_frame###</p>
+<p>bowser_kart/bowser_kart_frame###</p>
+<p>yoshi_kart/yoshi_kart_frame###</p>
+<h1><a class="anchor" id="additional-files"></a>
+Additional Files</h1>
+<p>Some other files to look out for(still using toad as a example)</p>
+<p>placement icon = common_data/common_texture_portrait_toad.png Original frame is 32x32</p>
+<p>player selection frames = player_selection/toad_face_00.png ~ toad_face_16.png Original frames is 64x64 (note that Donkeykong uses donkey_kong here instead)</p>
+<p>player select nameplate = texture_tkmk00/gTextureNameToad.png Original frame is 64x12 (note that Donkeykong uses DK here instead)</p>
+<h2><a class="anchor" id="tips"></a>
+Tips</h2>
+<h3><a class="anchor" id="change-viewport-render-settings"></a>
+Change Viewport Render Settings</h3>
+<p>Assuming your using the overkart setup kart.</p>
+<p>In object mode, select View -&gt; Cameras -&gt; Active <a class="el" href="structCamera.html">Camera</a></p>
+<p>Set your render resolution and path as shown in the image below</p>
+<p>Then render your animation by selecting View -&gt; Viewport Render <a class="el" href="structAnimation.html">Animation</a></p>
+<p><img src="change_viewport.png" alt="Viewport Render Settings" class="inline"/></p>
+<h2><a class="anchor" id="tools-to-help"></a>
+Tools To Help</h2>
 <ul>
-<li>This section sets AI distance * lap. The first 8 elements are first lap 1, the next 8 lap 2, etc. The first element is for the player in-first, etc.</li>
+<li>There is <a href="https://vinievex.itch.io/racer-ready-up">Racer Ready-Up</a> which is a tool to help you create custom characters for SpaghettiKart.</li>
 </ul>
-<p><img src="image-19.png" alt="alt text" class="inline"/></p>
-<h2><a class="anchor" id="random-junk"></a>
-Random Junk</h2>
-<p>This section effects the speed of the CPUs. Whether they should slow down or speed up in corners, and how fast they should go when they are not on the track.</p>
-<p><img src="image-21.png" alt="alt text" class="inline"/> </p>
+<h2><a class="anchor" id="future-plans"></a>
+Future plans</h2>
+<ul>
+<li>Support for custom characters that do not replace existing ones.</li>
+<li>Support 3d models for characters. </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="charactermenu.html">Make a Character</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
