@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"structUnkPlayerInner.html#a1b2f4f249c6532e70ed948ab667c2217":[19,0,475,11],
 "structUnkPlayerInner.html#a411a2931ba90692633c291543c38163a":[19,0,475,1],
 "structUnkPlayerInner.html#a62b0fad46596d22a2232d524d23c9e9c":[19,0,475,0],
 "structUnkPlayerInner.html#a6974d5df4db5e26209e24cb761cd8e1b":[19,0,475,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "structYoshiValleyEgg.html#a697fefc9791a902b358368460f28c6d4":[19,0,502,2],
 "structYoshiValleyEgg.html#a7486545052cc5b59e18bb1b39dad2be2":[19,0,502,7],
 "structYoshiValleyEgg.html#a89e9111131ab6793977cd6be47c76116":[19,0,502,5],
-"structYoshiValleyEgg.html#a8a74a2489416bb29ba6e5e404e8aeb91":[19,0,502,13],
-"structYoshiValleyEgg.html#ab647b34e2ed6932e70aba54660ef07ee":[19,0,502,11]
+"structYoshiValleyEgg.html#a8a74a2489416bb29ba6e5e404e8aeb91":[19,0,502,13]
 };

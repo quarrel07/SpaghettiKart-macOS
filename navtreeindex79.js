@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structSequencePlayer.html":[19,0,400],
 "structSequencePlayer.html#a0260b93511bdcf27891b0f497ff02e00":[19,0,400,14],
 "structSequencePlayer.html#a07bc22b391d39da9d53dfeb424bd6dc5":[19,0,400,23],
 "structSequencePlayer.html#a0b0f3b112fb525016beb1f99dc623221":[19,0,400,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structTrackPathSizes.html#aaf462a3a57bddc0f0a9490debc102485":[19,0,456,3],
 "structTrackPathSizes.html#abbdaf7f243acc56400170191904984e0":[19,0,456,5],
 "structTrackPathSizes.html#aded559c85cde383604176341268d1c21":[19,0,456,4],
-"structTrackPositionFactorInstruction.html":[19,0,457],
-"structTrackPositionFactorInstruction.html#a46784a36fc904e298d2b043a334ae27a":[19,0,457,2]
+"structTrackPositionFactorInstruction.html":[19,0,457]
 };

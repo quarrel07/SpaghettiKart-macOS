@@ -24,6 +24,7 @@ var trackmenu =
     ] ],
     [ "Quick Reference", "quick.html", [
       [ "Quick Reference", "quick.html#quick-reference", [
+        [ "Finishline mesh", "quick.html#finishline-mesh", null ],
         [ "Track Details", "quick.html#track-details", null ],
         [ "The Laws of SpaghettiKart", "quick.html#the-laws-of-spaghettikart", null ]
       ] ],

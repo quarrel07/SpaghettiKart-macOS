@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structTrackPositionFactorInstruction.html#a46784a36fc904e298d2b043a334ae27a":[19,0,457,2],
 "structTrackPositionFactorInstruction.html#a5f25add966a6ce37f6d287f2a4d483f2":[19,0,457,3],
 "structTrackPositionFactorInstruction.html#ab189b22b6caf0d4274609d53652b6399":[19,0,457,1],
 "structTrackPositionFactorInstruction.html#acb27a2a2fef47fad6ef25ad2fcd357ce":[19,0,457,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structUnkEntry.html#ad46156047649e90199e681da2eebbba8":[19,0,474,5],
 "structUnkEntry.html#aef0e777becde602f5c36c02e7146019f":[19,0,474,1],
 "structUnkPlayerInner.html":[19,0,475],
-"structUnkPlayerInner.html#a1aa4b5e2a92cf50b6806c08a8ab554ae":[19,0,475,5],
-"structUnkPlayerInner.html#a1b2f4f249c6532e70ed948ab667c2217":[19,0,475,11]
+"structUnkPlayerInner.html#a1aa4b5e2a92cf50b6806c08a8ab554ae":[19,0,475,5]
 };

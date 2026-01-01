@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structYoshiValleyEgg.html#ab647b34e2ed6932e70aba54660ef07ee":[19,0,502,11],
 "structYoshiValleyEgg.html#ac486de582beae25b78579fd195079111":[19,0,502,10],
 "structYoshiValleyEgg.html#ae635c1dc57de8906f0fa04d720564ff9":[19,0,502,0],
 "structYoshiValleyEgg.html#af69126005d92263176a9ab66e2d4672d":[19,0,502,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "structma__async__notification__callbacks.html#af1462948842345103f02a94781def42e":[19,0,160,0],
 "structma__async__notification__event.html":[19,0,161],
 "structma__async__notification__event.html#aa34f13f1c9e06eb7b34e37a88d80b8c7":[19,0,161,1],
-"structma__async__notification__event.html#ad1860ad24abcbf03414b1499e71f6dc1":[19,0,161,0],
-"structma__async__notification__poll.html":[19,0,162]
+"structma__async__notification__event.html#ad1860ad24abcbf03414b1499e71f6dc1":[19,0,161,0]
 };

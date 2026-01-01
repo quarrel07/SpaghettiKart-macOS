@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"trackoverview.html#name-1":[14,0,0,4,1],
 "trackoverview.html#packaging-1":[14,0,0,5],
 "trackoverview.html#path-point-alignment":[14,0,0,2,0,0],
 "trackoverview.html#prepare-for-export":[14,0,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "update__objects_8c.html#a86ecfc20b442abe52e3d3e0a20e9a55d":[20,0,3,68,78],
 "update__objects_8c.html#a8961519eebfc170539434d78a6fb1419":[20,0,3,68,106],
 "update__objects_8c.html#a8a1cc843647d4b8c608e86098075296a":[20,0,3,68,119],
-"update__objects_8c.html#a8aac0a69dfad37e485b339b3541d9d96":[20,0,3,68,19],
-"update__objects_8c.html#a8b4c61991cddbf212dac08c2de7d3224":[20,0,3,68,130]
+"update__objects_8c.html#a8aac0a69dfad37e485b339b3541d9d96":[20,0,3,68,19]
 };

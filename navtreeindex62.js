@@ -128,9 +128,10 @@ var NAVTREEINDEX62 =
 "profiler_8h_source.html":[20,0,3,55],
 "quick.html":[14,1],
 "quick.html#collision-surface-extra-types":[14,1,1],
+"quick.html#finishline-mesh":[14,1,0,0],
 "quick.html#quick-reference":[14,1,0],
-"quick.html#the-laws-of-spaghettikart":[14,1,0,1],
-"quick.html#track-details":[14,1,0,0],
+"quick.html#the-laws-of-spaghettikart":[14,1,0,2],
+"quick.html#track-details":[14,1,0,1],
 "race__logic_8c.html":[20,0,3,10,12],
 "race__logic_8c.html#a18aa11908bd75450e1cc7a07038adce5":[20,0,3,10,12,16],
 "race__logic_8c.html#a1b2815c62b11e33e3c74d7fd65af5edc":[20,0,3,10,12,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "render__courses_8c.html":[20,0,3,10,14],
 "render__courses_8c.html#a04b70c3630b91fe34b2675f04d544364":[20,0,3,10,14,0],
 "render__courses_8c.html#a2af444c495e48a500530fea69e682168":[20,0,3,10,14,14],
-"render__courses_8c.html#a2bed696fe9427ae7c9853be4f1bc6f08":[20,0,3,10,14,18],
-"render__courses_8c.html#a37e4f5227c5bb3b68c0ff7a4e7b90207":[20,0,3,10,14,11]
+"render__courses_8c.html#a2bed696fe9427ae7c9853be4f1bc6f08":[20,0,3,10,14,18]
 };

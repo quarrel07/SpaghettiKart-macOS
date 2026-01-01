@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structma__resource__manager__config.html#ab8495e10b892d7b2bf6c3d7ab868bb4c":[19,0,283,5],
 "structma__resource__manager__config.html#ac47db9ebd8f7eba19dd3bce96e7d1e14":[19,0,283,2],
 "structma__resource__manager__config.html#acca8a15c17441df0b4da4d8daf1654bd":[19,0,283,0],
 "structma__resource__manager__config.html#ad5722850ea9c43d22937eb1420cdec34":[19,0,283,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structprintf__struct.html#a7bce4a99e42b25d2e68a9056fe8218a3":[19,0,374,13],
 "structprintf__struct.html#a87fad8e78b88b80f6e1a11321a2ce809":[19,0,374,5],
 "structprintf__struct.html#aa88f72f496da35a9197b0660063b7237":[19,0,374,2],
-"structprintf__struct.html#ab5e3aa3e9f344e9968a44e0c2c202e51":[19,0,374,16],
-"structprintf__struct.html#ac36c05d65fbddf415770d5064ba9821b":[19,0,374,0]
+"structprintf__struct.html#ab5e3aa3e9f344e9968a44e0c2c202e51":[19,0,374,16]
 };

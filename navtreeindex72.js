@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"staff__ghost__data_8h.html#a999f4f9a80eeb503c404414fa1f136d8":[20,0,0,26,1],
 "staff__ghost__data_8h.html#aa4fbb99400832a5299627658475ea7df":[20,0,0,26,2],
 "staff__ghost__data_8h_source.html":[20,0,0,26],
 "starship__model_8c.html":[20,0,0,8,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structAdsrSettings.html#adc9c0231e20ad7dae1590955a91a9e7c":[19,0,36,1],
 "structAdsrState.html":[19,0,37],
 "structAdsrState.html#a51b8a1b001b478e41184844fd48d238f":[19,0,37,6],
-"structAdsrState.html#a5c64cf6af6be731613ca17a777e01f99":[19,0,37,9],
-"structAdsrState.html#a5c9ed6e83b658cb0c9567066c944b64b":[19,0,37,1]
+"structAdsrState.html#a5c64cf6af6be731613ca17a777e01f99":[19,0,37,9]
 };

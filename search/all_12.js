@@ -382,7 +382,7 @@ var searchData=
   ['outputchannels_379',['outputChannels',['../structma__decoder.html#a66e891518697e7226936c04cce589a8c',1,'ma_decoder']]],
   ['outputformat_380',['outputFormat',['../structma__decoder.html#a99e75664cebea3a92fc07d2458fb4bbf',1,'ma_decoder']]],
   ['outputsamplerate_381',['outputSampleRate',['../structma__decoder.html#a9d4f0e1242f5faf1fb1614c619fbd6f0',1,'ma_decoder']]],
-  ['overview_382',['Overview',['../trackoverview.html#custom-track-overview',1,'Custom Track Overview'],['../characteroverview.html',1,'Overview'],['../trackoverview.html',1,'Overview'],['../track-properties.html#overview-1',1,'Overview'],['../md_docs_2migrations.html#overview',1,'Overview'],['../export.html#quick-overview',1,'Quick Overview']]],
+  ['overview_382',['Overview',['../trackoverview.html#custom-track-overview',1,'Custom Track Overview'],['../characteroverview.html',1,'Overview'],['../trackoverview.html',1,'Overview'],['../md_docs_2migrations.html#overview',1,'Overview'],['../track-properties.html#overview-1',1,'Overview'],['../export.html#quick-overview',1,'Quick Overview']]],
   ['ownsbuffer_383',['ownsBuffer',['../structma__rb.html#acab6e4d4c05b0b2238d72ad625316605',1,'ma_rb']]],
   ['ownsdata_384',['ownsData',['../structma__audio__buffer.html#a8f792223090e7ed1e643c445145051b0',1,'ma_audio_buffer']]],
   ['ownsdatasource_385',['ownsDataSource',['../structma__sound.html#a05237ac41a384a307b631231d68afa78',1,'ma_sound']]],
