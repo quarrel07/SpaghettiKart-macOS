@@ -120,8 +120,15 @@ Players Spawn in the Air</h2>
 <h2><a class="anchor" id="scaling-issues-or-missing-geometry"></a>
 Scaling Issues or Missing Geometry</h2>
 <ul>
-<li>Set scale in the Fast64 export panel between 20-25. Recommended 25.</li>
-<li>Select the geometry, press CTRL+A and click <code>Apply Transformations</code></li>
+<li>Set scale to 100.</li>
+<li>Select the geometry, press CTRL+A and click <code>Apply Transformations</code><ul>
+<li>Lets say a vertex (edit mode) is placed at (10, 0, 0). And then the mesh object (object mode) is placed at (10, 0, 0)<ul>
+<li>On export the object will be placed at 20</li>
+<li>Apply transformations resets the object location to (0,0,0)</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h2><a class="anchor" id="traversal-issues"></a>
 Traversal Issues</h2>

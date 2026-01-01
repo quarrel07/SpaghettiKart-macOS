@@ -39,6 +39,30 @@ var trackmenu =
     [ "Materials", "materials.html", [
       [ "Materials", "materials.html#materials", null ]
     ] ],
+    [ "Object Properties", "objectproperties.html", [
+      [ "Object Properties", "objectproperties.html#object-properties", [
+        [ "Section ID", "objectproperties.html#section-id", null ],
+        [ "Surface", "objectproperties.html#surface", null ],
+        [ "Clip", "objectproperties.html#clip", [
+          [ "No Clip", "objectproperties.html#no-clip", null ],
+          [ "Single-sided Wall", "objectproperties.html#single-sided-wall", null ],
+          [ "Surface", "objectproperties.html#surface-1", null ],
+          [ "Double-sided Wall", "objectproperties.html#double-sided-wall", null ]
+        ] ],
+        [ "Draw Layer", "objectproperties.html#draw-layer", [
+          [ "Draw Invisible", "objectproperties.html#draw-invisible", null ],
+          [ "Draw Opaque", "objectproperties.html#draw-opaque", null ],
+          [ "Draw Translucent", "objectproperties.html#draw-translucent", null ],
+          [ "Draw Translucent NoZBuffer", "objectproperties.html#draw-translucent-nozbuffer", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "Paths", "paths.html", [
+      [ "Track Paths", "paths.html#track-paths", null ],
+      [ "Supported Blender paths", "paths.html#supported-blender-paths", [
+        [ "Path Type", "paths.html#path-type", null ]
+      ] ]
+    ] ],
     [ "Minimap", "minimap.html", [
       [ "Minimap", "minimap.html#minimap", [
         [ "Format", "minimap.html#format", null ],

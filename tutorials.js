@@ -5,8 +5,9 @@ var tutorials =
     ] ],
     [ "Paths", "paths.html", [
       [ "Track Paths", "paths.html#track-paths", null ],
-      [ "Horizontal Paths (no Y coordinate)", "paths.html#horizontal-paths-no-y-coordinate", null ],
-      [ "Camera Rails", "paths.html#camera-rails", null ]
+      [ "Supported Blender paths", "paths.html#supported-blender-paths", [
+        [ "Path Type", "paths.html#path-type", null ]
+      ] ]
     ] ],
     [ "Audio", "tutorialaudio.html", null ]
 ];
