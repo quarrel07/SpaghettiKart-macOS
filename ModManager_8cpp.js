@@ -14,7 +14,5 @@ var ModManager_8cpp =
     [ "PrintModInfo", "ModManager_8cpp.html#a88f3831007a884e37a38501a600f7e07", null ],
     [ "SortModsByDependencies", "ModManager_8cpp.html#a48a62f6385e85315632e74a80c219813", null ],
     [ "UnloadMods", "ModManager_8cpp.html#adb21fd7d6f39f4b982b7bf70f2893c6d", null ],
-    [ "assets_path", "ModManager_8cpp.html#ae795e7f4c4d74862736fa1128b0b5fc4", null ],
-    [ "main_path", "ModManager_8cpp.html#a39b236830f4ff39c2b4b12e0860d5d49", null ],
     [ "Mods", "ModManager_8cpp.html#a684694b465d3779e3cd10431c646a990", null ]
 ];

@@ -77,13 +77,13 @@ var NAVTREE =
       [ "Future plans", "md_docs_2custom-audio.html#future-plans", null ]
     ] ],
     [ "Custom characters", "md_docs_2custom-characters.html", [
-      [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters-1", null ],
-      [ "Additional Files", "md_docs_2custom-characters.html#additional-files-1", [
-        [ "Tips", "md_docs_2custom-characters.html#tips-1", [
-          [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings-1", null ]
+      [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters", null ],
+      [ "Additional Files", "md_docs_2custom-characters.html#additional-files", [
+        [ "Tips", "md_docs_2custom-characters.html#tips", [
+          [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings", null ]
         ] ],
-        [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help-1", null ],
-        [ "Future plans", "md_docs_2custom-characters.html#future-plans-2", null ]
+        [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help", null ],
+        [ "Future plans", "md_docs_2custom-characters.html#future-plans-1", null ]
       ] ]
     ] ],
     [ "faq", "md_docs_2faq.html", null ],
@@ -107,7 +107,7 @@ var NAVTREE =
       [ "New Folder Structure", "md_docs_2migrations.html#new-folder-structure", null ],
       [ "Manual Migration", "md_docs_2migrations.html#manual-migration", null ],
       [ "Troubleshooting", "md_docs_2migrations.html#troubleshooting", null ],
-      [ "See Also", "md_docs_2migrations.html#see-also-1", null ]
+      [ "See Also", "md_docs_2migrations.html#see-also", null ]
     ] ],
     [ "Modding", "md_docs_2modding.html", [
       [ "General Structure", "md_docs_2modding.html#general-structure", [
@@ -132,7 +132,7 @@ var NAVTREE =
       [ "Load Order", "md_docs_2mods-toml.html#load-order", null ],
       [ "Best Practices", "md_docs_2mods-toml.html#best-practices", null ],
       [ "Migration Script Support", "md_docs_2mods-toml.html#migration-script-support", null ],
-      [ "See Also", "md_docs_2mods-toml.html#see-also", null ]
+      [ "See Also", "md_docs_2mods-toml.html#see-also-1", null ]
     ] ],
     [ "Sequence Information (Music)", "md_docs_2sequences-information.html", [
       [ "Race Tracks", "md_docs_2sequences-information.html#race-tracks", null ],
@@ -197,8 +197,8 @@ var NAVTREEINDEX =
 [
 "ActorSpawnDataFactory_8cpp.html",
 "Engine_8cpp.html#a9722639d948bb7c0f3935bfb71101cec",
-"Game_8cpp.html#a892acd610181b8a67f9bd4f74d242a4a",
-"HMAS_8h.html#a34c9fd6476378baf8d508d8c25b0eaf9",
+"Game_8cpp.html#a872b3eafef96f83081b83794fb4681e5",
+"HMAS_8h.html",
 "ModManager_8h.html",
 "TrackBrowser_8cpp.html#a9acd0e28e0a33399d24e6780e91494e0",
 "____osViGetCurrentContext_8c.html#adc61dd137f20ee671234a124a684957f",
