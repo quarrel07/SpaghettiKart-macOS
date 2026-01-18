@@ -70,12 +70,12 @@ var trackmenu =
         [ "Tips", "minimap.html#tips-2", null ],
         [ "Option 1: Black Background, White Track", "minimap.html#option-1-black-background-white-track", null ],
         [ "Option 2: Transparent Background, White Track", "minimap.html#option-2-transparent-background-white-track", null ],
-        [ "Export", "minimap.html#export-1", null ],
+        [ "Export", "minimap.html#export", null ],
         [ "In-game configuration", "minimap.html#in-game-configuration", null ]
       ] ]
     ] ],
     [ "Export", "export.html", [
-      [ "Export", "export.html#export", [
+      [ "Export", "export.html#export-1", [
         [ "Quick Overview", "export.html#quick-overview", null ],
         [ "Setup", "export.html#setup", null ],
         [ "Export Panel", "export.html#export-panel", null ],
