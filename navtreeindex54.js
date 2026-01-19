@@ -176,7 +176,7 @@ var NAVTREEINDEX54 =
 "miniaudio_8h.html#affce927390c9f35e222dd3f0976e71f1":[20,0,2,1,0,507],
 "miniaudio_8h_source.html":[20,0,2,1,0],
 "minimap.html":[14,6],
-"minimap.html#export":[14,6,0,4],
+"minimap.html#export-1":[14,6,0,4],
 "minimap.html#format":[14,6,0,0],
 "minimap.html#in-game-configuration":[14,6,0,5],
 "minimap.html#minimap":[14,6,0],
