@@ -4,7 +4,7 @@ var classOGrandPrixBalloons =
     [ "~OGrandPrixBalloons", "classOGrandPrixBalloons.html#a7a86cc146e30ccd7475ac1e388621f37", null ],
     [ "Draw", "classOGrandPrixBalloons.html#a29307fcadbf67dc9026e04f33055ece1", null ],
     [ "func_80041480", "classOGrandPrixBalloons.html#af1c4721f6c05da7cd9108551b7eecc9e", null ],
-    [ "func_80053D74", "classOGrandPrixBalloons.html#ad0cff34bef70a8c82e989d78fa486dbc", null ],
+    [ "func_80053D74", "classOGrandPrixBalloons.html#a79f1c23700be3f63e99c39bb128f5ebd", null ],
     [ "func_80074924", "classOGrandPrixBalloons.html#a294b2e690d0bcf8904863db7dbdd48d7", null ],
     [ "func_80074D94", "classOGrandPrixBalloons.html#ad906339aab46ffa3cf676cbc94ad8855", null ],
     [ "func_80074E28", "classOGrandPrixBalloons.html#a0ce5e597912583fbd6a490ea213d9326", null ],
