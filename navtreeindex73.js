@@ -1,5 +1,12 @@
 var NAVTREEINDEX73 =
 {
+"structAdsrSettings.html":[19,0,36],
+"structAdsrSettings.html#a0ba2f394fb83fdd5875c58eee587c51c":[19,0,36,2],
+"structAdsrSettings.html#a6c161c86722b83a37a7a973a43c6ecfb":[19,0,36,0],
+"structAdsrSettings.html#adc9c0231e20ad7dae1590955a91a9e7c":[19,0,36,1],
+"structAdsrState.html":[19,0,37],
+"structAdsrState.html#a51b8a1b001b478e41184844fd48d238f":[19,0,37,6],
+"structAdsrState.html#a5c64cf6af6be731613ca17a777e01f99":[19,0,37,9],
 "structAdsrState.html#a5c9ed6e83b658cb0c9567066c944b64b":[19,0,37,1],
 "structAdsrState.html#a6ccfb81ff3259a289e5cc122e788807d":[19,0,37,2],
 "structAdsrState.html#ac26cfae4494142eb982a51b871d8ca84":[19,0,37,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX73 =
 "structCinematicCamera.html#ac8de51fe25a866be5c8c71a7c912535a":[19,0,89,12],
 "structCinematicCamera.html#acbaaf3841ab7f2e944b1ee2145d72601":[19,0,89,13],
 "structCinematicCamera.html#ad41b3d461b670272b136cd428fa6bc34":[19,0,89,17],
-"structCinematicCamera.html#adf4fbc44d7a1d92ef6c34a70f5130189":[19,0,89,8],
-"structCinematicCamera.html#af040f105d6492058ce51aad952a6849f":[19,0,89,6],
-"structCollision.html":[19,0,90],
-"structCollision.html#a0efc6bf3ed2c3d042e5b81dcd7679ed4":[19,0,90,6],
-"structCollision.html#a1f4571abf7b64d0f1e2ee7cf70b63079":[19,0,90,4],
-"structCollision.html#a2c6db6518aadaa5bc3f380c444bcfdf0":[19,0,90,0],
-"structCollision.html#a7e2e601b4ea17e62338548b33e740fef":[19,0,90,5],
-"structCollision.html#a89d734b6de49a8cdba1a407182399a3f":[19,0,90,3]
+"structCinematicCamera.html#adf4fbc44d7a1d92ef6c34a70f5130189":[19,0,89,8]
 };

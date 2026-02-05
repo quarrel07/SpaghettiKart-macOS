@@ -1,5 +1,12 @@
 var NAVTREEINDEX96 =
 {
+"track_8c.html#ad2216aad36239d3a65d1d40631ea24bc":[20,0,0,8,12,149],
+"track_8c.html#ad2739568ce69c89c0e8daf01a7278600":[20,0,0,8,12,108],
+"track_8c.html#ad5da7e9ef95554544e261548567dbb11":[20,0,0,8,12,172],
+"track_8c.html#ad6c4faad046f3fc0f85dc59699a69d26":[20,0,0,8,12,134],
+"track_8c.html#ad6f5473667832746b300fa9633633357":[20,0,0,8,12,213],
+"track_8c.html#ad744e1f9e780a29db48a8cf214f850e1":[20,0,0,8,12,204],
+"track_8c.html#ad99f23a614fd98f9eeff038d1a9ca551":[20,0,0,8,12,4],
 "track_8c.html#ad9fc79ffcee26fa0f414bef9238dcacb":[20,0,0,8,12,122],
 "track_8c.html#adbb62a2dc4aa29e15213a3c5393adf45":[20,0,0,8,12,55],
 "track_8c.html#adcaa11452b8da3cf1a6df724d3b75448":[20,0,0,8,12,176],
@@ -242,12 +249,5 @@ var NAVTREEINDEX96 =
 "trackoverview.html#adding-a-path":[14,0,0,2,0],
 "trackoverview.html#adding-the-surface":[14,0,0,2],
 "trackoverview.html#configuration":[14,0,0,1],
-"trackoverview.html#custom-track-overview":[14,0,0],
-"trackoverview.html#dependencies":[14,0,0,0],
-"trackoverview.html#export-2":[14,0,0,4],
-"trackoverview.html#export-3":[14,0,0,7],
-"trackoverview.html#extra-info":[14,0,0,5,1],
-"trackoverview.html#game-test":[14,0,0,5,0],
-"trackoverview.html#materials-1":[14,0,0,6],
-"trackoverview.html#mods-path":[14,0,0,4,0]
+"trackoverview.html#custom-track-overview":[14,0,0]
 };

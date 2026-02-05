@@ -1,5 +1,12 @@
 var NAVTREEINDEX82 =
 {
+"structYoshiValleyEgg.html#a310c040e760d3aa654300c466e7598f6":[19,0,502,1],
+"structYoshiValleyEgg.html#a401f74c6a09c1ee3fb2e7c3b4826fffd":[19,0,502,3],
+"structYoshiValleyEgg.html#a4c5b57a229178a92a9d4f9396deb52d8":[19,0,502,8],
+"structYoshiValleyEgg.html#a697fefc9791a902b358368460f28c6d4":[19,0,502,2],
+"structYoshiValleyEgg.html#a7486545052cc5b59e18bb1b39dad2be2":[19,0,502,7],
+"structYoshiValleyEgg.html#a89e9111131ab6793977cd6be47c76116":[19,0,502,5],
+"structYoshiValleyEgg.html#a8a74a2489416bb29ba6e5e404e8aeb91":[19,0,502,13],
 "structYoshiValleyEgg.html#ab647b34e2ed6932e70aba54660ef07ee":[19,0,502,11],
 "structYoshiValleyEgg.html#ac486de582beae25b78579fd195079111":[19,0,502,10],
 "structYoshiValleyEgg.html#ae635c1dc57de8906f0fa04d720564ff9":[19,0,502,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX82 =
 "structlldiv__t.html#ae4d4bccdf22f41e052073f5790c5ec37":[19,0,155,0],
 "structma__allocation__callbacks.html":[19,0,159],
 "structma__allocation__callbacks.html#a542b7477bbd6d9ed70009e5b308d8cc3":[19,0,159,3],
-"structma__allocation__callbacks.html#a92f2622cbf6aac7f5995ca490d5665ce":[19,0,159,1],
-"structma__allocation__callbacks.html#a9b3b9f3167d8ba9305ee4804661cdf90":[19,0,159,0],
-"structma__allocation__callbacks.html#ab1beebabebc55d71d496ba8a543b7ac7":[19,0,159,2],
-"structma__async__notification__callbacks.html":[19,0,160],
-"structma__async__notification__callbacks.html#af1462948842345103f02a94781def42e":[19,0,160,0],
-"structma__async__notification__event.html":[19,0,161],
-"structma__async__notification__event.html#aa34f13f1c9e06eb7b34e37a88d80b8c7":[19,0,161,1],
-"structma__async__notification__event.html#ad1860ad24abcbf03414b1499e71f6dc1":[19,0,161,0]
+"structma__allocation__callbacks.html#a92f2622cbf6aac7f5995ca490d5665ce":[19,0,159,1]
 };

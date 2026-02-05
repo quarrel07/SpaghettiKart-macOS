@@ -1,5 +1,12 @@
 var NAVTREEINDEX81 =
 {
+"structUnkEntry.html#a8c88a228a0df928ae279985724731345":[19,0,474,0],
+"structUnkEntry.html#ac01ecfade45b7ab4ee4fac993b16125a":[19,0,474,4],
+"structUnkEntry.html#ac3308717c0e2d4a94458babeac1eecc9":[19,0,474,2],
+"structUnkEntry.html#ad46156047649e90199e681da2eebbba8":[19,0,474,5],
+"structUnkEntry.html#aef0e777becde602f5c36c02e7146019f":[19,0,474,1],
+"structUnkPlayerInner.html":[19,0,475],
+"structUnkPlayerInner.html#a1aa4b5e2a92cf50b6806c08a8ab554ae":[19,0,475,5],
 "structUnkPlayerInner.html#a1b2f4f249c6532e70ed948ab667c2217":[19,0,475,11],
 "structUnkPlayerInner.html#a411a2931ba90692633c291543c38163a":[19,0,475,1],
 "structUnkPlayerInner.html#a62b0fad46596d22a2232d524d23c9e9c":[19,0,475,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX81 =
 "structYVFlagPoleSpawn.html#aadd9629a5899fd9ee91eeb5f637e1a92":[19,0,503,1],
 "structYoshiValleyEgg.html":[19,0,502],
 "structYoshiValleyEgg.html#a0ab1923c00ae6a34e0ef6d397abb3a29":[19,0,502,12],
-"structYoshiValleyEgg.html#a217fb03109992b5767e9828e0784beb1":[19,0,502,9],
-"structYoshiValleyEgg.html#a310c040e760d3aa654300c466e7598f6":[19,0,502,1],
-"structYoshiValleyEgg.html#a401f74c6a09c1ee3fb2e7c3b4826fffd":[19,0,502,3],
-"structYoshiValleyEgg.html#a4c5b57a229178a92a9d4f9396deb52d8":[19,0,502,8],
-"structYoshiValleyEgg.html#a697fefc9791a902b358368460f28c6d4":[19,0,502,2],
-"structYoshiValleyEgg.html#a7486545052cc5b59e18bb1b39dad2be2":[19,0,502,7],
-"structYoshiValleyEgg.html#a89e9111131ab6793977cd6be47c76116":[19,0,502,5],
-"structYoshiValleyEgg.html#a8a74a2489416bb29ba6e5e404e8aeb91":[19,0,502,13]
+"structYoshiValleyEgg.html#a217fb03109992b5767e9828e0784beb1":[19,0,502,9]
 };

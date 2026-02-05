@@ -1,7 +1,14 @@
 var NAVTREEINDEX15 =
 {
+"classPlayerBombKart.html#aa063b7ce63ddb80c6da7550630df531a":[19,0,369,7],
+"classPlayerBombKart.html#aa5fd50a138061ae43d32dde449de6de5":[19,0,369,12],
+"classPlayerBombKart.html#ab3bf9332abcce97183126cb5a7bce075":[19,0,369,5],
+"classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1dd":[19,0,369,0],
+"classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1dda57d27cb4dd5224dfab2ff95ae0b33f50":[19,0,369,0,0],
 "classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1ddaafc7d2c90168b26aa0cdbadd0c538b4a":[19,0,369,0,1],
-"classPlayerBombKart.html#ae72600675ff81bcfcfe0b3e99b72fc10":[19,0,369,1],
+"classPlayerBombKart.html#ae72600675ff81bcfcfe0b3e99b72fc10":[19,0,369,3],
+"classPlayerBombKart.html#aebf4cbb55a9b685625a851eb1509f565":[19,0,369,8],
+"classPlayerBombKart.html#afe2d0550f7808871f2df9d0a6ccae624":[19,0,369,2],
 "classPodiumCeremony.html":[19,0,370],
 "classPodiumCeremony.html#a1bc3b1a9ca158e27e1d2d0966dfe27b4":[19,0,370,3],
 "classPodiumCeremony.html#a311c460f56109adc08b595eb30466b65":[19,0,370,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX15 =
 "classSM64_1_1AudioSample.html#a0b49ec41d15abdef262f034d73ad557a":[19,0,5,2,2],
 "classSM64_1_1AudioSample.html#a3055a917a610b9f15282989de3b75c2b":[18,0,8,2,6],
 "classSM64_1_1AudioSample.html#a3055a917a610b9f15282989de3b75c2b":[19,0,5,2,6],
-"classSM64_1_1AudioSample.html#a5a74c4c389c0803a68fda5f94d2dead6":[18,0,8,2,0],
-"classSM64_1_1AudioSample.html#a5a74c4c389c0803a68fda5f94d2dead6":[19,0,5,2,0],
-"classSM64_1_1AudioSample.html#a92b7a75daa7fc8713f01218d753f9e14":[18,0,8,2,7],
-"classSM64_1_1AudioSample.html#a92b7a75daa7fc8713f01218d753f9e14":[19,0,5,2,7],
-"classSM64_1_1AudioSample.html#aa07ba43d8fb5cfa3042646b27e68ad84":[18,0,8,2,3],
-"classSM64_1_1AudioSample.html#aa07ba43d8fb5cfa3042646b27e68ad84":[19,0,5,2,3],
-"classSM64_1_1AudioSample.html#aadce2e653c2891bb9ddd44cd517784b8":[18,0,8,2,4],
-"classSM64_1_1AudioSample.html#aadce2e653c2891bb9ddd44cd517784b8":[19,0,5,2,4]
+"classSM64_1_1AudioSample.html#a5a74c4c389c0803a68fda5f94d2dead6":[18,0,8,2,0]
 };

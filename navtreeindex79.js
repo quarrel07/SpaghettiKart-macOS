@@ -1,5 +1,12 @@
 var NAVTREEINDEX79 =
 {
+"structSequenceChannelLayer.html#abc61fad2b55ddf416cb38ca5d90d5fb7":[19,0,399,10],
+"structSequenceChannelLayer.html#abcda71d902b8d9e6a7ee038b2bd1cf2a":[19,0,399,31],
+"structSequenceChannelLayer.html#ad39444c450d5d1d58b1f43abdf186884":[19,0,399,24],
+"structSequenceChannelLayer.html#ad8e89be79338ddc255e4c31d79104929":[19,0,399,14],
+"structSequenceChannelLayer.html#ae760c176981b74855c052c752d627167":[19,0,399,27],
+"structSequenceChannelLayer.html#af7f564e8fbea6222e6f054a6298a27c9":[19,0,399,22],
+"structSequenceChannelLayer.html#affa7a048f207ebc90e4241355a600899":[19,0,399,29],
 "structSequencePlayer.html":[19,0,400],
 "structSequencePlayer.html#a0260b93511bdcf27891b0f497ff02e00":[19,0,400,14],
 "structSequencePlayer.html#a07bc22b391d39da9d53dfeb424bd6dc5":[19,0,400,23],
@@ -242,12 +249,5 @@ var NAVTREEINDEX79 =
 "structTrackPathPoint.html#a5e6d0c98475ce0a7f32004c557c22c43":[19,0,455,2],
 "structTrackPathPoint.html#a81874c9faad9ec29392005ead73f1235":[19,0,455,1],
 "structTrackPathPoint.html#aea15cf416227357e9eaef635fa7d6c14":[19,0,455,3],
-"structTrackPathSizes.html":[19,0,456],
-"structTrackPathSizes.html#a3d5d27212e3c189089b620f146741259":[19,0,456,1],
-"structTrackPathSizes.html#a57f908c601309ce981d8920e34abf305":[19,0,456,0],
-"structTrackPathSizes.html#a9aa06bc579620bfa8d779949eb9ddb9c":[19,0,456,2],
-"structTrackPathSizes.html#aaf462a3a57bddc0f0a9490debc102485":[19,0,456,3],
-"structTrackPathSizes.html#abbdaf7f243acc56400170191904984e0":[19,0,456,5],
-"structTrackPathSizes.html#aded559c85cde383604176341268d1c21":[19,0,456,4],
-"structTrackPositionFactorInstruction.html":[19,0,457]
+"structTrackPathSizes.html":[19,0,456]
 };

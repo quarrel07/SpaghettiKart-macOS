@@ -1,5 +1,12 @@
 var NAVTREEINDEX80 =
 {
+"structTrackPathSizes.html#a3d5d27212e3c189089b620f146741259":[19,0,456,1],
+"structTrackPathSizes.html#a57f908c601309ce981d8920e34abf305":[19,0,456,0],
+"structTrackPathSizes.html#a9aa06bc579620bfa8d779949eb9ddb9c":[19,0,456,2],
+"structTrackPathSizes.html#aaf462a3a57bddc0f0a9490debc102485":[19,0,456,3],
+"structTrackPathSizes.html#abbdaf7f243acc56400170191904984e0":[19,0,456,5],
+"structTrackPathSizes.html#aded559c85cde383604176341268d1c21":[19,0,456,4],
+"structTrackPositionFactorInstruction.html":[19,0,457],
 "structTrackPositionFactorInstruction.html#a46784a36fc904e298d2b043a334ae27a":[19,0,457,2],
 "structTrackPositionFactorInstruction.html#a5f25add966a6ce37f6d287f2a4d483f2":[19,0,457,3],
 "structTrackPositionFactorInstruction.html#ab189b22b6caf0d4274609d53652b6399":[19,0,457,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX80 =
 "structUnkCameraInner.html#ab28dd2dbeb5038fde39f2d2ae9bb8cc0":[19,0,473,0],
 "structUnkEntry.html":[19,0,474],
 "structUnkEntry.html#a29742029579c6d1dcbc96c7d6187908b":[19,0,474,3],
-"structUnkEntry.html#a5694063a75aaf50db1cb7d687e46bdc6":[19,0,474,6],
-"structUnkEntry.html#a8c88a228a0df928ae279985724731345":[19,0,474,0],
-"structUnkEntry.html#ac01ecfade45b7ab4ee4fac993b16125a":[19,0,474,4],
-"structUnkEntry.html#ac3308717c0e2d4a94458babeac1eecc9":[19,0,474,2],
-"structUnkEntry.html#ad46156047649e90199e681da2eebbba8":[19,0,474,5],
-"structUnkEntry.html#aef0e777becde602f5c36c02e7146019f":[19,0,474,1],
-"structUnkPlayerInner.html":[19,0,475],
-"structUnkPlayerInner.html#a1aa4b5e2a92cf50b6806c08a8ab554ae":[19,0,475,5]
+"structUnkEntry.html#a5694063a75aaf50db1cb7d687e46bdc6":[19,0,474,6]
 };

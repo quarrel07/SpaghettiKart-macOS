@@ -1,5 +1,12 @@
 var NAVTREEINDEX18 =
 {
+"classTrackEditor_1_1ToolsWindow.html#ae385cfb1d654a2e5be9373f7df9a16ef":[19,0,6,8,1],
+"classTrackEditor_1_1TrackPropertiesWindow.html":[18,0,9,9],
+"classTrackEditor_1_1TrackPropertiesWindow.html":[19,0,6,9],
+"classTrackEditor_1_1TrackPropertiesWindow.html#a15da20f8d315aafe3c36fa71b2dd3bcc":[18,0,9,9,5],
+"classTrackEditor_1_1TrackPropertiesWindow.html#a15da20f8d315aafe3c36fa71b2dd3bcc":[19,0,6,9,5],
+"classTrackEditor_1_1TrackPropertiesWindow.html#a1f07f748ac1c5b5120b40b468b3cf09e":[18,0,9,9,4],
+"classTrackEditor_1_1TrackPropertiesWindow.html#a1f07f748ac1c5b5120b40b468b3cf09e":[19,0,6,9,4],
 "classTrackEditor_1_1TrackPropertiesWindow.html#a21f7642cf384acd7f0072e33e5b68d92":[18,0,9,9,6],
 "classTrackEditor_1_1TrackPropertiesWindow.html#a21f7642cf384acd7f0072e33e5b68d92":[19,0,6,9,6],
 "classTrackEditor_1_1TrackPropertiesWindow.html#a4a0443b379186e467060f2fdaada3ea2":[18,0,9,9,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX18 =
 "classpfd_1_1settings.html#a54fb5598e7501ac38d17e3629190b2fe":[19,0,2,7,2],
 "classpfd_1_1settings.html#a60023ab0ac98008d2c52a568e9ee540f":[18,0,5,7,9],
 "classpfd_1_1settings.html#a60023ab0ac98008d2c52a568e9ee540f":[19,0,2,7,9],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aad":[18,0,5,7,0],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aad":[19,0,2,7,0],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aada11dd6b78f267a47638211f4c7e23d434":[18,0,5,7,0,0],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aada11dd6b78f267a47638211f4c7e23d434":[19,0,2,7,0,0],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aada1267dfaf66b51761e04b042bb2c4dd7a":[18,0,5,7,0,3],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aada1267dfaf66b51761e04b042bb2c4dd7a":[19,0,2,7,0,3],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aada1a652e3d6a785053942b6cffc2c4669d":[18,0,5,7,0,4],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aada1a652e3d6a785053942b6cffc2c4669d":[19,0,2,7,0,4]
+"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aad":[18,0,5,7,0]
 };

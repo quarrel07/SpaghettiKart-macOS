@@ -1,5 +1,12 @@
 var NAVTREEINDEX83 =
 {
+"structma__allocation__callbacks.html#a9b3b9f3167d8ba9305ee4804661cdf90":[19,0,159,0],
+"structma__allocation__callbacks.html#ab1beebabebc55d71d496ba8a543b7ac7":[19,0,159,2],
+"structma__async__notification__callbacks.html":[19,0,160],
+"structma__async__notification__callbacks.html#af1462948842345103f02a94781def42e":[19,0,160,0],
+"structma__async__notification__event.html":[19,0,161],
+"structma__async__notification__event.html#aa34f13f1c9e06eb7b34e37a88d80b8c7":[19,0,161,1],
+"structma__async__notification__event.html#ad1860ad24abcbf03414b1499e71f6dc1":[19,0,161,0],
 "structma__async__notification__poll.html":[19,0,162],
 "structma__async__notification__poll.html#a4f4f097fef21cd96ac8569c535367013":[19,0,162,1],
 "structma__async__notification__poll.html#ace6c79357f8796af5626b4174518f98f":[19,0,162,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX83 =
 "structma__decoder.html#a922f51e7139c132e89358c2233113e77":[19,0,191,9],
 "structma__decoder.html#a99e75664cebea3a92fc07d2458fb4bbf":[19,0,191,15],
 "structma__decoder.html#a9d4f0e1242f5faf1fb1614c619fbd6f0":[19,0,191,16],
-"structma__decoder.html#a9f1720a357adfff9879a1806f4fdb41a":[19,0,191,10],
-"structma__decoder.html#aa12ffa02ba6ff79d3b254563854feb6f":[19,0,191,18],
-"structma__decoder.html#aa1f9b3d31390ecd70ea8918b3a240754":[19,0,191,3],
-"structma__decoder.html#aa8b0e6b44bb854ee1ed6dbf4dc21a809":[19,0,191,17],
-"structma__decoder.html#aace6b40b97bebfe2f972903421845934":[19,0,191,13],
-"structma__decoder.html#aaee44c528e964c256793daeaed11bf97":[19,0,191,20],
-"structma__decoder.html#ab5c26992f619d3ac8c1ec5c31901ef7f":[19,0,191,6],
-"structma__decoder.html#ac16bdca633503f68044e30ce46ea35cc":[19,0,191,0]
+"structma__decoder.html#a9f1720a357adfff9879a1806f4fdb41a":[19,0,191,10]
 };

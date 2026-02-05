@@ -17,7 +17,7 @@ var classOBombKart =
     [ "DrawEditorProperties", "classOBombKart.html#a2365261a4311b2dd2e6301f494b0fc8e", null ],
     [ "FindTarget", "classOBombKart.html#ae34643caa3c5ed1311cc37351e78e008", null ],
     [ "GetCount", "classOBombKart.html#a95bfca8f8591c1d1172b48010fba8812", null ],
-    [ "LoadMtx", "classOBombKart.html#aea3d7d6c71cbc87e4301cc95aef686b7", null ],
+    [ "LoadMtx", "classOBombKart.html#a8eeddb6c81e13c774f6914afa0579098", null ],
     [ "SomeRender", "classOBombKart.html#a06177fe75d7904032a6743129f96f0b6", null ],
     [ "Spawn", "classOBombKart.html#a9fa11c43dd1885221b160bd688eceff0", null ],
     [ "Spawn", "classOBombKart.html#a8ea897e27339a081e5a98c2813b64a8b", null ],

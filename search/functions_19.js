@@ -42,11 +42,12 @@ var searchData=
   ['_7eosnowman_39',['~OSnowman',['../classOSnowman.html#af420809ffa701177e36c084fb129c0ce',1,'OSnowman']]],
   ['_7eothwomp_40',['~OThwomp',['../classOThwomp.html#ad173802c208cc4a65831d54abc5077a3',1,'OThwomp']]],
   ['_7eparticleemitter_41',['~ParticleEmitter',['../classParticleEmitter.html#a1fc9dd9af74aa5553520c55bacaecf1d',1,'ParticleEmitter']]],
-  ['_7epodiumceremony_42',['~PodiumCeremony',['../classPodiumCeremony.html#ac8ead1ad19eeeb58bf714573cbc59b1a',1,'PodiumCeremony']]],
-  ['_7eportmenu_43',['~PortMenu',['../classGameUI_1_1PortMenu.html#a47032191fff5c67cc5fa1a356704a13a',1,'GameUI::PortMenu']]],
-  ['_7epropertieswindow_44',['~PropertiesWindow',['../classTrackEditor_1_1PropertiesWindow.html#abf9caceb2eaf7fc3ba018c9a08cb9081',1,'TrackEditor::PropertiesWindow']]],
-  ['_7esceneexplorerwindow_45',['~SceneExplorerWindow',['../classTrackEditor_1_1SceneExplorerWindow.html#a41312259ab8aaaff7cc07163aa522b70',1,'TrackEditor::SceneExplorerWindow']]],
-  ['_7etoolswindow_46',['~ToolsWindow',['../classTrackEditor_1_1ToolsWindow.html#a47c7ec57e8ec3734d326e9d4e0f32614',1,'TrackEditor::ToolsWindow']]],
-  ['_7etrackpropertieswindow_47',['~TrackPropertiesWindow',['../classTrackEditor_1_1TrackPropertiesWindow.html#a9f6887a95120fe43c73bcbf883d4e3de',1,'TrackEditor::TrackPropertiesWindow']]],
-  ['_7eworld_48',['~World',['../classWorld.html#a8c73fba541a5817fff65147ba47cd827',1,'World']]]
+  ['_7eplayerbombkart_42',['~PlayerBombKart',['../classPlayerBombKart.html#afe2d0550f7808871f2df9d0a6ccae624',1,'PlayerBombKart']]],
+  ['_7epodiumceremony_43',['~PodiumCeremony',['../classPodiumCeremony.html#ac8ead1ad19eeeb58bf714573cbc59b1a',1,'PodiumCeremony']]],
+  ['_7eportmenu_44',['~PortMenu',['../classGameUI_1_1PortMenu.html#a47032191fff5c67cc5fa1a356704a13a',1,'GameUI::PortMenu']]],
+  ['_7epropertieswindow_45',['~PropertiesWindow',['../classTrackEditor_1_1PropertiesWindow.html#abf9caceb2eaf7fc3ba018c9a08cb9081',1,'TrackEditor::PropertiesWindow']]],
+  ['_7esceneexplorerwindow_46',['~SceneExplorerWindow',['../classTrackEditor_1_1SceneExplorerWindow.html#a41312259ab8aaaff7cc07163aa522b70',1,'TrackEditor::SceneExplorerWindow']]],
+  ['_7etoolswindow_47',['~ToolsWindow',['../classTrackEditor_1_1ToolsWindow.html#a47c7ec57e8ec3734d326e9d4e0f32614',1,'TrackEditor::ToolsWindow']]],
+  ['_7etrackpropertieswindow_48',['~TrackPropertiesWindow',['../classTrackEditor_1_1TrackPropertiesWindow.html#a9f6887a95120fe43c73bcbf883d4e3de',1,'TrackEditor::TrackPropertiesWindow']]],
+  ['_7eworld_49',['~World',['../classWorld.html#a8c73fba541a5817fff65147ba47cd827',1,'World']]]
 ];

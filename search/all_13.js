@@ -301,7 +301,7 @@ var searchData=
   ['player_5fuse_5fitem_298',['player_use_item',['../actors__extended_8c.html#a6c53567ce07da53daa086cb9b09076a1',1,'actors_extended.c']]],
   ['player_5fwheel_5fmacro_299',['PLAYER_WHEEL_MACRO',['../render__player_8c.html#a19564c696cca8bff6451f90c98844c30',1,'render_player.c']]],
   ['playeranimationdata_300',['PlayerAnimationData',['../namespaceMK64.html#a7bd07479273b52e702ac4baf9081791dac6c7b1a18bc3d7f3a74ea89d6c704288',1,'MK64']]],
-  ['playerbombkart_301',['PlayerBombKart',['../classPlayerBombKart.html',1,'']]],
+  ['playerbombkart_301',['PlayerBombKart',['../classPlayerBombKart.html',1,'PlayerBombKart'],['../classPlayerBombKart.html#a98890e9c1d01ce1d63690bf32a44e2a6',1,'PlayerBombKart::PlayerBombKart()']]],
   ['playerbombkart_2ecpp_302',['PlayerBombKart.cpp',['../PlayerBombKart_8cpp.html',1,'']]],
   ['playerbombkart_2eh_303',['PlayerBombKart.h',['../PlayerBombKart_8h.html',1,'']]],
   ['playerbombkartstate_304',['PlayerBombKartState',['../classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1dd',1,'PlayerBombKart']]],

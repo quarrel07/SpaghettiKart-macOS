@@ -1,5 +1,12 @@
 var NAVTREEINDEX51 =
 {
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5abf9514e9e872ed76e1f314b00aefecec":[20,0,2,1,0,287,54],
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5ac7d5778d1c4bd2fe3c93ae424e0c15ca":[20,0,2,1,0,287,12],
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5ae3e213fe814d8be71ad0116679f21399":[20,0,2,1,0,287,42],
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5ae5a98cd170e4cc5339a28d80f719f473":[20,0,2,1,0,287,24],
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5ae78e81977e52e167487c1ab5b25c7772":[20,0,2,1,0,287,17],
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5ae80adace1c8f268f08257647accf65a7":[20,0,2,1,0,287,36],
+"miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5aeb4a5de1ec02a43d83779094fca07afe":[20,0,2,1,0,287,31],
 "miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5af1e0bdc916fc5dabb5c107e9c87e4ece":[20,0,2,1,0,287,46],
 "miniaudio_8h.html#a64e723da835a05dc9c53601caf3ec9a5af9fd3fde9eeb3102fc47c874cd557cb4":[20,0,2,1,0,287,53],
 "miniaudio_8h.html#a651312a788ffacebe9f98d3a6f0a3ce5":[20,0,2,1,0,376],
@@ -242,12 +249,5 @@ var NAVTREEINDEX51 =
 "miniaudio_8h.html#a91fa588227f398363851b2c91defc5b0":[20,0,2,1,0,976],
 "miniaudio_8h.html#a925ad0539fe87e1bb909e213364dcad3":[20,0,2,1,0,1231],
 "miniaudio_8h.html#a92910d4ccdd1b07c8c4434c04e4fabf1":[20,0,2,1,0,787],
-"miniaudio_8h.html#a92938f126a0cc5622092f10add356713":[20,0,2,1,0,411],
-"miniaudio_8h.html#a92d15c227ed35fb0ab9e0df386c213aa":[20,0,2,1,0,425],
-"miniaudio_8h.html#a935c16e54a3519743d3c7867aab36de6":[20,0,2,1,0,323],
-"miniaudio_8h.html#a935c16e54a3519743d3c7867aab36de6a95a391f969d2ceaf64298cee38a30034":[20,0,2,1,0,323,0],
-"miniaudio_8h.html#a935c16e54a3519743d3c7867aab36de6ada6be6732a5d45c89bce75fbe835968f":[20,0,2,1,0,323,1],
-"miniaudio_8h.html#a93739bb14f5e39f4ca2ec5c4446439ac":[20,0,2,1,0,777],
-"miniaudio_8h.html#a9387b6a31ecda1dfd9e9cc944aeb61e8":[20,0,2,1,0,1234],
-"miniaudio_8h.html#a940d2cf584fbedd4969e3febf37c7950":[20,0,2,1,0,290]
+"miniaudio_8h.html#a92938f126a0cc5622092f10add356713":[20,0,2,1,0,411]
 };
