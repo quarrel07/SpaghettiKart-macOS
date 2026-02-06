@@ -1,5 +1,11 @@
 var NAVTREEINDEX81 =
 {
+"structUnkCameraInner.html#a5499972c8cb849fa3f41452c6e72d4d8":[19,0,473,1],
+"structUnkCameraInner.html#a8f8878f5577708521381011d042215b8":[19,0,473,3],
+"structUnkCameraInner.html#ab28dd2dbeb5038fde39f2d2ae9bb8cc0":[19,0,473,0],
+"structUnkEntry.html":[19,0,474],
+"structUnkEntry.html#a29742029579c6d1dcbc96c7d6187908b":[19,0,474,3],
+"structUnkEntry.html#a5694063a75aaf50db1cb7d687e46bdc6":[19,0,474,6],
 "structUnkEntry.html#a8c88a228a0df928ae279985724731345":[19,0,474,0],
 "structUnkEntry.html#ac01ecfade45b7ab4ee4fac993b16125a":[19,0,474,4],
 "structUnkEntry.html#ac3308717c0e2d4a94458babeac1eecc9":[19,0,474,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX81 =
 "structWorld_1_1Matrix.html#abfa483739dc61bfa7e520c6158f252d5":[19,0,500,0,2],
 "structWorld_1_1Matrix.html#aca856f4c3a0b83759e505002713950cb":[19,0,500,0,8],
 "structWorld_1_1Matrix.html#ae92b739995f414b2d8c86a774a1dfb1b":[19,0,500,0,3],
-"structWorld_1_1Matrix.html#af4e951a1641dbac5195bd79d6a532473":[19,0,500,0,7],
-"structYVFlagPoleSpawn.html":[19,0,503],
-"structYVFlagPoleSpawn.html#a5b8d47e9bc2fabb268253a700c249527":[19,0,503,0],
-"structYVFlagPoleSpawn.html#aadd9629a5899fd9ee91eeb5f637e1a92":[19,0,503,1],
-"structYoshiValleyEgg.html":[19,0,502],
-"structYoshiValleyEgg.html#a0ab1923c00ae6a34e0ef6d397abb3a29":[19,0,502,12],
-"structYoshiValleyEgg.html#a217fb03109992b5767e9828e0784beb1":[19,0,502,9]
+"structWorld_1_1Matrix.html#af4e951a1641dbac5195bd79d6a532473":[19,0,500,0,7]
 };

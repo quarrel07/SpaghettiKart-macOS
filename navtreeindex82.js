@@ -1,5 +1,11 @@
 var NAVTREEINDEX82 =
 {
+"structYVFlagPoleSpawn.html":[19,0,503],
+"structYVFlagPoleSpawn.html#a5b8d47e9bc2fabb268253a700c249527":[19,0,503,0],
+"structYVFlagPoleSpawn.html#aadd9629a5899fd9ee91eeb5f637e1a92":[19,0,503,1],
+"structYoshiValleyEgg.html":[19,0,502],
+"structYoshiValleyEgg.html#a0ab1923c00ae6a34e0ef6d397abb3a29":[19,0,502,12],
+"structYoshiValleyEgg.html#a217fb03109992b5767e9828e0784beb1":[19,0,502,9],
 "structYoshiValleyEgg.html#a310c040e760d3aa654300c466e7598f6":[19,0,502,1],
 "structYoshiValleyEgg.html#a401f74c6a09c1ee3fb2e7c3b4826fffd":[19,0,502,3],
 "structYoshiValleyEgg.html#a4c5b57a229178a92a9d4f9396deb52d8":[19,0,502,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX82 =
 "structhud__player.html#affea9f0c1bb2f9fe5b9cf45d81cf30b9":[19,0,141,10],
 "structldiv__t.html":[19,0,154],
 "structldiv__t.html#a0f217ff62b8640aa945ec84d6d0bd000":[19,0,154,1],
-"structldiv__t.html#a73efd59c176304c327cb4214d0e5e5c9":[19,0,154,0],
-"structlldiv__t.html":[19,0,155],
-"structlldiv__t.html#a32d4596a917aa9b496c8a49178a0e3c6":[19,0,155,1],
-"structlldiv__t.html#ae4d4bccdf22f41e052073f5790c5ec37":[19,0,155,0],
-"structma__allocation__callbacks.html":[19,0,159],
-"structma__allocation__callbacks.html#a542b7477bbd6d9ed70009e5b308d8cc3":[19,0,159,3],
-"structma__allocation__callbacks.html#a92f2622cbf6aac7f5995ca490d5665ce":[19,0,159,1]
+"structldiv__t.html#a73efd59c176304c327cb4214d0e5e5c9":[19,0,154,0]
 };

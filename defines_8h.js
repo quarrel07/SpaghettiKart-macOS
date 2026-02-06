@@ -178,7 +178,7 @@ var defines_8h =
     [ "SOUND_HEADPHONES", "defines_8h.html#aaaaa1f121d97afbf02fcdcb0cc11e5e8", null ],
     [ "SOUND_MONO", "defines_8h.html#a090130d9c333ac08a748b2eac40085cb", null ],
     [ "SOUND_STEREO", "defines_8h.html#a14799bbba35e4e84b1b7d5c5788c7cf2", null ],
-    [ "SOUND_UNUSED", "defines_8h.html#ac23e3322221bf17b68cd008dc95bca48", null ],
+    [ "SOUND_SURROUND", "defines_8h.html#a8c60c63c057abd0972a9a686881f72f6", null ],
     [ "SPAWN_FIRST_SHELL", "defines_8h.html#ac92056af8d5fc39129d984a4c0607823", null ],
     [ "SPAWN_SECOND_SHELL", "defines_8h.html#ab629e9e6fb6ab443caf4f9a723e8f367", null ],
     [ "SPAWN_THIRD_SHELL", "defines_8h.html#a385595a2d1be736f2e8212c4d76e27fe", null ],

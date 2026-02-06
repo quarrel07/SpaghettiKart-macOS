@@ -4,7 +4,7 @@ var classOHedgehog =
     [ "~OHedgehog", "classOHedgehog.html#a9ff4eb3258e2ccd4ba7b5e3833c1f764", null ],
     [ "Draw", "classOHedgehog.html#a579906b4dbd1910e542cbfc3254a931c", null ],
     [ "DrawEditorProperties", "classOHedgehog.html#acca23b3411b98d9d55bc698b83cb2e6c", null ],
-    [ "func_8004A870", "classOHedgehog.html#a13625be451620e958a7901450c80e330", null ],
+    [ "func_8004A870", "classOHedgehog.html#a3565929a391e07261cd8783fa9e2ff34", null ],
     [ "func_800555BC", "classOHedgehog.html#a65bd4c41d64eacf258c6ea830a1311f3", null ],
     [ "func_8008311C", "classOHedgehog.html#a8e3f26edb830aee46208bcf39abd194b", null ],
     [ "func_80083248", "classOHedgehog.html#a848ea1e06e3db19753b4cf263abc9411", null ],

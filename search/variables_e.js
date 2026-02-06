@@ -49,7 +49,7 @@ var searchData=
   ['noteallocpolicy_46',['noteAllocPolicy',['../structSequencePlayer.html#a0b0f3b112fb525016beb1f99dc623221',1,'SequencePlayer::noteAllocPolicy'],['../structSequenceChannel.html#ae88e9a292d5b7ea8a5268faf7d47469f',1,'SequenceChannel::noteAllocPolicy']]],
   ['noteduration_47',['noteDuration',['../structSequenceChannelLayer.html#a00e24f8febfa4f5c1a26ebf912bf78c0',1,'SequenceChannelLayer']]],
   ['notefreqscale_48',['noteFreqScale',['../structSequenceChannelLayer.html#ad8e89be79338ddc255e4c31d79104929',1,'SequenceChannelLayer']]],
-  ['notepan_49',['notePan',['../structSequenceChannelLayer.html#a76ef12979939418b30dac956622e2418',1,'SequenceChannelLayer']]],
+  ['notepan_49',['notePan',['../structSequenceChannelLayer.html#a76ef12979939418b30dac956622e2418',1,'SequenceChannelLayer::notePan'],['../structNote.html#af50a817ac1380294a91f962706f882d8',1,'Note::notePan']]],
   ['notepool_50',['notePool',['../structSequencePlayer.html#a07bc22b391d39da9d53dfeb424bd6dc5',1,'SequencePlayer::notePool'],['../structSequenceChannel.html#a09f307822632c610119f377eb2a7e300',1,'SequenceChannel::notePool']]],
   ['notepriority_51',['notePriority',['../structSequenceChannel.html#a2539dddc70bd6159d5927d6c82e974da',1,'SequenceChannel']]],
   ['notepropertiesneedinit_52',['notePropertiesNeedInit',['../structSequenceChannelLayer.html#a4a28c81971275941752cfa6a38a40c2d',1,'SequenceChannelLayer']]],

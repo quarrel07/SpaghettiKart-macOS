@@ -161,8 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a143589fa70ddc0442a1db2cdc08e47fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a943a6bfbc738cb2c2df20846a5a32529" id="r_a943a6bfbc738cb2c2df20846a5a32529"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a943a6bfbc738cb2c2df20846a5a32529">func_80080B28</a> (s32 objectIndex, s32 playerId)</td></tr>
 <tr class="separator:a943a6bfbc738cb2c2df20846a5a32529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af04fbb872bce10a6491f862b31429dd2" id="r_af04fbb872bce10a6491f862b31429dd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af04fbb872bce10a6491f862b31429dd2">DrawModel</a> (s32)</td></tr>
-<tr class="separator:af04fbb872bce10a6491f862b31429dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3853cb5ac3a3de178c6637fca2f1dba5" id="r_a3853cb5ac3a3de178c6637fca2f1dba5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3853cb5ac3a3de178c6637fca2f1dba5">DrawModel</a> (s32, s32)</td></tr>
+<tr class="separator:a3853cb5ac3a3de178c6637fca2f1dba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8abc12507dadac0d4c3957ea92ddb061" id="r_a8abc12507dadac0d4c3957ea92ddb061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8abc12507dadac0d4c3957ea92ddb061">TranslateThwompLights</a> ()</td></tr>
 <tr class="separator:a8abc12507dadac0d4c3957ea92ddb061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5102c12d7f5b315f9d9c34e0baf4cb2" id="r_ae5102c12d7f5b315f9d9c34e0baf4cb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5102c12d7f5b315f9d9c34e0baf4cb2">ThwompLights</a> (s32 objectIndex)</td></tr>
@@ -325,7 +325,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a473ab45c3488350f0214f9f7a72c1455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo</a></b></dt><dd><p class="startdd">Make shadow size bigger if thwomp is scaled up </p>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo</a></b></dt><dd><p class="startdd">Make shadow size bigger if thwomp is scaled up </p>
 <p class="enddd">make adjustable properties for squishSize and boundingBoxSize </p>
 </dd></dl>
 <p>Thwomp <a class="el" href="classOObject.html">OObject</a></p>
@@ -513,8 +513,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="af04fbb872bce10a6491f862b31429dd2" name="af04fbb872bce10a6491f862b31429dd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af04fbb872bce10a6491f862b31429dd2">&#9670;&#160;</a></span>DrawModel()</h2>
+<a id="a3853cb5ac3a3de178c6637fca2f1dba5" name="a3853cb5ac3a3de178c6637fca2f1dba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3853cb5ac3a3de178c6637fca2f1dba5">&#9670;&#160;</a></span>DrawModel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -522,20 +522,24 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void OThwomp::DrawModel </td>
           <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span></td><td>)</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>cameraId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classOThwomp_af04fbb872bce10a6491f862b31429dd2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classOThwomp_a3853cb5ac3a3de178c6637fca2f1dba5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classOThwomp_af04fbb872bce10a6491f862b31429dd2_icgraph.svg" width="360" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classOThwomp_a3853cb5ac3a3de178c6637fca2f1dba5_icgraph.svg" width="360" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

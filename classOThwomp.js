@@ -14,7 +14,7 @@ var classOThwomp =
     [ "AddParticles", "classOThwomp.html#a8692894c1d51ec6751a10c41c63d7127", null ],
     [ "Draw", "classOThwomp.html#a62ebbbcbbb560d48c97928f77e4b2352", null ],
     [ "DrawEditorProperties", "classOThwomp.html#a16b1a19dc9755b571f4319805d274ac4", null ],
-    [ "DrawModel", "classOThwomp.html#af04fbb872bce10a6491f862b31429dd2", null ],
+    [ "DrawModel", "classOThwomp.html#a3853cb5ac3a3de178c6637fca2f1dba5", null ],
     [ "func_80074FD8", "classOThwomp.html#a9a005b835558155d83ca9c8e100f9748", null ],
     [ "func_8007542C", "classOThwomp.html#acfd7ba9a24db34c563bba8e59ce2f497", null ],
     [ "func_8007E50C", "classOThwomp.html#ac038e69f18f3a529a2c4abb96775e0c6", null ],

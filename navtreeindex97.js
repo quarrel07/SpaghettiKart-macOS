@@ -1,5 +1,13 @@
 var NAVTREEINDEX97 =
 {
+"track_8h.html#afe8d78d545c730fece490e504e92e4bd":[20,0,0,8,13,42],
+"track_8h_source.html":[20,0,0,8,13],
+"trackmenu.html":[14],
+"trackoverview.html":[14,0],
+"trackoverview.html#adding-a-path":[14,0,0,2,0],
+"trackoverview.html#adding-the-surface":[14,0,0,2],
+"trackoverview.html#configuration":[14,0,0,1],
+"trackoverview.html#custom-track-overview":[14,0,0],
 "trackoverview.html#dependencies":[14,0,0,0],
 "trackoverview.html#export-2":[14,0,0,4],
 "trackoverview.html#export-3":[14,0,0,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX97 =
 "update__objects_8c.html#a77160ca84eead36749ab8b1ac1ef987b":[20,0,3,68,61],
 "update__objects_8c.html#a7798b724f1595162e8f73d28dfeaf978":[20,0,3,68,66],
 "update__objects_8c.html#a7ae045370ff625cdd99a034e8940ec55":[20,0,3,68,30],
-"update__objects_8c.html#a7c574d70f5e63dbdb8afaf8112d2eb26":[20,0,3,68,47],
-"update__objects_8c.html#a7cccb4f6d5faf49ab0e338bab2e9f535":[20,0,3,68,156],
-"update__objects_8c.html#a7ec6746b9a66e965cab16e89f8d8ecd6":[20,0,3,68,109],
-"update__objects_8c.html#a7efe1605c91b5d2412e1163dc67f42c0":[20,0,3,68,187],
-"update__objects_8c.html#a81fd7e53c48fff45cb7e21682c0284b8":[20,0,3,68,95],
-"update__objects_8c.html#a83d37a6a6398f61c4a7fde42f22caa3e":[20,0,3,68,105],
-"update__objects_8c.html#a84c4faf0caa931fc708016d3c6ee6176":[20,0,3,68,197],
-"update__objects_8c.html#a85427aaa2bb0c47fde015fa11c4771a3":[20,0,3,68,161],
-"update__objects_8c.html#a8575e661ae825645eeedcf6b75f0132f":[20,0,3,68,76]
+"update__objects_8c.html#a7c574d70f5e63dbdb8afaf8112d2eb26":[20,0,3,68,47]
 };

@@ -3,7 +3,7 @@ var classOSeagull =
     [ "OSeagull", "classOSeagull.html#a39fdc9ecc362a16afa1572ca21f001f0", null ],
     [ "~OSeagull", "classOSeagull.html#a8b09c35c5bf5e0ecc4fd2f90d71d65c0", null ],
     [ "Draw", "classOSeagull.html#aa8b22830202db11f9023229cbd9d2f8c", null ],
-    [ "func_800552BC", "classOSeagull.html#ac6af838a820a0232e940575521844caa", null ],
+    [ "func_800552BC", "classOSeagull.html#a6a62e1843ac6fce6b1be77adc410f509", null ],
     [ "func_8008241C", "classOSeagull.html#aecaeaea3ef1cd4205d9049803ea997e5", null ],
     [ "func_80082714", "classOSeagull.html#afbe00548c91b2db5834e88901cf7a385", null ],
     [ "func_8008275C", "classOSeagull.html#afb8d3fd824adf5e5edbf698c94f59111", null ],

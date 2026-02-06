@@ -108,6 +108,7 @@ var external_8c =
     [ "func_800CB134", "external_8c.html#ab1b62ba2a99014b5f1b1416cb9dbcf10", null ],
     [ "func_800CB14C", "external_8c.html#ae71450546a81c5fa5a5ec8b5a529a5ef", null ],
     [ "func_800CB2C4", "external_8c.html#a12c3e6c147828cc102e748904808ea4a", null ],
+    [ "get_sound_surround_effect_index", "external_8c.html#ab702cc60aab25980ef5caa9cf07a4697", null ],
     [ "play_sequence", "external_8c.html#a6584dbe6b07d52e25d5ca892468153a5", null ],
     [ "play_sequence2", "external_8c.html#af0fb5f157bfe492119ff2b069cdeb276", null ],
     [ "play_sequences", "external_8c.html#a5fa9cd32047d8e3e1f1c703421b34845", null ],

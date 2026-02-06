@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"functions_q.html":[19,3,0,17],
+"functions_r.html":[19,3,0,18],
 "functions_rela.html":[19,3,6],
 "functions_s.html":[19,3,0,19],
 "functions_t.html":[19,3,0,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "globals_m.html":[20,1,0,13],
 "globals_n.html":[20,1,0,14],
 "globals_o.html":[20,1,0,15],
-"globals_p.html":[20,1,0,16],
-"globals_q.html":[20,1,0,17],
-"globals_r.html":[20,1,0,18]
+"globals_p.html":[20,1,0,16]
 };

@@ -122,36 +122,35 @@ $(function(){initNavTree('cow_2render_8inc_8c_source.html',''); initResizable(tr
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">// @port: Tag the transform.</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_function" href="FrameInterpolation_8cpp.html#a0eda726b74eac815af4e874014e2727c">FrameInterpolation_RecordOpenChild</a>(<span class="stringliteral">&quot;render_actor_cow&quot;</span>, <a class="code hl_define" href="FrameInterpolation_8h.html#a1082df252b2fcfa1cd89c1bec22204c3">TAG_OBJECT</a>(arg2));</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    arg1[3][0] = arg2-&gt;<a class="code hl_variable" href="structActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>[0];</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    arg1[3][1] = arg2-&gt;<a class="code hl_variable" href="structActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>[1];</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    arg1[3][2] = arg2-&gt;<a class="code hl_variable" href="structActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>[2];</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="math__util_8c.html#a1e5d28a1962fbb390c7551f66c2f099a">render_set_position</a>(arg1, 0) != 0) {</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">switch</span> (arg2-&gt;<a class="code hl_variable" href="structActor.html#a8fedca3871be05588e5263f4a184ad5d">state</a>) {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="keywordflow">case</span> 0:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow1);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow2);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow3);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow4);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keywordflow">case</span> 4:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow5);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// @port Pop the transform id.</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_function" href="FrameInterpolation_8cpp.html#a3a036bc9d533e28a4e9697cd20dccf3e">FrameInterpolation_RecordCloseChild</a>();</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_function" href="FrameInterpolation_8cpp.html#a0eda726b74eac815af4e874014e2727c">FrameInterpolation_RecordOpenChild</a>(<span class="stringliteral">&quot;render_actor_cow&quot;</span>, <a class="code hl_define" href="FrameInterpolation_8h.html#a1082df252b2fcfa1cd89c1bec22204c3">TAG_OBJECT</a>(((uintptr_t)arg2 &lt;&lt; 5) | camera-&gt;<a class="code hl_variable" href="structCamera.html#a15388e5b99931adebdf818711a3724e0">cameraId</a>));</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    arg1[3][0] = arg2-&gt;<a class="code hl_variable" href="structActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>[0];</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    arg1[3][1] = arg2-&gt;<a class="code hl_variable" href="structActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>[1];</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    arg1[3][2] = arg2-&gt;<a class="code hl_variable" href="structActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>[2];</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="math__util_8c.html#a1e5d28a1962fbb390c7551f66c2f099a">render_set_position</a>(arg1, 0) != 0) {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">switch</span> (arg2-&gt;<a class="code hl_variable" href="structActor.html#a8fedca3871be05588e5263f4a184ad5d">state</a>) {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow1);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow2);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow3);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow4);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <span class="keywordflow">case</span> 4:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                <a class="code hl_function" href="GBIMiddleware_8cpp.html#a4ecc44e3c6f1ca5a6b4a20c41d3bd2d2">gSPDisplayList</a>(<a class="code hl_variable" href="main_8c.html#a126651d46f16435589024505d8aef7b7">gDisplayListHead</a>++, d_course_moo_moo_farm_dl_cow5);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// @port Pop the transform id.</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_function" href="FrameInterpolation_8cpp.html#a3a036bc9d533e28a4e9697cd20dccf3e">FrameInterpolation_RecordCloseChild</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 </div>
 <div class="ttc" id="aFrameInterpolation_8cpp_html_a0eda726b74eac815af4e874014e2727c"><div class="ttname"><a href="FrameInterpolation_8cpp.html#a0eda726b74eac815af4e874014e2727c">FrameInterpolation_RecordOpenChild</a></div><div class="ttdeci">void FrameInterpolation_RecordOpenChild(const void *a, uintptr_t b)</div><div class="ttdef"><b>Definition</b> FrameInterpolation.cpp:640</div></div>
 <div class="ttc" id="aFrameInterpolation_8cpp_html_a3a036bc9d533e28a4e9697cd20dccf3e"><div class="ttname"><a href="FrameInterpolation_8cpp.html#a3a036bc9d533e28a4e9697cd20dccf3e">FrameInterpolation_RecordCloseChild</a></div><div class="ttdeci">void FrameInterpolation_RecordCloseChild(void)</div><div class="ttdef"><b>Definition</b> FrameInterpolation.cpp:650</div></div>
@@ -171,6 +170,7 @@ $(function(){initNavTree('cow_2render_8inc_8c_source.html',''); initResizable(tr
 <div class="ttc" id="astructActor_html_afa1455dbf1a4698584ed8c501439692f"><div class="ttname"><a href="structActor.html#afa1455dbf1a4698584ed8c501439692f">Actor::pos</a></div><div class="ttdeci">Vec3f pos</div><div class="ttdef"><b>Definition</b> actor_types.h:135</div></div>
 <div class="ttc" id="astructCamera_html"><div class="ttname"><a href="structCamera.html">Camera</a></div><div class="ttdef"><b>Definition</b> camera.h:35</div></div>
 <div class="ttc" id="astructCamera_html_a0eac7222597bb35c86f8ab71bb2f9d2f"><div class="ttname"><a href="structCamera.html#a0eac7222597bb35c86f8ab71bb2f9d2f">Camera::rot</a></div><div class="ttdeci">Vec3s rot</div><div class="ttdef"><b>Definition</b> camera.h:42</div></div>
+<div class="ttc" id="astructCamera_html_a15388e5b99931adebdf818711a3724e0"><div class="ttname"><a href="structCamera.html#a15388e5b99931adebdf818711a3724e0">Camera::cameraId</a></div><div class="ttdeci">size_t cameraId</div><div class="ttdef"><b>Definition</b> camera.h:67</div></div>
 <div class="ttc" id="astructCamera_html_a7b3ff9e1366b31d516a32bbfb469cde4"><div class="ttname"><a href="structCamera.html#a7b3ff9e1366b31d516a32bbfb469cde4">Camera::fieldOfView</a></div><div class="ttdeci">f32 fieldOfView</div><div class="ttdef"><b>Definition</b> camera.h:43</div></div>
 <div class="ttc" id="astructCamera_html_aaa7eaab22236f016fd933666bd90c741"><div class="ttname"><a href="structCamera.html#aaa7eaab22236f016fd933666bd90c741">Camera::pos</a></div><div class="ttdeci">Vec3f pos</div><div class="ttdef"><b>Definition</b> camera.h:36</div></div>
 </div><!-- fragment --></div><!-- contents -->

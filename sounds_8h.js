@@ -44,6 +44,7 @@ var sounds_8h =
     [ "SOUND_MENU_SELECT_MAP", "sounds_8h.html#a24a363b6d18669439fb7ef28d60682d9", null ],
     [ "SOUND_MENU_SELECT_PLAYER", "sounds_8h.html#accdc6dfaa039039a066acbc8cac43bfb", null ],
     [ "SOUND_MENU_STEREO", "sounds_8h.html#a3fd728a58940cffdd78dac4be87e1152", null ],
+    [ "SOUND_MENU_SURROUND", "sounds_8h.html#ad271c414e9bac13a4198fb1ed9a8f71f", null ],
     [ "SOUND_MENU_TIME_TRIALS", "sounds_8h.html#a178c673b7d1cfa01a2fb1957d674762d", null ],
     [ "SOUND_MENU_VERSUS", "sounds_8h.html#a457ac1730cdbe2b3e2afcd6fa697b6ff", null ],
     [ "MusicSeq", "sounds_8h.html#a462955cf4ece430059af4e4185a8727c", [

@@ -112,6 +112,7 @@ $(function(){initNavTree('menus_8c.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;libultraship.h&gt;</code><br />
+<code>#include &lt;libultraship/bridge/audiobridge.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="macros_8h_source.html">macros.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="defines_8h_source.html">defines.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common__structs_8h_source.html">common_structs.h</a>&gt;</code><br />
@@ -296,7 +297,7 @@ Variables</h2></td></tr>
 <tr class="separator:a222e4373dee5eff0b59adeaefa82e9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78bb57632807d5874d8a7492bb9268e" id="r_aa78bb57632807d5874d8a7492bb9268e"><td class="memItemLeft" align="right" valign="top">const s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78bb57632807d5874d8a7492bb9268e">sScreenModeIdxFromPlayerMode</a> [4] = { 0, 1, 3, 4 }</td></tr>
 <tr class="separator:aa78bb57632807d5874d8a7492bb9268e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a482e5aa8d8581771ca9514a26b64fcfd" id="r_a482e5aa8d8581771ca9514a26b64fcfd"><td class="memItemLeft" align="right" valign="top">const union <a class="el" href="unionGameModePack.html">GameModePack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a482e5aa8d8581771ca9514a26b64fcfd">sSoundMenuPack</a> = { { <a class="el" href="defines_8h.html#a14799bbba35e4e84b1b7d5c5788c7cf2">SOUND_STEREO</a>, <a class="el" href="defines_8h.html#aaaaa1f121d97afbf02fcdcb0cc11e5e8">SOUND_HEADPHONES</a>, <a class="el" href="defines_8h.html#ac23e3322221bf17b68cd008dc95bca48">SOUND_UNUSED</a>, <a class="el" href="defines_8h.html#a090130d9c333ac08a748b2eac40085cb">SOUND_MONO</a> } }</td></tr>
+<tr class="memitem:a482e5aa8d8581771ca9514a26b64fcfd" id="r_a482e5aa8d8581771ca9514a26b64fcfd"><td class="memItemLeft" align="right" valign="top">const union <a class="el" href="unionGameModePack.html">GameModePack</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a482e5aa8d8581771ca9514a26b64fcfd">sSoundMenuPack</a> = { { <a class="el" href="defines_8h.html#a14799bbba35e4e84b1b7d5c5788c7cf2">SOUND_STEREO</a>, <a class="el" href="defines_8h.html#aaaaa1f121d97afbf02fcdcb0cc11e5e8">SOUND_HEADPHONES</a>, <a class="el" href="defines_8h.html#a8c60c63c057abd0972a9a686881f72f6">SOUND_SURROUND</a>, <a class="el" href="defines_8h.html#a090130d9c333ac08a748b2eac40085cb">SOUND_MONO</a> } }</td></tr>
 <tr class="separator:a482e5aa8d8581771ca9514a26b64fcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1640,7 +1641,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const union <a class="el" href="unionGameModePack.html">GameModePack</a> sSoundMenuPack = { { <a class="el" href="defines_8h.html#a14799bbba35e4e84b1b7d5c5788c7cf2">SOUND_STEREO</a>, <a class="el" href="defines_8h.html#aaaaa1f121d97afbf02fcdcb0cc11e5e8">SOUND_HEADPHONES</a>, <a class="el" href="defines_8h.html#ac23e3322221bf17b68cd008dc95bca48">SOUND_UNUSED</a>, <a class="el" href="defines_8h.html#a090130d9c333ac08a748b2eac40085cb">SOUND_MONO</a> } }</td>
+          <td class="memname">const union <a class="el" href="unionGameModePack.html">GameModePack</a> sSoundMenuPack = { { <a class="el" href="defines_8h.html#a14799bbba35e4e84b1b7d5c5788c7cf2">SOUND_STEREO</a>, <a class="el" href="defines_8h.html#aaaaa1f121d97afbf02fcdcb0cc11e5e8">SOUND_HEADPHONES</a>, <a class="el" href="defines_8h.html#a8c60c63c057abd0972a9a686881f72f6">SOUND_SURROUND</a>, <a class="el" href="defines_8h.html#a090130d9c333ac08a748b2eac40085cb">SOUND_MONO</a> } }</td>
         </tr>
       </table>
 </div><div class="memdoc">

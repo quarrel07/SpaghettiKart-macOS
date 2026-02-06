@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"structma__resource__manager.html#ac5353a21e5c1474602c96575fb5508c2":[19,0,282,4],
+"structma__resource__manager.html#ad63bb90ab5a52876aedd9905287df8d2":[19,0,282,1],
+"structma__resource__manager.html#ae6842167e3db641f9a22da153c5fec5d":[19,0,282,3],
+"structma__resource__manager.html#af2eb026b3248b7d655b982a2a3d2a941":[19,0,282,2],
+"structma__resource__manager.html#af3cc97ef08b4d767ce66b850e0510eda":[19,0,282,6],
+"structma__resource__manager__config.html":[19,0,283],
 "structma__resource__manager__config.html#a056a00d2bfc9776d3fe717cebfe496d4":[19,0,283,12],
 "structma__resource__manager__config.html#a419e1a6d086d2a0118c17337bec8324b":[19,0,283,10],
 "structma__resource__manager__config.html#a55d93936a63c564446a1b13bdc919172":[19,0,283,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "structma__waveform__config.html#a2488b0390a0398cebd9576ad1cf48582":[19,0,310,0],
 "structma__waveform__config.html#a4263f4b5d8e1f74e98885a4ecf5ef3c4":[19,0,310,4],
 "structma__waveform__config.html#a76642448840a7b4dcae2c8283987e4cc":[19,0,310,5],
-"structma__waveform__config.html#a9a89bf9e312ac131fc5aed1977580856":[19,0,310,3],
-"structprintf__struct.html":[19,0,374],
-"structprintf__struct.html#a08bc3d30bee256739a79e8954b52a291":[19,0,374,14],
-"structprintf__struct.html#a192e48d7071ec1a2671e5344f476d836":[19,0,374,8],
-"structprintf__struct.html#a3cc46cdfdb2c2badbb512ee86bc3f5c3":[19,0,374,3],
-"structprintf__struct.html#a3dcc486f96e13521dde5712ba1585a37":[19,0,374,1],
-"structprintf__struct.html#a4201ea0c3a45f4ce304ea3c5aad7267a":[19,0,374,12]
+"structma__waveform__config.html#a9a89bf9e312ac131fc5aed1977580856":[19,0,310,3]
 };
