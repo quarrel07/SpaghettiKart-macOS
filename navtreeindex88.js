@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structma__waveform__config.html#a76642448840a7b4dcae2c8283987e4cc":[19,0,310,5],
+"structma__waveform__config.html#a9a89bf9e312ac131fc5aed1977580856":[19,0,310,3],
 "structprintf__struct.html":[19,0,374],
 "structprintf__struct.html#a08bc3d30bee256739a79e8954b52a291":[19,0,374,14],
 "structprintf__struct.html#a192e48d7071ec1a2671e5344f476d836":[19,0,374,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "synthesis_8h.html#a6d3021a3852efebf658d4c1a1f741a5c":[20,0,3,1,22,30],
 "synthesis_8h.html#a7d0209c82345e7a6205f78c353b70547":[20,0,3,1,22,16],
 "synthesis_8h.html#a7f59b9e4b76238914747f4d44efaf00b":[20,0,3,1,22,15],
-"synthesis_8h.html#a831c7a9542071eed3e68885bd89e505b":[20,0,3,1,22,19],
-"synthesis_8h.html#a92fee86186294f642b73eef01447c2fd":[20,0,3,1,22,6],
-"synthesis_8h.html#a98b5785b65674a669175487b708d1fac":[20,0,3,1,22,28]
+"synthesis_8h.html#a831c7a9542071eed3e68885bd89e505b":[20,0,3,1,22,19]
 };

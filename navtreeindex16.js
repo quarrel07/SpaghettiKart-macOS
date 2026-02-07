@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classSM64_1_1AudioSample.html#a3055a917a610b9f15282989de3b75c2b":[19,0,5,2,6],
+"classSM64_1_1AudioSample.html#a5a74c4c389c0803a68fda5f94d2dead6":[18,0,8,2,0],
 "classSM64_1_1AudioSample.html#a5a74c4c389c0803a68fda5f94d2dead6":[19,0,5,2,0],
 "classSM64_1_1AudioSample.html#a92b7a75daa7fc8713f01218d753f9e14":[18,0,8,2,7],
 "classSM64_1_1AudioSample.html#a92b7a75daa7fc8713f01218d753f9e14":[19,0,5,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classTrackEditor_1_1GameObject.html#a2a8c80f8d3ac4f7a95e205b5025f0948":[19,0,6,1,26],
 "classTrackEditor_1_1GameObject.html#a4590cc7d5844b8c645b817e77bc11165":[18,0,9,1,22],
 "classTrackEditor_1_1GameObject.html#a4590cc7d5844b8c645b817e77bc11165":[19,0,6,1,22],
-"classTrackEditor_1_1GameObject.html#a4aa4517c35b8a974f29988d661e62af8":[18,0,9,1,15],
-"classTrackEditor_1_1GameObject.html#a4aa4517c35b8a974f29988d661e62af8":[19,0,6,1,15],
-"classTrackEditor_1_1GameObject.html#a680cfadd1c7a4abb1caed358405a56e1":[18,0,9,1,2]
+"classTrackEditor_1_1GameObject.html#a4aa4517c35b8a974f29988d661e62af8":[18,0,9,1,15]
 };

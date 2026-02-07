@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structCinematicCamera.html#ac7dfca219f43f1f023c9e1857c9c638f":[19,0,89,7],
+"structCinematicCamera.html#ac8de51fe25a866be5c8c71a7c912535a":[19,0,89,12],
 "structCinematicCamera.html#acbaaf3841ab7f2e944b1ee2145d72601":[19,0,89,13],
 "structCinematicCamera.html#ad41b3d461b670272b136cd428fa6bc34":[19,0,89,17],
 "structCinematicCamera.html#adf4fbc44d7a1d92ef6c34a70f5130189":[19,0,89,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structInstrument.html#a09ad55f9cecc64d02df0818ca07268ba":[19,0,142,15],
 "structInstrument.html#a0aa5e84ee81283e9dfc8db0e7ca7d90c":[19,0,142,0],
 "structInstrument.html#a262f6b3996de2e9a9313ef11b4f59325":[19,0,142,6],
-"structInstrument.html#a2cb3a8dd8589c08f3b233a2810affc82":[19,0,142,1],
-"structInstrument.html#a35ae8f8ae47cf36010ed10c0ce699157":[19,0,142,5],
-"structInstrument.html#a547b41b98601a9f17745412d792d4929":[19,0,142,9]
+"structInstrument.html#a2cb3a8dd8589c08f3b233a2810affc82":[19,0,142,1]
 };

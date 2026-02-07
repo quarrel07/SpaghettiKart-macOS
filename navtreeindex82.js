@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structWorld_1_1Matrix.html#ae92b739995f414b2d8c86a774a1dfb1b":[19,0,500,0,3],
+"structWorld_1_1Matrix.html#af4e951a1641dbac5195bd79d6a532473":[19,0,500,0,7],
 "structYVFlagPoleSpawn.html":[19,0,503],
 "structYVFlagPoleSpawn.html#a5b8d47e9bc2fabb268253a700c249527":[19,0,503,0],
 "structYVFlagPoleSpawn.html#aadd9629a5899fd9ee91eeb5f637e1a92":[19,0,503,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structhud__player.html#af9b7eb46b805b0f2934ec4e9adc0785c":[19,0,141,35],
 "structhud__player.html#afdbc844406ee74f8761de1dfa8053a55":[19,0,141,11],
 "structhud__player.html#affea9f0c1bb2f9fe5b9cf45d81cf30b9":[19,0,141,10],
-"structldiv__t.html":[19,0,154],
-"structldiv__t.html#a0f217ff62b8640aa945ec84d6d0bd000":[19,0,154,1],
-"structldiv__t.html#a73efd59c176304c327cb4214d0e5e5c9":[19,0,154,0]
+"structldiv__t.html":[19,0,154]
 };

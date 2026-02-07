@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classTrackEditor_1_1ToolsWindow.html#ad1878b37534ce3727facf0580fc18360":[19,0,6,8,3],
+"classTrackEditor_1_1ToolsWindow.html#ae385cfb1d654a2e5be9373f7df9a16ef":[18,0,9,8,1],
 "classTrackEditor_1_1ToolsWindow.html#ae385cfb1d654a2e5be9373f7df9a16ef":[19,0,6,8,1],
 "classTrackEditor_1_1TrackPropertiesWindow.html":[18,0,9,9],
 "classTrackEditor_1_1TrackPropertiesWindow.html":[19,0,6,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classpfd_1_1settings.html#a4e22d6fb43d387ddc980bf6e2a6aad24":[19,0,2,7,7],
 "classpfd_1_1settings.html#a54fb5598e7501ac38d17e3629190b2fe":[18,0,5,7,2],
 "classpfd_1_1settings.html#a54fb5598e7501ac38d17e3629190b2fe":[19,0,2,7,2],
-"classpfd_1_1settings.html#a60023ab0ac98008d2c52a568e9ee540f":[18,0,5,7,9],
-"classpfd_1_1settings.html#a60023ab0ac98008d2c52a568e9ee540f":[19,0,2,7,9],
-"classpfd_1_1settings.html#a61077e0fd48da6de7bb0f5dd9d9d1aad":[18,0,5,7,0]
+"classpfd_1_1settings.html#a60023ab0ac98008d2c52a568e9ee540f":[18,0,5,7,9]
 };

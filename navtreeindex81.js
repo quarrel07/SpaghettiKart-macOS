@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structUnkCameraInner.html":[19,0,473],
+"structUnkCameraInner.html#a0ae83a6d657be194003714192dc475d7":[19,0,473,2],
 "structUnkCameraInner.html#a5499972c8cb849fa3f41452c6e72d4d8":[19,0,473,1],
 "structUnkCameraInner.html#a8f8878f5577708521381011d042215b8":[19,0,473,3],
 "structUnkCameraInner.html#ab28dd2dbeb5038fde39f2d2ae9bb8cc0":[19,0,473,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structWorld_1_1Matrix.html#a9fd757abd02261f0c5ee2d7215038959":[19,0,500,0,1],
 "structWorld_1_1Matrix.html#ab8a87da299bcf104e50878722aaebab0":[19,0,500,0,0],
 "structWorld_1_1Matrix.html#abfa483739dc61bfa7e520c6158f252d5":[19,0,500,0,2],
-"structWorld_1_1Matrix.html#aca856f4c3a0b83759e505002713950cb":[19,0,500,0,8],
-"structWorld_1_1Matrix.html#ae92b739995f414b2d8c86a774a1dfb1b":[19,0,500,0,3],
-"structWorld_1_1Matrix.html#af4e951a1641dbac5195bd79d6a532473":[19,0,500,0,7]
+"structWorld_1_1Matrix.html#aca856f4c3a0b83759e505002713950cb":[19,0,500,0,8]
 };

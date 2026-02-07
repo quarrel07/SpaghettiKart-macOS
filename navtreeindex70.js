@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"ship__model_8h.html#a67fe1d2208bebb0f6f5d08fcb940695f":[20,0,0,8,9,19],
+"ship__model_8h.html#a685187d59f37eac3e362d084adfe3e4f":[20,0,0,8,9,10],
 "ship__model_8h.html#a78260699ce083feb7e922ef0284a2490":[20,0,0,8,9,33],
 "ship__model_8h.html#a81e9b24841d66e7973fd72341eb56f1c":[20,0,0,8,9,53],
 "ship__model_8h.html#a8233e7efedbb993abafd1688ef1443fb":[20,0,0,8,9,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "sounds_8h.html#a462955cf4ece430059af4e4185a8727c":[20,0,2,20,47],
 "sounds_8h.html#a462955cf4ece430059af4e4185a8727ca0a2404a1f97ab04a579f8de1670972db":[20,0,2,20,47,6],
 "sounds_8h.html#a462955cf4ece430059af4e4185a8727ca14ea9119e8095a208d64896c1a9db582":[20,0,2,20,47,4],
-"sounds_8h.html#a462955cf4ece430059af4e4185a8727ca1644602e27d5fb82d74a2d2a19fade13":[20,0,2,20,47,30],
-"sounds_8h.html#a462955cf4ece430059af4e4185a8727ca25fe671db8972d75d597f411007223b4":[20,0,2,20,47,33],
-"sounds_8h.html#a462955cf4ece430059af4e4185a8727ca26a0bfb005504d1edda2dad73cd02809":[20,0,2,20,47,34]
+"sounds_8h.html#a462955cf4ece430059af4e4185a8727ca1644602e27d5fb82d74a2d2a19fade13":[20,0,2,20,47,30]
 };

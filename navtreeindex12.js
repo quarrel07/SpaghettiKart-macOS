@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classKalimariDesert.html#a349a23ecde323470b29eba38b3bffa74":[19,0,150,10],
+"classKalimariDesert.html#a377b5d45c7fcb575b0525bb3c473c63e":[19,0,150,4],
 "classKalimariDesert.html#a3feed91afde5544f406f23e841cb6d72":[19,0,150,8],
 "classKalimariDesert.html#a412e171ab5b9b3a536e33bace5618b15":[19,0,150,0],
 "classKalimariDesert.html#a622a324585346c12781ce7c0028dd487":[19,0,150,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classOBombKart.html#a2365261a4311b2dd2e6301f494b0fc8e":[19,0,336,6],
 "classOBombKart.html#a26f1101186aa5216fc8d4ef278ac2000":[19,0,336,18],
 "classOBombKart.html#a287eda05ca5a76a2cb8c7d4d719d38e4":[19,0,336,29],
-"classOBombKart.html#a29a3bf5efab4305d3dfd6aada9fe51ac":[19,0,336,17],
-"classOBombKart.html#a2af9545181a43230f7a2a27635516c16":[19,0,336,5],
-"classOBombKart.html#a31e0a54dd4042eedd519737054617a3c":[19,0,336,16]
+"classOBombKart.html#a29a3bf5efab4305d3dfd6aada9fe51ac":[19,0,336,17]
 };

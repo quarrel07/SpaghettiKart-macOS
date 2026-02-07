@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structTrackInfo.html#aa62d9827ea29aecd422a97d637604d88":[19,0,454,2],
+"structTrackInfo.html#af881e1cf433f12bd8fde50483a36d844":[19,0,454,1],
 "structTrackPathPoint.html":[19,0,455],
 "structTrackPathPoint.html#a3572feaaa5b94c4948f447adfd4aa66e":[19,0,455,0],
 "structTrackPathPoint.html#a5e6d0c98475ce0a7f32004c557c22c43":[19,0,455,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structUnkActorSpawnData.html":[19,0,472],
 "structUnkActorSpawnData.html#a0504e28886dacafd17078992a6ec9239":[19,0,472,0],
 "structUnkActorSpawnData.html#a33553f422d028601d6f3267daa4d047d":[19,0,472,1],
-"structUnkActorSpawnData.html#afe80cda1214aceca98e2a0db099e2d7a":[19,0,472,2],
-"structUnkCameraInner.html":[19,0,473],
-"structUnkCameraInner.html#a0ae83a6d657be194003714192dc475d7":[19,0,473,2]
+"structUnkActorSpawnData.html#afe80cda1214aceca98e2a0db099e2d7a":[19,0,472,2]
 };
