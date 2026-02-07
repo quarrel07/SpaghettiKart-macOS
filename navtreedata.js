@@ -107,7 +107,7 @@ var NAVTREE =
       [ "New Folder Structure", "md_docs_2migrations.html#new-folder-structure", null ],
       [ "Manual Migration", "md_docs_2migrations.html#manual-migration", null ],
       [ "Troubleshooting", "md_docs_2migrations.html#troubleshooting", null ],
-      [ "See Also", "md_docs_2migrations.html#see-also-1", null ]
+      [ "See Also", "md_docs_2migrations.html#see-also", null ]
     ] ],
     [ "Modding", "md_docs_2modding.html", [
       [ "General Structure", "md_docs_2modding.html#general-structure", [
@@ -132,7 +132,7 @@ var NAVTREE =
       [ "Load Order", "md_docs_2mods-toml.html#load-order", null ],
       [ "Best Practices", "md_docs_2mods-toml.html#best-practices", null ],
       [ "Migration Script Support", "md_docs_2mods-toml.html#migration-script-support", null ],
-      [ "See Also", "md_docs_2mods-toml.html#see-also", null ]
+      [ "See Also", "md_docs_2mods-toml.html#see-also-1", null ]
     ] ],
     [ "Sequence Information (Music)", "md_docs_2sequences-information.html", [
       [ "Race Tracks", "md_docs_2sequences-information.html#race-tracks", null ],
@@ -208,7 +208,7 @@ var NAVTREEINDEX =
 "classACloud.html",
 "classATruck.html#aa1c986c1ca35dc614619af0f2282ba60a237ed3d7691fc50fc64aa6e96b21bffa",
 "classKalimariDesert.html#a349a23ecde323470b29eba38b3bffa74",
-"classOBombKart.html#a2af9545181a43230f7a2a27635516c16",
+"classOBombKart.html#a31e0a54dd4042eedd519737054617a3c",
 "classOMoleGroup.html#a3dc3ce99d89652add1cc50f355be0191",
 "classPlayerBombKart.html#a98890e9c1d01ce1d63690bf32a44e2a6",
 "classSM64_1_1AudioSample.html#a3055a917a610b9f15282989de3b75c2b",

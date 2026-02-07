@@ -242,12 +242,12 @@ var NAVTREEINDEX12 =
 "classOBat.html#aeda5b9b2ee8b33334a5b2b92654e087b":[19,0,332,2],
 "classOBat.html#aee0246fa1a7cd2b1fc23c18cdbf75256":[19,0,332,0],
 "classOBombKart.html":[19,0,336],
-"classOBombKart.html#a06177fe75d7904032a6743129f96f0b6":[19,0,336,10],
 "classOBombKart.html#a13263cb0e3b68d69629f4e429fa8f026":[19,0,336,24],
 "classOBombKart.html#a1566e8d56318b18ad900fbbac9966d9d":[19,0,336,1],
 "classOBombKart.html#a15a9b23c651ba0a1f890b4731c0b90e7":[19,0,336,20],
 "classOBombKart.html#a2365261a4311b2dd2e6301f494b0fc8e":[19,0,336,6],
 "classOBombKart.html#a26f1101186aa5216fc8d4ef278ac2000":[19,0,336,18],
 "classOBombKart.html#a287eda05ca5a76a2cb8c7d4d719d38e4":[19,0,336,29],
-"classOBombKart.html#a29a3bf5efab4305d3dfd6aada9fe51ac":[19,0,336,17]
+"classOBombKart.html#a29a3bf5efab4305d3dfd6aada9fe51ac":[19,0,336,17],
+"classOBombKart.html#a2af9545181a43230f7a2a27635516c16":[19,0,336,5]
 };
