@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"structma__decoder.html#a52f2b557d37cdd399bc99b3993665967":[19,0,191,21],
 "structma__decoder.html#a66e891518697e7226936c04cce589a8c":[19,0,191,14],
 "structma__decoder.html#a68502fa2139cb7cea40e8352b7aae1af":[19,0,191,25],
 "structma__decoder.html#a6df76f9277a13ea48b90f6f2d71ee30a":[19,0,191,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "structma__encoder__config.html#aa2d54fe2b58a15b3f01fd002e2eadf59":[19,0,210,2],
 "structma__encoder__config.html#aa5100b3bdf27e7e7799ccc2b184141bd":[19,0,210,4],
 "structma__engine.html":[19,0,211],
-"structma__engine.html#a12f56c0666e4f8c9a78b337baa870ad7":[19,0,211,3],
-"structma__engine.html#a1b459564f7c6839863e7e3e147944da7":[19,0,211,5]
+"structma__engine.html#a12f56c0666e4f8c9a78b337baa870ad7":[19,0,211,3]
 };

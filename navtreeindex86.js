@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"structma__log__callback.html#a2d09e2b42fa86849b5aa4517c5c88966":[19,0,240,0],
 "structma__log__callback.html#a7ed163e3f4288bf4451ce468eb03edd6":[19,0,240,1],
 "structma__loshelf2.html":[19,0,241],
 "structma__loshelf2.html#a500f4b2ce64b7e58b1e6d103989f6ad8":[19,0,241,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "structma__resampling__backend__vtable.html#ab4800d523d691d0a7daf6e80c4730c32":[19,0,281,9],
 "structma__resampling__backend__vtable.html#abcc40c58874007d4f6ee79690e2662d6":[19,0,281,7],
 "structma__resampling__backend__vtable.html#ad88d0d4c18cb1ac18997692d07864411":[19,0,281,5],
-"structma__resampling__backend__vtable.html#ae114e513358590a64bf5018cb6c3a0c5":[19,0,281,1],
-"structma__resource__manager.html":[19,0,282]
+"structma__resampling__backend__vtable.html#ae114e513358590a64bf5018cb6c3a0c5":[19,0,281,1]
 };

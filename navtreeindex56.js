@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceGameUI.html#a291610a1b19acbf05b97d3512a50c78f":[18,0,3,28],
 "namespaceGameUI.html#a3d46807cc832ea9dce8ac8d36836343f":[18,0,3,34],
 "namespaceGameUI.html#a3e65fdb748dcb79dd6cbcca5ee10fab2":[18,0,3,12],
 "namespaceGameUI.html#a3ec999dd45c253f4028a9799c2097bf3":[18,0,3,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a197d0422f331777e7c59bbf3d5215250":[18,0,10,9,0],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a23c53943bad3c4bde433c8aeb607120a":[18,0,10,9,1],
 "namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2b67f0b08aa6a5047d2ef6a161a9e44e":[18,0,10,9,10],
-"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2ea00829ca38c543e737550157502b2b":[18,0,10,9,13],
-"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2fa2a6ba71f7e292c424321a64637405":[18,0,10,9,9]
+"namespaceUIWidgets.html#ab518b3979a369a95a6e490c6d8f87d26a2ea00829ca38c543e737550157502b2b":[18,0,10,9,13]
 };

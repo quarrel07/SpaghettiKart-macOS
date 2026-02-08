@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structTrackInfo.html#a9bbee7dc9a39dd5a97e19e24cf798af7":[19,0,454,5],
 "structTrackInfo.html#aa62d9827ea29aecd422a97d637604d88":[19,0,454,2],
 "structTrackInfo.html#af881e1cf433f12bd8fde50483a36d844":[19,0,454,1],
 "structTrackPathPoint.html":[19,0,455],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structUnk1Pool.html#acd0c0850a2885a27818620587bd67670":[19,0,467,0],
 "structUnkActorSpawnData.html":[19,0,472],
 "structUnkActorSpawnData.html#a0504e28886dacafd17078992a6ec9239":[19,0,472,0],
-"structUnkActorSpawnData.html#a33553f422d028601d6f3267daa4d047d":[19,0,472,1],
-"structUnkActorSpawnData.html#afe80cda1214aceca98e2a0db099e2d7a":[19,0,472,2]
+"structUnkActorSpawnData.html#a33553f422d028601d6f3267daa4d047d":[19,0,472,1]
 };

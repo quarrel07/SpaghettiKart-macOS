@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"osCreatePiManager_8c.html#a45cd3bd3bdfa0b0e0506782a453ff151":[20,0,3,8,64,1],
 "osCreatePiManager_8c.html#a6272cefa472a337a04dc11f3a26b1ef1":[20,0,3,8,64,0],
 "osCreatePiManager_8c.html#a69505106d9c6dea10efb5236335a70d0":[20,0,3,8,64,8],
 "osCreatePiManager_8c.html#a75139a417f68f985cd7bb9a2ca166f98":[20,0,3,8,64,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "osint_8h.html#a31b577966e52be770c717b8bf5283124":[20,0,3,8,77,13],
 "osint_8h.html#a359a7a14acda8314d35aaf1019425e18":[20,0,3,8,77,24],
 "osint_8h.html#a4af0cb38d6a9bc36e9ee5dda55d7726e":[20,0,3,8,77,16],
-"osint_8h.html#a4c57f3342a3bc2e836d06b78c85d70f0":[20,0,3,8,77,19],
-"osint_8h.html#a4f7c83166c9481713d4b56defd0888c7":[20,0,3,8,77,8]
+"osint_8h.html#a4c57f3342a3bc2e836d06b78c85d70f0":[20,0,3,8,77,19]
 };
