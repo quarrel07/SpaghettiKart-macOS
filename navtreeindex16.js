@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"classSM64_1_1AudioBank.html#abcdbce2024aa4239a60bd4b83591a42c":[18,0,8,0,3],
+"classSM64_1_1AudioBank.html#abcdbce2024aa4239a60bd4b83591a42c":[19,0,5,0,3],
+"classSM64_1_1AudioBank.html#abee2a88ad15b0cd3e830f3542336be6a":[18,0,8,0,5],
 "classSM64_1_1AudioBank.html#abee2a88ad15b0cd3e830f3542336be6a":[19,0,5,0,5],
 "classSM64_1_1AudioBank.html#ae29f322b7184afbba4d0c752eaed7320":[18,0,8,0,2],
 "classSM64_1_1AudioBank.html#ae29f322b7184afbba4d0c752eaed7320":[19,0,5,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "classToadsTurnpike.html#a63ea0d1a8ed2e6ea4a49a0bff095d6cd":[19,0,454,9],
 "classToadsTurnpike.html#af8e880552b29184918db3d51a537d824":[19,0,454,11],
 "classTourCamera.html":[19,0,455],
-"classTourCamera.html#a0acf651cf8f42b79c2cd6cd09dac018a":[19,0,455,6],
-"classTourCamera.html#a1a6576d700528e7803ee5cbabcca6516":[19,0,455,8],
-"classTourCamera.html#a211e22fa5962955bf4d66c560b320c42":[19,0,455,13],
-"classTourCamera.html#a2c0ba5e1816615d50cc01aa26b3dcadb":[19,0,455,17]
+"classTourCamera.html#a0acf651cf8f42b79c2cd6cd09dac018a":[19,0,455,6]
 };

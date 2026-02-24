@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"classTourCamera.html#a1a6576d700528e7803ee5cbabcca6516":[19,0,455,8],
+"classTourCamera.html#a211e22fa5962955bf4d66c560b320c42":[19,0,455,13],
+"classTourCamera.html#a2c0ba5e1816615d50cc01aa26b3dcadb":[19,0,455,17],
 "classTourCamera.html#a3f4d4842c9badfa41d6471640bea26a8":[19,0,455,14],
 "classTourCamera.html#a470ee603ce4eea30a4996b7c0ad0883c":[19,0,455,10],
 "classTourCamera.html#a5dd2c716e77a9ce476497fef8f3e57d0":[19,0,455,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "classTrackEditor_1_1LightObject.html#a5b1b1c001f6c8c2c4168b7cff4744985":[19,0,6,4,9],
 "classTrackEditor_1_1LightObject.html#a5f8248df3de2931d70f7d76ddfbe7808":[18,0,9,4,4],
 "classTrackEditor_1_1LightObject.html#a5f8248df3de2931d70f7d76ddfbe7808":[19,0,6,4,4],
-"classTrackEditor_1_1LightObject.html#a61b3a5910a00ffe5dfb5aff55566c638":[18,0,9,4,1],
-"classTrackEditor_1_1LightObject.html#a61b3a5910a00ffe5dfb5aff55566c638":[19,0,6,4,1],
-"classTrackEditor_1_1LightObject.html#a707dca7e023ccef9636347868bb1cae9":[18,0,9,4,0],
-"classTrackEditor_1_1LightObject.html#a707dca7e023ccef9636347868bb1cae9":[19,0,6,4,0]
+"classTrackEditor_1_1LightObject.html#a61b3a5910a00ffe5dfb5aff55566c638":[18,0,9,4,1]
 };

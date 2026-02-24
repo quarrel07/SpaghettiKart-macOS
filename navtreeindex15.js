@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34ab9d9b4988c1cfb6199d200b20a817a6a":[19,0,360,0,3],
+"classOTrophy.html#ad4d2abf5f8cc69c87c0c680119c7670d":[19,0,360,5],
+"classOTrophy.html#adf51e58365355cc693acd5ff051bc555":[19,0,360,17],
 "classOTrophy.html#afc43ecd25495ec077da26a2f0d5fcdbf":[19,0,360,7],
 "classOTrophy.html#afeec2bd72339d52e595186b1ee3d1b99":[19,0,360,15],
 "classParticleEmitter.html":[19,0,364],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "classSM64_1_1AudioBank.html#a712b362d198d359ab9449e1db68e8e5e":[18,0,8,0,4],
 "classSM64_1_1AudioBank.html#a712b362d198d359ab9449e1db68e8e5e":[19,0,5,0,4],
 "classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200":[18,0,8,0,1],
-"classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200":[19,0,5,0,1],
-"classSM64_1_1AudioBank.html#abcdbce2024aa4239a60bd4b83591a42c":[18,0,8,0,3],
-"classSM64_1_1AudioBank.html#abcdbce2024aa4239a60bd4b83591a42c":[19,0,5,0,3],
-"classSM64_1_1AudioBank.html#abee2a88ad15b0cd3e830f3542336be6a":[18,0,8,0,5]
+"classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200":[19,0,5,0,1]
 };

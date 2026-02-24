@@ -6,7 +6,7 @@ var classGameCamera =
     ] ],
     [ "GameCamera", "classGameCamera.html#a45eb9969036234a820d89b1f271b126d", null ],
     [ "GameCamera", "classGameCamera.html#a1dce473312381c5063b9f3898e849f20", null ],
-    [ "~GameCamera", "classGameCamera.html#a11208978751592323524698c4d3dcf3b", null ],
+    [ "~GameCamera", "classGameCamera.html#ab2783e87d6bdad58665b16bb532ee3c7", null ],
     [ "Get", "classGameCamera.html#a0b57e58a455b563182aca39a202c2ffd", null ],
     [ "GetLookAtMatrix", "classGameCamera.html#aac757056d90ae92bc8fe95f41efbe7bd", null ],
     [ "GetPerspMatrix", "classGameCamera.html#a8e68188cd40c07fb5b4ec5b44dbd58ad", null ],

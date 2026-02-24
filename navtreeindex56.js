@@ -1,5 +1,8 @@
 var NAVTREEINDEX56 =
 {
+"models_2tracks_2double__deck_2double__deck__data_8h_source.html":[20,0,2,0,0,0,6,0],
+"models_2tracks_2frappe__snowland_2frappe__snowland__data_8h.html":[20,0,2,0,0,0,7,0],
+"models_2tracks_2frappe__snowland_2frappe__snowland__data_8h.html#a7186e932790c20df6bb2055854a905f9":[20,0,2,0,0,0,7,0,0],
 "models_2tracks_2frappe__snowland_2frappe__snowland__data_8h_source.html":[20,0,2,0,0,0,7,0],
 "models_2tracks_2kalimari__desert_2kalimari__desert__data_8h.html":[20,0,2,0,0,0,8,0],
 "models_2tracks_2kalimari__desert_2kalimari__desert__data_8h.html#a21e8c315a397696e4754a21d11c6a92d":[20,0,2,0,0,0,8,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceTrackEditor.html#a9075bc0d22971dfd312b0557e9d6bec8":[18,0,9,18],
 "namespaceTrackEditor.html#a9080bcebe7f661f02fd863fea0006aee":[18,0,9,19],
 "namespaceTrackEditor.html#a928be70c491755a0f3c0d3d85640d549":[18,0,9,24],
-"namespaceTrackEditor.html#a99f257ca9eebe29df775acc71a5a0fee":[18,0,9,12],
-"namespaceTrackEditor.html#aa6a563244a563bd17d12563a23eadba6":[18,0,9,28],
-"namespaceTrackEditor.html#aa7689815ab273744923f046207562067":[18,0,9,29],
-"namespaceTrackEditor.html#aa8ee12b66dfd279a0898c020b34581b2":[18,0,9,22]
+"namespaceTrackEditor.html#a99f257ca9eebe29df775acc71a5a0fee":[18,0,9,12]
 };
