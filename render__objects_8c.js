@@ -1,6 +1,5 @@
 var render__objects_8c =
 [
-    [ "ObjectInterpData", "structObjectInterpData.html", "structObjectInterpData" ],
     [ "debug_print_number", "render__objects_8c.html#ac8564352bfa6f897e06b790f39169adf", null ],
     [ "debug_print_str2", "render__objects_8c.html#a408325fcc3220e98ee4b4c2356caea1b", null ],
     [ "debug_print_string", "render__objects_8c.html#a62d81547caa98603255ae2ed6eb8ef2c", null ],
@@ -293,14 +292,13 @@ var render__objects_8c =
     [ "func_80050C68", "render__objects_8c.html#a742c49e38b1be564b29023711aef1eea", null ],
     [ "func_80050E34", "render__objects_8c.html#ab9fe9a32836a4aef5c64c9f66ced4a19", null ],
     [ "func_800514BC", "render__objects_8c.html#ae272e3c0a8cc70d11040911588de9656", null ],
-    [ "func_800519D4", "render__objects_8c.html#ac62f4d79ca049faf6db97f0daa8541bc", null ],
-    [ "func_80051ABC", "render__objects_8c.html#a6603f469da43f588fae1d63555b5250c", null ],
-    [ "func_80051C60", "render__objects_8c.html#a5076afafc3e6fad82897fff313f766c7", null ],
-    [ "func_80051EBC", "render__objects_8c.html#a825e8e731c52353ac39601ed2aef3eb1", null ],
-    [ "func_80051EF8", "render__objects_8c.html#a467430e13a9dbbed38a9454bfb98fd24", null ],
-    [ "func_80051F9C", "render__objects_8c.html#aa24d319ba792bdbc5b99a914ec15cda5", null ],
-    [ "func_80052044", "render__objects_8c.html#af8b0c2768b4b7052b73b67da5e51c25c", null ],
-    [ "func_80052080", "render__objects_8c.html#ab0b2597c5ad125d8c62911db932c9647", null ],
+    [ "func_80051ABC", "render__objects_8c.html#a74fbde7b756cbda004bcbe6830fb252f", null ],
+    [ "func_80051C60", "render__objects_8c.html#a0765af4ab80f7936c0f44e0dbdd8ceca", null ],
+    [ "func_80051EBC", "render__objects_8c.html#a2342fffe339da9aacc59d6d29bf0b6c5", null ],
+    [ "func_80051EF8", "render__objects_8c.html#aa3cbf3417d6c4d77ac38b9a5e6b1cf29", null ],
+    [ "func_80051F9C", "render__objects_8c.html#a587a04e579d17093a50b032520acf922", null ],
+    [ "func_80052044", "render__objects_8c.html#af7178b10399ccb481e33407c2b32a2bc", null ],
+    [ "func_80052080", "render__objects_8c.html#a361ab9c5cff6baf7731ae7434a97131c", null ],
     [ "func_800520C0", "render__objects_8c.html#ac7735a81a89d148e0546c7f424ced10f", null ],
     [ "func_8005285C", "render__objects_8c.html#acda60e8397a4e568bb0b1f20c31cdb58", null ],
     [ "func_800528EC", "render__objects_8c.html#ab1221a11e45710d6fac6b0b2b3bfd054", null ],
@@ -360,7 +358,6 @@ var render__objects_8c =
     [ "print_timer_rainbow", "render__objects_8c.html#a401de8a91f3434ba7a99c1441f02abd1", null ],
     [ "render_battle_bomb_karts", "render__objects_8c.html#a7cb55cc36358ed86661953fa2dd70c5e", null ],
     [ "render_bomb_karts", "render__objects_8c.html#a63f55555b66cd9833838c290facd483c", null ],
-    [ "render_clouds", "render__objects_8c.html#a679db29d618ea79bd3a93f1117713906", null ],
     [ "render_digital_speedometer", "render__objects_8c.html#a2b1f1c1dd2701d0fbcfc7e69ba26d51a", null ],
     [ "render_game_logo", "render__objects_8c.html#ae05cfaba18a7758e7c81c1555653078b", null ],
     [ "render_hud_timer", "render__objects_8c.html#a25e3cccb116b5627808f21a456c2c5be", null ],
@@ -396,6 +393,5 @@ var render__objects_8c =
     [ "D_800E46F8A", "render__objects_8c.html#a6088a59e24cb2f16a35bae39e6551fd3", null ],
     [ "D_800E471CA", "render__objects_8c.html#ad340f891a8f35e13e2dd60eef604158f", null ],
     [ "mtx", "render__objects_8c.html#aa6d460986556744dc5e412f987bbb803", null ],
-    [ "prevObject", "render__objects_8c.html#a0433e2713faf1ef0bfde2211d9afeb94", null ],
     [ "speedometer_vtx", "render__objects_8c.html#adb372a6763ee9c0ce714ef2d1a70d50a", null ]
 ];

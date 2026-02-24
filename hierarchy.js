@@ -349,7 +349,6 @@ var hierarchy =
     [ "NoteSynthesisState", "structNoteSynthesisState.html", null ],
     [ "Object", "structObject.html", null ],
     [ "SF64::ObjectInitData", "structSF64_1_1ObjectInitData.html", null ],
-    [ "ObjectInterpData", "structObjectInterpData.html", null ],
     [ "ObjectInterpData2", "structObjectInterpData2.html", null ],
     [ "TrackEditor::ObjectPicker", "classTrackEditor_1_1ObjectPicker.html", null ],
     [ "OnlyBestTimeTrialRecords", "structOnlyBestTimeTrialRecords.html", null ],
@@ -488,6 +487,11 @@ var hierarchy =
     [ "SharedDma", "structSharedDma.html", null ],
     [ "ShellActor", "structShellActor.html", null ],
     [ "SidebarEntry", "structSidebarEntry.html", null ],
+    [ "SkyActor", "classSkyActor.html", [
+      [ "SkyCloud", "classSkyCloud.html", null ],
+      [ "SkySnow", "classSkySnow.html", null ],
+      [ "SkyStar", "classSkyStar.html", null ]
+    ] ],
     [ "Skybox", "structSkybox.html", null ],
     [ "SkyboxColours", "structSkyboxColours.html", null ],
     [ "SnowmanSpawn", "structSnowmanSpawn.html", null ],

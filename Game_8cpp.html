@@ -135,6 +135,7 @@ $(function(){initNavTree('Game_8cpp.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="LookBehindCamera_8h_source.html">engine/cameras/LookBehindCamera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TrackBrowser_8h_source.html">engine/TrackBrowser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="RandomItemTable_8h_source.html">engine/RandomItemTable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Sky_8h_source.html">engine/sky/Sky.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="load_8h_source.html">audio/load.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="external_8h_source.html">audio/external.h</a>&quot;</code><br />
@@ -144,6 +145,7 @@ $(function(){initNavTree('Game_8cpp.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="spawn__players_8h_source.html">spawn_players.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="collision__viewer_8h_source.html">src/enhancements/collision_viewer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="code__800029B0_8h_source.html">code_800029B0.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="code__80057C60_8h_source.html">code_80057C60.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Game.cpp:</div>
 <div class="dyncontent">
@@ -248,10 +250,8 @@ Functions</h2></td></tr>
 <tr class="separator:a02007628d0171593ccc991bf3a496d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3839abae687326f79f10868edfd51b9e" id="r_a3839abae687326f79f10868edfd51b9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3839abae687326f79f10868edfd51b9e">CM_DrawParticles</a> (s32 cameraId)</td></tr>
 <tr class="separator:a3839abae687326f79f10868edfd51b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a011d7e2f1ff6949f70023c2f53091010" id="r_a011d7e2f1ff6949f70023c2f53091010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011d7e2f1ff6949f70023c2f53091010">CM_InitClouds</a> ()</td></tr>
-<tr class="separator:a011d7e2f1ff6949f70023c2f53091010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11ebc0cdf2c06b647891e4d8a4a6471b" id="r_a11ebc0cdf2c06b647891e4d8a4a6471b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11ebc0cdf2c06b647891e4d8a4a6471b">CM_TickClouds</a> (s32 arg0, <a class="el" href="structCamera.html">Camera</a> *camera)</td></tr>
-<tr class="separator:a11ebc0cdf2c06b647891e4d8a4a6471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97d48e199aac53548393bfad5a6d2ca" id="r_aa97d48e199aac53548393bfad5a6d2ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa97d48e199aac53548393bfad5a6d2ca">CM_RaceDrawSky</a> (<a class="el" href="structScreenContext.html">ScreenContext</a> *screen, s32 someId)</td></tr>
+<tr class="separator:aa97d48e199aac53548393bfad5a6d2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fadc5850c8c407142a16da1f5508014" id="r_a5fadc5850c8c407142a16da1f5508014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fadc5850c8c407142a16da1f5508014">CM_Waypoints</a> (<a class="el" href="structPlayer.html">Player</a> *player, int8_t playerId)</td></tr>
 <tr class="separator:a5fadc5850c8c407142a16da1f5508014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c040973097c16e82cb1738a5eb2fb55" id="r_a8c040973097c16e82cb1738a5eb2fb55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c040973097c16e82cb1738a5eb2fb55">CM_SomeCollisionThing</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> arg1, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> arg2, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> arg3, f32 *arg4, f32 *arg5, f32 *arg6, f32 *arg7)</td></tr>
@@ -463,6 +463,8 @@ Variables</h2></td></tr>
 <tr class="separator:a1ab1a88158db2b58726dc2220b9eea64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad866a6e3610a5cfb4da749c662c14e77" id="r_ad866a6e3610a5cfb4da749c662c14e77"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; TrackBrowser &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad866a6e3610a5cfb4da749c662c14e77">gTrackBrowser</a></td></tr>
 <tr class="separator:ad866a6e3610a5cfb4da749c662c14e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad45ac18eee07abbc3b312919d27edbf" id="r_aad45ac18eee07abbc3b312919d27edbf"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; Sky &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad45ac18eee07abbc3b312919d27edbf">gSky</a></td></tr>
+<tr class="separator:aad45ac18eee07abbc3b312919d27edbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a7ad8bd6ab5cb1d16d5f6120d0288b1eb" name="a7ad8bd6ab5cb1d16d5f6120d0288b1eb"></a>
@@ -1495,7 +1497,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">size_t CM_GetActorSize </td>
           <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1647,33 +1649,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a011d7e2f1ff6949f70023c2f53091010" name="a011d7e2f1ff6949f70023c2f53091010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a011d7e2f1ff6949f70023c2f53091010">&#9670;&#160;</a></span>CM_InitClouds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CM_InitClouds </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Game_8cpp_a011d7e2f1ff6949f70023c2f53091010_cgraph.svg" width="424" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Game_8cpp_a011d7e2f1ff6949f70023c2f53091010_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a872b3eafef96f83081b83794fb4681e5" name="a872b3eafef96f83081b83794fb4681e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a872b3eafef96f83081b83794fb4681e5">&#9670;&#160;</a></span>CM_InitTrackObjects()</h2>
 
@@ -1724,6 +1699,37 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Game_8cpp_a7a5ca7cbd6c70c0ef872405d46503896_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa97d48e199aac53548393bfad5a6d2ca" name="aa97d48e199aac53548393bfad5a6d2ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa97d48e199aac53548393bfad5a6d2ca">&#9670;&#160;</a></span>CM_RaceDrawSky()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CM_RaceDrawSky </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structScreenContext.html">ScreenContext</a> *</td>          <td class="paramname"><span class="paramname"><em>screen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>someId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Game_8cpp_aa97d48e199aac53548393bfad5a6d2ca_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Game_8cpp_aa97d48e199aac53548393bfad5a6d2ca_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2114,37 +2120,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Game_8cpp_a60b215c5adc1d7af1c7e1c36713035ae_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a11ebc0cdf2c06b647891e4d8a4a6471b" name="a11ebc0cdf2c06b647891e4d8a4a6471b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11ebc0cdf2c06b647891e4d8a4a6471b">&#9670;&#160;</a></span>CM_TickClouds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CM_TickClouds </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Game_8cpp_a11ebc0cdf2c06b647891e4d8a4a6471b_cgraph.svg" width="431" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Game_8cpp_a11ebc0cdf2c06b647891e4d8a4a6471b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2657,7 +2632,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo</a></b></dt><dd>Move gGfxPool out of <a class="el" href="main_8h.html">main.h</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo</a></b></dt><dd>Move gGfxPool out of <a class="el" href="main_8h.html">main.h</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -4292,6 +4267,20 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="classCup.html">Cup</a>&gt; gMushroomCup</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad45ac18eee07abbc3b312919d27edbf" name="aad45ac18eee07abbc3b312919d27edbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad45ac18eee07abbc3b312919d27edbf">&#9670;&#160;</a></span>gSky</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;Sky&gt; gSky</td>
         </tr>
       </table>
 </div><div class="memdoc">

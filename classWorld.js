@@ -49,7 +49,7 @@ var classWorld =
     [ "mPlayerBombKart", "classWorld.html#ad37e69520d6e295417b367621eec788b", null ],
     [ "mTrack", "classWorld.html#adc7e2f067fffbdcbfabc04c93dc82f0d", null ],
     [ "Mtx", "classWorld.html#ae9ce07f0239d6ddc4485d1a285cb3a14", null ],
-    [ "Objects", "classWorld.html#a28c81a0ec580798d2273a16e841e31cc", null ],
+    [ "Objects", "classWorld.html#a23319a7a3335ca173d1597f041f31b55", null ],
     [ "RaceManagerInstance", "classWorld.html#acdeb8c0608b0f76c2b2f2595c509b8b7", null ],
     [ "StaticMeshActors", "classWorld.html#af7d7ec4f75f47071f83655159f47bb9d", null ]
 ];

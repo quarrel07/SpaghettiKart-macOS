@@ -10,5 +10,6 @@ var Track_8cpp =
     [ "StripOtrPrefix", "Track_8cpp.html#ab01e041d195d4b8a1029c8b9532b0600", null ],
     [ "SwapTriangleVertices", "Track_8cpp.html#a5bae290668f6b484d13626d67e16cc3f", null ],
     [ "d_mario_raceway_staff_ghost", "Track_8cpp.html#a4e58850f1fd8ab0b9cb2543d71c70316", null ],
-    [ "gModifiedGfxSet", "Track_8cpp.html#a3975649c16225307834e3c99ad477b22", null ]
+    [ "gModifiedGfxSet", "Track_8cpp.html#a3975649c16225307834e3c99ad477b22", null ],
+    [ "gPlayerCount", "Track_8cpp.html#a60c6a69449720d514d1f6569c45f626e", null ]
 ];

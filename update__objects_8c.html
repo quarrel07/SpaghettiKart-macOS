@@ -154,6 +154,7 @@ $(function(){initNavTree('update__objects_8c.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="textures_2tracks_2sherbet__land_2sherbet__land__data_8h_source.html">assets/textures/tracks/sherbet_land/sherbet_land_data.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="textures_2tracks_2rainbow__road_2rainbow__road__data_8h_source.html">assets/textures/tracks/rainbow_road/rainbow_road_data.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="RaceManager_8h_source.html">engine/RaceManager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Sky_8h_source.html">engine/sky/Sky.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for update_objects.c:</div>
 <div class="dyncontent">
@@ -465,18 +466,6 @@ Functions</h2></td></tr>
 <tr class="separator:ac1cfaf791e38d2d69655cfdcb24ef537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae52c57b6e3dba06e478c46c9d373689" id="r_aae52c57b6e3dba06e478c46c9d373689"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae52c57b6e3dba06e478c46c9d373689">update_leaf</a> (void)</td></tr>
 <tr class="separator:aae52c57b6e3dba06e478c46c9d373689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f79590ff9aa4440004e2f0aeb1599eb" id="r_a1f79590ff9aa4440004e2f0aeb1599eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f79590ff9aa4440004e2f0aeb1599eb">func_80077D5C</a> (s32 arg0)</td></tr>
-<tr class="separator:a1f79590ff9aa4440004e2f0aeb1599eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec77d54c5edbca021bb2c01c31af955a" id="r_aec77d54c5edbca021bb2c01c31af955a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec77d54c5edbca021bb2c01c31af955a">func_80077E20</a> (s32 objectIndex)</td></tr>
-<tr class="separator:aec77d54c5edbca021bb2c01c31af955a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8cec1ac1de28ceba5a6cd36b7a2e315" id="r_ae8cec1ac1de28ceba5a6cd36b7a2e315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8cec1ac1de28ceba5a6cd36b7a2e315">func_80077EB8</a> (s32 objectIndex, u16 arg1, <a class="el" href="structCamera.html">Camera</a> *camera)</td></tr>
-<tr class="separator:ae8cec1ac1de28ceba5a6cd36b7a2e315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e85b61ec3cf15a6827d0d67c2f07b1e" id="r_a4e85b61ec3cf15a6827d0d67c2f07b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e85b61ec3cf15a6827d0d67c2f07b1e">func_80077F64</a> (s32 objectIndex, <a class="el" href="structCamera.html">Camera</a> *camera)</td></tr>
-<tr class="separator:a4e85b61ec3cf15a6827d0d67c2f07b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b4c61991cddbf212dac08c2de7d3224" id="r_a8b4c61991cddbf212dac08c2de7d3224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b4c61991cddbf212dac08c2de7d3224">func_800780CC</a> (s32 objectIndex, <a class="el" href="structCamera.html">Camera</a> *camera)</td></tr>
-<tr class="separator:a8b4c61991cddbf212dac08c2de7d3224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ac54e946bf51594f67bde370c6b2f9" id="r_a90ac54e946bf51594f67bde370c6b2f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90ac54e946bf51594f67bde370c6b2f9">func_80078170</a> (s32 arg0, <a class="el" href="structCamera.html">Camera</a> *arg1)</td></tr>
-<tr class="separator:a90ac54e946bf51594f67bde370c6b2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4defed8efafac621907e4575e719377" id="r_ac4defed8efafac621907e4575e719377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4defed8efafac621907e4575e719377">func_80078220</a> (s32 objectIndex)</td></tr>
 <tr class="separator:ac4defed8efafac621907e4575e719377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3be1995862278cf310334b57e7ce3b62" id="r_a3be1995862278cf310334b57e7ce3b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3be1995862278cf310334b57e7ce3b62">func_80078288</a> (s32 objectIndex)</td></tr>
@@ -487,16 +476,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2148e6b0dcd319d5fdde7400d2f660a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa48fd49d06dac7e1948b468b4f260477" id="r_aa48fd49d06dac7e1948b468b4f260477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa48fd49d06dac7e1948b468b4f260477">update_snowflakes</a> (void)</td></tr>
 <tr class="separator:aa48fd49d06dac7e1948b468b4f260477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7689c2c0fc4076761bcf04424aae4f" id="r_a8b7689c2c0fc4076761bcf04424aae4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b7689c2c0fc4076761bcf04424aae4f">func_800788F8</a> (s32 objectIndex, u16 rot, <a class="el" href="structCamera.html">Camera</a> *camera)</td></tr>
-<tr class="separator:a8b7689c2c0fc4076761bcf04424aae4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2326b08767752a10a773c5c9afa0468a" id="r_a2326b08767752a10a773c5c9afa0468a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2326b08767752a10a773c5c9afa0468a">update_clouds</a> (s32 arg0, <a class="el" href="structCamera.html">Camera</a> *arg1, <a class="el" href="objects_8h.html#a8e51edac51cf5b53412c91933520c855">CloudData</a> *cloudList)</td></tr>
-<tr class="separator:a2326b08767752a10a773c5c9afa0468a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f45d9faeaae2c86b272f979f68b788" id="r_aa8f45d9faeaae2c86b272f979f68b788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8f45d9faeaae2c86b272f979f68b788">update_stars</a> (s32 arg0, <a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="structStarData.html">StarData</a> *starList)</td></tr>
-<tr class="separator:aa8f45d9faeaae2c86b272f979f68b788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3713f52864b01664ecd8eb817e481911" id="r_a3713f52864b01664ecd8eb817e481911"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3713f52864b01664ecd8eb817e481911">func_80078C68</a> ()</td></tr>
-<tr class="separator:a3713f52864b01664ecd8eb817e481911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65833b533abd5f0cd07d07217d923e07" id="r_a65833b533abd5f0cd07d07217d923e07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65833b533abd5f0cd07d07217d923e07">func_80078C70</a> (s32 arg0)</td></tr>
-<tr class="separator:a65833b533abd5f0cd07d07217d923e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad23406a96881d86b39cc345759c8696c" id="r_ad23406a96881d86b39cc345759c8696c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad23406a96881d86b39cc345759c8696c">func_80078C70</a> ()</td></tr>
+<tr class="separator:ad23406a96881d86b39cc345759c8696c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56377fd2609e9e86c40002b048e1a915" id="r_a56377fd2609e9e86c40002b048e1a915"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56377fd2609e9e86c40002b048e1a915">func_8007ABFC</a> (s32 playerId, s32 itemId)</td></tr>
 <tr class="separator:a56377fd2609e9e86c40002b048e1a915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe0750bafe0e01a419bd8a8ad6b59bd5" id="r_abe0750bafe0e01a419bd8a8ad6b59bd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe0750bafe0e01a419bd8a8ad6b59bd5">consume_item</a> (s32 playerId)</td></tr>
@@ -1839,7 +1820,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a39bc42ca7fe53a616fb62fc97a578e22_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a39bc42ca7fe53a616fb62fc97a578e22_icgraph.svg" width="452" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2633,7 +2614,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a394360d128db360e999e096566bffa94_icgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a394360d128db360e999e096566bffa94_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2689,7 +2670,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_ac31769d6520eb620744212bb98a35c67_icgraph.svg" width="616" height="283"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_ac31769d6520eb620744212bb98a35c67_icgraph.svg" width="547" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -4688,190 +4669,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1f79590ff9aa4440004e2f0aeb1599eb" name="a1f79590ff9aa4440004e2f0aeb1599eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f79590ff9aa4440004e2f0aeb1599eb">&#9670;&#160;</a></span>func_80077D5C()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_80077D5C </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a1f79590ff9aa4440004e2f0aeb1599eb_cgraph.svg" width="492" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a1f79590ff9aa4440004e2f0aeb1599eb_icgraph.svg" width="560" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="aec77d54c5edbca021bb2c01c31af955a" name="aec77d54c5edbca021bb2c01c31af955a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec77d54c5edbca021bb2c01c31af955a">&#9670;&#160;</a></span>func_80077E20()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_80077E20 </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000015">Bug</a></b></dt><dd>frappe snowland There's something up with the handling of common_vtx_rectangle and the loading of 0x10 right here </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_aec77d54c5edbca021bb2c01c31af955a_cgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_aec77d54c5edbca021bb2c01c31af955a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ae8cec1ac1de28ceba5a6cd36b7a2e315" name="ae8cec1ac1de28ceba5a6cd36b7a2e315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8cec1ac1de28ceba5a6cd36b7a2e315">&#9670;&#160;</a></span>func_80077EB8()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_80077EB8 </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">u16</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_ae8cec1ac1de28ceba5a6cd36b7a2e315_cgraph.svg" width="314" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_ae8cec1ac1de28ceba5a6cd36b7a2e315_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a4e85b61ec3cf15a6827d0d67c2f07b1e" name="a4e85b61ec3cf15a6827d0d67c2f07b1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e85b61ec3cf15a6827d0d67c2f07b1e">&#9670;&#160;</a></span>func_80077F64()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_80077F64 </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a4e85b61ec3cf15a6827d0d67c2f07b1e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a4e85b61ec3cf15a6827d0d67c2f07b1e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a8b4c61991cddbf212dac08c2de7d3224" name="a8b4c61991cddbf212dac08c2de7d3224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b4c61991cddbf212dac08c2de7d3224">&#9670;&#160;</a></span>func_800780CC()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_800780CC </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a8b4c61991cddbf212dac08c2de7d3224_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a8b4c61991cddbf212dac08c2de7d3224_icgraph.svg" width="559" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a90ac54e946bf51594f67bde370c6b2f9" name="a90ac54e946bf51594f67bde370c6b2f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ac54e946bf51594f67bde370c6b2f9">&#9670;&#160;</a></span>func_80078170()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_80078170 </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a90ac54e946bf51594f67bde370c6b2f9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a90ac54e946bf51594f67bde370c6b2f9_icgraph.svg" width="388" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="ac4defed8efafac621907e4575e719377" name="ac4defed8efafac621907e4575e719377"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4defed8efafac621907e4575e719377">&#9670;&#160;</a></span>func_80078220()</h2>
 
@@ -4980,61 +4777,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8b7689c2c0fc4076761bcf04424aae4f" name="a8b7689c2c0fc4076761bcf04424aae4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b7689c2c0fc4076761bcf04424aae4f">&#9670;&#160;</a></span>func_800788F8()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void func_800788F8 </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>objectIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">u16</td>          <td class="paramname"><span class="paramname"><em>rot</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a8b7689c2c0fc4076761bcf04424aae4f_cgraph.svg" width="494" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a8b7689c2c0fc4076761bcf04424aae4f_icgraph.svg" width="536" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a3713f52864b01664ecd8eb817e481911" name="a3713f52864b01664ecd8eb817e481911"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3713f52864b01664ecd8eb817e481911">&#9670;&#160;</a></span>func_80078C68()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> void func_80078C68 </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a65833b533abd5f0cd07d07217d923e07" name="a65833b533abd5f0cd07d07217d923e07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65833b533abd5f0cd07d07217d923e07">&#9670;&#160;</a></span>func_80078C70()</h2>
+<a id="ad23406a96881d86b39cc345759c8696c" name="ad23406a96881d86b39cc345759c8696c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad23406a96881d86b39cc345759c8696c">&#9670;&#160;</a></span>func_80078C70()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5042,7 +4786,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void func_80078C70 </td>
           <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -5050,12 +4794,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a65833b533abd5f0cd07d07217d923e07_cgraph.svg" width="602" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_ad23406a96881d86b39cc345759c8696c_cgraph.svg" width="295" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a65833b533abd5f0cd07d07217d923e07_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_ad23406a96881d86b39cc345759c8696c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -6031,6 +5775,11 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_abdebd086b5ff081f83af3d9205f39cd3_cgraph.svg" width="320" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="update__objects_8c_abdebd086b5ff081f83af3d9205f39cd3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -6582,37 +6331,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2326b08767752a10a773c5c9afa0468a" name="a2326b08767752a10a773c5c9afa0468a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2326b08767752a10a773c5c9afa0468a">&#9670;&#160;</a></span>update_clouds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void update_clouds </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="objects_8h.html#a8e51edac51cf5b53412c91933520c855">CloudData</a> *</td>          <td class="paramname"><span class="paramname"><em>cloudList</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_a2326b08767752a10a773c5c9afa0468a_cgraph.svg" width="658" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="a690661e495441e81ca9878adf2b39d14" name="a690661e495441e81ca9878adf2b39d14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a690661e495441e81ca9878adf2b39d14">&#9670;&#160;</a></span>update_ferries_smoke_particle()</h2>
 
@@ -6797,42 +6515,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_aa48fd49d06dac7e1948b468b4f260477_icgraph.svg" width="404" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="aa8f45d9faeaae2c86b272f979f68b788" name="aa8f45d9faeaae2c86b272f979f68b788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8f45d9faeaae2c86b272f979f68b788">&#9670;&#160;</a></span>update_stars()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void update_stars </td>
-          <td>(</td>
-          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structStarData.html">StarData</a> *</td>          <td class="paramname"><span class="paramname"><em>starList</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_aa8f45d9faeaae2c86b272f979f68b788_cgraph.svg" width="658" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="update__objects_8c_aa8f45d9faeaae2c86b272f979f68b788_icgraph.svg" width="358" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

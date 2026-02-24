@@ -242,13 +242,6 @@ var defines_8h =
     [ "YOSHI", "defines_8h.html#a6a404189274b097f2b1d7d6bde0d490d", null ],
     [ "YOSHI_SIZE", "defines_8h.html#a7c821aaafac23cd14652df9992dc2fb5", null ],
     [ "ZERO_PLAYERS_SELECTED", "defines_8h.html#a0148c6452ed48b143e5517e0b0d11096", null ],
-    [ "CameraId", "defines_8h.html#ab03b0e2e2f36cebded7a3bdb03097a50", [
-      [ "CAMERA_ONE", "defines_8h.html#ab03b0e2e2f36cebded7a3bdb03097a50ab2dc606d21f093e4e1f7a627f7731264", null ],
-      [ "CAMERA_TWO", "defines_8h.html#ab03b0e2e2f36cebded7a3bdb03097a50a111416ef0e63a50cf4bdbc7ca0777ecd", null ],
-      [ "CAMERA_THREE", "defines_8h.html#ab03b0e2e2f36cebded7a3bdb03097a50ab8d417c30244eb33e749ce5c4298d976", null ],
-      [ "CAMERA_FOUR", "defines_8h.html#ab03b0e2e2f36cebded7a3bdb03097a50ae61610df04273f6af45290508c8e74cb", null ],
-      [ "CAMERA_FREECAM", "defines_8h.html#ab03b0e2e2f36cebded7a3bdb03097a50acf98a723289da179e51c393fc9beefbb", null ]
-    ] ],
     [ "COLOR_ID", "defines_8h.html#a1580960a492ffea2b97726574fdd3110", [
       [ "TEXT_BLUE", "defines_8h.html#a1580960a492ffea2b97726574fdd3110af3e6ccd0d78aa657825105befaf77c1b", null ],
       [ "TEXT_GREEN", "defines_8h.html#a1580960a492ffea2b97726574fdd3110ae015d0bd866e89a09db9fd6e4177108b", null ],

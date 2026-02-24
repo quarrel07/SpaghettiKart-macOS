@@ -91,7 +91,5 @@ var actor__types_8h =
       [ "BLUE_SHELL_LOCK_ON", "actor__types_8h.html#ac01c8e97d91d8f2968ca1f8d4eb0495bacbbf8ec958ded92542c807a249ab5663", null ],
       [ "BLUE_SHELL_TARGET_ELIMINATED", "actor__types_8h.html#ac01c8e97d91d8f2968ca1f8d4eb0495ba5bedeedba66ded3f9a8f54f73bc2e6fa", null ]
     ] ],
-    [ "CM_GetActor", "actor__types_8h.html#a42d4e151ced45749de343d857cfb1f79", null ],
-    [ "CM_GetActorSize", "actor__types_8h.html#ada4fa2091de8a4a4b09435f95795fc40", null ],
     [ "gActorList", "actor__types_8h.html#a1f5d4f72f8fd53ac6a42c0bf2b2d8a61", null ]
 ];

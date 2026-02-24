@@ -8,6 +8,7 @@ var dir_2052808828190f934b76e979ee65af8a =
     [ "objects", "dir_e542ca8db7fd71a1414236dde431d8c7.html", "dir_e542ca8db7fd71a1414236dde431d8c7" ],
     [ "particles", "dir_5be95e51eb5f418b7778cdd680745101.html", "dir_5be95e51eb5f418b7778cdd680745101" ],
     [ "registry", "dir_be8163adef6b1f137039619feb356377.html", "dir_be8163adef6b1f137039619feb356377" ],
+    [ "sky", "dir_5d55ea8e6a0476465cb7887a1d98f5af.html", "dir_5d55ea8e6a0476465cb7887a1d98f5af" ],
     [ "tracks", "dir_8955581d22ca769fa1400ba486b7589a.html", "dir_8955581d22ca769fa1400ba486b7589a" ],
     [ "vehicles", "dir_d9fd50ce652a2b377376480fd9039164.html", "dir_d9fd50ce652a2b377376480fd9039164" ],
     [ "Actor.cpp", "Actor_8cpp.html", null ],
