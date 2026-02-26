@@ -83,7 +83,7 @@ var NAVTREE =
           [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings", null ]
         ] ],
         [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help", null ],
-        [ "Future plans", "md_docs_2custom-characters.html#future-plans-1", null ]
+        [ "Future plans", "md_docs_2custom-characters.html#future-plans-2", null ]
       ] ]
     ] ],
     [ "faq", "md_docs_2faq.html", null ],

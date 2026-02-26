@@ -132,7 +132,7 @@ var NAVTREEINDEX42 =
 "md_docs_2custom-characters.html#additional-files":[6,1],
 "md_docs_2custom-characters.html#change-viewport-render-settings":[6,1,0,0],
 "md_docs_2custom-characters.html#examples-for-all-characters":[6,0],
-"md_docs_2custom-characters.html#future-plans-1":[6,1,2],
+"md_docs_2custom-characters.html#future-plans-2":[6,1,2],
 "md_docs_2custom-characters.html#tips":[6,1,0],
 "md_docs_2custom-characters.html#tools-to-help":[6,1,1],
 "md_docs_2faq.html":[7],

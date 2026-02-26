@@ -93,7 +93,7 @@ var NAVTREEINDEX9 =
 "characteroverview.html#change-viewport-render-settings-1":[3,0,2,0,0],
 "characteroverview.html#custom-characters-1":[3,0,0],
 "characteroverview.html#examples-for-all-characters-1":[3,0,1],
-"characteroverview.html#future-plans-2":[3,0,2,2],
+"characteroverview.html#future-plans-1":[3,0,2,2],
 "characteroverview.html#tips-1":[3,0,2,0],
 "characteroverview.html#tools-to-help-1":[3,0,2,1],
 "choco__mountain_2course__offsets_8c.html":[20,0,0,4,0],
