@@ -74,15 +74,15 @@ var NAVTREE =
     [ "Courses", "coursesmenu.html", "coursesmenu" ],
     [ "Custom Audio", "md_docs_2custom-audio.html", [
       [ "Example:", "md_docs_2custom-audio.html#example", null ],
-      [ "Future plans", "md_docs_2custom-audio.html#future-plans", null ]
+      [ "Future plans", "md_docs_2custom-audio.html#future-plans-1", null ]
     ] ],
     [ "Custom characters", "md_docs_2custom-characters.html", [
-      [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters", null ],
-      [ "Additional Files", "md_docs_2custom-characters.html#additional-files", [
-        [ "Tips", "md_docs_2custom-characters.html#tips", [
-          [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings", null ]
+      [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters-1", null ],
+      [ "Additional Files", "md_docs_2custom-characters.html#additional-files-1", [
+        [ "Tips", "md_docs_2custom-characters.html#tips-1", [
+          [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings-1", null ]
         ] ],
-        [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help", null ],
+        [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help-1", null ],
         [ "Future plans", "md_docs_2custom-characters.html#future-plans-2", null ]
       ] ]
     ] ],
