@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceTrackEditor.html#a99f257ca9eebe29df775acc71a5a0fee":[18,0,9,12],
 "namespaceTrackEditor.html#aa6a563244a563bd17d12563a23eadba6":[18,0,9,28],
 "namespaceTrackEditor.html#aa7689815ab273744923f046207562067":[18,0,9,29],
 "namespaceTrackEditor.html#aa8ee12b66dfd279a0898c020b34581b2":[18,0,9,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "objects_8h.html#aaf2ab8b3d1d7cdb1f9a0555f2c6e32e7":[20,0,2,16,27],
 "objects_8h.html#aaf65d9c5ffd8e4297c54dd993877d8cf":[20,0,2,16,88],
 "objects_8h.html#ab30af75a769f114cc77de43957f6006e":[20,0,2,16,45],
-"objects_8h.html#ab6a7a38095ab0592f7eb54c6bc77188a":[20,0,2,16,68],
-"objects_8h.html#ab8eb52623ddafaa738b0234d1f40e446":[20,0,2,16,15]
+"objects_8h.html#ab6a7a38095ab0592f7eb54c6bc77188a":[20,0,2,16,68]
 };

@@ -47,10 +47,11 @@ var searchData=
   ['_7eportmenu_44',['~PortMenu',['../classGameUI_1_1PortMenu.html#a47032191fff5c67cc5fa1a356704a13a',1,'GameUI::PortMenu']]],
   ['_7epropertieswindow_45',['~PropertiesWindow',['../classTrackEditor_1_1PropertiesWindow.html#abf9caceb2eaf7fc3ba018c9a08cb9081',1,'TrackEditor::PropertiesWindow']]],
   ['_7esceneexplorerwindow_46',['~SceneExplorerWindow',['../classTrackEditor_1_1SceneExplorerWindow.html#a41312259ab8aaaff7cc07163aa522b70',1,'TrackEditor::SceneExplorerWindow']]],
-  ['_7eskycloud_47',['~SkyCloud',['../classSkyCloud.html#ad095b8d680d94702c36ae70d77db73f2',1,'SkyCloud']]],
-  ['_7eskysnow_48',['~SkySnow',['../classSkySnow.html#af4be22af0712ff4f17c1da4699f64158',1,'SkySnow']]],
-  ['_7eskystar_49',['~SkyStar',['../classSkyStar.html#adfab1eb5210055dd8e4eb124d276bc4b',1,'SkyStar']]],
-  ['_7etoolswindow_50',['~ToolsWindow',['../classTrackEditor_1_1ToolsWindow.html#a47c7ec57e8ec3734d326e9d4e0f32614',1,'TrackEditor::ToolsWindow']]],
-  ['_7etrackpropertieswindow_51',['~TrackPropertiesWindow',['../classTrackEditor_1_1TrackPropertiesWindow.html#a9f6887a95120fe43c73bcbf883d4e3de',1,'TrackEditor::TrackPropertiesWindow']]],
-  ['_7eworld_52',['~World',['../classWorld.html#a8c73fba541a5817fff65147ba47cd827',1,'World']]]
+  ['_7eskyactor_47',['~SkyActor',['../classSkyActor.html#a06c35966ed0a4f4f0c02353a54e60bc7',1,'SkyActor']]],
+  ['_7eskycloud_48',['~SkyCloud',['../classSkyCloud.html#ad095b8d680d94702c36ae70d77db73f2',1,'SkyCloud']]],
+  ['_7eskysnow_49',['~SkySnow',['../classSkySnow.html#af4be22af0712ff4f17c1da4699f64158',1,'SkySnow']]],
+  ['_7eskystar_50',['~SkyStar',['../classSkyStar.html#adfab1eb5210055dd8e4eb124d276bc4b',1,'SkyStar']]],
+  ['_7etoolswindow_51',['~ToolsWindow',['../classTrackEditor_1_1ToolsWindow.html#a47c7ec57e8ec3734d326e9d4e0f32614',1,'TrackEditor::ToolsWindow']]],
+  ['_7etrackpropertieswindow_52',['~TrackPropertiesWindow',['../classTrackEditor_1_1TrackPropertiesWindow.html#a9f6887a95120fe43c73bcbf883d4e3de',1,'TrackEditor::TrackPropertiesWindow']]],
+  ['_7eworld_53',['~World',['../classWorld.html#a8c73fba541a5817fff65147ba47cd827',1,'World']]]
 ];

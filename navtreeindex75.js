@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structFreeCam.html#a33527f64e66afae69ac21f013bc54677":[19,0,124,2],
 "structFreeCam.html#a46c0f71485a7ca70a36d55f4006c0b6a":[19,0,124,0],
 "structFreeCam.html#abf52276d5652fa16e8bfa7112ed8c288":[19,0,124,1],
 "structGfxPool.html":[19,0,136],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMtx__u.html#a198e12ffb4a24abf8343050baed78d7b":[19,0,324,1],
 "structMtx__u.html#ad68774dbb28cac7430099fbf85046c87":[19,0,324,0],
 "structNote.html":[19,0,325],
-"structNote.html#a0e4515abdad43fb493d49f2faeaad16c":[19,0,325,16],
-"structNote.html#a1cbe020fa2840d75876de187e32714a2":[19,0,325,17]
+"structNote.html#a0e4515abdad43fb493d49f2faeaad16c":[19,0,325,16]
 };

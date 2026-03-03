@@ -2,6 +2,7 @@ var classSkyActor =
 [
     [ "SkyActor", "classSkyActor.html#ad62c5878bffa4306ced2ecbd2f7e2cdf", null ],
     [ "SkyActor", "classSkyActor.html#a30aa1699d610a201a9850a1f8f317cd2", null ],
+    [ "~SkyActor", "classSkyActor.html#a06c35966ed0a4f4f0c02353a54e60bc7", null ],
     [ "Draw", "classSkyActor.html#a8d0c93de5b07ced89a80b5fda33a9da4", null ],
     [ "Tick", "classSkyActor.html#a6377a73a8a80fd1e3f359c69f027ad7f", null ],
     [ "mCloudVariant", "classSkyActor.html#a81fa01d9362149db0427031103d74fb7", null ],
