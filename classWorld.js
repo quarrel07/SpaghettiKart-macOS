@@ -11,6 +11,7 @@ var classWorld =
     [ "AddEmitter", "classWorld.html#af413993592605f0fe61d2114dd0491bb", null ],
     [ "AddObject", "classWorld.html#a9305e3c98df81e9f6989c344d4bc9c51", null ],
     [ "AddStaticMeshActor", "classWorld.html#a3aae64ec4571ac8870d606dc1b0bd9be", null ],
+    [ "CleanActors", "classWorld.html#a199a2fe00432f2b2ae958c6fdd66e2d1", null ],
     [ "CleanWorld", "classWorld.html#a68c87061bbbd6d702596d0c0a837a7ac", null ],
     [ "ConvertAActorToActor", "classWorld.html#a5236ae88205fb91bc623711bfdf7e54b", null ],
     [ "ConvertActorToAActor", "classWorld.html#a944244b32a2219826939859c6138f6ab", null ],

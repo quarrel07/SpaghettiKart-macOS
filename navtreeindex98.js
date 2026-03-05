@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"update__objects_8c.html#a5a67c56075d0913ee457950fa44fc961":[20,0,3,68,98],
 "update__objects_8c.html#a5a771dbf7fbb25d378ab59b7610200db":[20,0,3,68,186],
 "update__objects_8c.html#a5ac10bdf02fa5f66183ce0da2f55a41d":[20,0,3,68,37],
 "update__objects_8c.html#a5b10e163d17f78f43ec59de3a5c401a0":[20,0,3,68,135],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "yoshi__kart_8h.html#a4cd6820fde6222b2ea88183c856a6a20":[20,0,2,0,3,0,7,0],
 "yoshi__kart_8h_source.html":[20,0,2,0,3,0,7],
 "yoshi__valley_2course__offsets_8c.html":[20,0,0,20,0],
-"yoshi__valley_2course__offsets_8c.html#a1b0c944d8397b716e08b552eabe5b2f7":[20,0,0,20,0,1],
-"yoshi__valley_2course__offsets_8c.html#a294bf996bc2175c07cfa31923c399e6d":[20,0,0,20,0,0]
+"yoshi__valley_2course__offsets_8c.html#a1b0c944d8397b716e08b552eabe5b2f7":[20,0,0,20,0,1]
 };

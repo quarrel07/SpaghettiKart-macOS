@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structTemporaryPool.html":[19,0,448],
 "structTemporaryPool.html#a0d15cf9ae5c1b569b61d08f909bb5ef6":[19,0,448,2],
 "structTemporaryPool.html#a24a042e0593ca803b8d6fdc52d950be5":[19,0,448,0],
 "structTemporaryPool.html#a9e76933800efc66eef61fe322f49c69c":[19,0,448,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structUIWidgets_1_1IntSliderOptions.html#aa6fb389433a904b7efee4c7c1ceaac40":[19,0,7,4,17],
 "structUIWidgets_1_1IntSliderOptions.html#aa733c535f03679e2f44fa36afeafdb82":[18,0,10,5,7],
 "structUIWidgets_1_1IntSliderOptions.html#aa733c535f03679e2f44fa36afeafdb82":[19,0,7,4,7],
-"structUIWidgets_1_1IntSliderOptions.html#abb66dbfef8c8a77150fbadc7f448efa8":[18,0,10,5,8],
-"structUIWidgets_1_1IntSliderOptions.html#abb66dbfef8c8a77150fbadc7f448efa8":[19,0,7,4,8]
+"structUIWidgets_1_1IntSliderOptions.html#abb66dbfef8c8a77150fbadc7f448efa8":[18,0,10,5,8]
 };

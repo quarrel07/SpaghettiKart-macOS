@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structCamera.html#af3dd5e00525e8726e522e601dadfc0a4":[19,0,85,22],
 "structCeremonyActor.html":[19,0,86],
 "structCeremonyActor.html#a110b550dc583aeb02fd38123620c8674":[19,0,86,9],
 "structCeremonyActor.html#a13f7987d81c585bd2298c5bc6ea5c04e":[19,0,86,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structFirework.html#ace0b9894acdefb34812cad80c41ab12d":[19,0,122,15],
 "structFirework.html#ad04880ecb9de11af43dba5ead8545520":[19,0,122,17],
 "structFirework.html#add9d1e21774961f1dda1d52fdf4786b3":[19,0,122,8],
-"structFirework.html#ae62288ed1b352cdadaa837d4b84a33f2":[19,0,122,14],
-"structFreeCam.html":[19,0,124]
+"structFirework.html#ae62288ed1b352cdadaa837d4b84a33f2":[19,0,122,14]
 };
