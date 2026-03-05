@@ -14,5 +14,6 @@ var classKoopaTroopaBeach =
     [ "Tick", "classKoopaTroopaBeach.html#a0db06235759619f0b92eac55f1a203c2", null ],
     [ "TickTrackObjects", "classKoopaTroopaBeach.html#a27ccf043fb35f84d226c74ac514c95d6", null ],
     [ "WhatDoesThisDo", "classKoopaTroopaBeach.html#ad5f6333b7c941aaf1a903b4ecea9833f", null ],
-    [ "WhatDoesThisDoAI", "classKoopaTroopaBeach.html#ae5bbb5ba843fc4876c31ac94eb60d7b2", null ]
+    [ "WhatDoesThisDoAI", "classKoopaTroopaBeach.html#ae5bbb5ba843fc4876c31ac94eb60d7b2", null ],
+    [ "mVtx", "classKoopaTroopaBeach.html#a4a0f251f06c33b6478c236882a5a66c1", null ]
 ];

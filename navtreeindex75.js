@@ -1,5 +1,8 @@
 var NAVTREEINDEX75 =
 {
+"structFirework.html#ad04880ecb9de11af43dba5ead8545520":[19,0,122,17],
+"structFirework.html#add9d1e21774961f1dda1d52fdf4786b3":[19,0,122,8],
+"structFirework.html#ae62288ed1b352cdadaa837d4b84a33f2":[19,0,122,14],
 "structFreeCam.html":[19,0,124],
 "structFreeCam.html#a33527f64e66afae69ac21f013bc54677":[19,0,124,2],
 "structFreeCam.html#a46c0f71485a7ca70a36d55f4006c0b6a":[19,0,124,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX75 =
 "structMkAnimation.html":[19,0,320],
 "structMkAnimation.html#a4f074740af380889740d462c41efbd16":[19,0,320,0],
 "structMkAnimation.html#a9b401f96b0cda98dfa06402be626ac5e":[19,0,320,1],
-"structMtx__u.html":[19,0,324],
-"structMtx__u.html#a198e12ffb4a24abf8343050baed78d7b":[19,0,324,1],
-"structMtx__u.html#ad68774dbb28cac7430099fbf85046c87":[19,0,324,0],
-"structNote.html":[19,0,325]
+"structMtx__u.html":[19,0,324]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX57 =
 {
+"namespaceTrackEditor.html#a7e0a8e9ee6341698d3385a2fba05b37b":[18,0,9,33],
+"namespaceTrackEditor.html#a9075bc0d22971dfd312b0557e9d6bec8":[18,0,9,18],
+"namespaceTrackEditor.html#a9080bcebe7f661f02fd863fea0006aee":[18,0,9,19],
 "namespaceTrackEditor.html#a928be70c491755a0f3c0d3d85640d549":[18,0,9,24],
 "namespaceTrackEditor.html#a99f257ca9eebe29df775acc71a5a0fee":[18,0,9,12],
 "namespaceTrackEditor.html#aa6a563244a563bd17d12563a23eadba6":[18,0,9,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX57 =
 "objects_8h.html#aa4bf17ba1651c63ddc84841df1442ad6":[20,0,2,16,9],
 "objects_8h.html#aac6618362ef0445bc1ddf0a971732a67":[20,0,2,16,69],
 "objects_8h.html#aad8b1200aac0e7c52897cea1963426f9":[20,0,2,16,61],
-"objects_8h.html#aaef5bbff2b02b834bbec4150c33adcc4":[20,0,2,16,17],
-"objects_8h.html#aaf2ab8b3d1d7cdb1f9a0555f2c6e32e7":[20,0,2,16,27],
-"objects_8h.html#aaf65d9c5ffd8e4297c54dd993877d8cf":[20,0,2,16,88],
-"objects_8h.html#ab30af75a769f114cc77de43957f6006e":[20,0,2,16,45]
+"objects_8h.html#aaef5bbff2b02b834bbec4150c33adcc4":[20,0,2,16,17]
 };

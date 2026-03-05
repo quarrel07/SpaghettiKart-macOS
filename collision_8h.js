@@ -3,6 +3,7 @@ var collision_8h =
     [ "COLLISION", "collision_8h.html#aafd826a123a41fd03a9c88842387a821", null ],
     [ "NO_COLLISION", "collision_8h.html#a9e9ecb3914c88ca208ef90b7ea1b8849", null ],
     [ "actor_terrain_collision", "collision_8h.html#ae593bad8b3177a495c99c8273a1a43e4", null ],
+    [ "add_vtx_from_quadrangle", "collision_8h.html#a1e31c59e4cf25a0a64d05dbde9d33661", null ],
     [ "adjust_pos_orthogonally", "collision_8h.html#a72f63077ce272553d0ae91096fd468d0", null ],
     [ "calculate_surface_height", "collision_8h.html#a2660f6a2ce67ee70df95434bb62ba4ae", null ],
     [ "check_bounding_collision", "collision_8h.html#adda7cdf4a0af8bce59de2083a64e18f9", null ],

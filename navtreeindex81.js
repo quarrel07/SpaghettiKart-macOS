@@ -1,5 +1,8 @@
 var NAVTREEINDEX81 =
 {
+"structUIWidgets_1_1IntSliderOptions.html#aa733c535f03679e2f44fa36afeafdb82":[18,0,10,5,7],
+"structUIWidgets_1_1IntSliderOptions.html#aa733c535f03679e2f44fa36afeafdb82":[19,0,7,4,7],
+"structUIWidgets_1_1IntSliderOptions.html#abb66dbfef8c8a77150fbadc7f448efa8":[18,0,10,5,8],
 "structUIWidgets_1_1IntSliderOptions.html#abb66dbfef8c8a77150fbadc7f448efa8":[19,0,7,4,8],
 "structUIWidgets_1_1IntSliderOptions.html#abfddd81049e57c1e832969aab1de9833":[18,0,10,5,12],
 "structUIWidgets_1_1IntSliderOptions.html#abfddd81049e57c1e832969aab1de9833":[19,0,7,4,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX81 =
 "structVolumeChange.html#a021b049e75d04ef9d7fffcfd237b38d2":[19,0,498,2],
 "structVolumeChange.html#a5a54284947f770817436ddd65c195c19":[19,0,498,0],
 "structVolumeChange.html#abbc6c7d5ee5a6e4acf7314ff0b112a09":[19,0,498,1],
-"structVolumeChange.html#ace77b1c1e7a1f002fcbdd5d10c9c9159":[19,0,498,3],
-"structWaterVolume.html":[19,0,500],
-"structWaterVolume.html#a31ecbcc71bbafd82069645202cba5953":[19,0,500,0],
-"structWaterVolume.html#a714e6184ab84abaa2bdefa7a474a1143":[19,0,500,1]
+"structVolumeChange.html#ace77b1c1e7a1f002fcbdd5d10c9c9159":[19,0,498,3]
 };

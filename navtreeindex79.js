@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"structSequenceChannel.html#a7eb976bfe10fde23908926fd3a2124a8":[19,0,397,3],
+"structSequenceChannel.html#a84d7c255c7bbc4df3d4840580b5f8819":[19,0,397,12],
+"structSequenceChannel.html#a86118c5e4c57c5cd83f9b0eda9b892c2":[19,0,397,6],
 "structSequenceChannel.html#a88afac12f721bc4ccc1f402618b49121":[19,0,397,25],
 "structSequenceChannel.html#a8c82a0041bd75994697dafc694d6c646":[19,0,397,41],
 "structSequenceChannel.html#a931ca3d182c264a8cc5a5143c1d3b560":[19,0,397,19],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "structSynthesisReverb.html#a95c1a105fa35fdce091e5a21b51a551f":[19,0,447,19],
 "structSynthesisReverb.html#aa46c28e4defb41adeab96a8bab877a6f":[19,0,447,20],
 "structSynthesisReverb.html#ab4cf4eefbf98776a131b84bf7bad71c4":[19,0,447,2],
-"structSynthesisReverb.html#ac33541fe1dc1f814a10cbc97b86b8d4d":[19,0,447,22],
-"structSynthesisReverb.html#af0c1e263c77e45751776b0fb21c78fec":[19,0,447,6],
-"structSynthesisReverb.html#af35d57f5349288262225b17bef133495":[19,0,447,13],
-"structSynthesisReverb.html#af5dddf0dc829753ac487ac160e90bb79":[19,0,447,15]
+"structSynthesisReverb.html#ac33541fe1dc1f814a10cbc97b86b8d4d":[19,0,447,22]
 };

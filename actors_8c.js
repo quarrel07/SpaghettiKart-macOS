@@ -47,7 +47,7 @@ var actors_8c =
     [ "query_collision_actor_vs_actor", "actors_8c.html#a11e841de9884478c86e7aa3d4cab5290", null ],
     [ "query_collision_player_vs_actor_item", "actors_8c.html#ad178e5f6613d2c7c3ac42a1bc447c77b", null ],
     [ "render_actor_shell", "actors_8c.html#a244363eb20e950ed94944be1c768a37c", null ],
-    [ "render_course_actors", "actors_8c.html#a4de57fbadea56faba9dc6823dd2b64a5", null ],
+    [ "render_course_actors", "actors_8c.html#ab84146b9770911b6ca5818304890d410", null ],
     [ "render_cows", "actors_8c.html#a19188fc86c52d2d300e394c50a28c181", null ],
     [ "render_item_boxes", "actors_8c.html#a911e7987e1670342aadf45be0095bde8", null ],
     [ "render_palm_trees", "actors_8c.html#a81a8c87cfcd4d2304d2015af467fc3ec", null ],

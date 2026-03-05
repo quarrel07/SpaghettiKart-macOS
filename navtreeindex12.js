@@ -33,6 +33,7 @@ var NAVTREEINDEX12 =
 "classKoopaTroopaBeach.html":[19,0,153],
 "classKoopaTroopaBeach.html#a0db06235759619f0b92eac55f1a203c2":[19,0,153,11],
 "classKoopaTroopaBeach.html#a27ccf043fb35f84d226c74ac514c95d6":[19,0,153,12],
+"classKoopaTroopaBeach.html#a4a0f251f06c33b6478c236882a5a66c1":[19,0,153,15],
 "classKoopaTroopaBeach.html#a55175d9ed7948b858e547d4696bfdd06":[19,0,153,4],
 "classKoopaTroopaBeach.html#a7ca6e564b45390c31b76e364a0ee6ff4":[19,0,153,9],
 "classKoopaTroopaBeach.html#a851d0a3d4b31fc41d1d0a1f9fb12cf46":[19,0,153,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classOBat.html#a0ecdcf34fbbeb47c8f572dda8bceafe5":[19,0,332,16],
 "classOBat.html#a22ed830e1b0e27063eefafa70f488b74":[19,0,332,1],
 "classOBat.html#a2b0ff0df439bb57547218a79f72ac77d":[19,0,332,4],
-"classOBat.html#a33ec652321ad538a8c4950cf4a943191":[19,0,332,17],
-"classOBat.html#a3aae4f60e1f08d5eaceea5ed0b3e6f5d":[19,0,332,15]
+"classOBat.html#a33ec652321ad538a8c4950cf4a943191":[19,0,332,17]
 };

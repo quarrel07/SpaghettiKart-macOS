@@ -1,5 +1,8 @@
 var NAVTREEINDEX42 =
 {
+"math__util__2_8h.html#a7c43b4c4dff1ad4729852bf68855535d":[20,0,3,47,65],
+"math__util__2_8h.html#a7c8faeecd6f346dbd257669e248aace6":[20,0,3,47,11],
+"math__util__2_8h.html#a8831e399c95acebb71a9bd97c7de09dd":[20,0,3,47,34],
 "math__util__2_8h.html#a898fe9b8a64f984d86b3d57239287a68":[20,0,3,47,44],
 "math__util__2_8h.html#a9ba5841b330eacbd0c790eacb5190d13":[20,0,3,47,50],
 "math__util__2_8h.html#aa0f56371081de86dcbb5ed53fd24292f":[20,0,3,47,62],
@@ -129,14 +132,14 @@ var NAVTREEINDEX42 =
 "md_docs_2BUILDING.html#windows":[2,0],
 "md_docs_2custom-audio.html":[5],
 "md_docs_2custom-audio.html#example":[5,0],
-"md_docs_2custom-audio.html#future-plans-1":[5,1],
+"md_docs_2custom-audio.html#future-plans":[5,1],
 "md_docs_2custom-characters.html":[6],
-"md_docs_2custom-characters.html#additional-files-1":[6,1],
-"md_docs_2custom-characters.html#change-viewport-render-settings-1":[6,1,0,0],
-"md_docs_2custom-characters.html#examples-for-all-characters-1":[6,0],
-"md_docs_2custom-characters.html#future-plans-2":[6,1,2],
-"md_docs_2custom-characters.html#tips-1":[6,1,0],
-"md_docs_2custom-characters.html#tools-to-help-1":[6,1,1],
+"md_docs_2custom-characters.html#additional-files":[6,1],
+"md_docs_2custom-characters.html#change-viewport-render-settings":[6,1,0,0],
+"md_docs_2custom-characters.html#examples-for-all-characters":[6,0],
+"md_docs_2custom-characters.html#future-plans-1":[6,1,2],
+"md_docs_2custom-characters.html#tips":[6,1,0],
+"md_docs_2custom-characters.html#tools-to-help":[6,1,1],
 "md_docs_2faq.html":[7],
 "md_docs_2migrations.html":[8],
 "md_docs_2migrations.html#generated-files":[8,1,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX42 =
 "memory_8h.html#afe57de3903e2ed3acb35c29651445c5b":[20,0,3,10,11,18],
 "memory_8h_source.html":[20,0,3,10,11],
 "memory__pool_8c.html":[20,0,3,2,5],
-"memory__pool_8c.html#a30a686f067ca0076a6782a9fd8b9a2bb":[20,0,3,2,5,0],
-"memory__pool_8c.html#afd9f792a1f297c9829bb3d02f883427c":[20,0,3,2,5,1],
-"menu__items_8c.html":[20,0,3,48],
-"menu__items_8c.html#a00c2408ac6e619d56cd16d2797adf066":[20,0,3,48,352]
+"memory__pool_8c.html#a30a686f067ca0076a6782a9fd8b9a2bb":[20,0,3,2,5,0]
 };

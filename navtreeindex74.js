@@ -1,5 +1,8 @@
 var NAVTREEINDEX74 =
 {
+"structCamera.html#ae7e6b48883a5943ec6a5fea35724b343":[19,0,85,12],
+"structCamera.html#ae87778b1cb8804985aad9c5eb7c4b36f":[19,0,85,1],
+"structCamera.html#af0659dfe9ec249eb88a1752aed444cfd":[19,0,85,16],
 "structCamera.html#af3dd5e00525e8726e522e601dadfc0a4":[19,0,85,22],
 "structCeremonyActor.html":[19,0,86],
 "structCeremonyActor.html#a110b550dc583aeb02fd38123620c8674":[19,0,86,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX74 =
 "structFirework.html#aa294834d67d91644a18ef1cc28889346":[19,0,122,19],
 "structFirework.html#aa413d6457c3fb937a8621a3c5d182e87":[19,0,122,7],
 "structFirework.html#aa9f137c06f2f7ca3cde2b68e87c33776":[19,0,122,13],
-"structFirework.html#ace0b9894acdefb34812cad80c41ab12d":[19,0,122,15],
-"structFirework.html#ad04880ecb9de11af43dba5ead8545520":[19,0,122,17],
-"structFirework.html#add9d1e21774961f1dda1d52fdf4786b3":[19,0,122,8],
-"structFirework.html#ae62288ed1b352cdadaa837d4b84a33f2":[19,0,122,14]
+"structFirework.html#ace0b9894acdefb34812cad80c41ab12d":[19,0,122,15]
 };

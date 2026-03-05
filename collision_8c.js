@@ -4,6 +4,7 @@ var collision_8c =
     [ "MIN3", "collision_8c.html#a1e07ff5a06746e194715b46aa899c8e5", null ],
     [ "actor_terrain_collision", "collision_8c.html#a79293dbdae52d290fdaf8dde9d5244ca", null ],
     [ "add_collision_triangle", "collision_8c.html#a8c516edee107b39b30bb3a4d3c54534a", null ],
+    [ "add_vtx_from_quadrangle", "collision_8c.html#a1e31c59e4cf25a0a64d05dbde9d33661", null ],
     [ "adjust_pos_orthogonally", "collision_8c.html#acf7d86058e2bab6c3926db52ca20d8c1", null ],
     [ "calculate_surface_height", "collision_8c.html#a6527a2135a10909cdf9a1fd731be5628", null ],
     [ "check_bounding_collision", "collision_8c.html#a37aa55b3768d001533ad75e7f1b8388a", null ],
