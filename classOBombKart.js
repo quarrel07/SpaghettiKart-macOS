@@ -16,6 +16,8 @@ var classOBombKart =
     [ "DrawBattle", "classOBombKart.html#a2af9545181a43230f7a2a27635516c16", null ],
     [ "DrawEditorProperties", "classOBombKart.html#a2365261a4311b2dd2e6301f494b0fc8e", null ],
     [ "FindTarget", "classOBombKart.html#ae34643caa3c5ed1311cc37351e78e008", null ],
+    [ "func_800562E4", "classOBombKart.html#a7f774a0d1bbee4cd9f076f5a39a97e6a", null ],
+    [ "func_800563DC", "classOBombKart.html#a25b8342aa139aea0cfbc28ce3e969014", null ],
     [ "GetCount", "classOBombKart.html#a95bfca8f8591c1d1172b48010fba8812", null ],
     [ "LoadMtx", "classOBombKart.html#a8eeddb6c81e13c774f6914afa0579098", null ],
     [ "SomeRender", "classOBombKart.html#a63dac7159aa46b2669660bcaf7042ca3", null ],
@@ -40,6 +42,7 @@ var classOBombKart =
     [ "Unk_3C", "classOBombKart.html#a287eda05ca5a76a2cb8c7d4d719d38e4", null ],
     [ "Unk_4A", "classOBombKart.html#adac8af80db646388a5e3a987bc01f480", null ],
     [ "Unk_4C", "classOBombKart.html#a7c84161c7b78feb4ceb648b0bab5eefe", null ],
+    [ "vec", "classOBombKart.html#a8f9a3c1a45b7bc9f250994c4872ffe7a", null ],
     [ "WaypointIndex", "classOBombKart.html#a410db4d169dcfe34e647bc7b8714d137", null ],
     [ "WheelPos", "classOBombKart.html#a763f4722bde8832147b5f4eb9f99f910", null ]
 ];

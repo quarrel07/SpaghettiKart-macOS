@@ -141,7 +141,6 @@ var code__80005FD0_8c =
     [ "player_track_position_factor_vehicle", "code__80005FD0_8c.html#a4333b73f8f263515ba4ba2bf47a5ac19", null ],
     [ "process_path_data", "code__80005FD0_8c.html#a63ad6d0756cdc4682b0032051cc628ce", null ],
     [ "regulate_cpu_speed", "code__80005FD0_8c.html#ad4df55240035a099df20cb3fddc355ca", null ],
-    [ "render_bomb_karts_wrap", "code__80005FD0_8c.html#a20d054883ba7ddebb1b79918d9ac5c86", null ],
     [ "reset_cpu_behaviour", "code__80005FD0_8c.html#a8c0f6d25932c46807c96532f6c573973", null ],
     [ "reset_cpu_behaviour_none", "code__80005FD0_8c.html#a135ec35ea5dd53f5ceaeda9e3ca8eb41", null ],
     [ "set_bomb_kart_spawn_positions", "code__80005FD0_8c.html#ada59072ef0e7fec8eb6eeaabdc4ebe03", null ],

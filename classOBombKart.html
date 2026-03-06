@@ -160,6 +160,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2365261a4311b2dd2e6301f494b0fc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af9545181a43230f7a2a27635516c16" id="r_a2af9545181a43230f7a2a27635516c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2af9545181a43230f7a2a27635516c16">DrawBattle</a> (s32 cameraId)</td></tr>
 <tr class="separator:a2af9545181a43230f7a2a27635516c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b8342aa139aea0cfbc28ce3e969014" id="r_a25b8342aa139aea0cfbc28ce3e969014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b8342aa139aea0cfbc28ce3e969014">func_800563DC</a> (s32 cameraId, s32 arg2)</td></tr>
+<tr class="separator:a25b8342aa139aea0cfbc28ce3e969014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f774a0d1bbee4cd9f076f5a39a97e6a" id="r_a7f774a0d1bbee4cd9f076f5a39a97e6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f774a0d1bbee4cd9f076f5a39a97e6a">func_800562E4</a> (s32 cameraId, s32 arg0, s32 arg1, s32 arg2, s32 id)</td></tr>
+<tr class="separator:a7f774a0d1bbee4cd9f076f5a39a97e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63dac7159aa46b2669660bcaf7042ca3" id="r_a63dac7159aa46b2669660bcaf7042ca3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63dac7159aa46b2669660bcaf7042ca3">SomeRender</a> (s32 cameraId, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> arg1)</td></tr>
 <tr class="separator:a63dac7159aa46b2669660bcaf7042ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eeddb6c81e13c774f6914afa0579098" id="r_a8eeddb6c81e13c774f6914afa0579098"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eeddb6c81e13c774f6914afa0579098">LoadMtx</a> (s32 cameraId)</td></tr>
@@ -277,6 +281,8 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
+<tr class="memitem:a8f9a3c1a45b7bc9f250994c4872ffe7a" id="r_a8f9a3c1a45b7bc9f250994c4872ffe7a"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f9a3c1a45b7bc9f250994c4872ffe7a">vec</a> [3][3]</td></tr>
+<tr class="separator:a8f9a3c1a45b7bc9f250994c4872ffe7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a3bf5efab4305d3dfd6aada9fe51ac" id="r_a29a3bf5efab4305d3dfd6aada9fe51ac"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29a3bf5efab4305d3dfd6aada9fe51ac">_count</a> = 0</td></tr>
 <tr class="separator:a29a3bf5efab4305d3dfd6aada9fe51ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -520,6 +526,83 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classOBombKart_ae34643caa3c5ed1311cc37351e78e008_icgraph.svg" width="363" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7f774a0d1bbee4cd9f076f5a39a97e6a" name="a7f774a0d1bbee4cd9f076f5a39a97e6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f774a0d1bbee4cd9f076f5a39a97e6a">&#9670;&#160;</a></span>func_800562E4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OBombKart::func_800562E4 </td>
+          <td>(</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>cameraId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classOBombKart_a7f774a0d1bbee4cd9f076f5a39a97e6a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classOBombKart_a7f774a0d1bbee4cd9f076f5a39a97e6a_icgraph.svg" width="656" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a25b8342aa139aea0cfbc28ce3e969014" name="a25b8342aa139aea0cfbc28ce3e969014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b8342aa139aea0cfbc28ce3e969014">&#9670;&#160;</a></span>func_800563DC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OBombKart::func_800563DC </td>
+          <td>(</td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>cameraId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s32</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classOBombKart_a25b8342aa139aea0cfbc28ce3e969014_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classOBombKart_a25b8342aa139aea0cfbc28ce3e969014_icgraph.svg" width="404" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1019,6 +1102,33 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a8f9a3c1a45b7bc9f250994c4872ffe7a" name="a8f9a3c1a45b7bc9f250994c4872ffe7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9a3c1a45b7bc9f250994c4872ffe7a">&#9670;&#160;</a></span>vec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">u32 OBombKart::vec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    { 255, 255, 255 },</div>
+<div class="line">    { 255, 255, 0 },</div>
+<div class="line">    { 255, 0, 0 },</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a410db4d169dcfe34e647bc7b8714d137" name="a410db4d169dcfe34e647bc7b8714d137"></a>

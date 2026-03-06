@@ -56,7 +56,7 @@ var searchData=
   ['loadchild_53',['LoadChild',['../namespaceSM64.html#ac354c4417e89d6b3b924da1432a0e831',1,'SM64::LoadChild(uint64_t crc)'],['../namespaceSM64.html#aa8b779a22183b4b8999f929f85bfd887',1,'SM64::LoadChild(const char *path)']]],
   ['loadfog_54',['LoadFog',['../namespaceTrackEditor.html#add90fd8e24d64905c489b256d1e849d5',1,'TrackEditor']]],
   ['loadminimap_55',['LoadMinimap',['../namespaceTrackEditor.html#a9075bc0d22971dfd312b0557e9d6bec8',1,'TrackEditor']]],
-  ['loadmtx_56',['LoadMtx',['../classOBombKart.html#a8eeddb6c81e13c774f6914afa0579098',1,'OBombKart']]],
+  ['loadmtx_56',['LoadMtx',['../classOBombKart.html#a8eeddb6c81e13c774f6914afa0579098',1,'OBombKart::LoadMtx()'],['../classPlayerBombKart.html#ab9363ab7b5a7b4c104ff997bcc82064f',1,'PlayerBombKart::LoadMtx()']]],
   ['loadpaths_57',['LoadPaths',['../namespaceTrackEditor.html#a9080bcebe7f661f02fd863fea0006aee',1,'TrackEditor']]],
   ['loadpngtexture_58',['loadPngTexture',['../namespaceMK64.html#a27e186bf042004544a41fbd13b7d80d6',1,'MK64']]],
   ['loadprops_59',['LoadProps',['../namespaceTrackEditor.html#aeb5d75978b55f270e27829cffe67d2a4',1,'TrackEditor']]],

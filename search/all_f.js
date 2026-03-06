@@ -281,7 +281,7 @@ var searchData=
   ['loading_20order_278',['Mod Loading Order',['../md_docs_2modding.html#mod-loading-order',1,'']]],
   ['loadingbankid_279',['loadingBankId',['../structSequencePlayer.html#a7ff39707aa512005fa36b220cc546881',1,'SequencePlayer']]],
   ['loadminimap_280',['LoadMinimap',['../namespaceTrackEditor.html#a9075bc0d22971dfd312b0557e9d6bec8',1,'TrackEditor']]],
-  ['loadmtx_281',['LoadMtx',['../classOBombKart.html#a8eeddb6c81e13c774f6914afa0579098',1,'OBombKart']]],
+  ['loadmtx_281',['LoadMtx',['../classOBombKart.html#a8eeddb6c81e13c774f6914afa0579098',1,'OBombKart::LoadMtx()'],['../classPlayerBombKart.html#ab9363ab7b5a7b4c104ff997bcc82064f',1,'PlayerBombKart::LoadMtx()']]],
   ['loadpaths_282',['LoadPaths',['../namespaceTrackEditor.html#a9080bcebe7f661f02fd863fea0006aee',1,'TrackEditor']]],
   ['loadpngtexture_283',['loadPngTexture',['../namespaceMK64.html#a27e186bf042004544a41fbd13b7d80d6',1,'MK64']]],
   ['loadprops_284',['LoadProps',['../namespaceTrackEditor.html#aeb5d75978b55f270e27829cffe67d2a4',1,'TrackEditor']]],

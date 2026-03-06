@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34a668fc575212dde4601ac630757df15c8":[19,0,360,0,1],
+"classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34a6b21fcd9cacc074692728f2568c7883e":[19,0,360,0,0],
+"classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34a6d93e325790f0aa030f838f5705c772f":[19,0,360,0,2],
 "classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34a803b83a3105ab74e77eb0fc6fec6372b":[19,0,360,0,4],
 "classOTrophy.html#ad1a343e8fdbb7af88f1a7eccb23a0c34ab9d9b4988c1cfb6199d200b20a817a6a":[19,0,360,0,3],
 "classOTrophy.html#ad4d2abf5f8cc69c87c0c680119c7670d":[19,0,360,5],
@@ -22,14 +25,14 @@ var NAVTREEINDEX15 =
 "classPlayerBombKart.html#a8fceb48692112d3a16ad242f9a37f84b":[19,0,368,14],
 "classPlayerBombKart.html#a98890e9c1d01ce1d63690bf32a44e2a6":[19,0,368,1],
 "classPlayerBombKart.html#aa059e1b19412dee184b1d1ce4cce2a6e":[19,0,368,13],
-"classPlayerBombKart.html#aa063b7ce63ddb80c6da7550630df531a":[19,0,368,7],
 "classPlayerBombKart.html#aa5fd50a138061ae43d32dde449de6de5":[19,0,368,12],
 "classPlayerBombKart.html#ab3bf9332abcce97183126cb5a7bce075":[19,0,368,5],
+"classPlayerBombKart.html#ab9363ab7b5a7b4c104ff997bcc82064f":[19,0,368,8],
 "classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1dd":[19,0,368,0],
 "classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1dda57d27cb4dd5224dfab2ff95ae0b33f50":[19,0,368,0,0],
 "classPlayerBombKart.html#abe29bc9eaaac4f37f32fc1c67a19a1ddaafc7d2c90168b26aa0cdbadd0c538b4a":[19,0,368,0,1],
 "classPlayerBombKart.html#ae72600675ff81bcfcfe0b3e99b72fc10":[19,0,368,3],
-"classPlayerBombKart.html#aebf4cbb55a9b685625a851eb1509f565":[19,0,368,8],
+"classPlayerBombKart.html#aebf4cbb55a9b685625a851eb1509f565":[19,0,368,7],
 "classPlayerBombKart.html#afe2d0550f7808871f2df9d0a6ccae624":[19,0,368,2],
 "classPodiumCeremony.html":[19,0,369],
 "classPodiumCeremony.html#a1bc3b1a9ca158e27e1d2d0966dfe27b4":[19,0,369,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "classSM64_1_1AudioBank.html#a353e14bbeb25477ebff965dd0a99598d":[18,0,8,0,0],
 "classSM64_1_1AudioBank.html#a353e14bbeb25477ebff965dd0a99598d":[19,0,5,0,0],
 "classSM64_1_1AudioBank.html#a70571e226e50e3549efd8c6a6d53d316":[18,0,8,0,6],
-"classSM64_1_1AudioBank.html#a70571e226e50e3549efd8c6a6d53d316":[19,0,5,0,6],
-"classSM64_1_1AudioBank.html#a712b362d198d359ab9449e1db68e8e5e":[18,0,8,0,4],
-"classSM64_1_1AudioBank.html#a712b362d198d359ab9449e1db68e8e5e":[19,0,5,0,4],
-"classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200":[18,0,8,0,1]
+"classSM64_1_1AudioBank.html#a70571e226e50e3549efd8c6a6d53d316":[19,0,5,0,6]
 };

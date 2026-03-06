@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"classSM64_1_1AudioBank.html#a712b362d198d359ab9449e1db68e8e5e":[18,0,8,0,4],
+"classSM64_1_1AudioBank.html#a712b362d198d359ab9449e1db68e8e5e":[19,0,5,0,4],
+"classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200":[18,0,8,0,1],
 "classSM64_1_1AudioBank.html#a8dc897992c45e7b5202c2a6e6fd44200":[19,0,5,0,1],
 "classSM64_1_1AudioBank.html#abcdbce2024aa4239a60bd4b83591a42c":[18,0,8,0,3],
 "classSM64_1_1AudioBank.html#abcdbce2024aa4239a60bd4b83591a42c":[19,0,5,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "classToadsTurnpike.html#a4c482f5364142241c40dab055df3fc45":[19,0,454,12],
 "classToadsTurnpike.html#a4e1f2cdcb97be5a74994e8d6fae249d3":[19,0,454,7],
 "classToadsTurnpike.html#a542814c4f9986a7933a4ad5f711fcca0":[19,0,454,5],
-"classToadsTurnpike.html#a5e6f9dcc4e536e24b3d38489ae783dc4":[19,0,454,6],
-"classToadsTurnpike.html#a618e562abf5a11eebc297658616ef48b":[19,0,454,10],
-"classToadsTurnpike.html#a63ea0d1a8ed2e6ea4a49a0bff095d6cd":[19,0,454,9],
-"classToadsTurnpike.html#af8e880552b29184918db3d51a537d824":[19,0,454,11]
+"classToadsTurnpike.html#a5e6f9dcc4e536e24b3d38489ae783dc4":[19,0,454,6]
 };

@@ -23,7 +23,7 @@ var searchData=
   ['variant_20',['variant',['../structPalmTree.html#a8b06b5727e27aac50742e6e946840476',1,'PalmTree']]],
   ['vblankhandler_21',['VblankHandler',['../structVblankHandler.html',1,'']]],
   ['vblanktimes_22',['vblankTimes',['../structProfilerFrameData.html#a1095d8b90b744ccc106dcaafa4ef98ad',1,'ProfilerFrameData']]],
-  ['vec_23',['vec',['../classPlayerBombKart.html#a3b1c89b1eb132a032ff3acaaf880e470',1,'PlayerBombKart']]],
+  ['vec_23',['vec',['../classOBombKart.html#a8f9a3c1a45b7bc9f250994c4872ffe7a',1,'OBombKart::vec'],['../classPlayerBombKart.html#a3b1c89b1eb132a032ff3acaaf880e470',1,'PlayerBombKart::vec']]],
   ['vec2f_24',['Vec2f',['../structSF64_1_1Vec2f.html',1,'SF64::Vec2f'],['../structSF64_1_1Vec2f.html#a0ce46ae7e6af1bd459a922f58e4f3acc',1,'SF64::Vec2f::Vec2f()'],['../namespaceSF64.html#a1130ee4440f43e7a45454de29f6bc813a55c807567022223d5149b51efe888efc',1,'SF64::Vec2f']]],
   ['vec3f_25',['Vec3f',['../structSF64_1_1Vec3f.html',1,'SF64::Vec3f'],['../structSF64_1_1Vec3f.html#a0cd136d5142448430ceff6dbbda6b8d4',1,'SF64::Vec3f::Vec3f()'],['../common__structs_8h.html#a5290523279339ea495248ab3a36cb46e',1,'Vec3f:&#160;common_structs.h'],['../namespaceSF64.html#a1130ee4440f43e7a45454de29f6bc813ae955b77fe1f267cbe6bb898c6be66369',1,'SF64::Vec3f'],['../namespaceSF64.html#ad35ecb646e9e3bef64034a5ea3c1f070ae955b77fe1f267cbe6bb898c6be66369',1,'SF64::Vec3f']]],
   ['vec3f_5fclear_26',['vec3f_clear',['../ceremony__and__credits_8c.html#a3869498d3e9bdc58a14a97859dc65048',1,'vec3f_clear(Vec3f arg0):&#160;ceremony_and_credits.c'],['../ceremony__and__credits_8h.html#a625312794610f67255112bf852fc4098',1,'vec3f_clear(Vec3f):&#160;ceremony_and_credits.c']]],
