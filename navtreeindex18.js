@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classTrackEditor_1_1LightObject.html#a5f8248df3de2931d70f7d76ddfbe7808":[18,0,9,4,4],
 "classTrackEditor_1_1LightObject.html#a5f8248df3de2931d70f7d76ddfbe7808":[19,0,6,4,4],
 "classTrackEditor_1_1LightObject.html#a61b3a5910a00ffe5dfb5aff55566c638":[18,0,9,4,1],
 "classTrackEditor_1_1LightObject.html#a61b3a5910a00ffe5dfb5aff55566c638":[19,0,6,4,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classpfd_1_1internal_1_1executor.html#a7eb363f3dc9d6dc21f1a8b6ce6a33679":[19,0,2,0,1,2],
 "classpfd_1_1internal_1_1executor.html#aa8dc7e75bd1ac2cf825fa04ed657c0aa":[18,0,5,0,1,6],
 "classpfd_1_1internal_1_1executor.html#aa8dc7e75bd1ac2cf825fa04ed657c0aa":[19,0,2,0,1,6],
-"classpfd_1_1internal_1_1executor.html#ab7766273bae572779a404c5543268406":[18,0,5,0,1,1],
-"classpfd_1_1internal_1_1executor.html#ab7766273bae572779a404c5543268406":[19,0,2,0,1,1]
+"classpfd_1_1internal_1_1executor.html#ab7766273bae572779a404c5543268406":[18,0,5,0,1,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structSynthesisReverb.html#ac33541fe1dc1f814a10cbc97b86b8d4d":[19,0,447,22],
 "structSynthesisReverb.html#af0c1e263c77e45751776b0fb21c78fec":[19,0,447,6],
 "structSynthesisReverb.html#af35d57f5349288262225b17bef133495":[19,0,447,13],
 "structSynthesisReverb.html#af5dddf0dc829753ac487ac160e90bb79":[19,0,447,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structUIWidgets_1_1IntSliderOptions.html#a80d7fce604044a1e66e669bd382b6c17":[19,0,7,4,0],
 "structUIWidgets_1_1IntSliderOptions.html#a8a0f9d19f38f204342d014bd8f2b6153":[18,0,10,5,16],
 "structUIWidgets_1_1IntSliderOptions.html#a8a0f9d19f38f204342d014bd8f2b6153":[19,0,7,4,16],
-"structUIWidgets_1_1IntSliderOptions.html#aa6fb389433a904b7efee4c7c1ceaac40":[18,0,10,5,17],
-"structUIWidgets_1_1IntSliderOptions.html#aa6fb389433a904b7efee4c7c1ceaac40":[19,0,7,4,17]
+"structUIWidgets_1_1IntSliderOptions.html#aa6fb389433a904b7efee4c7c1ceaac40":[18,0,10,5,17]
 };

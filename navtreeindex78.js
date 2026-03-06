@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structSF64_1_1ColPolyData.html":[19,0,3,3],
 "structSF64_1_1ColPolyData.html#a07e79038c60ee2e8900ebbbb7101d380":[18,0,6,3,5],
 "structSF64_1_1ColPolyData.html#a07e79038c60ee2e8900ebbbb7101d380":[19,0,3,3,5],
 "structSF64_1_1ColPolyData.html#a1ab2f8a9483c76c8278684c5c37d1cd9":[18,0,6,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structSequenceChannel.html#a63bac82788fa39e010766107de5d77ba":[19,0,397,33],
 "structSequenceChannel.html#a67177477d3729d173bc79e004167f25f":[19,0,397,2],
 "structSequenceChannel.html#a6ac2d7c99ad895c62b7618fafb3b03ff":[19,0,397,30],
-"structSequenceChannel.html#a7714166355bd970c962da7e43fb35b1d":[19,0,397,46],
-"structSequenceChannel.html#a7896f2204e792c1dbe5f84f1783efafc":[19,0,397,17]
+"structSequenceChannel.html#a7714166355bd970c962da7e43fb35b1d":[19,0,397,46]
 };

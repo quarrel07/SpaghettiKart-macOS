@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"ship__model_8c.html#a8233e7efedbb993abafd1688ef1443fb":[20,0,0,8,8,9],
 "ship__model_8c.html#a8749bedadc872f1bb84902adabd0afb4":[20,0,0,8,8,65],
 "ship__model_8c.html#a87893fa565556587a7a4bfa30294b35b":[20,0,0,8,8,48],
 "ship__model_8c.html#a90307522e7175134336f40c872a379d1":[20,0,0,8,8,75],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "some__data_8c.html#aad57548909a3a8c1322f019d8bc64e34":[20,0,3,3,3,18],
 "some__data_8c.html#aaf4066f8005409371bffd05224733545":[20,0,3,3,3,37],
 "some__data_8c.html#aaf65d9c5ffd8e4297c54dd993877d8cf":[20,0,3,3,3,72],
-"some__data_8c.html#ab0ee21293436c30bc9b3645a1e48b858":[20,0,3,3,3,42],
-"some__data_8c.html#ab4947243526a0a8e32d0fbee391b0edb":[20,0,3,3,3,38]
+"some__data_8c.html#ab0ee21293436c30bc9b3645a1e48b858":[20,0,3,3,3,42]
 };

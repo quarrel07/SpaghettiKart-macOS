@@ -11,6 +11,7 @@ var classAFinishline =
     [ "Tick", "classAFinishline.html#a793725aefa6f9bb8c66b7ad7c7f41e4f", null ],
     [ "_count", "classAFinishline.html#a440099a175c874f1abac9af6a885003f", null ],
     [ "_player", "classAFinishline.html#a6d6cf419ae9c951036925d387c6b4ec0", null ],
+    [ "bIsFinishline", "classAFinishline.html#a900f3838948a444add4de92b53da76a2", null ],
     [ "Gravity", "classAFinishline.html#a09f2084a1a94a752ec9f02ace903a1ec", null ],
     [ "Hop", "classAFinishline.html#ae9e0e349029cf72ca55900cead2bce1f", null ],
     [ "OldGravity", "classAFinishline.html#a8b7ed90a486a78c63d2d746a2289d905", null ],
