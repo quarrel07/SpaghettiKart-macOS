@@ -1,6 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"models_2tracks_2choco__mountain_2choco__mountain__data_8h_source.html":[20,0,2,0,0,0,4,0],
 "models_2tracks_2dks__jungle__parkway_2dks__jungle__parkway__data_8h.html":[20,0,2,0,0,0,5,0],
 "models_2tracks_2dks__jungle__parkway_2dks__jungle__parkway__data_8h.html#ac35e19771ea23451308964944aff8608":[20,0,2,0,0,0,5,0,0],
 "models_2tracks_2dks__jungle__parkway_2dks__jungle__parkway__data_8h_source.html":[20,0,2,0,0,0,5,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX56 =
 "namespaceTrackEditor.html#a30c8330a0c072d3da8abbff873f05216":[18,0,9,27],
 "namespaceTrackEditor.html#a32d30c3e2c08be0ca763f6323bec6df2":[18,0,9,21],
 "namespaceTrackEditor.html#a3c32bf38d445b20d55a7092da6b673a5":[18,0,9,10],
-"namespaceTrackEditor.html#a79d25f3b85758b1d930e2eb429655ead":[18,0,9,14]
+"namespaceTrackEditor.html#a79d25f3b85758b1d930e2eb429655ead":[18,0,9,14],
+"namespaceTrackEditor.html#a7ab33e5d4df5a5dc0b3df27c04de6fcc":[18,0,9,30]
 };

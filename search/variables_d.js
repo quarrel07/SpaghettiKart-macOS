@@ -380,7 +380,7 @@ var searchData=
   ['mutex_377',['mutex',['../GameAudio_8h.html#a1be3f7fa26e4521098de5f1ec0f865f3',1,'GameAudio.h']]],
   ['mvelocity_378',['mVelocity',['../classSkySnow.html#a541b5aaf66332670bcc4ed370281faa2',1,'SkySnow']]],
   ['mvisible_379',['mVisible',['../classSkyActor.html#ad225f5e7e5ea83bc1cda91e6234c35c4',1,'SkyActor']]],
-  ['mvtx_380',['mVtx',['../classSkyActor.html#affd32a10c617364d8073eee497eb499c',1,'SkyActor::mVtx'],['../classKoopaTroopaBeach.html#a4a0f251f06c33b6478c236882a5a66c1',1,'KoopaTroopaBeach::mVtx']]],
+  ['mvtx_380',['mVtx',['../classSkyActor.html#affd32a10c617364d8073eee497eb499c',1,'SkyActor']]],
   ['mwindowflags_381',['mWindowFlags',['../classShip_1_1Menu.html#ac034398f2df53211fd37a5b778c5a6e9',1,'Ship::Menu']]],
   ['mx_382',['mX',['../classSkyActor.html#a0b75898fd8d24dabe8bbdbdf32f31ed7',1,'SkyActor']]],
   ['my_383',['mY',['../classSkyActor.html#af8d002588c0590ab31ab5634dbc32771',1,'SkyActor']]],

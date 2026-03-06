@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structCamera.html#ae2b9d79428dd1f7c54beb7960e2f8df8":[19,0,85,24],
 "structCamera.html#ae7e6b48883a5943ec6a5fea35724b343":[19,0,85,12],
 "structCamera.html#ae87778b1cb8804985aad9c5eb7c4b36f":[19,0,85,1],
 "structCamera.html#af0659dfe9ec249eb88a1752aed444cfd":[19,0,85,16],
@@ -249,5 +248,6 @@ var NAVTREEINDEX74 =
 "structFirework.html#a9b80634ad9c630784710e3816340e4af":[19,0,122,5],
 "structFirework.html#aa294834d67d91644a18ef1cc28889346":[19,0,122,19],
 "structFirework.html#aa413d6457c3fb937a8621a3c5d182e87":[19,0,122,7],
-"structFirework.html#aa9f137c06f2f7ca3cde2b68e87c33776":[19,0,122,13]
+"structFirework.html#aa9f137c06f2f7ca3cde2b68e87c33776":[19,0,122,13],
+"structFirework.html#ace0b9894acdefb34812cad80c41ab12d":[19,0,122,15]
 };
