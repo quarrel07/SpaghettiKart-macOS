@@ -1,5 +1,10 @@
 var NAVTREEINDEX98 =
 {
+"update__objects_8c.html#a63599280ed23408b6fd53d67a549e162":[20,0,3,68,33],
+"update__objects_8c.html#a6433786e30fbe8c3dc83f83c9f2c35f9":[20,0,3,68,23],
+"update__objects_8c.html#a658f0eb95515deb574dce747d146c675":[20,0,3,68,75],
+"update__objects_8c.html#a67278882e7bbda5da750f13aec7f3253":[20,0,3,68,42],
+"update__objects_8c.html#a681d275ac47b1b52a797093ac96fddcd":[20,0,3,68,118],
 "update__objects_8c.html#a690661e495441e81ca9878adf2b39d14":[20,0,3,68,183],
 "update__objects_8c.html#a6c7938339fa5406ffe336278a92aa7ad":[20,0,3,68,146],
 "update__objects_8c.html#a6e56a43ec98e81db05f2410893efa437":[20,0,3,68,0],
@@ -244,7 +249,5 @@ var NAVTREEINDEX98 =
 "yoshi__valley__displaylists_8h.html":[20,0,2,0,0,0,19,1],
 "yoshi__valley__displaylists_8h.html#a38c2d98e463bc9fa5d249ab8c86d8202":[20,0,2,0,0,0,19,1,0],
 "yoshi__valley__displaylists_8h_source.html":[20,0,2,0,0,0,19,1],
-"yoshi__valley__vertices_8h.html":[20,0,2,0,0,0,19,2],
-"yoshi__valley__vertices_8h.html#a2d7671e20da33b4030f13f0b6966c99e":[20,0,2,0,0,0,19,2,0],
-"yoshi__valley__vertices_8h_source.html":[20,0,2,0,0,0,19,2]
+"yoshi__valley__vertices_8h.html":[20,0,2,0,0,0,19,2]
 };

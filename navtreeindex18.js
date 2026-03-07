@@ -1,5 +1,13 @@
 var NAVTREEINDEX18 =
 {
+"classTrackEditor_1_1LightObject.html#a1f121050777169e29203b9a9ee6ae76d":[18,0,9,4,3],
+"classTrackEditor_1_1LightObject.html#a1f121050777169e29203b9a9ee6ae76d":[19,0,6,4,3],
+"classTrackEditor_1_1LightObject.html#a2cb904991b6f93e6e6632d910f0256a7":[18,0,9,4,10],
+"classTrackEditor_1_1LightObject.html#a2cb904991b6f93e6e6632d910f0256a7":[19,0,6,4,10],
+"classTrackEditor_1_1LightObject.html#a36b351e40b7dfe1d8275525fc00a63cd":[18,0,9,4,7],
+"classTrackEditor_1_1LightObject.html#a36b351e40b7dfe1d8275525fc00a63cd":[19,0,6,4,7],
+"classTrackEditor_1_1LightObject.html#a50cac5b9f50a0654e0871c2704dfbdab":[18,0,9,4,5],
+"classTrackEditor_1_1LightObject.html#a50cac5b9f50a0654e0871c2704dfbdab":[19,0,6,4,5],
 "classTrackEditor_1_1LightObject.html#a5b1b1c001f6c8c2c4168b7cff4744985":[18,0,9,4,9],
 "classTrackEditor_1_1LightObject.html#a5b1b1c001f6c8c2c4168b7cff4744985":[19,0,6,4,9],
 "classTrackEditor_1_1LightObject.html#a5f8248df3de2931d70f7d76ddfbe7808":[18,0,9,4,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX18 =
 "classpfd_1_1internal_1_1executor.html#a2730c595c2994a227d46aa6b74b95987":[19,0,2,0,1,8],
 "classpfd_1_1internal_1_1executor.html#a2d46b9964c60985ea8406c4092393be3":[18,0,5,0,1,0],
 "classpfd_1_1internal_1_1executor.html#a2d46b9964c60985ea8406c4092393be3":[19,0,2,0,1,0],
-"classpfd_1_1internal_1_1executor.html#a2e65a18556b3de93dafd6fabe3786277":[18,0,5,0,1,5],
-"classpfd_1_1internal_1_1executor.html#a2e65a18556b3de93dafd6fabe3786277":[19,0,2,0,1,5],
-"classpfd_1_1internal_1_1executor.html#a70760965e1179f84aee59abd92c7129e":[18,0,5,0,1,10],
-"classpfd_1_1internal_1_1executor.html#a70760965e1179f84aee59abd92c7129e":[19,0,2,0,1,10],
-"classpfd_1_1internal_1_1executor.html#a7a164503ced150f7ad6c3e6084d4ff9b":[18,0,5,0,1,9],
-"classpfd_1_1internal_1_1executor.html#a7a164503ced150f7ad6c3e6084d4ff9b":[19,0,2,0,1,9],
-"classpfd_1_1internal_1_1executor.html#a7eb363f3dc9d6dc21f1a8b6ce6a33679":[18,0,5,0,1,2],
-"classpfd_1_1internal_1_1executor.html#a7eb363f3dc9d6dc21f1a8b6ce6a33679":[19,0,2,0,1,2],
-"classpfd_1_1internal_1_1executor.html#aa8dc7e75bd1ac2cf825fa04ed657c0aa":[18,0,5,0,1,6]
+"classpfd_1_1internal_1_1executor.html#a2e65a18556b3de93dafd6fabe3786277":[18,0,5,0,1,5]
 };

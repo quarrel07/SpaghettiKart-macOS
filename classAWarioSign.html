@@ -107,7 +107,9 @@ $(function(){initNavTree('classAWarioSign.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle"><div class="title">AWarioSign Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -126,8 +128,8 @@ Collaboration diagram for AWarioSign:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa92ffb76f7a2c729fd1af9f4b0197c6d" id="r_aa92ffb76f7a2c729fd1af9f4b0197c6d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa92ffb76f7a2c729fd1af9f4b0197c6d">~AWarioSign</a> ()=default</td></tr>
-<tr class="separator:aa92ffb76f7a2c729fd1af9f4b0197c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b970ece194db9485e42c1bd05b765c" id="r_a35b970ece194db9485e42c1bd05b765c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b970ece194db9485e42c1bd05b765c">~AWarioSign</a> ()</td></tr>
+<tr class="separator:a35b970ece194db9485e42c1bd05b765c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b1dbadc1b7f123b87b9f7d9a078a934" id="r_a8b1dbadc1b7f123b87b9f7d9a078a934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b1dbadc1b7f123b87b9f7d9a078a934">AWarioSign</a> (const <a class="el" href="structSpawnParams.html">SpawnParams</a> &amp;params)</td></tr>
 <tr class="separator:a8b1dbadc1b7f123b87b9f7d9a078a934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1471e17f129ad1d28278f9e3265d76e" id="r_ae1471e17f129ad1d28278f9e3265d76e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1471e17f129ad1d28278f9e3265d76e">IsMod</a> () override</td></tr>
@@ -174,6 +176,16 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a738055428c4026f4d3ed3ac869954c32" id="r_a738055428c4026f4d3ed3ac869954c32"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAWarioSign.html">AWarioSign</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a738055428c4026f4d3ed3ac869954c32">Spawn</a> (<a class="el" href="structFVector.html">FVector</a> pos, <a class="el" href="structIRotator.html">IRotator</a> rot, <a class="el" href="structFVector.html">FVector</a> velocity, <a class="el" href="structFVector.html">FVector</a> scale)</td></tr>
 <tr class="separator:a738055428c4026f4d3ed3ac869954c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afafed4a2bb89869afc49f19ac87155e4" id="r_afafed4a2bb89869afc49f19ac87155e4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afafed4a2bb89869afc49f19ac87155e4">_idx</a></td></tr>
+<tr class="separator:afafed4a2bb89869afc49f19ac87155e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac5c2099de568afe7db6fd8f702e21013" id="r_ac5c2099de568afe7db6fd8f702e21013"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c2099de568afe7db6fd8f702e21013">_count</a> = 0</td></tr>
+<tr class="separator:ac5c2099de568afe7db6fd8f702e21013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -224,8 +236,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a6a14c7fbedee44f3e2967ca10b5d150b inherit pub_attribs_classAActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa92ffb76f7a2c729fd1af9f4b0197c6d" name="aa92ffb76f7a2c729fd1af9f4b0197c6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa92ffb76f7a2c729fd1af9f4b0197c6d">&#9670;&#160;</a></span>~AWarioSign()</h2>
+<a id="a35b970ece194db9485e42c1bd05b765c" name="a35b970ece194db9485e42c1bd05b765c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b970ece194db9485e42c1bd05b765c">&#9670;&#160;</a></span>~AWarioSign()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +254,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -412,6 +424,51 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classAActor.html#a01513538fc3200ebd1e8624a81a1d661">AActor</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="ac5c2099de568afe7db6fd8f702e21013" name="ac5c2099de568afe7db6fd8f702e21013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c2099de568afe7db6fd8f702e21013">&#9670;&#160;</a></span>_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t AWarioSign::_count = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afafed4a2bb89869afc49f19ac87155e4" name="afafed4a2bb89869afc49f19ac87155e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afafed4a2bb89869afc49f19ac87155e4">&#9670;&#160;</a></span>_idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t AWarioSign::_idx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

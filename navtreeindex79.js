@@ -1,5 +1,10 @@
 var NAVTREEINDEX79 =
 {
+"structSequenceChannel.html#aca133567ad3c965a02afe14490e9e4ea":[19,0,397,7],
+"structSequenceChannel.html#acc7120ab20780ca48980e6f91b60fc6c":[19,0,397,34],
+"structSequenceChannel.html#ad209e593a71e1ea346d00645fc6343b8":[19,0,397,27],
+"structSequenceChannel.html#ad8f5e973edc6e7d2788fc1912c93a7bc":[19,0,397,10],
+"structSequenceChannel.html#ad912099f9919533a6ad3a384e93960f6":[19,0,397,31],
 "structSequenceChannel.html#ae2af58db32f6e02b7495a72932bb201c":[19,0,397,1],
 "structSequenceChannel.html#ae6cf6d2a9acaa46814eb3c4a7422b8d4":[19,0,397,43],
 "structSequenceChannel.html#ae88e9a292d5b7ea8a5268faf7d47469f":[19,0,397,21],
@@ -244,10 +249,5 @@ var NAVTREEINDEX79 =
 "structTextureMap.html#ad91eea22f2775fcc40c7627062c429b3":[19,0,451,1],
 "structThwompSpawn.html":[19,0,453],
 "structThwompSpawn.html#a37b6087d0a9347a416e26a4d7079bd28":[19,0,453,0],
-"structThwompSpawn.html#a62a6d334f8884644437c7ea8400cd3d3":[19,0,453,2],
-"structThwompSpawn.html#ad125afdac071b04e78cc7c0134d9f7ae":[19,0,453,1],
-"structThwompSpawn.html#ae947218abf0b0de40a991c6a929b19d5":[19,0,453,3],
-"structTourCamera_1_1CameraShot.html":[19,0,455,0],
-"structTourCamera_1_1CameraShot.html#a0be879493f0ff7580598d06d2c4ba9f0":[19,0,455,0,1],
-"structTourCamera_1_1CameraShot.html#a5125fff3b886ec1d98869b8a0dea972d":[19,0,455,0,2]
+"structThwompSpawn.html#a62a6d334f8884644437c7ea8400cd3d3":[19,0,453,2]
 };

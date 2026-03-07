@@ -1,5 +1,10 @@
 var NAVTREEINDEX81 =
 {
+"structUIWidgets_1_1IntSliderOptions.html#af7d904f2ed0b37c6e389e1a053a00c64":[19,0,7,4,5],
+"structUIWidgets_1_1TextFilters.html":[18,0,10,6],
+"structUIWidgets_1_1TextFilters.html":[19,0,7,5],
+"structUIWidgets_1_1TextFilters.html#a502f8393793d309691d3f23c5ec690ec":[18,0,10,6,0],
+"structUIWidgets_1_1TextFilters.html#a502f8393793d309691d3f23c5ec690ec":[19,0,7,5,0],
 "structUIWidgets_1_1TextFilters.html#ae6cf3be6aa2f9541b22ecb3f499cf89e":[18,0,10,6,1],
 "structUIWidgets_1_1TextFilters.html#ae6cf3be6aa2f9541b22ecb3f499cf89e":[19,0,7,5,1],
 "structUIWidgets_1_1WidgetOptions.html":[18,0,10,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX81 =
 "structWidgetInfo.html#a31d40206a297372d1527c53c82f61c2b":[19,0,501,7],
 "structWidgetInfo.html#a3f87fb7af882a2c3c86c135be60c7179":[19,0,501,23],
 "structWidgetInfo.html#a563f62120cb5a60ad347cd28ebf517fd":[19,0,501,22],
-"structWidgetInfo.html#a5fedbe00431ae3b0d1c72af3dbf8ff19":[19,0,501,8],
-"structWidgetInfo.html#a63678e013cb28e918508e58d8c6f2aec":[19,0,501,0],
-"structWidgetInfo.html#a8fb193d773f8f491d161798ec34a3569":[19,0,501,3],
-"structWidgetInfo.html#a900627e28d52ace9bf326209d9d79b8c":[19,0,501,20],
-"structWidgetInfo.html#a90231c4f7b3b153e6ede3f853748db3a":[19,0,501,2],
-"structWidgetInfo.html#a987c9785a0a57b97e5a48fb9bea0c453":[19,0,501,21]
+"structWidgetInfo.html#a5fedbe00431ae3b0d1c72af3dbf8ff19":[19,0,501,8]
 };

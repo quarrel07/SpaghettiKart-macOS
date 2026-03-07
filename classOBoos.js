@@ -6,7 +6,7 @@ var classOBoos =
     [ "BooStart", "classOBoos.html#ae483fd8a41943142007f6cc050efe7d0", null ],
     [ "Draw", "classOBoos.html#a0d0c2c54e84a8b7f384680c13af12673", null ],
     [ "DrawEditorProperties", "classOBoos.html#a485598b249951b9b1a2591df9e159ce1", null ],
-    [ "func_800523B8", "classOBoos.html#a6481d9811ecb0b976fd51ccbb1011ba5", null ],
+    [ "func_800523B8", "classOBoos.html#a788942157fec6b0285d501947000f9c5", null ],
     [ "func_8007C4A4", "classOBoos.html#a0f55a08d009e8e79d1da684a2881c983", null ],
     [ "func_8007C550", "classOBoos.html#a3b36c7f54ce8cecb2e968dfa1481c31c", null ],
     [ "func_8007C5B4", "classOBoos.html#a186ed6315077567455c3f8cb258223c9", null ],

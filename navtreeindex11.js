@@ -1,5 +1,11 @@
 var NAVTREEINDEX11 =
 {
+"classATree.html#a95c5809d4d271470730213febcda259e":[19,0,66,1],
+"classATree.html#ab0acf8e69a5c55615e83a3b060704369":[19,0,66,2],
+"classATree.html#adb980d00a47ae9d48830e34fed7455f0":[19,0,66,7],
+"classATree.html#aec0fb1120157d3a5c0ea04951ee0c860":[19,0,66,4],
+"classATree.html#aec792a7318044254293e1c6e82535eeb":[19,0,66,6],
+"classATree.html#afc70114986243cc7146de39d34bfc17e":[19,0,66,9],
 "classATruck.html":[19,0,67],
 "classATruck.html#a0a53399976b8faa30163f2a261cac233":[19,0,67,23],
 "classATruck.html#a128271a0cd7c7bd6d606e28c029f46eb":[19,0,67,14],
@@ -37,11 +43,13 @@ var NAVTREEINDEX11 =
 "classATruck.html#afe7c33a6d77655f1404a658a747fa3f6":[19,0,67,8],
 "classAWarioSign.html":[19,0,76],
 "classAWarioSign.html#a20207b1db85d661c98a11f79b85c7afd":[19,0,76,5],
+"classAWarioSign.html#a35b970ece194db9485e42c1bd05b765c":[19,0,76,0],
 "classAWarioSign.html#a6afbd9954a4ba3615eb120bffc0493a6":[19,0,76,2],
 "classAWarioSign.html#a738055428c4026f4d3ed3ac869954c32":[19,0,76,4],
 "classAWarioSign.html#a8b1dbadc1b7f123b87b9f7d9a078a934":[19,0,76,1],
-"classAWarioSign.html#aa92ffb76f7a2c729fd1af9f4b0197c6d":[19,0,76,0],
+"classAWarioSign.html#ac5c2099de568afe7db6fd8f702e21013":[19,0,76,6],
 "classAWarioSign.html#ae1471e17f129ad1d28278f9e3265d76e":[19,0,76,3],
+"classAWarioSign.html#afafed4a2bb89869afc49f19ac87155e4":[19,0,76,7],
 "classBansheeBoardwalk.html":[19,0,79],
 "classBansheeBoardwalk.html#a0fe16bd6733c2667e143e9cf186f4ee8":[19,0,79,10],
 "classBansheeBoardwalk.html#a270b272dab14dd91c07752edc40f3ebd":[19,0,79,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX11 =
 "classGameUI_1_1PortMenu.html#a47032191fff5c67cc5fa1a356704a13a":[19,0,0,0,1],
 "classGameUI_1_1PortMenu.html#a6107d5040943b730f00a96293d335e23":[18,0,3,1,11],
 "classGameUI_1_1PortMenu.html#a6107d5040943b730f00a96293d335e23":[19,0,0,0,11],
-"classGameUI_1_1PortMenu.html#a99e204a4bf92bc4e563547d8d5f2013a":[18,0,3,1,10],
-"classGameUI_1_1PortMenu.html#a99e204a4bf92bc4e563547d8d5f2013a":[19,0,0,0,10],
-"classGameUI_1_1PortMenu.html#aae9fe5836ea57a15312e9f9a17e91850":[18,0,3,1,5],
-"classGameUI_1_1PortMenu.html#aae9fe5836ea57a15312e9f9a17e91850":[19,0,0,0,5],
-"classGameUI_1_1PortMenu.html#acb8c1c2718352f13074ff24b7547573d":[18,0,3,1,12],
-"classGameUI_1_1PortMenu.html#acb8c1c2718352f13074ff24b7547573d":[19,0,0,0,12],
-"classGameUI_1_1PortMenu.html#acf1c08d9ed088b6b33ec91a0e0a48494":[18,0,3,1,4],
-"classGameUI_1_1PortMenu.html#acf1c08d9ed088b6b33ec91a0e0a48494":[19,0,0,0,4],
-"classGameUI_1_1PortMenu.html#ad0164e1a4d1111fb2312cdec60c8d223":[18,0,3,1,3]
+"classGameUI_1_1PortMenu.html#a99e204a4bf92bc4e563547d8d5f2013a":[18,0,3,1,10]
 };

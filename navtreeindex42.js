@@ -1,5 +1,10 @@
 var NAVTREEINDEX42 =
 {
+"math__util__2_8h.html#a679de4d82fcefa320278cd247a5f8d42":[20,0,3,47,54],
+"math__util__2_8h.html#a73a14e50dd3e7844fac7d576f0c8adb9":[20,0,3,47,48],
+"math__util__2_8h.html#a742f148d5670e125f8923ed893139481":[20,0,3,47,72],
+"math__util__2_8h.html#a755fb5deda8e5f14ec98ac8b05eca62e":[20,0,3,47,10],
+"math__util__2_8h.html#a75bfb5b9c5e3191aaf80542caf2aa42a":[20,0,3,47,32],
 "math__util__2_8h.html#a7ae92ff6cd417f23d4dcca06468abad7":[20,0,3,47,36],
 "math__util__2_8h.html#a7c43b4c4dff1ad4729852bf68855535d":[20,0,3,47,65],
 "math__util__2_8h.html#a7c8faeecd6f346dbd257669e248aace6":[20,0,3,47,11],
@@ -154,7 +159,7 @@ var NAVTREEINDEX42 =
 "md_docs_2migrations.html#other-textures":[8,2,0,2],
 "md_docs_2migrations.html#overview":[8,0],
 "md_docs_2migrations.html#path-changes":[8,2],
-"md_docs_2migrations.html#see-also-1":[8,7],
+"md_docs_2migrations.html#see-also":[8,7],
 "md_docs_2migrations.html#textures":[8,2,0],
 "md_docs_2migrations.html#track-textures":[8,2,0,0],
 "md_docs_2migrations.html#troubleshooting":[8,6],
@@ -176,7 +181,7 @@ var NAVTREEINDEX42 =
 "md_docs_2mods-toml.html#location":[10,0],
 "md_docs_2mods-toml.html#migration-script-support":[10,8],
 "md_docs_2mods-toml.html#mod-section":[10,3,0],
-"md_docs_2mods-toml.html#see-also":[10,9],
+"md_docs_2mods-toml.html#see-also-1":[10,9],
 "md_docs_2mods-toml.html#validation":[10,5],
 "md_docs_2mods-toml.html#version-requirements":[10,3,1,0],
 "md_docs_2sequences-information.html":[11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "memory_8h.html#a965d7e25d594cd29e02ed8b9a482c65d":[20,0,3,10,11,12],
 "memory_8h.html#a9a9b12bc2d88d2229242fc7846056f90":[20,0,3,10,11,5],
 "memory_8h.html#aa9e0c3b8dc07656f8777f7a3fdd5914b":[20,0,3,10,11,23],
-"memory_8h.html#aae653f94864d5c6a1b4cd5f3d9ededc3":[20,0,3,10,11,19],
-"memory_8h.html#acf31e85b295d4508d571d5aff8c02c5a":[20,0,3,10,11,8],
-"memory_8h.html#ad108574c2862d6903a3da3c59ef4b06e":[20,0,3,10,11,9],
-"memory_8h.html#afe57de3903e2ed3acb35c29651445c5b":[20,0,3,10,11,18],
-"memory_8h_source.html":[20,0,3,10,11],
-"memory__pool_8c.html":[20,0,3,2,5]
+"memory_8h.html#aae653f94864d5c6a1b4cd5f3d9ededc3":[20,0,3,10,11,19]
 };

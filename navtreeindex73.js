@@ -1,5 +1,10 @@
 var NAVTREEINDEX73 =
 {
+"structActorInfo.html":[19,0,30],
+"structActorInfo.html#a2b9fa97da051f0577f1eb27489444823":[19,0,30,1],
+"structActorInfo.html#a6201bd3e47dd79c5fbef43e366676d68":[19,0,30,3],
+"structActorInfo.html#a669a89bb0a01fbaea02deadb8ffe7a1d":[19,0,30,0],
+"structActorInfo.html#aa178bab198752f162855e7c738bcfacf":[19,0,30,2],
 "structActorInitParams.html":[19,0,31],
 "structActorInitParams.html#a87a3b267864e6ffb4fc5061d80bfc295":[19,0,31,1],
 "structActorInitParams.html#aa1552101fcd8a100d1c9f68b9b4d393b":[19,0,31,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX73 =
 "structCeremonyActor.html#a29880f9182b999494a29b6a79a268cdb":[19,0,86,12],
 "structCeremonyActor.html#a42af7e698199717ee309a86b47111385":[19,0,86,18],
 "structCeremonyActor.html#a47062d029901aad6a105fc69de8a8454":[19,0,86,23],
-"structCeremonyActor.html#a69c20526dea2316424da2fd93f55ea74":[19,0,86,19],
-"structCeremonyActor.html#a7e5c8dba1d5745f8fdb28425cfbf86c0":[19,0,86,11],
-"structCeremonyActor.html#a86c9ff71293d7c786e38366ee82923fb":[19,0,86,15],
-"structCeremonyActor.html#a914b59d131ff77b2620ed88ed49a1838":[19,0,86,1],
-"structCeremonyActor.html#a95401c826ee7781ad6f979d5fb2eaa44":[19,0,86,16],
-"structCeremonyActor.html#aa070d6425710935e0df26514ac991c0c":[19,0,86,14]
+"structCeremonyActor.html#a69c20526dea2316424da2fd93f55ea74":[19,0,86,19]
 };
