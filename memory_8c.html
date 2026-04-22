@@ -189,8 +189,8 @@ Variables</h2></td></tr>
 <tr class="separator:a2c62cbc3dde8015cb2cda46e7f5efeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a100da07df567da24c0deb145de8094" id="r_a4a100da07df567da24c0deb145de8094"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a100da07df567da24c0deb145de8094">sPackedSeekPosition</a></td></tr>
 <tr class="separator:a4a100da07df567da24c0deb145de8094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858b086d3b0b10b5ba111676f16e970c" id="r_a858b086d3b0b10b5ba111676f16e970c"><td class="memItemLeft" align="right" valign="top">static u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a858b086d3b0b10b5ba111676f16e970c">sMemoryPool</a> [0xFFFFFFF]</td></tr>
-<tr class="separator:a858b086d3b0b10b5ba111676f16e970c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32566844d87e8a72b53916f5fb73c1c8" id="r_a32566844d87e8a72b53916f5fb73c1c8"><td class="memItemLeft" align="right" valign="top">static u8 <a class="el" href="memory__pool_8c.html#afd9f792a1f297c9829bb3d02f883427c">sMemoryPool</a>[0x10000000]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32566844d87e8a72b53916f5fb73c1c8">ALIGNED4096</a></td></tr>
+<tr class="separator:a32566844d87e8a72b53916f5fb73c1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fbe607cbb34960f0419dcdd1f76e1e1" id="r_a8fbe607cbb34960f0419dcdd1f76e1e1"><td class="memItemLeft" align="right" valign="top">uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fbe607cbb34960f0419dcdd1f76e1e1">sPoolEnd</a> = <a class="el" href="memory__pool_8c.html#afd9f792a1f297c9829bb3d02f883427c">sMemoryPool</a> + sizeof(<a class="el" href="memory__pool_8c.html#afd9f792a1f297c9829bb3d02f883427c">sMemoryPool</a>)</td></tr>
 <tr class="separator:a8fbe607cbb34960f0419dcdd1f76e1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71ce9258e8a04f5657f17394b9fa8ac9" id="r_a71ce9258e8a04f5657f17394b9fa8ac9"><td class="memItemLeft" align="right" valign="top">uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71ce9258e8a04f5657f17394b9fa8ac9">sPoolFreeSpace</a></td></tr>
@@ -393,11 +393,6 @@ Here is the caller graph for this function:</div>
 
 <p>Sets the starting location for allocating memory and calculates pool size. </p>
 <p>Default memory size, 701.984 Kilobytes. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="memory_8c_a608e942142c4d0fae59c75c891f0bc1c_cgraph.svg" width="292" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -686,6 +681,28 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a32566844d87e8a72b53916f5fb73c1c8" name="a32566844d87e8a72b53916f5fb73c1c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32566844d87e8a72b53916f5fb73c1c8">&#9670;&#160;</a></span>ALIGNED4096</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">u8 <a class="el" href="memory__pool_8c.html#afd9f792a1f297c9829bb3d02f883427c">sMemoryPool</a> [0x10000000] ALIGNED4096</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a20247197aa5ae9f963a5c2b6d923a37e" name="a20247197aa5ae9f963a5c2b6d923a37e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20247197aa5ae9f963a5c2b6d923a37e">&#9670;&#160;</a></span>D_802B8CD4</h2>
 
@@ -766,28 +783,6 @@ Here is the call graph for this function:</div>
           <td class="memname">s32 sGfxSeekPosition</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a858b086d3b0b10b5ba111676f16e970c" name="a858b086d3b0b10b5ba111676f16e970c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a858b086d3b0b10b5ba111676f16e970c">&#9670;&#160;</a></span>sMemoryPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">u8 sMemoryPool[0xFFFFFFF]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

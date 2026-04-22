@@ -19,6 +19,5 @@ var searchData=
   ['bowserscastle_16',['BowsersCastle',['../classBowsersCastle.html#a2f3a973ddaa8729223ad41d81ae9ee43',1,'BowsersCastle']]],
   ['build_5fsynthetic_5fwave_17',['build_synthetic_wave',['../playback_8c.html#acd82370edabb02666da36b6537ef7ed2',1,'build_synthetic_wave(struct Note *note, struct SequenceChannelLayer *seqLayer, s32 waveId):&#160;playback.c'],['../playback_8h.html#acd82370edabb02666da36b6537ef7ed2',1,'build_synthetic_wave(struct Note *note, struct SequenceChannelLayer *seqLayer, s32 waveId):&#160;playback.c']]],
   ['button_18',['Button',['../namespaceUIWidgets.html#aff1b4b5ec89aa4afa79223288c55a91e',1,'UIWidgets']]],
-  ['buttons_5fto_5fname_19',['buttons_to_name',['../classpfd_1_1internal_1_1dialog.html#ac906c01d0365c13c9066cea857fd258a',1,'pfd::internal::dialog']]],
-  ['bzero_20',['bzero',['../bstring_8h.html#ab828ad07c8ebf898973f27778c543651',1,'bstring.h']]]
+  ['buttons_5fto_5fname_19',['buttons_to_name',['../classpfd_1_1internal_1_1dialog.html#ac906c01d0365c13c9066cea857fd258a',1,'pfd::internal::dialog']]]
 ];

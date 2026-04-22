@@ -1,6 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"classSF64_1_1Vec3sArray.html#aff2bdc9808eb651161e3a209dd9806c1":[18,0,6,29,2],
 "classSF64_1_1Vec3sArray.html#aff2bdc9808eb651161e3a209dd9806c1":[19,0,3,29,2],
 "classSM64_1_1AudioBank.html":[18,0,8,0],
 "classSM64_1_1AudioBank.html":[19,0,5,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "classTestTrack.html#ae3bf027de914e7e9e7e814ebbf301efc":[19,0,450,2],
 "classToadsTurnpike.html":[19,0,454],
 "classToadsTurnpike.html#a25009a2dd4f7e438741965b0a9fc9a7e":[19,0,454,1],
-"classToadsTurnpike.html#a35b679b83f24475ff3944f043be65207":[19,0,454,0]
+"classToadsTurnpike.html#a35b679b83f24475ff3944f043be65207":[19,0,454,0],
+"classToadsTurnpike.html#a3fdc56084b2cb6c95376104700a3a7a6":[19,0,454,8]
 };

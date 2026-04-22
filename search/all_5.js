@@ -69,7 +69,7 @@ var searchData=
   ['bat_2ecpp_66',['Bat.cpp',['../Bat_8cpp.html',1,'']]],
   ['bat_2eh_67',['Bat.h',['../Bat_8h.html',1,'']]],
   ['battle_68',['BATTLE',['../defines_8h.html#a3f48cce4d2125604131fc7878460f44a',1,'defines.h']]],
-  ['battle_20courses_69',['Battle Courses',['../md_docs_2track__returns.html#battle-courses-1',1,'Battle Courses'],['../md_docs_2sequences-information.html#battle-courses',1,'Battle Courses']]],
+  ['battle_20courses_69',['Battle Courses',['../md_docs_2sequences-information.html#battle-courses',1,'Battle Courses'],['../md_docs_2track__returns.html#battle-courses-1',1,'Battle Courses']]],
   ['battle_5fcup_70',['BATTLE_CUP',['../defines_8h.html#ae701751e4c86a447b2b7d96715151241ac92cb0afca1b2eb39ace61e1fa9cd730',1,'defines.h']]],
   ['bcleanworld_71',['bCleanWorld',['../Game_8cpp.html#a01d714b2b723ef06b42b05588c43b5c5',1,'Game.cpp']]],
   ['bcmp_72',['bcmp',['../bstring_8h.html#a41defc2ecf285507e63eb254a8b427fd',1,'bstring.h']]],
@@ -268,6 +268,5 @@ var searchData=
   ['buttondepressed_265',['buttonDepressed',['../structController.html#af68b8dc9459d69a7dfdf57dabf8dbae5',1,'Controller']]],
   ['buttonoptions_266',['ButtonOptions',['../structUIWidgets_1_1ButtonOptions.html',1,'UIWidgets']]],
   ['buttonpressed_267',['buttonPressed',['../structController.html#a8c4688ece90c09c9c228512234b82fbb',1,'Controller']]],
-  ['buttons_5fto_5fname_268',['buttons_to_name',['../classpfd_1_1internal_1_1dialog.html#ac906c01d0365c13c9066cea857fd258a',1,'pfd::internal::dialog']]],
-  ['bzero_269',['bzero',['../bstring_8h.html#ab828ad07c8ebf898973f27778c543651',1,'bstring.h']]]
+  ['buttons_5fto_5fname_268',['buttons_to_name',['../classpfd_1_1internal_1_1dialog.html#ac906c01d0365c13c9066cea857fd258a',1,'pfd::internal::dialog']]]
 ];
