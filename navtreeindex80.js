@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structThwompSpawn.html#a37b6087d0a9347a416e26a4d7079bd28":[19,0,453,0],
+"structThwompSpawn.html#a62a6d334f8884644437c7ea8400cd3d3":[19,0,453,2],
 "structThwompSpawn.html#ad125afdac071b04e78cc7c0134d9f7ae":[19,0,453,1],
 "structThwompSpawn.html#ae947218abf0b0de40a991c6a929b19d5":[19,0,453,3],
 "structTourCamera_1_1CameraShot.html":[19,0,455,0],
@@ -51,9 +53,10 @@ var NAVTREEINDEX80 =
 "structTrackPositionFactorInstruction.html#acb27a2a2fef47fad6ef25ad2fcd357ce":[19,0,460,0],
 "structTrackSections.html":[19,0,461],
 "structTrackSections.html#a4616695b955d9f9c5f654f2d8fb18430":[19,0,461,1],
-"structTrackSections.html#a53d5aca8370d2850514a4507044dcbd3":[19,0,461,4],
+"structTrackSections.html#a51b2e9bf9b66a5ce5795e47b31177990":[19,0,461,4],
+"structTrackSections.html#a53d5aca8370d2850514a4507044dcbd3":[19,0,461,5],
 "structTrackSections.html#a56bf37b419cfcea6ae9a23f780dc0036":[19,0,461,2],
-"structTrackSections.html#a5da9422111f0325e591566d162776c1d":[19,0,461,5],
+"structTrackSections.html#a5da9422111f0325e591566d162776c1d":[19,0,461,6],
 "structTrackSections.html#a6219b6ddb7550ae609c95d393040bee5":[19,0,461,0],
 "structTrackSections.html#a6c84330b0fdeedd8de40299c52ff4faf":[19,0,461,3],
 "structTrainCar.html":[19,0,462],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "structUIWidgets_1_1IntSliderOptions.html#ad5564b4b45983d86313f32703cb5530e":[18,0,10,5,18],
 "structUIWidgets_1_1IntSliderOptions.html#ad5564b4b45983d86313f32703cb5530e":[19,0,7,4,18],
 "structUIWidgets_1_1IntSliderOptions.html#ad9f57d51181a0c4ff6ba3ddb620131d8":[18,0,10,5,10],
-"structUIWidgets_1_1IntSliderOptions.html#ad9f57d51181a0c4ff6ba3ddb620131d8":[19,0,7,4,10],
-"structUIWidgets_1_1IntSliderOptions.html#aeb3c7df2e6e8c9fe8c68cce6a96e4d13":[18,0,10,5,3],
-"structUIWidgets_1_1IntSliderOptions.html#aeb3c7df2e6e8c9fe8c68cce6a96e4d13":[19,0,7,4,3],
-"structUIWidgets_1_1IntSliderOptions.html#af7d904f2ed0b37c6e389e1a053a00c64":[18,0,10,5,5]
+"structUIWidgets_1_1IntSliderOptions.html#ad9f57d51181a0c4ff6ba3ddb620131d8":[19,0,7,4,10]
 };

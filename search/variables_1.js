@@ -56,7 +56,7 @@ var searchData=
   ['alsa_53',['alsa',['../unionma__device__id.html#ab09c8d7c0f137078a00098c681dab559',1,'ma_device_id::alsa'],['../structma__device__config.html#afbc67a663ba7f4848ad5b4dcf16088ea',1,'ma_device_config::alsa'],['../structma__context__config.html#a31419ce7648146342e9ec1d3c58dd6ad',1,'ma_context_config::alsa']]],
   ['alsolapcount_54',['alsoLapCount',['../structhud__player.html#a3bf6c6d74d60d7cf19c5aa483a8edde5',1,'hud_player']]],
   ['always_5fset_5fto_5fsomething_5fbut_5fnever_5fused_55',['always_set_to_something_but_never_used',['../structAnimation.html#af85d7839b1a8ea8eaac068a8c82cd955',1,'Animation']]],
-  ['always_5fzero_5fnever_5fused_56',['always_zero_never_used',['../structArmature.html#a1f7bbd5d2d6eb7d572b3c0f2fe2dc5c1',1,'Armature::always_zero_never_used'],['../structAnimation.html#af94fdd03186279b9531f67158159b722',1,'Animation::always_zero_never_used']]],
+  ['always_5fzero_5fnever_5fused_56',['always_zero_never_used',['../structArmature.html#a48718d73f9195e2f1f0c27cc552bc135',1,'Armature::always_zero_never_used'],['../structAnimation.html#af94fdd03186279b9531f67158159b722',1,'Animation::always_zero_never_used']]],
   ['ambb_57',['ambB',['../structSF64_1_1EnvSettingsData.html#aca438eb46427cfba112f84c43367eaee',1,'SF64::EnvSettingsData']]],
   ['ambg_58',['ambG',['../structSF64_1_1EnvSettingsData.html#ac0e6522c78a3dc7303387d526d999538',1,'SF64::EnvSettingsData']]],
   ['ambr_59',['ambR',['../structSF64_1_1EnvSettingsData.html#afa10b2c899da91a45af1a77705f595ac',1,'SF64::EnvSettingsData']]],

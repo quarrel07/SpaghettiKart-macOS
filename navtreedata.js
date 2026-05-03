@@ -74,7 +74,7 @@ var NAVTREE =
     [ "Courses", "coursesmenu.html", "coursesmenu" ],
     [ "Custom Audio", "md_docs_2custom-audio.html", [
       [ "Example:", "md_docs_2custom-audio.html#example", null ],
-      [ "Future plans", "md_docs_2custom-audio.html#future-plans-1", null ]
+      [ "Future plans", "md_docs_2custom-audio.html#future-plans-2", null ]
     ] ],
     [ "Custom characters", "md_docs_2custom-characters.html", [
       [ "Examples for all characters:", "md_docs_2custom-characters.html#examples-for-all-characters-1", null ],
@@ -83,7 +83,7 @@ var NAVTREE =
           [ "Change Viewport Render Settings", "md_docs_2custom-characters.html#change-viewport-render-settings-1", null ]
         ] ],
         [ "Tools To Help", "md_docs_2custom-characters.html#tools-to-help-1", null ],
-        [ "Future plans", "md_docs_2custom-characters.html#future-plans-2", null ]
+        [ "Future plans", "md_docs_2custom-characters.html#future-plans-1", null ]
       ] ]
     ] ],
     [ "faq", "md_docs_2faq.html", null ],
@@ -107,7 +107,7 @@ var NAVTREE =
       [ "New Folder Structure", "md_docs_2migrations.html#new-folder-structure", null ],
       [ "Manual Migration", "md_docs_2migrations.html#manual-migration", null ],
       [ "Troubleshooting", "md_docs_2migrations.html#troubleshooting", null ],
-      [ "See Also", "md_docs_2migrations.html#see-also", null ]
+      [ "See Also", "md_docs_2migrations.html#see-also-1", null ]
     ] ],
     [ "Modding", "md_docs_2modding.html", [
       [ "General Structure", "md_docs_2modding.html#general-structure", [
@@ -132,7 +132,7 @@ var NAVTREE =
       [ "Load Order", "md_docs_2mods-toml.html#load-order", null ],
       [ "Best Practices", "md_docs_2mods-toml.html#best-practices", null ],
       [ "Migration Script Support", "md_docs_2mods-toml.html#migration-script-support", null ],
-      [ "See Also", "md_docs_2mods-toml.html#see-also-1", null ]
+      [ "See Also", "md_docs_2mods-toml.html#see-also", null ]
     ] ],
     [ "Sequence Information (Music)", "md_docs_2sequences-information.html", [
       [ "Race Tracks", "md_docs_2sequences-information.html#race-tracks", null ],
@@ -273,28 +273,28 @@ var NAVTREEINDEX =
 "structGfxPool.html#a705e6036f85bdb4c3f708e0e938610db",
 "structNote.html#abd3501a8f180a2e242f25eac90f6f006",
 "structPlayer.html#a1eb7b22cb98924aa32fa909b969dee34",
-"structSF64_1_1EnvSettingsData.html",
-"structSequenceChannel.html#aca133567ad3c965a02afe14490e9e4ea",
-"structThwompSpawn.html#ad125afdac071b04e78cc7c0134d9f7ae",
-"structUIWidgets_1_1IntSliderOptions.html#af7d904f2ed0b37c6e389e1a053a00c64",
-"structWidgetInfo.html#a63678e013cb28e918508e58d8c6f2aec",
-"structhud__player.html#a8e2c8b8031d8447bdef96e926a196da1",
-"structma__data__source__base.html#a2e1f97a190cb7421dbce0effc4d2ce7d",
-"structma__device__notification.html#a4d860bbfffc66d93e8c114c9b8892c4c",
-"structma__job__queue__config.html#acb2ac67f981268e7182d44f0dadac5f6",
-"structma__resampler.html#a8ed8ebdadaa7c85398b906351f53a210",
-"structma__splitter__node__config.html#a6da90e6c1d9ad0d3ea3e8d0d5a193a4a",
-"synthesis_8c.html#a67fb91e0a54fb1f28d378c3338863d5f",
-"textures_8c.html#a22dbd7a96118d5d6db0d9455d3e0bb4e",
-"textures_8c.html#a7e8b7c03a0e9295970d82c88af0a61a5",
-"textures_8c.html#ad9c1e6e09ca0a36826ea67b6ea8c59b8",
-"textures_8h.html#a3192bea4b97411a2546b110bf73cfd31",
-"textures_8h.html#a8ad7e3dd75547e7199c649d2d033a36a",
-"textures_8h.html#ae54307fecd4065cbe43279f7beb9fda4",
-"track_8c.html#aa7e0b3068463468d934cbb6082cb0467",
-"track_8h.html#ad21471476c2806a3c53dd72b451167eb",
-"update__objects_8c.html#a63599280ed23408b6fd53d67a549e162",
-"yoshi__valley__vertices_8h.html#a2d7671e20da33b4030f13f0b6966c99e"
+"structSF64_1_1ColPolyData.html#adf743dd078f835e2a9a2568314dea000",
+"structSequenceChannel.html#ac28336aa1b2f34a4f95ab24d24ecc680",
+"structThwompSpawn.html#a37b6087d0a9347a416e26a4d7079bd28",
+"structUIWidgets_1_1IntSliderOptions.html#aeb3c7df2e6e8c9fe8c68cce6a96e4d13",
+"structWidgetInfo.html#a3f87fb7af882a2c3c86c135be60c7179",
+"structhud__player.html#a815963db69a86eba0cd88dfad635145a",
+"structma__data__converter__config.html#ad7b476719cb54b12929d24884d2aa0bd",
+"structma__device__notification.html",
+"structma__job__queue.html#af60bb193da0cac969e3b68d9a745544a",
+"structma__resampler.html#a25ff21463eee8993137bc0c4ea621319",
+"structma__splitter__node.html",
+"synthesis_8c.html#a56c377279f4c167258dd3b24d90cd107",
+"textures_8c.html#a21ed7b2f2c179558215ce0875de3e933",
+"textures_8c.html#a7da68641247803d864edeab46882cd19",
+"textures_8c.html#ad9160a5e2a0025bb166171454503a356",
+"textures_8h.html#a300dd666c4bd3f10d9d48fe84f588c3d",
+"textures_8h.html#a8a2181a14140862c7c1280db6953cb3f",
+"textures_8h.html#ae3cf1ef2a5a6c7fe1b146eb133faf1f8",
+"track_8c.html#aa3130864545214b9f345181d1a0f946a",
+"track_8h.html#acfc50d6f56d814604261a05d4c572b0f",
+"update__objects_8c.html#a5ff4e49864e7c44e4b717c33c585b0bd",
+"yoshi__valley__displaylists_8h.html#a38c2d98e463bc9fa5d249ab8c86d8202"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

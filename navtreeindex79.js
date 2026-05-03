@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structSequenceChannel.html#ac28336aa1b2f34a4f95ab24d24ecc680":[19,0,397,5],
+"structSequenceChannel.html#ac52f6431cf860520640e89d37a845398":[19,0,397,28],
 "structSequenceChannel.html#aca133567ad3c965a02afe14490e9e4ea":[19,0,397,7],
 "structSequenceChannel.html#acc7120ab20780ca48980e6f91b60fc6c":[19,0,397,34],
 "structSequenceChannel.html#ad209e593a71e1ea346d00645fc6343b8":[19,0,397,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structTextureMap.html":[19,0,451],
 "structTextureMap.html#a8b4286ddfe639a65e498930733799cf6":[19,0,451,0],
 "structTextureMap.html#ad91eea22f2775fcc40c7627062c429b3":[19,0,451,1],
-"structThwompSpawn.html":[19,0,453],
-"structThwompSpawn.html#a37b6087d0a9347a416e26a4d7079bd28":[19,0,453,0],
-"structThwompSpawn.html#a62a6d334f8884644437c7ea8400cd3d3":[19,0,453,2]
+"structThwompSpawn.html":[19,0,453]
 };
