@@ -3,10 +3,12 @@
 	url = https://github.com/jothepro/doxygen-awesome-css.git
 [submodule "torch"]
 	path = torch
-	url = https://github.com/HarbourMasters/Torch
+	url = https://github.com/quarrel07/Torch
+	branch = spaghettikart-macos-fmt-fix
 [submodule "libultraship"]
 	path = libultraship
-	url = https://github.com/Kenix3/libultraship
+	url = https://github.com/quarrel07/libultraship
+	branch = spaghettikart-macos-sdl2-fix
 [submodule "lib/wasm-micro-runtime"]
 	path = lib/wasm-micro-runtime
 	url = https://github.com/bytecodealliance/wasm-micro-runtime.git

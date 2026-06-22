@@ -694,6 +694,9 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang|AppleClang")
   endif()
 endif()
 
+# On macOS these runtime files go into the .app's Contents/Resources instead (see
+# cmake/macos/apple_bundle.cmake), so skip the next-to-binary copy there.
+if(NOT APPLE)
 add_custom_command(
  TARGET ${PROJECT_NAME} POST_BUILD
  COMMENT "Copying asset yamls..."
@@ -701,6 +704,7 @@ add_custom_command(
  COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/yamls/" "$<TARGET_FILE_DIR:Spaghettify>/yamls/"
     COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/meta/" "$<TARGET_FILE_DIR:Spaghettify>/meta/"
 )
+endif()
 
 if(NOT CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch")
   include(ExternalProject)
@@ -741,24 +745,10 @@ if(NOT CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch")
   endif()
 
   if(CMAKE_SYSTEM_NAME MATCHES "Darwin")
-    add_custom_target(CreateOSXIcons
-    COMMAND mkdir -p ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset
-    COMMAND sips -z 16 16     icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_16x16.png
-    COMMAND sips -z 32 32     icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_16x16@2x.png
-    COMMAND sips -z 32 32     icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_32x32.png
-    COMMAND sips -z 64 64     icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_32x32@2x.png
-    COMMAND sips -z 128 128   icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_128x128.png
-    COMMAND sips -z 256 256   icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_128x128@2x.png
-    COMMAND sips -z 256 256   icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_256x256.png
-    COMMAND sips -z 512 512   icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_256x256@2x.png
-    COMMAND sips -z 512 512   icon.png --out ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_512x512.png
-    COMMAND cp                icon.png ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset/icon_512x512@2x.png
-    COMMAND iconutil -c icns -o ${CMAKE_BINARY_DIR}/macosx/spaghettikart.icns ${CMAKE_BINARY_DIR}/macosx/spaghettikart.iconset
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-    COMMENT "Creating OSX icons ..."
-    )
-    add_dependencies(${PROJECT_NAME} CreateOSXIcons)
+    # macOS desktop: assemble a self-contained, codesigned SpaghettiKart.app from the
+    # normal build (icon, bundled resources, relinked dylibs). See cmake/macos/apple_bundle.cmake.
     configure_file("${CMAKE_SOURCE_DIR}/Info.plist" "${CMAKE_BINARY_DIR}/Info.plist" COPYONLY)
+    include(${CMAKE_SOURCE_DIR}/cmake/macos/apple_bundle.cmake)
   endif()
 
   set_property(TARGET ${PROJECT_NAME} PROPERTY APPIMAGE_DESKTOP_FILE_TERMINAL YES)

@@ -1,5 +1,6 @@
 #include "Engine.h"
 
+#include <cstdlib>
 #include "ship/utils/StringHelper.h"
 #include "GameExtractor.h"
 #include "mods/ModManager.h"
@@ -269,14 +270,16 @@ bool GameEngine::GenAssetFile() {
 
     if (!extractor->SelectGameFromUI()) {
         ShowMessage("Error", "No ROM selected.\n\nExiting...");
-        exit(1);
+        // See GenerateAssetsMods(): _Exit avoids the static World destructor crash on a
+        // pre-initialization bail-out.
+        _Exit(1);
     }
 
     auto game = extractor->ValidateChecksum();
     if (!game.has_value()) {
         ShowMessage("Unsupported ROM",
                     "The provided ROM is not supported.\n\nCheck the readme for a list of supported versions.");
-        exit(1);
+        _Exit(1);
     }
 
     ShowMessage(("Found " + game.value()).c_str(),
