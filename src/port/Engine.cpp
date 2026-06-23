@@ -593,10 +593,16 @@ ImFont* GameEngine::CreateFontWithSize(float size, std::string fontPath) {
     // RasterizerDensity rasterizes glyphs at the display's real backing scale WITHOUT changing the
     // logical font size/metrics, so the text stays sharp. The scale is detected from the window by
     // libultraship (see Gui::GetDpiScale); 1.0 on standard-DPI displays makes this a no-op.
+    //
+    // The atlas is baked once here, but the Menu Scale setting (gSettings.Menu.Scale) changes
+    // FontGlobalScale at runtime, stretching the fixed atlas -> text blurs again at larger scales.
+    // Bake at backingScale * maxMenuScale so FontGlobalScale only ever downsamples a high-res atlas
+    // (supersampling, still sharp) instead of upscaling a low-res one -> crisp at every menu scale.
+    constexpr float kMaxMenuScale = 2.0f; // keep in sync with the gSettings.Menu.Scale slider Max (PortMenu.cpp)
     float rasterDensity = 1.0f;
     if (auto window = Ship::Context::GetInstance()->GetWindow()) {
         if (auto gui = window->GetGui()) {
-            rasterDensity = gui->GetDpiScale();
+            rasterDensity = gui->GetDpiScale() * kMaxMenuScale;
         }
     }
     if (fontPath == "") {
