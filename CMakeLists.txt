@@ -5,9 +5,7 @@ project(Spaghettify VERSION 1.0.0 LANGUAGES C CXX ASM)
 include(FetchContent)
 
 # fmt's consteval format-string checking fails to compile under newer
-# AppleClang (Xcode 16+) with the spdlog/fmt versions in use (both vcpkg's on
-# CI and Torch's bundled copy — see cmake/TorchExternalFixes.cmake for the
-# latter):
+# AppleClang (Xcode 16+) with some fmt versions:
 #   error: call to consteval function 'fmt::basic_format_string<...>' is not
 #   a constant expression
 # Defining FMT_CONSTEVAL as empty falls back to fmt's pre-C++20 constexpr
@@ -717,18 +715,10 @@ add_custom_command(
 
 if(NOT CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch")
   include(ExternalProject)
-  # Torch's pinned spdlog bundles an fmt that trips a consteval error under
-  # newer AppleClang (Xcode 16+): "call to consteval function
-  # 'fmt::basic_format_string<...>' is not a constant expression". Neutralize
-  # FMT_CONSTEVAL inside the Torch sub-build via CMAKE_PROJECT_INCLUDE (Torch's
-  # CMakeLists overwrites CMAKE_CXX_FLAGS, so flags can't be injected that
-  # way). Fixes the build-macos-arm64 job; the intel runner's older Xcode
-  # doesn't hit it.
   ExternalProject_Add(TorchExternal
     PREFIX TorchExternal
     SOURCE_DIR ${CMAKE_SOURCE_DIR}/torch
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/torch
-               -DCMAKE_PROJECT_INCLUDE=${CMAKE_SOURCE_DIR}/cmake/TorchExternalFixes.cmake
 )
 
   ExternalProject_Get_Property(TorchExternal install_dir)
