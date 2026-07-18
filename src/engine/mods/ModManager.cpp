@@ -5,6 +5,7 @@
 #include "port/Engine.h"
 #include "semver.hpp"
 #include "utils/StringHelper.h"
+#include <cstdlib>
 #include <memory>
 #include <optional>
 #include <string>
@@ -55,10 +56,14 @@ void GenerateAssetsMods() {
     if (GameEngine::ShowYesNoBox("No O2R Files", "No O2R files found. Generate one now?") == IDYES) {
         if (!GameEngine::GenAssetFile()) {
             GameEngine::ShowMessage("Error", "An error occured, no O2R file was generated.\n\nExiting...");
-            exit(1);
+            // Bail before the game is initialized. Use _Exit (not exit) so the global
+            // `static World sWorldInstance` destructor does not run: its CleanWorld()
+            // dereferences Sky::Instance and other globals that are still null here,
+            // which otherwise segfaults (a crash dialog on what should be a clean quit).
+            _Exit(1);
         }
     } else {
-        exit(1);
+        _Exit(1);
     }
 }
 

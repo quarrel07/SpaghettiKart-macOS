@@ -956,6 +956,13 @@ extern "C"
     // Allow non-ascii characters for Windows
     setlocale(LC_ALL, ".UTF8");
 #endif
+#if defined(__APPLE__)
+    // Default the writable data/"library" folder to ~/Library/Application Support/com.spaghettikart.
+    // This mirrors the SHIP_HOME value in the .app's Info.plist (LSEnvironment); overwrite=0 means a
+    // value provided by the bundle or the user's environment still takes precedence. Without this,
+    // libultraship falls back to the current working directory ("/" for a Finder launch).
+    setenv("SHIP_HOME", "~/Library/Application Support/com.spaghettikart", 0);
+#endif
     // load_wasm();
     GameEngine::Create();
     audio_init();
