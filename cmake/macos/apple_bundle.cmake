@@ -32,34 +32,83 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 )
 
 # ---------------------------------------------------------------------------
-# App icon: SpaghettiKart.icns generated from icon.png (matches CFBundleIconFile).
-# macOS rounds the square automatically, so it reads as a native icon.
+# App icon.
+#
+# Preferred path (Xcode 26+): compile the Icon Composer package
+# (cmake/macos/SpaghettiKartIcon.icon) with actool at configure time. This
+# produces:
+#   - Assets.car             : compiled asset catalog with the Liquid Glass icon,
+#                              used on macOS 26 (Tahoe) and later via CFBundleIconName
+#                              ("SpaghettiKartIcon" — must match the .icon basename).
+#   - SpaghettiKartIcon.icns : a flattened fallback rendered by actool, renamed to
+#                              SpaghettiKart.icns to match CFBundleIconFile, used by
+#                              macOS versions that predate Liquid Glass.
+#
+# Fallback path (older Xcode without .icon support): generate the flat
+# SpaghettiKart.icns from icon.png with sips/iconutil as before, and strip
+# CFBundleIconName from the bundled Info.plist after the build so macOS 26
+# doesn't look for an asset catalog that isn't there.
 # ---------------------------------------------------------------------------
-set(ICON_SRC ${CMAKE_SOURCE_DIR}/icon.png)
-set(ICONSET_DIR ${CMAKE_BINARY_DIR}/macosx/SpaghettiKart.iconset)
+set(ICON_COMPOSER_SRC ${MACOS_DIR}/SpaghettiKartIcon.icon)
+set(ICON_COMPILE_DIR ${CMAKE_BINARY_DIR}/macosx/AppIconAssets)
 set(ICNS_FILE ${CMAKE_BINARY_DIR}/macosx/SpaghettiKart.icns)
-add_custom_command(
-    OUTPUT ${ICNS_FILE}
-    COMMAND ${CMAKE_COMMAND} -E make_directory ${ICONSET_DIR}
-    COMMAND sips -z 16 16     ${ICON_SRC} --out ${ICONSET_DIR}/icon_16x16.png
-    COMMAND sips -z 32 32     ${ICON_SRC} --out ${ICONSET_DIR}/icon_16x16@2x.png
-    COMMAND sips -z 32 32     ${ICON_SRC} --out ${ICONSET_DIR}/icon_32x32.png
-    COMMAND sips -z 64 64     ${ICON_SRC} --out ${ICONSET_DIR}/icon_32x32@2x.png
-    COMMAND sips -z 128 128   ${ICON_SRC} --out ${ICONSET_DIR}/icon_128x128.png
-    COMMAND sips -z 256 256   ${ICON_SRC} --out ${ICONSET_DIR}/icon_128x128@2x.png
-    COMMAND sips -z 256 256   ${ICON_SRC} --out ${ICONSET_DIR}/icon_256x256.png
-    COMMAND sips -z 512 512   ${ICON_SRC} --out ${ICONSET_DIR}/icon_256x256@2x.png
-    COMMAND sips -z 512 512   ${ICON_SRC} --out ${ICONSET_DIR}/icon_512x512.png
-    COMMAND sips -z 1024 1024 ${ICON_SRC} --out ${ICONSET_DIR}/icon_512x512@2x.png
-    COMMAND iconutil -c icns -o ${ICNS_FILE} ${ICONSET_DIR}
-    DEPENDS ${ICON_SRC}
-    COMMENT "Generating SpaghettiKart.icns from ${ICON_SRC}"
-    VERBATIM
+
+# CMAKE_OSX_DEPLOYMENT_TARGET can be empty here (the project's set(... CACHE)
+# doesn't override a pre-existing empty cache entry); an empty value would eat
+# actool's argument parsing, so fall back explicitly.
+if(CMAKE_OSX_DEPLOYMENT_TARGET)
+    set(ICON_MIN_TARGET ${CMAKE_OSX_DEPLOYMENT_TARGET})
+else()
+    set(ICON_MIN_TARGET "11.0")
+endif()
+
+file(MAKE_DIRECTORY ${ICON_COMPILE_DIR})
+execute_process(
+    COMMAND xcrun actool ${ICON_COMPOSER_SRC}
+            --compile ${ICON_COMPILE_DIR}
+            --app-icon SpaghettiKartIcon
+            --output-partial-info-plist ${ICON_COMPILE_DIR}/icon-partial-info.plist
+            --platform macosx
+            --target-device mac
+            --minimum-deployment-target ${ICON_MIN_TARGET}
+    RESULT_VARIABLE ACTOOL_RESULT
+    OUTPUT_QUIET ERROR_QUIET
 )
-add_custom_target(SpaghettiKartIcon DEPENDS ${ICNS_FILE})
-add_dependencies(${PROJECT_NAME} SpaghettiKartIcon)
-set_source_files_properties(${ICNS_FILE} PROPERTIES GENERATED TRUE MACOSX_PACKAGE_LOCATION "Resources")
-target_sources(${PROJECT_NAME} PRIVATE ${ICNS_FILE})
+
+if(ACTOOL_RESULT EQUAL 0 AND EXISTS ${ICON_COMPILE_DIR}/Assets.car)
+    message(STATUS "App icon: Liquid Glass (actool) + flattened icns fallback")
+    file(COPY_FILE ${ICON_COMPILE_DIR}/SpaghettiKartIcon.icns ${ICNS_FILE})
+    set(ICON_BUNDLE_FILES ${CMAKE_BINARY_DIR}/macosx/Assets.car ${ICNS_FILE})
+    file(COPY_FILE ${ICON_COMPILE_DIR}/Assets.car ${CMAKE_BINARY_DIR}/macosx/Assets.car)
+    set(SPAGHETTI_ICON_HAS_GLASS TRUE)
+else()
+    message(STATUS "App icon: actool unavailable or lacks .icon support; flat icns from icon.png")
+    set(ICON_SRC ${CMAKE_SOURCE_DIR}/icon.png)
+    set(ICONSET_DIR ${CMAKE_BINARY_DIR}/macosx/SpaghettiKart.iconset)
+    file(MAKE_DIRECTORY ${ICONSET_DIR})
+    foreach(SPEC "16;icon_16x16" "32;icon_16x16@2x" "32;icon_32x32" "64;icon_32x32@2x"
+                 "128;icon_128x128" "256;icon_128x128@2x" "256;icon_256x256"
+                 "512;icon_256x256@2x" "512;icon_512x512" "1024;icon_512x512@2x")
+        list(GET SPEC 0 SZ)
+        list(GET SPEC 1 NAME)
+        execute_process(COMMAND sips -z ${SZ} ${SZ} ${ICON_SRC} --out ${ICONSET_DIR}/${NAME}.png OUTPUT_QUIET ERROR_QUIET)
+    endforeach()
+    execute_process(COMMAND iconutil -c icns -o ${ICNS_FILE} ${ICONSET_DIR})
+    set(ICON_BUNDLE_FILES ${ICNS_FILE})
+    set(SPAGHETTI_ICON_HAS_GLASS FALSE)
+endif()
+
+set_source_files_properties(${ICON_BUNDLE_FILES} PROPERTIES GENERATED TRUE MACOSX_PACKAGE_LOCATION "Resources")
+target_sources(${PROJECT_NAME} PRIVATE ${ICON_BUNDLE_FILES})
+
+if(NOT SPAGHETTI_ICON_HAS_GLASS)
+    # No asset catalog in this build: remove CFBundleIconName so macOS 26+
+    # falls back to CFBundleIconFile instead of showing a generic icon.
+    add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND plutil -remove CFBundleIconName "$<TARGET_BUNDLE_DIR:${PROJECT_NAME}>/Contents/Info.plist" || true
+        VERBATIM
+    )
+endif()
 
 # Ensure the packed port assets (spaghetti.o2r) are generated before the app links,
 # so the POST_BUILD step below always has them to copy into the bundle. (mk64.o2r is
