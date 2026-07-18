@@ -2,6 +2,7 @@
 
 #include <cstdlib>
 #include "ship/utils/StringHelper.h"
+#include "ship/window/gui/Gui.h"
 #include "GameExtractor.h"
 #include "mods/ModManager.h"
 #include "ui/ImguiUI.h"
@@ -587,15 +588,17 @@ uint8_t GameEngine::GetBankIdByName(const std::string& name) {
 ImFont* GameEngine::CreateFontWithSize(float size, std::string fontPath) {
     auto mImGuiIo = &ImGui::GetIO();
     ImFont* font;
-    // On macOS Retina the ImGui overlay is rendered into a HiDPI framebuffer (DisplayFramebufferScale
-    // = 2x), but the glyph atlas is rasterized at the logical point size, so text gets stretched 2x
-    // and looks fuzzy. RasterizerDensity rasterizes glyphs at a higher density WITHOUT changing the
-    // logical font size/metrics, so the menu text stays sharp. Safe on non-Retina (just supersamples).
-#if defined(__APPLE__)
-    const float rasterDensity = 2.0f;
-#else
-    const float rasterDensity = 1.0f;
-#endif
+    // On a HiDPI display the ImGui overlay is rendered into a scaled framebuffer, but the glyph atlas
+    // is rasterized at the logical point size, so menu text gets stretched up and looks fuzzy.
+    // RasterizerDensity rasterizes glyphs at the display's real backing scale WITHOUT changing the
+    // logical font size/metrics, so the text stays sharp. The scale is detected from the window by
+    // libultraship (see Gui::GetDpiScale); 1.0 on standard-DPI displays makes this a no-op.
+    float rasterDensity = 1.0f;
+    if (auto window = Ship::Context::GetInstance()->GetWindow()) {
+        if (auto gui = window->GetGui()) {
+            rasterDensity = gui->GetDpiScale();
+        }
+    }
     if (fontPath == "") {
         ImFontConfig fontCfg = ImFontConfig();
         fontCfg.OversampleH = fontCfg.OversampleV = 1;
