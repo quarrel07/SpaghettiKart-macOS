@@ -3,6 +3,7 @@
 
 > ### 🍎 macOS fork
 > <img src="docs/preview/app-icon.png" align="right" width="96" alt="SpaghettiKart app icon">
+>
 > This is a macOS-optimized fork of [HarbourMasters/SpaghettiKart](https://github.com/HarbourMasters/SpaghettiKart).
 > A plain `cmake --build` produces a **self-contained, codesigned `SpaghettiKart.app`** (native Apple
 > Silicon, Metal renderer) that runs on a clean machine — no Homebrew required at runtime. It fixes the
