@@ -25,6 +25,7 @@
 #include "resource/importers/ArrayFactory.h"
 #include "resource/importers/MinimapFactory.h"
 #include "resource/importers/BetterTextureFactory.h"
+#include "resource/AsyncTextureUpgrader.h"
 #include <ship/window/gui/Fonts.h>
 #include "ship/window/gui/resource/Font.h"
 #include "ship/window/gui/resource/FontFactory.h"
@@ -424,6 +425,7 @@ void GameEngine::Create() {
 }
 
 void GameEngine::Destroy() {
+    MK64::AsyncTextureUpgrader::Instance().Shutdown();
     AudioExit();
 #ifdef __SWITCH__
     Ship::Switch::Exit();
@@ -473,6 +475,12 @@ void GameEngine::RunCommands(Gfx* pool, const std::vector<std::unordered_map<Mtx
 
     auto interpreter = wnd->GetInterpreterWeak().lock().get();
 
+    // Swap in any texture-pack replacements the background decoder finished,
+    // evicting the originals from the GPU texture cache. Runs between frames,
+    // before this frame's display list executes.
+    MK64::AsyncTextureUpgrader::Instance().ApplyCompleted(
+        [interpreter](const uint8_t* addr) { interpreter->TextureCacheDelete(addr); });
+
     // Process window events for resize, mouse, keyboard events
     wnd->HandleEvents();
 
@@ -492,6 +500,7 @@ void GameEngine::RunCommands(Gfx* pool, const std::vector<std::unordered_map<Mtx
         // be evicted for the toggle to take effect; they lazily reload through
         // the factory in the new state.
         Ship::Context::GetInstance()->GetResourceManager()->UnloadResources("textures/*");
+        MK64::AsyncTextureUpgrader::Instance().ResetPrefetch();
         gfx_texture_cache_clear();
     }
 }
