@@ -314,7 +314,10 @@ u8* load_lakitu_tlut_x64(const char** textureList, size_t length) {
         u8* tex = (u8*) LOAD_ASSET_RAW(textureList[i]);
         size_t texSize = ResourceGetTexSizeByName(textureList[i]);
         // printf("\nTEX SIZE: %X\n\n", texSize);
-        memcpy(&textures[offset], tex, texSize);
+        // A failed lookup must not crash; leave that slot's bytes untouched.
+        if (tex != NULL) {
+            memcpy(&textures[offset], tex, texSize);
+        }
         offset += texSize;
     }
     return textures;

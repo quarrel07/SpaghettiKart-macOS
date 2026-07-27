@@ -674,14 +674,18 @@ void load_kart_palette(Player* player, s8 playerId, s8 screenId, s8 buffer) {
 
             size = ResourceGetTexSizeByName(gKartPalettes[player->characterId]);
             asset = (u8*) LOAD_ASSET(gKartPalettes[player->characterId]);
-            memcpy(&temp_s0->kart_palette[0], asset, size);
+            if (asset != NULL) {
+                memcpy(&temp_s0->kart_palette[0], asset, size);
+            }
             break;
         case SCREEN_MODE_3P_4P_SPLITSCREEN: // Code identical to above
             osInvalDCache(temp_s0, sizeof(struct_D_802F1F80));
 
             size = ResourceGetTexSizeByName(gKartPalettes[player->characterId]);
             asset = (u8*) LOAD_ASSET(gKartPalettes[player->characterId]);
-            memcpy(&temp_s0->kart_palette[0], asset, size);
+            if (asset != NULL) {
+                memcpy(&temp_s0->kart_palette[0], asset, size);
+            }
             break;
     }
 }
@@ -714,6 +718,11 @@ void load_wheel_palette_non_blocking(UNUSED Player* player, const char* texture,
 #else
     u16* tex = (u16*) LOAD_ASSET(texture);
     size_t textureSize = ResourceGetTexSizeByName(texture);
+    // A failed lookup must not crash the render loop; keep last frame's
+    // palette instead.
+    if (tex == NULL) {
+        return;
+    }
     memcpy(vAddr, tex, size);
 #endif
 }
