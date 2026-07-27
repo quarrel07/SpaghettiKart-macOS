@@ -822,6 +822,12 @@ void race_logic_loop(void) {
 void game_state_handler(void) {
     FrameInterpolation_StartRecord();
 
+#ifdef __APPLE__
+    // Notch mode (gNotchMode): only gameplay renders into the camera-housing rows;
+    // flat scenes (logo, menus) tell the display layer to letterbox below the notch.
+    CVarSetInteger("gNotchFullBleedNow", gGamestate == RACING ? 1 : 0);
+#endif
+
 #if DVDL
     if ((gControllerOne->button & L_TRIG) && (gControllerOne->button & R_TRIG) && (gControllerOne->button & Z_TRIG) &&
         (gControllerOne->button & A_BUTTON)) {

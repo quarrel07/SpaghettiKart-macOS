@@ -261,6 +261,24 @@ void PortMenu::AddSettings() {
                 .Min(0.5f)
                 .Max(4.0f));
 
+#ifdef __APPLE__
+    AddWidget(path, "Fullscreen uses notch area", WIDGET_CVAR_CHECKBOX)
+        .CVar("gNotchMode")
+        .Callback([](WidgetInfo& info) {
+            // Re-enter fullscreen so the new mode applies immediately; the re-entry
+            // itself happens once the previous mode has fully exited.
+            auto wnd = Ship::Context::GetInstance()->GetWindow();
+            if (wnd->IsFullscreen()) {
+                CVarSetInteger("gNotchReenterPending", 1);
+                wnd->SetFullscreen(false);
+            }
+        })
+        .Options(CheckboxOptions().Tooltip(
+            "On MacBooks with a camera notch, fullscreen gameplay fills the entire panel, "
+            "including the rows beside the notch. Flat screens (boot logo, menus) stay below "
+            "the notch."));
+#endif
+
 #ifndef __WIIU__
     AddWidget(path, "Anti-aliasing (MSAA): %d", WIDGET_CVAR_SLIDER_INT)
         .CVar(CVAR_MSAA_VALUE)

@@ -232,9 +232,12 @@ void mtxf_translate(Mat4 dest, Vec3f b) {
 }
 
 // Note the use of `2` which generates diff asm than just using floats (2.0f).
+extern float NotchExpandFovY(float fovyDegrees);
+
 void func_802B5564(Mat4 arg0, u16* arg1, f32 arg2, f32 arg3, f32 arg4, f32 arg5, f32 arg6) {
     f32 temp;
     s32 i, j;
+    arg2 = NotchExpandFovY(arg2);
     mtxf_identity(arg0);
     arg2 *= 0.017453292222222222;
     temp = cosf(arg2 / 2) / sinf(arg2 / 2);
