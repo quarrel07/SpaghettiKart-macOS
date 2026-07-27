@@ -27,7 +27,7 @@ execute_process(
 )
 
 execute_process(
-  COMMAND git describe --tags
+  COMMAND git describe --tags --long
   WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
   OUTPUT_VARIABLE PROJECT_VERSION
   OUTPUT_STRIP_TRAILING_WHITESPACE
