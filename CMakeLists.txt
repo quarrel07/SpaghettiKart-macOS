@@ -712,6 +712,7 @@ if(NOT CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch")
     PREFIX TorchExternal
     SOURCE_DIR ${CMAKE_SOURCE_DIR}/torch
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/torch
+               -DCMAKE_PROJECT_INCLUDE=${CMAKE_SOURCE_DIR}/cmake/TorchExternalFixes.cmake
 )
 
   ExternalProject_Get_Property(TorchExternal install_dir)
