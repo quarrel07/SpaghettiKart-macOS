@@ -88,12 +88,6 @@ using namespace UIWidgets;
 
 void RegisterResolutionWidgets() {
     WidgetPath path = { "Settings", "Graphics", SECTION_COLUMN_2 };
-#ifdef __APPLE__
-    mPortMenu
-        ->AddWidget(path, ICON_FA_INFO_CIRCLE " These settings may behave incorrectly on Retina displays.", WIDGET_TEXT)
-        .Options(WidgetOptions().Color(Colors::Green));
-#endif
-
     // Resolution visualiser
     mPortMenu->AddWidget(path, "Viewport dimensions: {} x {}", WIDGET_TEXT).PreFunc([](WidgetInfo& info) {
         auto captured_window_viewport = GetInterpreter()->mGameWindowViewport;
