@@ -258,7 +258,7 @@ void PortMenu::AddSettings() {
                 .ShowButtons(false)
                 .IsPercentage()
                 .Format("")
-                .Min(0.5f)
+                .Min(0.25f)
                 .Max(4.0f));
 
 #ifdef __APPLE__
