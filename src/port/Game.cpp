@@ -18,7 +18,7 @@
 #include "engine/objects/BombKart.h"
 #include "engine/objects/Lakitu.h"
 
-#include "Smoke.h"
+#include "engine/Smoke.h"
 
 #include "engine/HM_Intro.h"
 
@@ -43,7 +43,7 @@ extern "C" {
 #include "main.h"
 #include "audio/load.h"
 #include "audio/external.h"
-#include "render_courses.h"
+#include "racing/render_courses.h"
 #include "menus.h"
 #include "update_objects.h"
 #include "spawn_players.h"
@@ -288,6 +288,7 @@ s32 CM_GetCrossingOnTriggered(uintptr_t* crossing) {
     if (ptr) {
         return ptr->OnTriggered;
     }
+    return 0;
 }
 
 /**
@@ -822,7 +823,7 @@ void CM_ActorCollision(Player* player, Actor* actor) {
     }
 }
 
-f32 CM_GetWaterLevel(Vec3f pos, Collision* collision) {
+f32 CM_GetWaterLevel(Vec3f pos, struct Collision* collision) {
     FVector fPos = {pos[0], pos[1], pos[2]};
     return GetWorld()->GetTrack()->GetWaterLevel(fPos, collision);
 }
@@ -949,7 +950,26 @@ static void ApplyPendingReset() {
     // Set the debug menu track browsing index back to zero
     TrackBrowser::Instance->Reset();
 
-    gMenuSelection = CVarGetInteger("gEnableDebugMode", 0) ? START_MENU : LOGO_INTRO_MENU;
+    // Land on the same screen the gSkipIntro setting picks at boot.
+    switch (CVarGetInteger("gSkipIntro", 0)) {
+        case 0:
+            gMenuSelection = HARBOUR_MASTERS_MENU;
+            break;
+        case 1:
+            gMenuSelection = LOGO_INTRO_MENU;
+            break;
+        case 2:
+            gMenuSelection = START_MENU;
+            break;
+        case 3:
+            gMenuSelection = MAIN_MENU;
+            break;
+    }
+
+    // Debug mode override gSkipIntro
+    if (CVarGetInteger("gEnableDebugMode", 0) == true) {
+        gMenuSelection = START_MENU;
+    }
     // Re-enter through the intro's own transition protocol (see HM_TickIntro):
     // FADE_MODE_LOGO makes setup_menus rebuild the menu items and start a
     // fresh fade-in, replacing any in-flight transition that would otherwise

@@ -17,20 +17,20 @@
 #include <defines.h>
 #include "buffers.h"
 #include "camera.h"
-#include "race_logic.h"
-#include "skybox_and_splitscreen.h"
+#include "racing/race_logic.h"
+#include "racing/skybox_and_splitscreen.h"
 #include "render_objects.h"
 #include "effects.h"
-#include "code_80281780.h"
+#include "ending/code_80281780.h"
 #include "audio/external.h"
 #include "code_800029B0.h"
-#include "code_80280000.h"
-#include "podium_ceremony_actors.h"
+#include "ending/code_80280000.h"
+#include "ending/podium_ceremony_actors.h"
 #include "menu_items.h"
 #include "code_80057C60.h"
 #include "player_controller.h"
 #include "render_player.h"
-#include "actors.h"
+#include "racing/actors.h"
 #include "replays.h"
 #include <debug.h>
 #include "enhancements/freecam/freecam.h"
@@ -458,7 +458,7 @@ void end_master_display_list(void) {
 
 // clear_frame_buffer from SM64, with a few edits
 //! @todo Why did void* work for matching
-void* clear_framebuffer(s32 color) {
+void clear_framebuffer(s32 color) {
     gDPPipeSync(gDisplayListHead++);
 
     gDPSetRenderMode(gDisplayListHead++, G_RM_OPA_SURF, G_RM_OPA_SURF2);

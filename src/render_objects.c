@@ -14,7 +14,7 @@
 #include <actor_types.h>
 #include "camera.h"
 #include "memory.h"
-#include "math_util.h"
+#include "racing/math_util.h"
 #include "math_util_2.h"
 #include "objects.h"
 #include "waypoints.h"
@@ -28,7 +28,7 @@
 #include "render_objects.h"
 #include "update_objects.h"
 #include "menu_items.h"
-#include "collision.h"
+#include "racing/collision.h"
 #include "main.h"
 #include "menus.h"
 #include "code_80086E70.h"
@@ -1348,7 +1348,7 @@ UNUSED void func_8004A5E4(Vec3f arg0, Vec3su arg1, f32 arg2, u8* texture, Vtx* a
     func_8004A414(arg0, arg1, arg2, texture, arg4, 16, 16, 16, 16);
 }
 
-void func_8004A630(Collision* arg0, Vec3f arg1, f32 arg2) {
+void func_8004A630(struct Collision* arg0, Vec3f arg1, f32 arg2) {
     if (func_80041924(arg0, arg1) != 0) {
         D_80183E50[0] = arg1[0];
         D_80183E50[1] = calculate_surface_height(arg1[0], 0.0f, arg1[2], arg0->meshIndexZX) + 0.8;
@@ -2181,11 +2181,13 @@ UNUSED void func_8004CD18(s32 arg0, s32 arg1, u8* texture) {
     func_8004C91C(arg0, arg1, texture, 64, 64, 32);
 }
 
-UNUSED void func_8004CD48(s32 arg0, s32 arg1, UNUSED u8* texture, s32 width, s32 arg4, s32 height) {
+UNUSED void func_8004CD48(s32 arg0, s32 arg1, u8* texture, s32 width, s32 arg4, s32 height) {
     UNUSED s32 pad;
     s32 var_s0;
     s32 i;
-    u8* img;
+    // img was never initialized; the (formerly UNUSED) texture param is
+    // clearly what the loop was meant to walk.
+    u8* img = texture;
 
     var_s0 = arg1 - (arg4 / 2);
     gSPDisplayList(gDisplayListHead++, D_0D007FE0);
