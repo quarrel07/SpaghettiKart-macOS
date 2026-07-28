@@ -96,7 +96,7 @@ SkyCloud::SkyCloud(ScreenContext* screen, u16 cloudVariant, u16 posY, u16 rotY, 
 // foreign pixels (e.g. the minimap) once the allocator reuses the memory.
 void SkyCloud::ResolveTexture() {
     if (GameEngine_ResourceGetTexTypeByName((const char*)CM_GetProps()->CloudTexture) != 1) { // Stock
-        mTexture = ((u8*) LOAD_ASSET_RAW(CM_GetProps()->CloudTexture)) + (mCloudVariant * 1024);
+        mTexture = ((u8*) LOAD_ASSET_RAW(CM_GetProps()->CloudTexture)) + ((size_t) mCloudVariant * 1024);
         mVtx = (Vtx*)D_0D005FB0;
     } else { // Texture pack: pass the asset name, resolved fresh at import time
         mTexture = CM_GetProps()->CloudTexture;

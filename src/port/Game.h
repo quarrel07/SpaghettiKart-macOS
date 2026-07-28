@@ -1,5 +1,5 @@
-#ifndef _GAME_H
-#define _GAME_H
+#ifndef GAME_H
+#define GAME_H
 
 #include <libultraship.h>
 #include "engine/tracks/Track.h"
@@ -242,4 +242,4 @@ NORETURN void CM_ThrowRuntimeError(const char* fmt, ...)
 }
 #endif
 
-#endif // _GAME_H
+#endif // GAME_H
