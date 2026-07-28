@@ -825,7 +825,14 @@ void game_state_handler(void) {
 #ifdef __APPLE__
     // Notch mode (gNotchMode): only gameplay renders into the camera-housing rows;
     // flat scenes (logo, menus) tell the display layer to letterbox below the notch.
-    CVarSetInteger("gNotchFullBleedNow", gGamestate == RACING ? 1 : 0);
+    {
+        static s32 sLastFullBleed = -1;
+        s32 fullBleed = (gGamestate == RACING) ? 1 : 0;
+        if (fullBleed != sLastFullBleed) {
+            sLastFullBleed = fullBleed;
+            CVarSetInteger("gNotchFullBleedNow", fullBleed);
+        }
+    }
 #endif
 
 #if DVDL
