@@ -1023,7 +1023,10 @@ int SDL_main(int argc, char** argv) {
 #if defined(__cplusplus) && defined(PLATFORM_IOS)
 extern "C"
 #endif
+    // clang-format off: the split declaration inside these preprocessor branches
+    // confuses clang-format, and different versions disagree on the layout
     int main(UNUSED int argc, UNUSED char* argv[]) {
+    // clang-format on
 #endif
 #ifdef _WIN32
     // Allow non-ascii characters for Windows
