@@ -393,7 +393,7 @@ Camera* CM_GetPlayerCamera(s32 playerIndex) {
     for (auto& cam : GetWorld()->Cameras) {
         // Make sure this is a player camera and not a different type of camera
         auto& camRef = *cam;
-    if (typeid(camRef) == typeid(GameCamera)) {
+        if (typeid(camRef) == typeid(GameCamera)) {
             Camera* camera = cam->Get();
             if (camera->playerId == playerIndex) {
                 return camera;
@@ -1023,8 +1023,7 @@ int SDL_main(int argc, char** argv) {
 #if defined(__cplusplus) && defined(PLATFORM_IOS)
 extern "C"
 #endif
-    int
-    main(UNUSED int argc, UNUSED char* argv[]) {
+    int main(UNUSED int argc, UNUSED char* argv[]) {
 #endif
 #ifdef _WIN32
     // Allow non-ascii characters for Windows
