@@ -95,7 +95,7 @@ void OCrab::Draw(s32 cameraId) {
 }
 
 void OCrab::DrawModel(s32 cameraId) {
-    s32 someIndex;
+    UNUSED s32 someIndex;
     s32 objectIndex = _objectIndex;
     func_8008A364(objectIndex, cameraId, 0x2AABU, 800);
     if (is_obj_flag_status_active(objectIndex, VISIBLE) != 0) {

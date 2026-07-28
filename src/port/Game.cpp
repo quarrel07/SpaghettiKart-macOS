@@ -1,4 +1,5 @@
 #include <libultraship.h>
+#include <macros.h>
 #include <typeinfo>
 
 #include "Game.h"
@@ -1022,7 +1023,7 @@ int SDL_main(int argc, char** argv) {
 extern "C"
 #endif
     int
-    main(int argc, char* argv[]) {
+    main(UNUSED int argc, UNUSED char* argv[]) {
 #endif
 #ifdef _WIN32
     // Allow non-ascii characters for Windows
