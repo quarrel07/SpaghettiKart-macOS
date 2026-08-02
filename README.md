@@ -86,12 +86,12 @@ If you want to manually compile SpaghettiKart, please consult the [building inst
 
 If you want to playtest a continuous integration build, you can find them at the links below. Keep in mind that these are for playtesting only, and you will likely encounter bugs and possibly crashes.
 
-* [Windows 64 bit]([https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-windows.zip?status=completed](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-windows-x64.zip?status=completed))
-* [Windows 32 bit]([https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-windows.zip?status=completed](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-windows-Win32.zip?status=completed))
+* [Windows 64 bit](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-windows-x64.zip?status=completed)
+* [Windows 32 bit](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-windows-Win32.zip?status=completed)
 * [Linux 64 bit](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-linux-x64.zip?status=completed)
 * [Linux 32 bit](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-linux-x86.zip?status=completed)
-* [macOS-arm64](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-mac-arm64.zip?status=completed)
-* [macOS-intel](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/spaghetti-mac-intel-x64.zip?status=completed)
+* [macOS-arm64](https://nightly.link/quarrel07/SpaghettiKart-macOS/workflows/main/ci-dmg-testrun/spaghetti-mac-arm64.zip?status=completed)
+* [macOS-intel](https://nightly.link/quarrel07/SpaghettiKart-macOS/workflows/main/ci-dmg-testrun/spaghetti-mac-intel-x64.zip?status=completed)
 * [Switch](https://nightly.link/HarbourMasters/SpaghettiKart/workflows/main/main/Spaghettify-switch.zip?status=completed)
 
 Maintainers: [MegaMech](https://www.github.com/MegaMech), [Coco](https://www.github.com/coco875), [Kirito](https://github.com/KiritoDv)
