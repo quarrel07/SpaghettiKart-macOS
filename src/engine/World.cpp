@@ -7,6 +7,7 @@
 #include <memory>
 #include "objects/Object.h"
 #include "port/Game.h"
+#include "port/resource/AsyncTextureUpgrader.h"
 #include "engine/sky/Sky.h"
 
 extern "C" {
@@ -40,6 +41,10 @@ void World::AddCup(Cup* cup) {
 void World::SetCurrentTrack(std::unique_ptr<Track> track) {
     if (mTrack == track) {
         return;
+    }
+    if (mTrack != nullptr) {
+        // The outgoing course is done: release its texture-pack replacements.
+        MK64::AsyncTextureUpgrader::Instance().EvictTrackTextures();
     }
     mTrack = std::move(track);
 }
