@@ -2,6 +2,7 @@
 
 #include <cstdlib>
 #include "ship/utils/StringHelper.h"
+#include "ship/window/gui/Gui.h"
 #include "GameExtractor.h"
 #include "engine/mods/ModManager.h"
 #include "ui/ImguiUI.h"
@@ -24,6 +25,7 @@
 #include "resource/importers/ArrayFactory.h"
 #include "resource/importers/MinimapFactory.h"
 #include "resource/importers/BetterTextureFactory.h"
+#include "resource/AsyncTextureUpgrader.h"
 #include <ship/window/gui/Fonts.h>
 #include "ship/window/gui/resource/Font.h"
 #include "ship/window/gui/resource/FontFactory.h"
@@ -268,6 +270,70 @@ GameEngine::GameEngine() {
     fontStandardLarger = CreateFontWithSize(20.0f, "fonts/Montserrat-Regular.ttf");
     fontStandardLargest = CreateFontWithSize(24.0f, "fonts/Montserrat-Regular.ttf");
     ImGui::GetIO().FontDefault = fontMono;
+
+
+    // Warm the platform shader cache for the shader combinations MK64 uses in
+    // boot, menus, and racing. On Metal, first use of each combination costs
+    // ~70 ms of synchronous source compilation on the render path (frame
+    // hitch + audio dropout); prewarming compiles them on a background thread
+    // at boot, after which the render thread's compiles are cache hits. The
+    // list was captured from instrumented play sessions (boot -> menus -> GP
+    // race). Harmless if stale: unknown combinations still compile lazily.
+    static const uint64_t kShaderWarmList[][2] = {
+    { 0x0000000001080108ULL, 0xfffffffffffe0000ULL },
+    { 0x0000000001080108ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000001080108ULL, 0xfffffffffffe0005ULL },
+    { 0x0000000001080108ULL, 0xfffffffffffe0301ULL },
+    { 0x0000000001080108ULL, 0xffffffffffff0001ULL },
+    { 0x0000000001080108ULL, 0xffffffffffff0201ULL },
+    { 0x0000000001081000ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000001081000ULL, 0xffffffffffff0001ULL },
+    { 0x0000000001082821ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000001082821ULL, 0xfffffffffffe0009ULL },
+    { 0x000000000801281cULL, 0xfffffffffffe0005ULL },
+    { 0x000000000801281cULL, 0xfffffffffffe0021ULL },
+    { 0x000000000801281cULL, 0xfffffffffffe0301ULL },
+    { 0x0000000010000108ULL, 0xffffffffffff0000ULL },
+    { 0x0000000010000201ULL, 0xfffffffffffe0000ULL },
+    { 0x0000000010001000ULL, 0xfffffffffffe0000ULL },
+    { 0x0000000010001000ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000010001000ULL, 0xffffffffffff0000ULL },
+    { 0x0000000010001000ULL, 0xffffffffffff0001ULL },
+    { 0x0000000010008000ULL, 0xfffffffffffe0000ULL },
+    { 0x0000000010008000ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000080000108ULL, 0xfffffffffffe0005ULL },
+    { 0x0000000080000108ULL, 0xffffffffffff0001ULL },
+    { 0x0000000080001000ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000080008000ULL, 0xfffffffffffe0000ULL },
+    { 0x0000000080008000ULL, 0xfffffffffffe0001ULL },
+    { 0x0000000080008000ULL, 0xfffffffffffe0005ULL },
+    { 0x0000000080008000ULL, 0xfffffffffffe0080ULL },
+    { 0x0000000080008000ULL, 0xfffffffffffe0305ULL },
+    { 0x0000000080008000ULL, 0xfffffffffffe0325ULL },
+    { 0x0000000080008000ULL, 0xffffffffffff0000ULL },
+    { 0x0000000080008000ULL, 0xffffffffffff0001ULL },
+    { 0x010d020d80000108ULL, 0xfffffffffffe0013ULL },
+    { 0xd000010d80008000ULL, 0xfffffffffffe0315ULL },
+    { 0xd000010dc0008000ULL, 0xfffffffffffe0012ULL },
+    { 0xd000020d80000108ULL, 0xfffffffffffe0015ULL },
+    { 0xd000020d80000108ULL, 0xfffffffffffe0017ULL },
+    { 0xd000020dc0000108ULL, 0xfffffffffffe0010ULL },
+    { 0xd000020dc0000108ULL, 0xfffffffffffe0012ULL },
+    { 0xd000020dc0000108ULL, 0xfffffffffffe0015ULL },
+    { 0xd000020dc0000108ULL, 0xfffffffffffe0312ULL },
+    { 0xd000020dc0001000ULL, 0xfffffffffffe0012ULL },
+    };
+    if (auto interpreter = wnd->GetInterpreterWeak().lock()) {
+        if (auto* rapi = interpreter->GetCurrentRenderingAPI()) {
+            rapi->PrewarmShaders(kShaderWarmList, sizeof(kShaderWarmList) / sizeof(kShaderWarmList[0]));
+        }
+    }
+
+    // Alternate assets (texture-pack replacements) are on by default; seed the
+    // resource manager before any texture loads so the toggle state and the
+    // loaded assets stay in sync.
+    prevAltAssets = CVarGetInteger("gEnhancements.Mods.AlternateAssets", 1);
+    Ship::Context::GetRawInstance()->GetResourceManager()->SetAltAssetsEnabled(prevAltAssets);
 }
 
 bool GameEngine::GenAssetFile() {
@@ -275,8 +341,8 @@ bool GameEngine::GenAssetFile() {
 
     if (!extractor->SelectGameFromUI()) {
         ShowMessage("Error", "No ROM selected.\n\nExiting...");
-        // _Exit, not exit: this runs before the game world is initialized, so running the
-        // global World destructor (CleanWorld) would dereference still-null singletons and crash.
+        // See GenerateAssetsMods(): _Exit avoids the static World destructor crash on a
+        // pre-initialization bail-out.
         _Exit(1);
     }
 
@@ -356,12 +422,15 @@ void GameEngine::Create() {
     instance->gHMAS = new HMAS();
     instance->AudioInit();
     GameUI::SetupGuiElements();
+
+
 #if defined(__SWITCH__) || defined(__WIIU__)
     CVarRegisterInteger("gControlNav", 1); // always enable controller nav on switch/wii u
 #endif
 }
 
 void GameEngine::Destroy() {
+    MK64::AsyncTextureUpgrader::Instance().Shutdown();
     AudioExit();
 #ifdef __SWITCH__
     Ship::Switch::Exit();
@@ -382,7 +451,10 @@ void GameEngine::StartFrame() const {
     switch (dwScancode) {
         case KbScancode::LUS_KB_TAB: {
             // Toggle HD Assets
-            CVarSetInteger("gEnhancements.Mods.AlternateAssets", !CVarGetInteger("gEnhancements.Mods.AlternateAssets", 0));
+            if (CVarGetInteger("gEnhancements.Mods.AlternateAssetsHotkey", 1)) {
+                CVarSetInteger("gEnhancements.Mods.AlternateAssets",
+                               !CVarGetInteger("gEnhancements.Mods.AlternateAssets", 1));
+            }
             break;
         }
         case KbScancode::LUS_KB_P: {
@@ -408,6 +480,12 @@ void GameEngine::RunCommands(Gfx* pool, const std::vector<std::unordered_map<Mtx
 
     auto interpreter = wnd->GetInterpreterWeak().lock().get();
 
+    // Swap in any texture-pack replacements the background decoder finished,
+    // evicting the originals from the GPU texture cache. Runs between frames,
+    // before this frame's display list executes.
+    MK64::AsyncTextureUpgrader::Instance().ApplyCompleted(
+        [interpreter](const uint8_t* addr) { interpreter->TextureCacheDelete(addr); });
+
     // Process window events for resize, mouse, keyboard events
     wnd->HandleEvents();
 
@@ -418,10 +496,16 @@ void GameEngine::RunCommands(Gfx* pool, const std::vector<std::unordered_map<Mtx
         interpreter->mInterpolationIndex++;
     }
 
-    bool curAltAssets = CVarGetInteger("gEnhancements.Mods.AlternateAssets", 0);
+    bool curAltAssets = CVarGetInteger("gEnhancements.Mods.AlternateAssets", 1);
     if (prevAltAssets != curAltAssets) {
         prevAltAssets = curAltAssets;
         Ship::Context::GetRawInstance()->GetResourceManager()->SetAltAssetsEnabled(curAltAssets);
+        // Texture-pack replacements load under the SAME path as the originals
+        // (png-sibling shortcut in the texture factory), so cached textures must
+        // be evicted for the toggle to take effect; they lazily reload through
+        // the factory in the new state.
+        Ship::Context::GetRawInstance()->GetResourceManager()->UnloadResources("textures/*");
+        MK64::AsyncTextureUpgrader::Instance().ResetPrefetch();
         gfx_texture_cache_clear();
     }
 }
@@ -501,10 +585,10 @@ void GameEngine::HandleAudioThread() {
         s16 mix_buffer[SAMPLES_PER_FRAME] = { 0 };
 
         for (size_t i = 0; i < NUM_AUDIO_CHANNELS; i++) {
-            create_next_audio_buffer(nas_buffer + i * (num_audio_samples * 2), num_audio_samples);
+            create_next_audio_buffer(nas_buffer + i * ((size_t) num_audio_samples * 2), num_audio_samples);
         }
 
-        GameEngine::Instance->gHMAS->CreateBuffer((u8*)hmas_buffer, 4 * num_audio_samples * sizeof(float));
+        GameEngine::Instance->gHMAS->CreateBuffer((u8*) hmas_buffer, 4 * (size_t) num_audio_samples * sizeof(float));
 
         float master_vol = CVarGetFloat("gGameMasterVolume", 1.0f);
 
@@ -512,7 +596,7 @@ void GameEngine::HandleAudioThread() {
             mix_buffer[i] = nas_buffer[i] + ((int16_t)(hmas_buffer[i] * 32767.0f) * master_vol);
         }
 
-        AudioPlayerPlayFrame((u8*) mix_buffer, 2 * num_audio_samples * 4);
+        AudioPlayerPlayFrame((u8*) mix_buffer, 2 * (size_t) num_audio_samples * 4);
 
         audio.processing = false;
         audio.cv_from_thread.notify_one();
@@ -592,15 +676,23 @@ uint8_t GameEngine::GetBankIdByName(const std::string& name) {
 ImFont* GameEngine::CreateFontWithSize(float size, std::string fontPath) {
     auto mImGuiIo = &ImGui::GetIO();
     ImFont* font;
-    // Rasterize the glyph atlas at higher density so menu text stays sharp on HiDPI/Retina
-    // displays. Bake at retinaScale * maxMenuScale so the runtime Menu Scale setting
-    // (FontGlobalScale) only ever downsamples the atlas rather than stretching it blurry.
+    // On a HiDPI display the ImGui overlay is rendered into a scaled framebuffer, but the glyph atlas
+    // is rasterized at the logical point size, so menu text gets stretched up and looks fuzzy.
+    // RasterizerDensity rasterizes glyphs at the display's real backing scale WITHOUT changing the
+    // logical font size/metrics, so the text stays sharp. The scale is detected from the window by
+    // libultraship (see Gui::GetDpiScale); 1.0 on standard-DPI displays makes this a no-op.
+    //
+    // The atlas is baked once here, but the Menu Scale setting (gSettings.Menu.Scale) changes
+    // FontGlobalScale at runtime, stretching the fixed atlas -> text blurs again at larger scales.
+    // Bake at backingScale * maxMenuScale so FontGlobalScale only ever downsamples a high-res atlas
+    // (supersampling, still sharp) instead of upscaling a low-res one -> crisp at every menu scale.
+    constexpr float kMaxMenuScale = 2.0f; // keep in sync with the gSettings.Menu.Scale slider Max (PortMenu.cpp)
     float rasterDensity = 1.0f;
-#if defined(__APPLE__)
-    constexpr float kRetinaScale = 2.0f;  // Retina backing scale
-    constexpr float kMaxMenuScale = 2.0f; // keep in sync with the gSettings.Menu.Scale slider Max
-    rasterDensity = kRetinaScale * kMaxMenuScale;
-#endif
+    if (auto window = Ship::Context::GetRawInstance()->GetWindow()) {
+        if (auto gui = window->GetGui()) {
+            rasterDensity = gui->GetDpiScale() * kMaxMenuScale;
+        }
+    }
     if (fontPath == "") {
         ImFontConfig fontCfg = ImFontConfig();
         fontCfg.OversampleH = fontCfg.OversampleV = 1;
