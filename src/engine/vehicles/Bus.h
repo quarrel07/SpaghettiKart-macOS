@@ -49,7 +49,7 @@ class ABus : public AActor {
 
     explicit ABus(const SpawnParams& params);
 
-    ~ABus() {
+    ~ABus() override {
         _count--;
     }
 

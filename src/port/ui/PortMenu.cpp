@@ -1,4 +1,5 @@
 #include "PortMenu.h"
+#include <macros.h>
 #include "UIWidgets.h"
 #include "port/Game.h"
 #include "ship/window/gui/GuiMenuBar.h"
@@ -6,7 +7,6 @@
 #include <variant>
 #include "ship/utils/StringHelper.h"
 #include <spdlog/fmt/fmt.h>
-#include <variant>
 #include <tuple>
 #include "ResolutionEditor.h"
 
@@ -155,7 +155,7 @@ void PortMenu::AddSettings() {
 #endif
     AddWidget(path, "Search In Sidebar", WIDGET_CVAR_CHECKBOX)
         .CVar("gSettings.Menu.SidebarSearch")
-        .Callback([](WidgetInfo& info) {
+        .Callback([](UNUSED WidgetInfo& info) {
             if (CVarGetInteger("gSettings.Menu.SidebarSearch", 0)) {
                 mPortMenu->InsertSidebarSearch();
             } else {
@@ -168,6 +168,11 @@ void PortMenu::AddSettings() {
         .CVar("gSettings.Menu.SearchAutofocus")
         .Options(CheckboxOptions().Tooltip(
             "Search input box gets autofocus when visible. Does not affect using other widgets."));
+    AddWidget(path, "Alternate Assets", WIDGET_CVAR_CHECKBOX)
+        .CVar("gEnhancements.Mods.AlternateAssets")
+        .Options(CheckboxOptions()
+                     .Tooltip("Use alternate assets (texture-pack replacements) from loaded mods.")
+                     .DefaultValue(true));
     AddWidget(path, "Alt Assets Tab hotkey", WIDGET_CVAR_CHECKBOX)
         .CVar("gEnhancements.Mods.AlternateAssetsHotkey")
         .Options(
@@ -253,7 +258,7 @@ void PortMenu::AddSettings() {
                 .ShowButtons(false)
                 .IsPercentage()
                 .Format("")
-                .Min(0.5f)
+                .Min(0.25f)
                 .Max(4.0f));
 
 #ifndef __WIIU__
@@ -524,7 +529,7 @@ void PortMenu::AddDevTools() {
         .Options(CheckboxOptions().Tooltip("Changes the menu display from overlay to windowed."));
     AddWidget(path, "Debug Mode", WIDGET_CVAR_CHECKBOX)
         .CVar("gEnableDebugMode")
-        .Callback([](WidgetInfo& info) {
+        .Callback([](UNUSED WidgetInfo& info) {
             SPDLOG_INFO(CVarGetInteger("gEnableDebugMode", 0) == 0 ? "Debug Mode deactivated" : "Debug Mode activated");
         })
         .Options(CheckboxOptions().Tooltip("Enables Debug Mode."));
@@ -643,11 +648,11 @@ void PortMenu::InitElement() {
 
     disabledMap = {
         { DISABLE_FOR_FREE_CAM_ON,
-          { [](disabledInfo& info) -> bool { return CVarGetInteger("gFreecam", 0); }, "Freecam is Enabled" } },
+          { [](UNUSED disabledInfo& info) -> bool { return CVarGetInteger("gFreecam", 0); }, "Freecam is Enabled" } },
         { DISABLE_FOR_FREE_CAM_OFF,
-          { [](disabledInfo& info) -> bool { return !CVarGetInteger("gFreecam", 0); }, "Freecam is Disabled" } },
+          { [](UNUSED disabledInfo& info) -> bool { return !CVarGetInteger("gFreecam", 0); }, "Freecam is Disabled" } },
         { DISABLE_FOR_DEBUG_MODE_OFF,
-          { [](disabledInfo& info) -> bool { return !CVarGetInteger("gEnableDebugMode", 0); },
+          { [](UNUSED disabledInfo& info) -> bool { return !CVarGetInteger("gEnableDebugMode", 0); },
             "Debug Mode is Disabled" } },
         { DISABLE_FOR_NO_VSYNC,
           { [](disabledInfo& info) -> bool {
@@ -677,18 +682,21 @@ void PortMenu::InitElement() {
            },
             "Not Available on DirectX" } },
         { DISABLE_FOR_MATCH_REFRESH_RATE_ON,
-          { [](disabledInfo& info) -> bool { return CVarGetInteger("gMatchRefreshRate", 0); },
+          { [](UNUSED disabledInfo& info) -> bool { return CVarGetInteger("gMatchRefreshRate", 0); },
             "Match Refresh Rate is Enabled" } },
         { DISABLE_FOR_ADVANCED_RESOLUTION_ON,
-          { [](disabledInfo& info) -> bool { return CVarGetInteger(CVAR_PREFIX_ADVANCED_RESOLUTION ".Enabled", 0); },
+          { [](UNUSED disabledInfo& info) -> bool {
+               return CVarGetInteger(CVAR_PREFIX_ADVANCED_RESOLUTION ".Enabled", 0);
+           },
             "Advanced Resolution Enabled" } },
         { DISABLE_FOR_VERTICAL_RES_TOGGLE_ON,
-          { [](disabledInfo& info) -> bool {
+          { [](UNUSED disabledInfo& info) -> bool {
                return CVarGetInteger(CVAR_PREFIX_ADVANCED_RESOLUTION ".VerticalResolutionToggle", 0);
            },
             "Vertical Resolution Toggle Enabled" } },
         { DISABLE_FOR_LOW_RES_MODE_ON,
-          { [](disabledInfo& info) -> bool { return CVarGetInteger(CVAR_LOW_RES_MODE, 0); }, "N64 Mode Enabled" } },
+          { [](UNUSED disabledInfo& info) -> bool { return CVarGetInteger(CVAR_LOW_RES_MODE, 0); },
+            "N64 Mode Enabled" } },
         //{ DISABLE_FOR_MULTIPLAYER_CONNECTED,
         //  { CheckNetworkConnected, "Multiplayer Connected"}},
     };

@@ -19,7 +19,7 @@ class ACar : public AActor {
 
     explicit ACar(const SpawnParams& params);
 
-    ~ACar() {
+    ~ACar() override {
         _count--;
     }
 

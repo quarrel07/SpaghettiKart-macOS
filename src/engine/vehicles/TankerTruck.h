@@ -49,7 +49,7 @@ class ATankerTruck : public AActor {
 
     explicit ATankerTruck(const SpawnParams& params);
 
-    ~ATankerTruck() {
+    ~ATankerTruck() override {
         _count--;
     }
 

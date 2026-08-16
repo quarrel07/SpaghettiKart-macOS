@@ -54,7 +54,7 @@ class ATruck : public AActor {
 
     explicit ATruck(const SpawnParams& params);
 
-    ~ATruck() {
+    ~ATruck() override {
         _count--;
     }
 

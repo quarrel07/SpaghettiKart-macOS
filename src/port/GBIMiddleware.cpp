@@ -1,4 +1,5 @@
 #include <libultraship.h>
+#include <macros.h>
 
 #include "Engine.h"
 #include "fast/resource/type/DisplayList.h"
