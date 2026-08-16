@@ -73,11 +73,11 @@ class ATrain : public AActor {
         return static_cast<ATrain*>(AddActorToWorld<ATrain>(params));
     }
 
-    void SetSpawnParams(SpawnParams& params) override;
-    void Tick() override;
-    void Draw(Camera* camera) override;
-    void VehicleCollision(s32 playerId, Player* player) override;
-    bool IsMod() override;
+    virtual void SetSpawnParams(SpawnParams& params);
+    virtual void Tick60fps() override;
+    virtual void Draw(Camera* camera) override;
+    virtual void VehicleCollision(s32 playerId, Player* player) override;
+    virtual bool IsMod() override;
     s32 AddSmoke(s32 trainIndex, Vec3f pos, f32 velocity);
     void SyncComponents(TrainCarStuff* trainCar, s16 orientationY);
     void DrawEditorProperties() override;

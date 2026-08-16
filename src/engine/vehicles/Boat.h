@@ -63,10 +63,10 @@ class ABoat : public AActor {
     uint32_t PathIndex = 0;
     uint32_t PathPoint = 0;
 
-    void SetSpawnParams(SpawnParams& params) override;
-    void Tick() override;
-    void Draw(Camera* camera) override;
-    void VehicleCollision(s32 playerId, Player* player) override;
+    virtual void SetSpawnParams(SpawnParams& params) override;
+    virtual void Tick60fps() override;
+    virtual void Draw(Camera* camera) override;
+    virtual void VehicleCollision(s32 playerId, Player* player) override;
     virtual s32 AddSmoke(size_t, Vec3f, f32);
     bool IsMod() override;
     void DrawEditorProperties() override;

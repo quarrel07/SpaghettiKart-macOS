@@ -14,7 +14,7 @@ extern "C" void gSPDisplayList(Gfx* pkt, Gfx* dl) {
     char* imgData = (char*) dl;
 
     if (GameEngine_OTRSigCheck(imgData)) {
-        auto resource = Ship::Context::GetInstance()->GetResourceManager()->LoadResource(imgData);
+        auto resource = Ship::Context::GetRawInstance()->GetResourceManager()->LoadResource(imgData);
         auto res = std::static_pointer_cast<Fast::DisplayList>(resource);
         dl = &res->Instructions[0];
     }
@@ -39,8 +39,8 @@ extern "C" void gSPInvalidateTexCache(Gfx* pkt, uintptr_t texAddr) {
     auto data = reinterpret_cast<char*>(texAddr);
 
     if (texAddr != 0 && GameEngine_OTRSigCheck(data)) {
-        const auto res = Ship::Context::GetInstance()->GetResourceManager()->LoadResource(data);
-        UNUSED const auto type = static_cast<Fast::ResourceType>(res->GetInitData()->Type);
+        const auto res = Ship::Context::GetRawInstance()->GetResourceManager()->LoadResource(data);
+        const auto type = static_cast<Fast::ResourceType>(res->GetInitData()->Type);
 
         if (res->GetInitData()->Type == static_cast<uint32_t>(Fast::ResourceType::DisplayList)) {
             texAddr = reinterpret_cast<uintptr_t>(&std::static_pointer_cast<Fast::DisplayList>(res)->Instructions[0]);

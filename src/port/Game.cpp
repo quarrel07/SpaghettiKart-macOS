@@ -96,7 +96,6 @@ void CustomEngineInit() {
     // This also turns off freecam
     gEditor.Disable();
 
-    
     gSky = std::make_unique<Sky>();
     RegisterTracks(gTrackRegistry);
     gTrackBrowser = std::make_unique<TrackBrowser>(gTrackRegistry);
@@ -342,6 +341,12 @@ void CM_DrawTrack(ScreenContext* screen) {
 void CM_TickActors() {
     if (GetWorld()->GetTrack()) {
         GetWorld()->TickActors();
+    }
+}
+
+void CM_TickActors60fps() {
+    if (GetWorld()->GetTrack()) {
+        GetWorld()->TickActors60fps();
     }
 }
 
@@ -1044,6 +1049,14 @@ extern "C"
     // value provided by the bundle or the user's environment still takes precedence. Without this,
     // libultraship falls back to the current working directory ("/" for a Finder launch).
     setenv("SHIP_HOME", "~/Library/Application Support/com.spaghettikart", 0);
+#endif
+#if defined(__APPLE__) && !defined(PLATFORM_IOS)
+    // Default the writable data folder to ~/Library/Application Support/SpaghettiKart
+    // (libultraship expands the ~ and creates the directory). Without this, a Finder
+    // launch has no SHIP_HOME and libultraship falls back to the current working
+    // directory, scattering config/saves/mods into the user's home folder.
+    // overwrite=0 keeps any SHIP_HOME the user already set.
+    setenv("SHIP_HOME", "~/Library/Application Support/SpaghettiKart", 0);
 #endif
     // load_wasm();
     GameEngine::Create();

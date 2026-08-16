@@ -1,8 +1,8 @@
 # macOS .app bundle assembly for SpaghettiKart.
 #
-# Builds SpaghettiKart.app directly from the normal build (MACOSX_BUNDLE), generates the
-# app icon, bundles the runtime resources the game and the first-run asset extractor
-# need into Contents/Resources, relinks non-system dylibs into Contents/Frameworks,
+# Turns the plain executable into SpaghettiKart.app (MACOSX_BUNDLE), bundles the
+# runtime resources the game and the first-run ROM extractor need into
+# Contents/Resources, relinks any non-system dylibs into Contents/Frameworks,
 # and ad-hoc codesigns the result so it launches without "damaged app" warnings.
 #
 # Resource layout the runtime expects on macOS:
@@ -10,8 +10,10 @@
 #       - spaghetti.o2r            : packed port assets (GenerateO2R target)
 #       - config.yml, yamls/, meta/: asset definitions + mods.toml read by the
 #                                    first-run ROM extractor (GameExtractor)
-#   * Ship::Context::GetAppDirectoryPath() -> SHIP_HOME (~/Library/Application Support/com.spaghettikart)
-#       - mk64.o2r is extracted here on first run from the user's ROM, alongside config/saves/mods
+#   * Ship::Context::GetAppDirectoryPath() -> SHIP_HOME
+#       (~/Library/Application Support/SpaghettiKart, defaulted in Game.cpp)
+#       - mk64.o2r is extracted here on first run from the user's ROM, alongside
+#         config/saves/mods, instead of scattering into the home folder
 
 set(MACOS_DIR ${CMAKE_SOURCE_DIR}/cmake/macos)
 set(ENTITLEMENTS_FILE ${MACOS_DIR}/entitlements.plist)
@@ -34,55 +36,57 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 # ---------------------------------------------------------------------------
 # App icon.
 #
-# Preferred path (Xcode 26+): compile the Icon Composer package
-# (cmake/macos/SpaghettiKartIcon.icon) with actool at configure time. This
-# produces:
-#   - Assets.car             : compiled asset catalog with the Liquid Glass icon,
-#                              used on macOS 26 (Tahoe) and later via CFBundleIconName
-#                              ("SpaghettiKartIcon" — must match the .icon basename).
-#   - SpaghettiKartIcon.icns : a flattened fallback rendered by actool, renamed to
-#                              SpaghettiKart.icns to match CFBundleIconFile, used by
-#                              macOS versions that predate Liquid Glass.
+# The repo ships the compiled icon artifacts (same approach as other ports that
+# ship a prebuilt Assets.car), so no special Xcode is needed at build time:
+#   - Assets.car          : compiled asset catalog with the layered Liquid Glass
+#                           icon, used on macOS 26+ via CFBundleIconName
+#                           ("SpaghettiKartIcon").
+#   - SpaghettiKart.icns  : flattened icon for macOS versions before 26, via
+#                           CFBundleIconFile.
+# Both are built from cmake/macos/SpaghettiKartIcon.icon (Icon Composer package;
+# the ship-kart art from icon.png with the subject separated from the background
+# so the system can render the glass depth).
 #
-# Fallback path (older Xcode without .icon support): generate the flat
-# SpaghettiKart.icns from icon.png with sips/iconutil as before, and strip
-# CFBundleIconName from the bundled Info.plist after the build so macOS 26
-# doesn't look for an asset catalog that isn't there.
+# Staleness guard: if icon.png ever changes without the icon artifacts being
+# regenerated, the build detects it via the source hash stamp and falls back to
+# generating a flat icns from the CURRENT icon.png with sips/iconutil, so an
+# outdated icon can never ship and updating the logo requires no macOS work.
+#
+# To regenerate after a logo change (needs a Mac with Xcode 26+):
+#   1. Recreate the cut-out art layer and update SpaghettiKartIcon.icon in
+#      Apple's Icon Composer.
+#   2. xcrun actool cmake/macos/SpaghettiKartIcon.icon --compile /tmp/iconout \
+#        --app-icon SpaghettiKartIcon --output-partial-info-plist /tmp/iconout/p.plist \
+#        --platform macosx --target-device mac --minimum-deployment-target 11.0
+#   3. cp /tmp/iconout/Assets.car cmake/macos/Assets.car
+#      cp /tmp/iconout/SpaghettiKartIcon.icns cmake/macos/SpaghettiKart.icns
+#   4. shasum -a 256 icon.png > cmake/macos/SpaghettiKartIcon.icon.source-sha256
 # ---------------------------------------------------------------------------
-set(ICON_COMPOSER_SRC ${MACOS_DIR}/SpaghettiKartIcon.icon)
-set(ICON_COMPILE_DIR ${CMAKE_BINARY_DIR}/macosx/AppIconAssets)
+set(ICON_SOURCE_STAMP ${MACOS_DIR}/SpaghettiKartIcon.icon.source-sha256)
+set(ICON_PREBUILT_CAR ${MACOS_DIR}/Assets.car)
+set(ICON_PREBUILT_ICNS ${MACOS_DIR}/SpaghettiKart.icns)
 set(ICNS_FILE ${CMAKE_BINARY_DIR}/macosx/SpaghettiKart.icns)
+file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/macosx)
 
-# CMAKE_OSX_DEPLOYMENT_TARGET can be empty here (the project's set(... CACHE)
-# doesn't override a pre-existing empty cache entry); an empty value would eat
-# actool's argument parsing, so fall back explicitly.
-if(CMAKE_OSX_DEPLOYMENT_TARGET)
-    set(ICON_MIN_TARGET ${CMAKE_OSX_DEPLOYMENT_TARGET})
-else()
-    set(ICON_MIN_TARGET "11.0")
+set(ICON_SOURCE_FRESH FALSE)
+if(EXISTS ${ICON_SOURCE_STAMP} AND EXISTS ${ICON_PREBUILT_CAR} AND EXISTS ${ICON_PREBUILT_ICNS})
+    file(SHA256 ${CMAKE_SOURCE_DIR}/icon.png ICON_PNG_HASH)
+    file(READ ${ICON_SOURCE_STAMP} ICON_STAMP_HASH)
+    string(STRIP "${ICON_STAMP_HASH}" ICON_STAMP_HASH)
+    if(ICON_PNG_HASH STREQUAL ICON_STAMP_HASH)
+        set(ICON_SOURCE_FRESH TRUE)
+    else()
+        message(STATUS "App icon: icon.png changed since the icon artifacts were made; using a flat icon from the current icon.png")
+    endif()
 endif()
 
-file(MAKE_DIRECTORY ${ICON_COMPILE_DIR})
-execute_process(
-    COMMAND xcrun actool ${ICON_COMPOSER_SRC}
-            --compile ${ICON_COMPILE_DIR}
-            --app-icon SpaghettiKartIcon
-            --output-partial-info-plist ${ICON_COMPILE_DIR}/icon-partial-info.plist
-            --platform macosx
-            --target-device mac
-            --minimum-deployment-target ${ICON_MIN_TARGET}
-    RESULT_VARIABLE ACTOOL_RESULT
-    OUTPUT_QUIET ERROR_QUIET
-)
-
-if(ACTOOL_RESULT EQUAL 0 AND EXISTS ${ICON_COMPILE_DIR}/Assets.car)
-    message(STATUS "App icon: Liquid Glass (actool) + flattened icns fallback")
-    file(COPY_FILE ${ICON_COMPILE_DIR}/SpaghettiKartIcon.icns ${ICNS_FILE})
+if(ICON_SOURCE_FRESH)
+    message(STATUS "App icon: prebuilt Liquid Glass catalog + flattened icns fallback")
+    file(COPY_FILE ${ICON_PREBUILT_ICNS} ${ICNS_FILE})
+    file(COPY_FILE ${ICON_PREBUILT_CAR} ${CMAKE_BINARY_DIR}/macosx/Assets.car)
     set(ICON_BUNDLE_FILES ${CMAKE_BINARY_DIR}/macosx/Assets.car ${ICNS_FILE})
-    file(COPY_FILE ${ICON_COMPILE_DIR}/Assets.car ${CMAKE_BINARY_DIR}/macosx/Assets.car)
     set(SPAGHETTI_ICON_HAS_GLASS TRUE)
 else()
-    message(STATUS "App icon: actool unavailable or lacks .icon support; flat icns from icon.png")
     set(ICON_SRC ${CMAKE_SOURCE_DIR}/icon.png)
     set(ICONSET_DIR ${CMAKE_BINARY_DIR}/macosx/SpaghettiKart.iconset)
     file(MAKE_DIRECTORY ${ICONSET_DIR})
@@ -110,14 +114,14 @@ if(NOT SPAGHETTI_ICON_HAS_GLASS)
     )
 endif()
 
-# Ensure the packed port assets (spaghetti.o2r) are generated before the app links,
-# so the POST_BUILD step below always has them to copy into the bundle. (mk64.o2r is
-# created at runtime from the user's ROM into SHIP_HOME, so it is intentionally not a
-# build dependency.)
+# Ensure the packed port assets (spaghetti.o2r) are generated before the app
+# links, so the POST_BUILD step below has them to copy into the bundle.
+# (mk64.o2r is created at runtime from the user's ROM into SHIP_HOME, so it is
+# intentionally not a build dependency.)
 add_dependencies(${PROJECT_NAME} GenerateO2R)
 
 # ---------------------------------------------------------------------------
-# Copy runtime resources into Contents/Resources after the app links
+# Copy runtime resources into Contents/Resources after the app links.
 # ---------------------------------------------------------------------------
 set(RES_DIR "$<TARGET_BUNDLE_DIR:${PROJECT_NAME}>/Contents/Resources")
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
@@ -125,14 +129,17 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different "${CMAKE_SOURCE_DIR}/config.yml" "${RES_DIR}/config.yml"
     COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/yamls" "${RES_DIR}/yamls"
     COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/meta" "${RES_DIR}/meta"
-    # spaghetti.o2r is produced by the GenerateO2R target; copy if present.
+    # spaghetti.o2r is produced by the GenerateO2R target; copy if present (CI
+    # builds it in a separate job and inserts it into the bundle afterwards).
     COMMAND bash -c "[ -f '${CMAKE_BINARY_DIR}/spaghetti.o2r' ] && cp '${CMAKE_BINARY_DIR}/spaghetti.o2r' '${RES_DIR}/spaghetti.o2r' || ([ -f '${CMAKE_SOURCE_DIR}/spaghetti.o2r' ] && cp '${CMAKE_SOURCE_DIR}/spaghetti.o2r' '${RES_DIR}/spaghetti.o2r' || echo 'note: spaghetti.o2r not found - build the GenerateO2R target, then rebuild')"
     COMMENT "Bundling SpaghettiKart resources into the .app"
     VERBATIM
 )
 
 # ---------------------------------------------------------------------------
-# Relink dylibs into Contents/Frameworks (portable .app) and codesign
+# Relink dylibs into Contents/Frameworks (portable .app) and codesign.
+# With static vcpkg dependencies (CI) this is a near no-op; it matters for
+# local builds against Homebrew/MacPorts dylibs.
 # ---------------------------------------------------------------------------
 if (SPAGHETTI_BUNDLE_DEPS)
     add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
@@ -141,12 +148,13 @@ if (SPAGHETTI_BUNDLE_DEPS)
             -DEXECUTABLE_NAME=SpaghettiKart
             -P ${MACOS_DIR}/fixup_bundle.cmake
         COMMAND bash -c "install_name_tool -add_rpath '@executable_path/../Frameworks/' '$<TARGET_BUNDLE_DIR:${PROJECT_NAME}>/Contents/MacOS/SpaghettiKart' 2>/dev/null || true"
-        # Homebrew's "sdl2" is sdl2-compat, a shim that dlopen()s libSDL3.dylib from
-        # @loader_path at runtime. fixup_bundle can't follow a dlopen, so copy SDL3 in
-        # next to the bundled libSDL2 (= @loader_path) by hand or the app aborts with
-        # "Failed loading SDL3 library." SDL3 itself only links system frameworks.
-        COMMAND bash -c "SDL3_LIB=$(brew --prefix sdl3 2>/dev/null)/lib/libSDL3.0.dylib; [ -f \"$SDL3_LIB\" ] && cp \"$SDL3_LIB\" '$<TARGET_BUNDLE_DIR:${PROJECT_NAME}>/Contents/Frameworks/libSDL3.dylib' && chmod u+w '$<TARGET_BUNDLE_DIR:${PROJECT_NAME}>/Contents/Frameworks/libSDL3.dylib' || echo 'warning: libSDL3.dylib not found - install sdl3 via Homebrew'"
-        COMMENT "Relinking dylibs into the .app bundle (incl. SDL3 for sdl2-compat)"
+        # Homebrew's "sdl2" is sdl2-compat, a shim that dlopen()s libSDL3.dylib
+        # from @loader_path at runtime. fixup_bundle can't follow a dlopen, so if
+        # a dynamic libSDL2 was bundled, copy SDL3 in next to it (= @loader_path)
+        # or the app aborts with "Failed loading SDL3 library." SDL3 itself only
+        # links system frameworks. Static SDL2 builds (vcpkg) skip this entirely.
+        COMMAND bash -c "FRAMEWORKS='$<TARGET_BUNDLE_DIR:${PROJECT_NAME}>/Contents/Frameworks'; if ls \"$FRAMEWORKS\"/libSDL2*.dylib >/dev/null 2>&1; then SDL3_LIB=$(brew --prefix sdl3 2>/dev/null)/lib/libSDL3.0.dylib; if [ -f \"$SDL3_LIB\" ]; then cp \"$SDL3_LIB\" \"$FRAMEWORKS/libSDL3.dylib\" && chmod u+w \"$FRAMEWORKS/libSDL3.dylib\"; else echo 'warning: bundled libSDL2 is sdl2-compat but Homebrew sdl3 was not found'; fi; fi"
+        COMMENT "Relinking dylibs into the .app bundle"
         VERBATIM
     )
 endif()

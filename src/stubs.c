@@ -62,6 +62,6 @@ void osSpTaskStartGo(UNUSED OSTask* task) {
 void osSpTaskYield(void) {
 }
 
-OSYieldResult osSpTaskYielded(UNUSED OSTask* task) {
+OSYieldResult osSpTaskYielded(OSTask* task) {
     return 0;
 }

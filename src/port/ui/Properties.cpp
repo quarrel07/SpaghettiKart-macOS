@@ -59,9 +59,9 @@ namespace TrackEditor {
                 float windowWidth = ImGui::GetWindowSize().x;
                 float textWidth = ImGui::CalcTextSize(title).x;
 
-                ImGui::SetCursorPosX((windowWidth - textWidth) * 0.5f);
-                // Display actor title
-                ImGui::Text("%s", title);
+            ImGui::SetCursorPosX((windowWidth - textWidth) * 0.5f);
+            // Display actor title
+            ImGui::Text("%s", title);
 
                 // Display actor resource name. ex. mk:cloud
                 if (obj->ResourceName[0] != '\0') { // Params is unset for some train components

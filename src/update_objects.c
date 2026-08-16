@@ -1224,7 +1224,7 @@ void func_800745C8(s32 objectIndex, const char** lakituTexturePtr) {
     if ((gObjectList[objectIndex].status & 1) != 0) {
         phi_a1 = 0;
         if (gObjectList[objectIndex].tlutList != (const u8*) gObjectList[objectIndex].activeTLUT) {
-            gObjectList[objectIndex].activeTLUT = (const char*) gObjectList[objectIndex].tlutList;
+            gObjectList[objectIndex].activeTLUT = gObjectList[objectIndex].tlutList;
         }
 
         gObjectList[objectIndex].status ^= 2;
