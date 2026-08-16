@@ -1,7 +1,27 @@
 #include "libultra_internal.h"
 #include "port/interpolation/FrameInterpolation.h"
+#include <libultraship.h>
+#include <math.h>
+
+// Notch mode: while racing renders into the camera-housing rows, widen the
+// vertical field of view by the added-rows ratio so the horizontal view matches
+// classic fullscreen exactly and the extra screen height shows MORE world
+// instead of proportionally less width.
+float NotchExpandFovY(float fovyDegrees) {
+#ifdef __APPLE__
+    if (CVarGetInteger("gNotchPanelActiveNow", 0) && CVarGetInteger("gNotchFullBleedNow", 0)) {
+        float expand = CVarGetFloat("gNotchVertExpand", 1.0f);
+        if (expand > 1.0f) {
+            float half = fovyDegrees * ((float)M_PI / 360.0f);
+            return 2.0f * atanf(tanf(half) * expand) * (180.0f / (float)M_PI);
+        }
+    }
+#endif
+    return fovyDegrees;
+}
 
 void guPerspectiveF(float mf[4][4], u16* perspNorm, float fovy, float aspect, float near, float far, float scale) {
+    fovy = NotchExpandFovY(fovy);
     float yscale;
     int row;
     int col;
