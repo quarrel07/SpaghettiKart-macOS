@@ -11,7 +11,6 @@
 #include "menu_items.h"
 #include "podium_ceremony_actors.h"
 #include "ceremony_and_credits.h"
-#include "podium_ceremony_actors.h"
 #include "render_player.h"
 #include "defines.h"
 #include "memory.h"
@@ -37,7 +36,8 @@ void func_80281C40(void) {
     s32 i;
 
     for (i = 0; i < D_802874FC; i++) {
-        func_800579F8(D_80287560[i].unk0, D_80287560[i].unk2, (char*) D_80287560[i].unk8, D_80287560[i].unk4);
+        func_800579F8(D_80287560[i].unk0, D_80287560[i].unk2, (char*) (uintptr_t) D_80287560[i].unk8,
+                      D_80287560[i].unk4);
     }
 }
 

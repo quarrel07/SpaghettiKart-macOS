@@ -1,4 +1,5 @@
 #include "ship/resource/archive/Archive.h"
+#include <macros.h>
 #include "ModMetadata.h"
 #include "ship/resource/archive/FolderArchive.h"
 #include "ship/resource/archive/O2rArchive.h"
@@ -52,15 +53,14 @@ void UnloadMods() {
     Mods.clear();
 }
 
-// These bail-outs all run during InitModsSystem(), i.e. before the game world is set up.
-// Use _Exit instead of exit so the global `static World sWorldInstance` destructor does not
-// run: its CleanWorld() dereferences Sky::Instance and other singletons that are still null
-// at this point, which segfaults — a crash report on what should be a clean quit (e.g. when
-// the user declines the first-run "Generate one now?" prompt).
 void GenerateAssetsMods() {
     if (GameEngine::ShowYesNoBox("No O2R Files", "No O2R files found. Generate one now?") == IDYES) {
         if (!GameEngine::GenAssetFile()) {
             GameEngine::ShowMessage("Error", "An error occured, no O2R file was generated.\n\nExiting...");
+            // Bail before the game is initialized. Use _Exit (not exit) so the global
+            // `static World sWorldInstance` destructor does not run: its CleanWorld()
+            // dereferences Sky::Instance and other globals that are still null here,
+            // which otherwise segfaults (a crash dialog on what should be a clean quit).
             _Exit(1);
         }
     } else {
@@ -235,7 +235,7 @@ void FindAndLoadMods() {
             continue;
         }
 
-        int nb_unknown_files = 0;
+        UNUSED int nb_unknown_files = 0;
         archive->Load();
         ModMetadata metadata;
         auto mods_file = archive->LoadFile("mods.toml");
@@ -247,7 +247,7 @@ void FindAndLoadMods() {
                                     " is missing a mods.toml file. The Mod are likely incompatible.\n\n"
                                     "Do you want to continue loading the mods?";
             if (GameEngine::ShowYesNoBox("Missing mods.toml", msg.c_str()) == IDNO) {
-                _Exit(1);
+                exit(1);
             }
             metadata.name = std::filesystem::path(path).stem().string();
             semver::parse("0.0.0", metadata.version);
@@ -266,7 +266,7 @@ void DetectCyclicDependencies() {
         }
         msg += "\nPlease resolve these cyclic dependencies before continuing.\n";
         GameEngine::ShowMessage("Cyclic Dependency Issues", msg.c_str());
-        _Exit(1);
+        exit(1);
     }
 }
 
@@ -287,7 +287,7 @@ void DetectOutdatedDependencies() {
     if (exitDueToErrors) {
         allDepIssues += "\nPlease resolve these dependency issues before continuing.\n";
         GameEngine::ShowMessage("Dependency Issues", allDepIssues.c_str());
-        _Exit(1);
+        exit(1);
     }
 }
 

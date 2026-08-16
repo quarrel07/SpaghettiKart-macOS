@@ -28,7 +28,9 @@
 // For init podium ceremony
 #include "ceremony_and_credits.h"
 
+#ifndef bcopy
 #define bcopy memcpy
+#endif
 
 u8 defaultCharacterIds[] = { 1, 2, 3, 4, 5, 6, 7, 0 };
 
@@ -94,7 +96,7 @@ void func_802818BC(void) {
 }
 
 void setup_podium_ceremony(void) {
-    Vec3f spawn = {0, 0, 0};
+    UNUSED Vec3f spawn = { 0, 0, 0 };
 
     clear_D_802874D8_actors();
 

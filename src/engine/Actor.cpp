@@ -1,4 +1,5 @@
 #include <libultraship.h>
+#include <macros.h>
 #include "Matrix.h"
 #include "Actor.h"
 #include "engine/World.h"
@@ -47,8 +48,10 @@ void AActor::Draw(Camera *camera) {
         }
     }
 }
-void AActor::Collision(Player* player, AActor* actor) {}
-void AActor::VehicleCollision(s32 playerId, Player* player){}
+void AActor::Collision(UNUSED Player* player, UNUSED AActor* actor) {
+}
+void AActor::VehicleCollision(UNUSED s32 playerId, UNUSED Player* player) {
+}
 void AActor::Destroy() {
     bPendingDestroy = true;
 }

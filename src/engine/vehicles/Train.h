@@ -51,7 +51,7 @@ class ATrain : public AActor {
 
     explicit ATrain(const SpawnParams& params);
 
-    ~ATrain() {
+    ~ATrain() override {
         _count--;
     }
 
@@ -80,9 +80,9 @@ class ATrain : public AActor {
     virtual bool IsMod() override;
     s32 AddSmoke(s32 trainIndex, Vec3f pos, f32 velocity);
     void SyncComponents(TrainCarStuff* trainCar, s16 orientationY);
-    virtual void DrawEditorProperties() override;
+    void DrawEditorProperties() override;
 
-private:
+  private:
     static size_t _count; // Total number of spawned trains
 //                  pathIndex, array of spawn points
     static std::map<uint32_t, std::vector<uint32_t>> TrainCounts;
