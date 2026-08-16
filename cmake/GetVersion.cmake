@@ -1,5 +1,5 @@
 execute_process(
-  COMMAND git -c safe.directory=${CMAKE_SOURCE_DIR} describe --tags
+  COMMAND git -c safe.directory=${CMAKE_SOURCE_DIR} describe --tags --long
   WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
   OUTPUT_VARIABLE PROJECT_VERSION
   RESULT_VARIABLE GIT_DESCRIBE_RESULT
