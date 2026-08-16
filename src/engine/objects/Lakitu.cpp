@@ -3,6 +3,9 @@
 #include "Lakitu.h"
 #include <vector>
 #include "port/interpolation/FrameInterpolation.h"
+#include "port/resource/AsyncTextureUpgrader.h"
+
+static void RegisterLakituFrameSets();
 
 #include "port/Game.h"
 
@@ -25,12 +28,9 @@ extern "C" {
 #include "code_80057C60.h"
 #include "defines.h"
 #include "code_80005FD0.h"
-#include "racing/collision.h"
 #include "assets/models/tracks/bowsers_castle/bowsers_castle_data.h"
 #include "ending/ceremony_and_credits.h"
 #include "objects.h"
-#include "update_objects.h"
-#include "render_objects.h"
 #include "course_offsets.h"
 #include "data/some_data.h"
 #include "racing/race_logic.h"
@@ -132,7 +132,7 @@ void OLakitu::Draw(s32 cameraId) {
             FrameInterpolation_RecordOpenChild("lakitu", (_idx << 4) | cameraId);
             rsp_set_matrix_transformation(object->pos, object->orientation, object->sizeScaling);
             gSPDisplayList(gDisplayListHead++, (Gfx*) D_0D007D78);
-            s32 heightIndex;
+            UNUSED s32 heightIndex;
 
             gDPLoadTLUT_pal256(gDisplayListHead++, object->activeTLUT);
             gDPLoadTextureTile(gDisplayListHead++, object->activeTexture, G_IM_FMT_CI, G_IM_SIZ_8b, width, height, 0, 0,
@@ -152,7 +152,7 @@ void OLakitu::Draw(s32 cameraId) {
             gDPSetRenderMode(gDisplayListHead++, G_RM_AA_ZB_XLU_SURF, G_RM_AA_ZB_XLU_SURF2);
 
             set_transparency(object->primAlpha);
-            s32 heightIndex;
+            UNUSED s32 heightIndex;
 
             gDPLoadTLUT_pal256(gDisplayListHead++, object->activeTLUT);
             rsp_load_texture((u8*) object->activeTexture, width, height);
@@ -248,6 +248,7 @@ Vtx fixed_common_vtx_lakitu[] = {
 };
 
 void OLakitu::init_obj_lakitu_starter_and_checkered_flag(s32 objectIndex, s32 playerId) {
+    RegisterLakituFrameSets();
     if (playerId == 0) {
         D_801656F0 = 0;
         D_8018D168 = 0;
@@ -405,13 +406,15 @@ Vtx fixed_common_vtx_also_lakitu[] = {
 };
 
 void OLakitu::init_obj_lakitu_checkered_flag(s32 objectIndex, s32 playerIndex) {
+    RegisterLakituFrameSets();
     Object* object;
 
     OLakitu::func_800791F0(objectIndex, playerIndex);
 
-    u8* tex = (u8*) LOAD_ASSET_RAW(common_tlut_lakitu_checkered_flag);
-
-    init_texture_object(objectIndex, (u8*) tex, sLakituCheckeredList, 0x48U, (u16) 0x00000038);
+    // TLUT passed by asset name (like every other object), resolved fresh at
+    // import time: an eagerly-resolved palette pointer dangles after the
+    // alt-assets toggle reloads resources.
+    init_texture_object(objectIndex, (u8*) common_tlut_lakitu_checkered_flag, sLakituCheckeredList, 0x48U, (u16) 0x00000038);
     object = &gObjectList[objectIndex];
     object->activeTexture = *gObjectList[objectIndex].textureList;
     object->vertex = fixed_common_vtx_also_lakitu;
@@ -494,11 +497,10 @@ Vtx fixed_D_0D005F30[] = {
 };
 
 void OLakitu::init_obj_lakitu_red_flag_fishing(s32 objectIndex, s32 arg1) {
-
-    u8* tlut = (u8*) LOAD_ASSET_RAW(common_tlut_lakitu_fishing);
+    RegisterLakituFrameSets();
 
     OLakitu::func_800791F0(objectIndex, arg1);
-    init_texture_object(objectIndex, tlut, sLakituFishingTextures, 0x38U, (u16) 0x00000048);
+    init_texture_object(objectIndex, (u8*) common_tlut_lakitu_fishing, sLakituFishingTextures, 0x38U, (u16) 0x00000048);
     gObjectList[objectIndex].vertex = fixed_D_0D005F30;
     gObjectList[objectIndex].sizeScaling = 0.15f;
     func_80086E70(objectIndex);
@@ -678,9 +680,7 @@ void OLakitu::func_8007A060(s32 objectIndex, s32 playerIndex) {
 
     OLakitu::func_800791F0(objectIndex, playerIndex);
 
-    u8* tlut = (u8*) LOAD_ASSET_RAW(common_tlut_lakitu_second_lap);
-
-    init_texture_object(objectIndex, tlut, sLakituSecondLapTextures, 0x48U, (u16) 0x00000038);
+    init_texture_object(objectIndex, (u8*) common_tlut_lakitu_second_lap, sLakituSecondLapTextures, 0x48U, (u16) 0x00000038);
     object = &gObjectList[objectIndex];
     object->activeTexture = *gObjectList[objectIndex].textureList;
     object->vertex = fixed_common_vtx_also_lakitu;
@@ -736,9 +736,7 @@ void OLakitu::func_8007A228(s32 objectIndex, s32 playerIndex) {
 
     OLakitu::func_800791F0(objectIndex, playerIndex);
 
-    u8* tlut = (u8*) LOAD_ASSET_RAW(common_tlut_lakitu_final_lap);
-
-    init_texture_object(objectIndex, tlut, sLakituFinalLapTextures, 0x48U, (u16) 0x00000038);
+    init_texture_object(objectIndex, (u8*) common_tlut_lakitu_final_lap, sLakituFinalLapTextures, 0x48U, (u16) 0x00000038);
     object = &gObjectList[objectIndex];
     object->activeTexture = *gObjectList[objectIndex].textureList;
     object->vertex = fixed_common_vtx_also_lakitu;
@@ -789,13 +787,28 @@ static const char* sLakituReverseTextures[] = {
     gTextureLakituReverse13, gTextureLakituReverse14, gTextureLakituReverse15, gTextureLakituReverse16
 };
 
+// Register Lakitu's frame sets with the texture streamer so replacement
+// frames of one animation swap in together instead of angle by angle.
+static void RegisterLakituFrameSets() {
+    static bool sDone = false;
+    if (sDone) {
+        return;
+    }
+    sDone = true;
+    auto& up = MK64::AsyncTextureUpgrader::Instance();
+    up.RegisterFrameSet(sLakituTextures, ARRAY_COUNT(sLakituTextures));
+    up.RegisterFrameSet(sLakituCheckeredList, ARRAY_COUNT(sLakituCheckeredList));
+    up.RegisterFrameSet(sLakituFishingTextures, ARRAY_COUNT(sLakituFishingTextures));
+    up.RegisterFrameSet(sLakituSecondLapTextures, ARRAY_COUNT(sLakituSecondLapTextures));
+    up.RegisterFrameSet(sLakituReverseTextures, ARRAY_COUNT(sLakituReverseTextures));
+}
+
+
 void OLakitu::func_8007A3F0(s32 objectIndex, s32 arg1) {
     f32 var = 5000.0f;
     OLakitu::func_800791F0(objectIndex, arg1);
 
-    u8* tlut = (u8*) LOAD_ASSET_RAW(common_tlut_lakitu_reverse);
-
-    init_texture_object(objectIndex, tlut, sLakituReverseTextures, 72, (u16) 56);
+    init_texture_object(objectIndex, (u8*) common_tlut_lakitu_reverse, sLakituReverseTextures, 72, (u16) 56);
     gObjectList[objectIndex].activeTexture = *gObjectList[objectIndex].textureList;
     gObjectList[objectIndex].vertex = fixed_common_vtx_also_lakitu;
     gObjectList[objectIndex].pos[2] = var;
