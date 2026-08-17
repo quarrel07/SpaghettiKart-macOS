@@ -1061,6 +1061,8 @@ void func_80290338(void) {
     gQuitToMenuTransitionCounter = 5;
     gGotoMode = MAIN_MENU_FROM_QUIT;
     gTourComplete = false;
+    // @port Fade the music players out; the original relied on the audio session reset for this
+    func_800CA330(0x19);
 }
 
 // Driver Change
@@ -1069,6 +1071,7 @@ void func_80290360(void) {
     gQuitToMenuTransitionCounter = 5;
     gGotoMode = PLAYER_SELECT_MENU_FROM_QUIT;
     gTourComplete = false;
+    func_800CA330(0x19);
 }
 
 // Course Change
@@ -1077,6 +1080,7 @@ void func_80290388(void) {
     gQuitToMenuTransitionCounter = 5;
     gGotoMode = COURSE_SELECT_MENU_FROM_QUIT;
     gTourComplete = false;
+    func_800CA330(0x19);
 }
 
 // Retry
@@ -1085,6 +1089,7 @@ void func_802903B0(void) {
     gQuitToMenuTransitionCounter = 5;
     gGotoMode = RACING;
     gTourComplete = false;
+    func_800CA330(0x19);
     // Stop when retrying
     if(HMAS_IsPlaying(HMAS_MUSIC)) {
         HMAS_Stop(HMAS_MUSIC);
