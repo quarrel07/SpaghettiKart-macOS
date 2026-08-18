@@ -414,7 +414,8 @@ void PortMenu::AddEnhancements() {
     AddWidget(path, "Fix Visuals", WIDGET_CVAR_CHECKBOX)
         .CVar("gFixVisuals")
         .Options(CheckboxOptions().Tooltip("Fixes minor visual bugs: the second last lamp glow in Banshee Boardwalk, "
-                                           "and the gap in the Luigi Raceway 64 sign (applies at track load)."));
+                                           "the gap in the Luigi Raceway 64 sign (applies at track load), and true "
+                                           "text centering within quadrants."));
 
     AddRulesets();
 
