@@ -7,29 +7,34 @@ extern "C" {
 #include "common_structs.h"
 }
 
+// Which course's tree/foliage variant this instance renders. Variants are added
+// here as their courses convert off the C render path (actors/trees/render.inc.c
+// keeps serving the unconverted ones).
+enum class TreeKind {
+    MarioRaceway,
+};
 
-// Note that this doesn't seem to work right
-// Use add_actor_to_empty_slot(test, rot, vel, ACTOR_TREE_MARIO_RACEWAY);
-// to spawn stock actors
 class ATree : public AActor {
-public:
+  public:
+    ATree(const FVector& pos, TreeKind kind);
 
-    Gfx* Displaylist;
-    const char* Tlut;
-    f32 DrawDistance;
-    f32 MinDrawDistance;
-    s16 Flags = -0x8000 | 0x4000;
-    s16 State = 0x43;
-    f32 BoundingBoxSize = 3.0f;
-    f32 Unk_08 = 20.0f;
+    // SpawnActor<ATree>(...) helper, same pattern as the other converted actors.
+    static ATree* Spawn(FVector pos, TreeKind kind);
 
-    ~ATree() override = default;
-
-    // Set tlut to NULL if not using a tlut
-    explicit ATree(Vec3f pos, Gfx* displaylist, f32 drawDistance, f32 minDrawDistance, const char* tlut);
-
+    bool IsMod() override;
     void Tick() override;
     void Draw(Camera* camera) override;
-    void Collision(Player*, AActor*) override;
+    void Collision(Player* player, AActor* actor) override;
     void Destroy() override;
+
+  private:
+    // Per-variant render parameters, values verbatim from the C render functions.
+    const char* mDisplaylist;
+    const char* mTlut;      // nullptr = this variant loads no palette
+    f32 mDrawDistance;      // squared-distance cull threshold
+    f32 mShadowDistance;    // squared distance under which the ground shadow draws
+    f32 mShadowScale;
+
+    size_t _idx;
+    static size_t _count;
 };

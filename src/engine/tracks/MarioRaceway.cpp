@@ -8,6 +8,7 @@
 #include "engine/World.h"
 #include "engine/actors/Finishline.h"
 #include "engine/actors/MarioSign.h"
+#include "engine/actors/Tree.h"
 #include "engine/objects/Object.h"
 #include "engine/objects/BombKart.h"
 #include "engine/objects/GrandPrixBalloons.h"
@@ -161,7 +162,13 @@ void MarioRaceway::BeginPlay() {
     UNUSED Vec3f velocity = { 0.0f, 0.0f, 0.0f };
     UNUSED Vec3s rotation = { 0, 0, 0 };
 
-    spawn_foliage((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_mario_raceway_tree_spawns));
+    // Trees spawn as C++ actors (ATree) from the same ROM spawn table the C
+    // spawner read; the ctor applies the mirror-mode flip like spawn_foliage did.
+    struct ActorSpawnData* treeSpawns =
+        (struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_mario_raceway_tree_spawns);
+    for (struct ActorSpawnData* entry = treeSpawns; entry->pos[0] != END_OF_SPAWN_DATA; entry++) {
+        SpawnActor<ATree>(FVector(entry->pos[0], entry->pos[1], entry->pos[2]), TreeKind::MarioRaceway);
+    }
     spawn_piranha_plants((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_mario_raceway_piranha_plant_spawns));
     spawn_all_item_boxes((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_mario_raceway_item_box_spawns));
 
