@@ -6,6 +6,7 @@
 
 #include "KalimariDesert.h"
 #include "engine/World.h"
+#include "engine/actors/Tree.h"
 #include "engine/actors/Finishline.h"
 #include "engine/objects/BombKart.h"
 #include "assets/models/tracks/kalimari_desert/kalimari_desert_data.h"
@@ -137,7 +138,26 @@ void KalimariDesert::BeginPlay() {
     Vec3f velocity = { 0.0f, 0.0f, 0.0f };
     Vec3s rotation = { 0, 0, 0 };
 
-    spawn_foliage((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_kalimari_desert_cactus_spawn));
+    // Cacti spawn as C++ actors from the same ROM table spawn_foliage read;
+    // ids 5/6/7 pick the variant, and like the C spawner an unmatched id keeps
+    // the previous entry's kind.
+    struct ActorSpawnData* cactusSpawns =
+        (struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_kalimari_desert_cactus_spawn);
+    TreeKind kdKind = TreeKind::KalimariCactus1;
+    for (struct ActorSpawnData* entry = cactusSpawns; entry->pos[0] != END_OF_SPAWN_DATA; entry++) {
+        switch (entry->signedSomeId) {
+            case 5:
+                kdKind = TreeKind::KalimariCactus1;
+                break;
+            case 6:
+                kdKind = TreeKind::KalimariCactus2;
+                break;
+            case 7:
+                kdKind = TreeKind::KalimariCactus3;
+                break;
+        }
+        SpawnActor<ATree>(FVector(entry->pos[0], entry->pos[1], entry->pos[2]), kdKind);
+    }
     spawn_all_item_boxes((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_kalimari_desert_item_box_spawns));
 
     if (gGamestate != CREDITS_SEQUENCE) {

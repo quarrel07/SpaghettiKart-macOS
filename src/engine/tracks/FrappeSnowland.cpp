@@ -6,6 +6,7 @@
 
 #include "FrappeSnowland.h"
 #include "engine/World.h"
+#include "engine/actors/Tree.h"
 #include "engine/CoreMath.h"
 #include "engine/actors/Finishline.h"
 #include "engine/objects/BombKart.h"
@@ -130,7 +131,12 @@ void FrappeSnowland::Load() {
 }
 
 void FrappeSnowland::BeginPlay() {
-    spawn_foliage((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_frappe_snowland_tree_spawns));
+    // Trees spawn as C++ actors from the same ROM table spawn_foliage read.
+    struct ActorSpawnData* treeSpawns =
+        (struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_frappe_snowland_tree_spawns);
+    for (struct ActorSpawnData* entry = treeSpawns; entry->pos[0] != END_OF_SPAWN_DATA; entry++) {
+        SpawnActor<ATree>(FVector(entry->pos[0], entry->pos[1], entry->pos[2]), TreeKind::FrappeSnowland);
+    }
     spawn_all_item_boxes((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_frappe_snowland_item_box_spawns));
 
     if (gGamestate != CREDITS_SEQUENCE) {

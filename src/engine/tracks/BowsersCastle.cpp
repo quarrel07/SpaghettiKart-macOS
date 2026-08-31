@@ -7,6 +7,7 @@
 #include "BowsersCastle.h"
 #include "align_asset_macro.h"
 #include "engine/World.h"
+#include "engine/actors/Tree.h"
 #include "engine/tracks/Track.h"
 #include "engine/actors/Finishline.h"
 #include "engine/objects/BombKart.h"
@@ -132,7 +133,12 @@ void BowsersCastle::Load() {
 }
 
 void BowsersCastle::BeginPlay() {
-    spawn_foliage((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_bowsers_castle_tree_spawn));
+    // Bushes spawn as C++ actors from the same ROM table spawn_foliage read.
+    struct ActorSpawnData* treeSpawns =
+        (struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_bowsers_castle_tree_spawn);
+    for (struct ActorSpawnData* entry = treeSpawns; entry->pos[0] != END_OF_SPAWN_DATA; entry++) {
+        SpawnActor<ATree>(FVector(entry->pos[0], entry->pos[1], entry->pos[2]), TreeKind::BowserBush);
+    }
     spawn_all_item_boxes((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_bowsers_castle_item_box_spawns));
 
     switch (gCCSelection) {

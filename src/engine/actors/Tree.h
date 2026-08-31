@@ -7,11 +7,21 @@ extern "C" {
 #include "common_structs.h"
 }
 
-// Which course's tree/foliage variant this instance renders. Variants are added
-// here as their courses convert off the C render path (actors/trees/render.inc.c
-// keeps serving the unconverted ones).
+// Which course's tree/foliage variant this instance is. Every stock spawn_foliage
+// course is covered; the C render/update path (actors/trees/render.inc.c) still
+// serves the podium ceremony's foliage, which runs on the legacy actor loop.
 enum class TreeKind {
     MarioRaceway,
+    YoshiValley,
+    RoyalRaceway,
+    MooMooFarm,
+    LuigiRaceway,
+    PeachCastle,
+    FrappeSnowland,
+    KalimariCactus1,
+    KalimariCactus2,
+    KalimariCactus3,
+    BowserBush,
 };
 
 class ATree : public AActor {

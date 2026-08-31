@@ -6,6 +6,7 @@
 
 #include "RoyalRaceway.h"
 #include "engine/World.h"
+#include "engine/actors/Tree.h"
 #include "engine/actors/Finishline.h"
 #include "engine/objects/BombKart.h"
 #include "assets/models/tracks/royal_raceway/royal_raceway_data.h"
@@ -127,7 +128,23 @@ void RoyalRaceway::Load() {
 }
 
 void RoyalRaceway::BeginPlay() {
-    spawn_foliage((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_royal_raceway_tree_spawn));
+    // Trees spawn as C++ actors from the same ROM table spawn_foliage read;
+    // the table mixes castle trees (id 6) and course trees (id 7), and like the
+    // C spawner an unmatched id keeps the previous entry's kind.
+    struct ActorSpawnData* treeSpawns =
+        (struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_royal_raceway_tree_spawn);
+    TreeKind rrKind = TreeKind::RoyalRaceway;
+    for (struct ActorSpawnData* entry = treeSpawns; entry->pos[0] != END_OF_SPAWN_DATA; entry++) {
+        switch (entry->signedSomeId) {
+            case 6:
+                rrKind = TreeKind::PeachCastle;
+                break;
+            case 7:
+                rrKind = TreeKind::RoyalRaceway;
+                break;
+        }
+        SpawnActor<ATree>(FVector(entry->pos[0], entry->pos[1], entry->pos[2]), rrKind);
+    }
     spawn_all_item_boxes((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_royal_raceway_item_box_spawns));
     spawn_piranha_plants((struct ActorSpawnData*)LOAD_ASSET_RAW(d_course_royal_raceway_piranha_plant_spawn));
 

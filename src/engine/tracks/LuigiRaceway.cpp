@@ -7,6 +7,7 @@
 
 #include "LuigiRaceway.h"
 #include "engine/World.h"
+#include "engine/actors/Tree.h"
 #include "align_asset_macro.h"
 #include "engine/objects/BombKart.h"
 #include "assets/models/tracks/luigi_raceway/luigi_raceway_data.h"
@@ -144,7 +145,12 @@ void LuigiRaceway::Load() {
 }
 
 void LuigiRaceway::BeginPlay() {
-    spawn_foliage((struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_luigi_raceway_tree_spawn));
+    // Trees spawn as C++ actors from the same ROM table spawn_foliage read.
+    struct ActorSpawnData* treeSpawns =
+        (struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_luigi_raceway_tree_spawn);
+    for (struct ActorSpawnData* entry = treeSpawns; entry->pos[0] != END_OF_SPAWN_DATA; entry++) {
+        SpawnActor<ATree>(FVector(entry->pos[0], entry->pos[1], entry->pos[2]), TreeKind::LuigiRaceway);
+    }
     spawn_all_item_boxes((struct ActorSpawnData*) LOAD_ASSET_RAW(d_course_luigi_raceway_item_box_spawns));
 
     if (gGamestate == CREDITS_SEQUENCE) {
